@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-10-22T10:17:37.890480+00:00",
+  "baseline_commit": "13d166dc106fa3ab33128ad0626679fafdce5019",
+  "seed": 2026102207,
+  "boundary": "Local freeze before root reads new holdout; same-model author/shared design; not external preregistration",
+  "hashes": {
+    "baseline.py": "c88c1f0a17203d04efbc20d75073bc57543924b9b7be1c1da212e94d9346365d",
+    "cached.py": "101553dd0ce11b3f114e804d96305829e19e6debf71aa3b674598bc548f8fe93",
+    "development.py": "e8c864ff8fd46456a66bb7def144d6043944f4347d64add7e90e25df4eed8395",
+    "study.py": "f1d3772a7e5bb30dbac910c611cb2e84b19983c2be3c4711ed378fd96aa7920b",
+    "audit.py": "97d5d629b88936526363a3097d7ecf756884438d19f3b12559dacb5fbab9d803",
+    "run_study.py": "cb0986b6b679d4df2c7ca898c3a0c244ac3e8eb8f40834ee31bd7e9c27eeb19b",
+    "PROTOCOL.md": "4b9c7c24841cc9eb569be79ac6c15e8eb307671094ebb6f358e6a2a5411474de",
+    "THEORY.md": "2b744dcf7bd1377d7b2781ab27590953789acf0b8cf0ec0b84c80507a0b0e0d7",
+    "data/development.json": "31593e2505dae4708ccaa77e2d607aee39275d98b9c83d1126de2f37eb6a8a43",
+    "holdout_builder.py": "0b7474e9915f163100d0c9e72f395790ac1316711442d8b20377da277b83a1d4",
+    "data/holdout.json": "76a93ffa695c4abcc6d240382a40211d4d406b2c9d84352e5d2c9c181c0f9f98",
+    "HOLDOUT_AUTHOR.md": "b6eb4ea3edc9bf089287d78e94a4f5926876a7aa335842f120567d7eba8bc076"
+  },
+  "baseline_hashes": {
+    "research/phase06/scoped.py": "1b443560f5899a6ae2eecd2b16aee2493d303dff945a07354b8e831ce10872b4",
+    "research/phase06/evaluate.py": "a1dbd02e80c6daa67cad7ffc5772d073dc88d83e513cb487b58b41687e7dbcb6",
+    "research/phase05/revision02/engine.py": "67163a9f83b11364ffa82be824925d96b8d62a828fd18d18cb3812f869f9d993"
+  }
+}

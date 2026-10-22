@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "dev-repeated",
+    "family": "repeated",
+    "split": "development",
+    "steps": [
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "두 모임의 현재 시간을 알려줘.",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ],
+            [
+              "나래",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "두 모임의 현재 시간을 알려줘.",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ],
+            [
+              "나래",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "두 모임의 현재 시간을 알려줘.",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ],
+            [
+              "나래",
+              "time"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dev-edited",
+    "family": "edited",
+    "split": "development",
+    "steps": [
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 1,
+            "digest": "54fcabfade6ead29faad0720f8eb297037f215095108b6da08d3c060cad91303"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 18시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 1,
+            "digest": "0cd8eae5500103af54a0efcff88e12e94f182854b393805df1159fb37c4d217b"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 모임 시간을 2시간 뒤로 옮겨줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 2,
+            "digest": "ac5b4856c3571cc76ce88d37c825c81e3769a9149f2459d14725e2b647272326"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 1,
+            "digest": "94d20cb4a74d3ffc45ebe26e1224a017791270c72a1f46a637ecc2f2926e5998"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dev-scoped",
+    "family": "scoped",
+    "split": "development",
+    "steps": [
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 모임 장소만 다시 정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 2,
+            "digest": "50305e959cb3fe735f3b87af6fe0f537a6e9a3aa26b86233397e190314f96427"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 모임 장소만 다시 정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임의 시간과 장소를 알려줘.",
+          "snapshot": {
+            "head": 2,
+            "digest": "50305e959cb3fe735f3b87af6fe0f537a6e9a3aa26b86233397e190314f96427"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "place"
+            ],
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dev-unique",
+    "family": "unique",
+    "split": "development",
+    "steps": [
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 0시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "5689cb9eba2440af846cfba568418e0417f911469147be283979d8a1fe6504cb"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 1시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "aa88fb558a9cf69f28ce89fac3c82418433e04eeb7866698633ef61ac38d8dcc"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 2시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "58fd75302f619424273d8f9d60dc71c1373c907c595c11f92d2b104c6341353a"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 3시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "a972fb3928b7f054891ee475b13f80a833fd56810cb1a5fcbec47cf824d93456"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 4시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "1c8b15452d6d6bd2ea96b801744aae8913ba1ffd0975d67b4eec1bae1b9ad3c9"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 5시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "520bdab39278dd34c7b6ae82fac600438404cb118cb76c629fc67c0c29fa03a2"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 6시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "589461c79712f1785bb1609dfa9ec39088403c6b76d573fa719b125edf103aa2"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 7시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "58e7b34a2cd4c14cb4d12029e5efca6ecbfde790ed4f9d94b3391f85b5f6ddc2"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 0,
+            "digest": "9017eec4842d3fe5e950bff43f92eeff59cdfc7141ef2693054672241a260c85"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dev-guards",
+    "family": "guards",
+    "split": "development",
+    "steps": [
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 3,
+            "digest": "0000000000000000000000000000000000000000000000000000000000000000"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "invalid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v1",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "캘린더에 실제 반영됐어?",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": false,
+          "required_fields": []
+        }
+      },
+      {
+        "step_id": "development",
+        "parser_namespace": "v2",
+        "public": {
+          "records": [
+            {
+              "id": "r0",
+              "seq": 0,
+              "text": "가람 모임 시간은 8시로 확정해줘."
+            },
+            {
+              "id": "r1",
+              "seq": 1,
+              "text": "나래 모임 시간은 9시로 확정해줘."
+            },
+            {
+              "id": "r2",
+              "seq": 2,
+              "text": "가람 약속, 최종 시각은 11시로 적어둘게."
+            },
+            {
+              "id": "r3",
+              "seq": 3,
+              "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+            }
+          ],
+          "entities": [
+            "가람",
+            "나래"
+          ],
+          "query": "가람 모임은 지금 몇 시야?",
+          "snapshot": {
+            "head": 3,
+            "digest": "ffaff1930970be914dac692752d7c15719a1c0fd2a2f0fff093e4b07b5a49495"
+          }
+        },
+        "gold_applicable": false,
+        "expected_integrity": "valid",
+        "gold": [],
+        "question_contract": {
+          "supported": true,
+          "required_fields": [
+            [
+              "가람",
+              "time"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+]
