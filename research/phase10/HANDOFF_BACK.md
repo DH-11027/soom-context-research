@@ -20,7 +20,8 @@
 - 직접 출발점: Phase09 공개 완료 `0c08785fcee9ab146f33fa8a7d94a4b7700833aa`.
 - Phase09 PR: <https://github.com/DH-11027/soom-context-research/pull/4>.
 - 새 branch: `research/phase10-time-prediction`.
-- 작업일: 2026-10-22 UTC / 한국 시간 2026-10-22.
+- 연구·평가일: 2026-10-22 UTC / 한국 시간 2026-10-22.
+- GitHub 전달: 2026-10-22 UTC / 한국 시간 2026-10-23.
 - 변경 범위: `research/phase10/`의 새 파일만. 기존 동결 코드·자료·결과 보존.
 
 Phase09에서는 계측 제거의 관찰·정책 상태 보존이 확인됐지만, selective off의
@@ -499,8 +500,19 @@ single-thread·충분한 자원 가정 아래 조건부 삭제의 보존 논증�
 
 ### 전달
 
-PR #1–#4의 상태를 다시 확인했으며 모두 open/unmerged였고, Phase09 head는
-직접 기준 commit과 같았다. 따라서 새 Phase10 branch의 base는
-`research/phase09-instrumentation-erasure`다. 기존 branch를 덮어쓰거나
-PR을 merge하지 않는다. 공개 PR과 실제 원격/local 동일성은 전달 완료 후
-별도 `DELIVERY.json` 및 PR 본문에 기록한다.
+**[Phase10 PR #5](https://github.com/DH-11027/soom-context-research/pull/5)**로 전달했다.
+2026-10-22 22:07:11 UTC에 PR #1–#4를 다시 확인했으며 모두 open/unmerged였고,
+Phase09 head는 직접 기준 commit과 같았다. 새 branch의 base는
+`research/phase09-instrumentation-erasure`이며 기존 branch를 덮어쓰거나 PR을 merge하지 않았다.
+
+최초 공개 commit은 `eebaef726e97f702f136e25ace9c2a78510028d4`, 로컬 연구 완료
+commit은 `79f06edb1528b59e89b59442bb115f12d0cf5a28`이다. Public git fetch로
+다시 받은 전체 tree `dd7c1ac81e476d07c7b1f96ff4465214a052c53d`가 로컬과
+정확히 같고 diff가 비어 있음을 확인했다. 최초 연구 파일 100개는 모두
+`research/phase10/` 아래의 추가 파일이다.
+
+이후 변경은 이 문서·README의 실제 PR 연결과 [DELIVERY.json](DELIVERY.json)
+추가뿐이다. 최종 공개/로컬 commit과 전체 tree 동일성은 다시 fetch한 뒤 PR
+본문에 기록한다. 자기 자신을 포함하는 commit hash를 문서 안에 소급 삽입하는
+대신 그 식별자는 PR 본문에서 확인할 수 있다. 동결 source·자료·모델·결과와
+실험 횟수는 바뀌지 않았다.

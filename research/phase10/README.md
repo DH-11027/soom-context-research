@@ -109,6 +109,10 @@ feature와 다른 resident를 가지며 같은 다음 A에서 재사용 호출�
 ## GitHub 전달
 
 Branch: `research/phase10-time-prediction`. Base: `research/phase09-instrumentation-erasure`.
-PR #1–#4는 재확인 당시 모두 open/unmerged였다. 공개 PR과 원격/local tree
-동일성은 전달 후 [DELIVERY.json](DELIVERY.json)과 PR 본문에 기록한다.
-기존 branch를 덮어쓰거나 PR을 merge하지 않는다.
+**[공개 PR #5](https://github.com/DH-11027/soom-context-research/pull/5)**.
+PR #1–#4는 2026-10-22 22:07:11 UTC 재확인 당시 모두 open/unmerged였다.
+최초 공개 commit `eebaef726e97f702f136e25ace9c2a78510028d4`를 public git fetch로
+받아 로컬 연구 결과와 전체 tree가 정확히 같음을 확인했다.
+그 증거는 [DELIVERY.json](DELIVERY.json)에 있으며, 전달 문서까지 포함한 최종
+공개/로컬 commit과 tree 동일성은 PR 본문에 기록한다. 기존 branch를 덮어쓰거나
+PR을 merge하지 않았다. 연구·평가는 10월22일, GitHub 전달은 UTC 10월22일/KST 10월23일이다.

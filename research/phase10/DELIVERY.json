@@ -1,0 +1,83 @@
+{
+  "schema": "phase10-github-delivery-v1",
+  "recorded_at_utc": "2026-10-22 22:07:11 UTC",
+  "recorded_at_kst": "2026-10-23 07:07:11 KST",
+  "repository": "https://github.com/DH-11027/soom-context-research",
+  "base_commit": "0c08785fcee9ab146f33fa8a7d94a4b7700833aa",
+  "branch": "research/phase10-time-prediction",
+  "base_branch": "research/phase09-instrumentation-erasure",
+  "pull_request": {
+    "number": 5,
+    "url": "https://github.com/DH-11027/soom-context-research/pull/5",
+    "state": "open",
+    "merged": false
+  },
+  "prior_pull_requests": [
+    {
+      "number": 1,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/1",
+      "state": "open",
+      "merged": false,
+      "base": "main",
+      "base_sha": "780891f6c147cfd3c1a3b0d065792776aaa525f3",
+      "head": "research/phase06-scoped-opaque",
+      "head_sha": "13d166dc106fa3ab33128ad0626679fafdce5019"
+    },
+    {
+      "number": 2,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/2",
+      "state": "open",
+      "merged": false,
+      "base": "research/phase06-scoped-opaque",
+      "base_sha": "13d166dc106fa3ab33128ad0626679fafdce5019",
+      "head": "research/phase07-parse-reuse",
+      "head_sha": "6da051c0132811184ecf39975d7ff647a1f47842"
+    },
+    {
+      "number": 3,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/3",
+      "state": "open",
+      "merged": false,
+      "base": "research/phase07-parse-reuse",
+      "base_sha": "6da051c0132811184ecf39975d7ff647a1f47842",
+      "head": "research/phase08-cost-aware-reuse",
+      "head_sha": "efba3224dd09d5c5e2bf9d9be11734fa10b32502"
+    },
+    {
+      "number": 4,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/4",
+      "state": "open",
+      "merged": false,
+      "base": "research/phase08-cost-aware-reuse",
+      "base_sha": "efba3224dd09d5c5e2bf9d9be11734fa10b32502",
+      "head": "research/phase09-instrumentation-erasure",
+      "head_sha": "0c08785fcee9ab146f33fa8a7d94a4b7700833aa"
+    }
+  ],
+  "local_freeze_commit": "24dcc812eb962e55157ac89e2b44dd615740532b",
+  "freeze_time_utc": "2026-10-22T13:53:04.871627+00:00",
+  "original_local_objects": "research/phase10/pre_evaluation.bundle",
+  "local_research_completion_commit": "79f06edb1528b59e89b59442bb115f12d0cf5a28",
+  "initial_public_commit": "eebaef726e97f702f136e25ace9c2a78510028d4",
+  "initial_local_tree": "dd7c1ac81e476d07c7b1f96ff4465214a052c53d",
+  "initial_remote_tree": "dd7c1ac81e476d07c7b1f96ff4465214a052c53d",
+  "initial_public_fetch_verified_at_utc": "2026-10-22T22:06:05.301294+00:00",
+  "initial_public_fetch_exact_tree_equal": true,
+  "initial_public_fetch_git_diff_empty": true,
+  "initial_added_files": 100,
+  "initial_changed_paths_only_under": "research/phase10/",
+  "initial_unique_blobs": 84,
+  "duplicate_contents_reused_by_git_sha": true,
+  "uploaded_large_or_binary_blobs_verified_against_local_git_sha": 20,
+  "retained_runtime_policy": "Unmodified Phase09 off functions and Phase08 policy constants; no SOOM operational change.",
+  "publication_after_evaluation": true,
+  "external_preregistration": false,
+  "deterministic_reproduction_byte_identical_files": 8,
+  "final_delivery_document_files": [
+    "research/phase10/DELIVERY.json",
+    "research/phase10/README.md",
+    "research/phase10/HANDOFF_BACK.md"
+  ],
+  "final_identity_location": "The final public/local commit and final tree are recorded in PR #5 body after a second public git fetch. Embedding the hash of this file's own final commit inside this file would be self-referential.",
+  "scope_note": "This receipt records the already verified initial publication. The next commit only adds this receipt and replaces README/HANDOFF delivery placeholders; no new experiment, fit, frozen source, data, model, or score change."
+}
