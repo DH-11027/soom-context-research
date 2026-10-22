@@ -1,0 +1,24 @@
+{
+  "started_at_utc": "2026-10-22T13:46:58.832095+00:00",
+  "finished_at_utc": "2026-10-22T13:49:29.634037+00:00",
+  "status": "passed",
+  "new_holdout_opened": false,
+  "calibration_sessions": 1,
+  "hyperparameter_search": false,
+  "files": {
+    "audit.json": "bc3c888df3e87c5c7796d3bc04ea7914244b85d5831603f18442d9bdbefda43b",
+    "calibration_data.json.gz": "67cf91a722b2bae3bbada84d9bf9337e9e78a42255d153fb97fe8deedc327a7f",
+    "calibration_features.json": "29904e6ce9e01ab29a00d95af5b985491154254cd1103420345034b05d76fd28",
+    "calibration_predictions.json": "ebc6905688c06fb3c9d49aaa4e136c0f76bdea5dee00b40ddd2e422abb1fdc82",
+    "calibration_results.json": "da608527c7b9f8c050f40d9f4b0e08dce4a29e8517ab2b11edca4c9fa9706bf4",
+    "calibration_rows.json.gz": "591d997293b35433aa062db3601aa913632347873f2be19a80b600036c9dbfa5",
+    "calibration_scores.json": "748fea7b27b58179c431d65f9ed4d5b39dfaed49d241bcf725f95d3e814d2f34",
+    "calibration_states.json.gz": "a61839e260115173a6f4ba67370b0542e36bf2709c08c7aa0c68a4743f7904c8",
+    "grouped_cv.json": "ec4a0eec0cdf3450f301ed2528123685fb53c9f8d5634d2d78e4a673f9e16c9c",
+    "model.json": "160ecc6b568a475878473eed411a1caff96d99ede41ee984231ecb5016621365",
+    "timing.json": "f7ab6083f4314cd2efe42f4ef4475be845c474b710f32b1c503d06fd6087f39e",
+    "timing.progress.json": "a63fb6576db13b17b3d2f4c35d8fc0295c15c432a95f68153bb7e6f22476c137",
+    "timing_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "timing_stdout.txt": "6718b4ee6e431da328fb94082488dd51bf218af7feea481cde3ecb36322184d4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "local_freeze_commit": "24dcc812eb962e55157ac89e2b44dd615740532b",
+  "local_freeze_tree": "0d3ee6d3073de19d5e1d8362955089fc3797a1de",
+  "checkpoint_commit": "f1ca8766f777ddbe44b8d5d6a41c9a551efe0bd7",
+  "recorded_at_utc": "2026-10-22T13:53:11.985082+00:00",
+  "freeze_sha256": "0cefac067755fd2f571b04df748b0a3d56ac0c5dd1afdff33a83188eb7d5fd83",
+  "pre_calibration_commit": "c18d0d5b2522a7291871a67563a65ab261645eff",
+  "bundle": "pre_evaluation.bundle",
+  "boundary": "Original local Git objects before new evaluation. Later GitHub publication is not external preregistration."
+}

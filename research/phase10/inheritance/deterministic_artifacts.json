@@ -1,0 +1,127 @@
+{
+  "checked_at_utc": "2026-10-22T13:24:16.704420+00:00",
+  "baseline_commit": "0c08785fcee9ab146f33fa8a7d94a4b7700833aa",
+  "original_results": "research/phase09/results",
+  "prior_reproduction_directory": "/tmp/soom-phase09-reproduction",
+  "comparison": "Direct byte equality to prior reproduction files, not a newly rerun evaluation. Also recomputed SHA-256 against both published receipts.",
+  "deterministic_files": [
+    {
+      "file": "audit.json",
+      "bytes": 44940,
+      "sha256": "7fed01a4cb6a3d4e4308b87008dd4807d5a681232a0b682caae4ddcd4060e6ae",
+      "matches_original_receipt": true,
+      "matches_reproduction_receipt": true,
+      "old_reproduction_file_available": true,
+      "byte_identical_to_old_reproduction": true
+    },
+    {
+      "file": "holdout_results.json",
+      "bytes": 11552,
+      "sha256": "782db8bf78f013b1a982d08bd325044baf52ea68ad0d4b6e0ad55c4fe7666df3",
+      "matches_original_receipt": true,
+      "matches_reproduction_receipt": true,
+      "old_reproduction_file_available": true,
+      "byte_identical_to_old_reproduction": true
+    },
+    {
+      "file": "holdout_rows.json.gz",
+      "bytes": 124345,
+      "sha256": "55653b252fe3c20503350c611bcd8378020af288620b850adc3f8bd1e2b31443",
+      "matches_original_receipt": true,
+      "matches_reproduction_receipt": true,
+      "old_reproduction_file_available": true,
+      "byte_identical_to_old_reproduction": true
+    },
+    {
+      "file": "holdout_states.json.gz",
+      "bytes": 145280,
+      "sha256": "0d7aee328daf11fa3c9c7b8fc03bfb25f27c542314f1bda792dc229cebd8abfd",
+      "matches_original_receipt": true,
+      "matches_reproduction_receipt": true,
+      "old_reproduction_file_available": true,
+      "byte_identical_to_old_reproduction": true
+    },
+    {
+      "file": "regression_results.json",
+      "bytes": 11637,
+      "sha256": "5776adde521ad009ef69dd962e7addb6bd019483c78a2ca620eb5c61fe95e92b",
+      "matches_original_receipt": true,
+      "matches_reproduction_receipt": true,
+      "old_reproduction_file_available": true,
+      "byte_identical_to_old_reproduction": true
+    },
+    {
+      "file": "regression_rows.json.gz",
+      "bytes": 434639,
+      "sha256": "acd625e059fae585bca9df5bb324e54e3b6d4301920ffa18d5d39a552b6362ea",
+      "matches_original_receipt": true,
+      "matches_reproduction_receipt": true,
+      "old_reproduction_file_available": true,
+      "byte_identical_to_old_reproduction": true
+    },
+    {
+      "file": "regression_states.json.gz",
+      "bytes": 126094,
+      "sha256": "0874ef5223cd2e6fbcd8477778f9f6cec7cc365d7b4eac32f106b6eb8300970a",
+      "matches_original_receipt": true,
+      "matches_reproduction_receipt": true,
+      "old_reproduction_file_available": true,
+      "byte_identical_to_old_reproduction": true
+    },
+    {
+      "file": "data_profile.json",
+      "bytes": 8864,
+      "sha256": "67a11ae6905b44528d8c0e2f9a8597a6a170f9af263cb0333f4c807c44043484",
+      "matches_original_receipt": true,
+      "matches_reproduction_receipt": true,
+      "old_reproduction_file_available": true,
+      "byte_identical_to_old_reproduction": true
+    }
+  ],
+  "inherited_timing": {
+    "primary": {
+      "file": "research/phase09/results/timing.json",
+      "sha256": "0c66ea821dcfdbc13527c85f07f037e2734da129a8db79d3784d02d6c271c2e2",
+      "matches_receipt": true,
+      "primary_comparison": {
+        "candidate": "selective_uninstrumented",
+        "reference": "fresh_uninstrumented",
+        "paired_median_ratio": 1.1793409288463985,
+        "change_percent": 17.934092884639853,
+        "measurement_bootstrap_95pct_ratio": [
+          1.1519418085595488,
+          1.2136089083535055
+        ],
+        "decision": "material_slowdown_observed",
+        "bootstrap_unit": "four consecutive order-balanced rounds of the same fixed workload",
+        "cycles": 10,
+        "bootstrap_samples": 20000,
+        "assumption": "cycles are sufficiently exchangeable; arbitrary inter-cycle host drift is not covered",
+        "population_inference": false
+      },
+      "new_measurement": false
+    },
+    "reproduction": {
+      "file": "research/phase09/reproduction_timing.json",
+      "sha256": "a0f2b8ee6b80419de6dee58f078c215bf5a71e596f4daf7db95928a85d607779",
+      "matches_receipt": true,
+      "primary_comparison": {
+        "candidate": "selective_uninstrumented",
+        "reference": "fresh_uninstrumented",
+        "paired_median_ratio": 1.1678169093075235,
+        "change_percent": 16.781690930752347,
+        "measurement_bootstrap_95pct_ratio": [
+          1.1591045538068923,
+          1.1914482389061465
+        ],
+        "decision": "material_slowdown_observed",
+        "bootstrap_unit": "four consecutive order-balanced rounds of the same fixed workload",
+        "cycles": 10,
+        "bootstrap_samples": 20000,
+        "assumption": "cycles are sufficiently exchangeable; arbitrary inter-cycle host drift is not covered",
+        "population_inference": false
+      },
+      "new_measurement": false
+    }
+  }
+}

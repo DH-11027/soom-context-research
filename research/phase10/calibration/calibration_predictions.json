@@ -1,0 +1,1589 @@
+{
+  "predictions": [
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 13.504458452364377,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.06815438651413198
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 31.43050261185086,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.27261754605652794
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 79.23328703714814,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 0.8178526381695839
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 222.64164031304,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 2.4535579145087514
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 13.514879904231087,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.06815438651413198
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 31.472188419317696,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.27261754605652794
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 79.35834445954865,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 0.8178526381695839
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 223.01681258024152,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 2.4535579145087514
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 13.525301356097795,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.06815438651413198
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 31.51387422678453,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.27261754605652794
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 79.48340188194916,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 0.8178526381695839
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_repeated-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 223.39198484744304,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 2.4535579145087514
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 14.499530847460548,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.07667368482839848
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 44.298045281328186,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.4004070207705254
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 114.15036099524963,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 1.1586245707402438
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 327.3928621873444,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 3.4758737122207313
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 14.542442708088174,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.07667368482839848
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 44.5487731527096,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.4004070207705254
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 114.89580131700951,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 1.1586245707402438
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 329.6291831526241,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 3.4758737122207313
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 14.585967595296195,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.07667368482839848
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 44.80747036963614,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.4004070207705254
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 115.67618415385192,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 1.1586245707402438
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-short_churn-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 331.9703316631513,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 3.4758737122207313
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 13.784216668709812,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.09371228145693147
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 32.549535477232595,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.3748491258277259
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 82.59038563329335,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 1.1245473774831778
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 232.7129361014756,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 3.3736421324495334
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 19.725670285894793,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.09371228145693147
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 56.31534994597253,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.3748491258277259
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 153.88782903951315,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 1.1245473774831778
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 446.605266320135,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 3.3736421324495334
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 53.577611081867964,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.09371228145693147
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 191.7231131298652,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.3748491258277259
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 560.1111185911911,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 1.1245473774831778
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_cheap-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 1665.2751349751688,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 3.3736421324495334
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 47.727045845627046,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 3.169178972907137
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 56.79409568744171,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 1.1852473779723265
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 80.97289526561413,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": -4.105236875187169
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 153.50929400013143,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -19.976689634665654
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 54.05041502239789,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 25.142579149979003
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 74.70331342343216,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": -9.801452710563606
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 129.77770915952354,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": -102.98553767201057
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 295.00089636779774,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -382.5377925563514
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 90.27915025371675,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.4547175475239743
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 338.52926981726034,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 1.8188701900958972
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 1000.5295886533765,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 5.456610570287692
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_repeat-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 2986.5305451617255,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 16.369831710863075
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 48.05562809271858,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 4.310764947018848
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 170.83683090991124,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 22.84662825428418
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 498.25337175575834,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 72.2755970736584
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 575.5241985386739,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 42.70511262483939
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 54.87370971986792,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 28.00293355899398
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 206.34167924594493,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 153.15355562014742
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 610.0450750263201,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 389.86225928204203
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 1390.3630378592793,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 649.0640403181789
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 83.0251163447512,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 125.80447820677338
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 353.56481944539195,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 502.5725759797878
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 1075.0040277137673,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 1507.287503374493
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-long_deep_churn-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 3108.0933319574497,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 4146.295633412776
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 81.15760113101572,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 43.6166775444659
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 63.4017061482748,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": -4.320349157622398
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 16.05265286096562,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": -132.1524203631912
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": -125.9945070009618,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -515.6486339798976
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 119.82926888390546,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 96.41396393484324
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 87.99317623296797,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": -21.14915806516658
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 3.096929163801323,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": -334.65081673185944
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": -251.59181204369878,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -1275.155792731938
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 181.77239017048956,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 150.7809310396242
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 89.20813585907199,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": -13.26241765073437
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": -157.62987563804148,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": -450.7113474916905
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-fit_working_set-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": -898.1439101293819,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -1763.058137014559
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 134.6437835843562,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 188.9591015227202
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 373.6777572939164,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 332.5401605744999
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 1011.1016871860768,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 715.4229847125791
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 2923.373476862558,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 1864.0714571268168
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 165.31162896441907,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 231.14240712581076
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 350.4195708643703,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 235.0080387359092
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 844.0407492642402,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 245.31638969617165
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 2324.90428446385,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 276.24144257695906
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 221.63871293697616,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 273.95507589186775
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 456.24308551781337,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 212.32540697417465
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 1081.8547457333793,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 47.979623193659634
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-pressure_working_set-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 2958.689726380077,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -445.0577281478854
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 46.45475518107684,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 3.8294245922627907
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 51.475729756108144,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.7784508834661013
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 215.26002805952538,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 18.571005412811683
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 255.4278246597758,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -5.836784257561835
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 53.542568503599824,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 28.460845843385805
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 71.55281713233659,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": -11.537259742095404
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 292.3890868904928,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 90.68260599392046
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 522.8302910420429,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -146.00905907134566
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 86.50264600825439,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.43767895089544134
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 323.4232528354109,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 1.7507158035817654
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 955.2115377078283,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 5.252147410745296
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-phase_shift-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 2850.57639232508,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 15.756442232235887
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 47.17457864157581,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 3.7910877498485918
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 129.5526366673474,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 13.61277379390858
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 299.11761806728975,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 31.28605814685443
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 356.82400224808026,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 7.645005324764899
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 52.997105102164234,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 24.02655107081009
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 155.256227811491,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 84.43689541727383
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 371.408645020344,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 159.35773461751197
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 682.5954830454071,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 32.92282833548288
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 86.67319765271975,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.44619824920970785
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 324.10545941327234,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 1.7847929968388314
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 957.2581574414127,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 5.354378990516494
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-same_length_misses-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 2856.7162515258333,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 16.063136971549483
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 46.61352906539906,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 4.329933368225948
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 162.85840384560103,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 22.952054570923227
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 178.49289589557713,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 12.83112817357463
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 219.52866563020342,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -17.5998054049853
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 53.36662987502656,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 27.792080925715883
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 198.02156243542333,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 151.99386613711786
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 246.67561173344498,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 48.02434950980953
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 386.7737313716903,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -263.9523547586296
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 81.6725191981693,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 126.1282115427155
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 346.0453254847479,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 503.8419514286135
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 992.7044621823492,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 1323.084300135712
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-revisions_copy_context-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 2861.1276612098213,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 3592.6637078987214
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 11.901746460981455,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.05111578988559899
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 27.2122284631574,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.23002105448519544
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 62.2392939509209,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 0.6389473735699873
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 171.65966105435828,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 1.916842120709962
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 11.90235948756185,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.05111578988559899
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 27.214680569478976,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.23002105448519544
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 62.240520004081695,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 0.6389473735699873
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 171.66333921384066,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 1.916842120709962
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 11.901746460981455,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 0.05111578988559899
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 27.214067542898583,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 0.23002105448519544
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 62.24542421672485,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 0.6389473735699873
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-scope_ambiguity-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 171.67805185177014,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": 1.916842120709962
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 46.38119199142948,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 3.567456169099096
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 47.893568269221994,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 2.6814491444153803
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 53.960096944624425,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": 0.04046666699276587
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 72.3839699872713,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -8.785526386587327
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 54.1647904827004,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 30.616228316895228
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 60.42807742258101,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 16.205835218313446
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 80.74733808424774,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": -27.008305480803365
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 146.6803177477756,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -171.07815927336412
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h1",
+      "predicted_delta_us": {
+        "trace_ridge": 81.752825680201,
+        "zero_change": 0.0,
+        "per_query": 20.232705357142862,
+        "p8_calibrated": 126.45833435239334
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h4",
+      "predicted_delta_us": {
+        "trace_ridge": 104.84922378183389,
+        "zero_change": 0.0,
+        "per_query": 80.93082142857145,
+        "p8_calibrated": 64.1268882360625
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h12",
+      "predicted_delta_us": {
+        "trace_ridge": 175.66781792875742,
+        "zero_change": 0.0,
+        "per_query": 242.79246428571435,
+        "p8_calibrated": -122.85041151630146
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h36",
+      "predicted_delta_us": {
+        "trace_ridge": 409.9319092098081,
+        "zero_change": 0.0,
+        "per_query": 728.377392857143,
+        "p8_calibrated": -746.1307954863528
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    }
+  ],
+  "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+}

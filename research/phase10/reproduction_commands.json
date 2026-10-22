@@ -1,0 +1,32 @@
+{
+  "verification_commands": [
+    {
+      "command": [
+        "python",
+        "research/phase10/run_study.py",
+        "--verify"
+      ],
+      "cwd": "/workspace/scratch/ff70ac34eaeb/soom-context-phase10",
+      "started_at_utc": "2026-10-22T13:57:19.976804+00:00",
+      "finished_at_utc": "2026-10-22T13:57:20.096718+00:00",
+      "returncode": 0,
+      "stdout": "Phase10 frozen source/data/model and Phase09 original source hashes verified.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "research/phase10/holdout_builder.py",
+        "--check"
+      ],
+      "cwd": "/workspace/scratch/ff70ac34eaeb/soom-context-phase10",
+      "started_at_utc": "2026-10-22T13:57:20.096749+00:00",
+      "finished_at_utc": "2026-10-22T13:57:21.620754+00:00",
+      "returncode": 0,
+      "stdout": "{\n  \"seed\": 2026102210,\n  \"families\": 12,\n  \"streams\": 48,\n  \"parameters_per_family\": 4,\n  \"horizons_per_family\": [\n    2,\n    8,\n    24,\n    64\n  ],\n  \"steps\": 1176,\n  \"valid_steps\": 1148,\n  \"invalid_steps\": 28,\n  \"gold_applicable_steps\": 1128,\n  \"unsupported_questions\": 17,\n  \"valid_supported_steps\": 1131,\n  \"gold_supported_steps\": 1111,\n  \"excluded_entity_membership_undefined\": 20,\n  \"excluded_invalid_snapshot\": 28,\n  \"schema_and_typed_plan_checks\": \"passed\",\n  \"selector_evaluated\": false,\n  \"trace_model_or_calibration_read\": false,\n  \"raw_length_bands_bytes\": [\n    [\n      850,\n      2100\n    ],\n    [\n      7000,\n      19000\n    ],\n    [\n      48000,\n      63000\n    ],\n    [\n      68000,\n      83000\n    ]\n  ],\n  \"unicode_styles\": [\n    \"ascii\",\n    \"hangul\",\n    \"emoji\",\n    \"mixed\"\n  ],\n  \"horizon_band_design_stream_counts\": [\n    {\n      \"horizon\": 2,\n      \"band\": 0,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 2,\n      \"band\": 1,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 2,\n      \"band\": 2,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 2,\n      \"band\": 3,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 8,\n      \"band\": 0,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 8,\n      \"band\": 1,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 8,\n      \"band\": 2,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 8,\n      \"band\": 3,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 24,\n      \"band\": 0,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 24,\n      \"band\": 1,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 24,\n      \"band\": 2,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 24,\n      \"band\": 3,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 64,\n      \"band\": 0,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 64,\n      \"band\": 1,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 64,\n      \"band\": 2,\n      \"streams\": 3\n    },\n    {\n      \"horizon\": 64,\n      \"band\": 3,\n      \"streams\": 3\n    }\n  ],\n  \"record_occurrences\": 10370,\n  \"record_bytes_min_max\": [\n    45,\n    77287\n  ],\n  \"record_characters_min_max\": [\n    19,\n    71109\n  ],\n  \"raw_bytes_sum_over_steps\": 41147526,\n  \"valid_unique_raw_histories\": 518,\n  \"exact_typed_arrays_gold_applicable\": 346,\n  \"exact_public_and_namespace\": 927,\n  \"authorship\": \"same-model separate data author; shared public grammar/design and Phase09 history; not external blind data\",\n  \"semantic_boundary\": \"long payloads are controlled-grammar noop; no new natural-language or execution-evidence ability\",\n  \"identity_boundary\": \"exact canonical JSON identities, not independent programs or semantic equivalence classes\",\n  \"data_file\": \"data/holdout.json.gz\",\n  \"data_bytes\": 805628,\n  \"data_sha256\": \"e1cca1bad32e230ac9cc9dc667533ab9c49cf1ee96fb7669bf76823cb94660b5\",\n  \"uncompressed_data_bytes\": 45779143,\n  \"uncompressed_data_sha256\": \"53380abc1d54d0be127f699b30b0320393482863b60f1e4acd581cad14480e5f\",\n  \"compression\": \"gzip level=9 filename='' mtime=0\",\n  \"builder_sha256\": \"ab2eb58254333f7b406d3504c8866c304237ed163c6c6ac678361a796334bd0f\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "reproduction_output": "/tmp/soom-phase10-reproduction",
+  "new_timing_sessions_so_far": 0
+}

@@ -1,0 +1,239 @@
+{
+  "scope": "Constructed development witnesses only; no Phase10 holdout read or elapsed-time benchmark.",
+  "feature_order": [
+    "stream_constant",
+    "queries",
+    "records_visited",
+    "raw_encode_bytes",
+    "saved_stage_calls",
+    "saved_stage_characters",
+    "exact_probe_bytes",
+    "encoded_context_payload_bytes",
+    "admission_attempts",
+    "policy_control_actions"
+  ],
+  "same_features_different_regex_inputs": {
+    "left": {
+      "features": {
+        "stream_constant": 1,
+        "queries": 4,
+        "records_visited": 12,
+        "raw_encode_bytes": 6728,
+        "saved_stage_calls": 9,
+        "saved_stage_characters": 14022,
+        "exact_probe_bytes": 5055,
+        "encoded_context_payload_bytes": 494,
+        "admission_attempts": 1,
+        "policy_control_actions": 56
+      },
+      "resident_raw_sha256_in_insertion_order": [
+        "60e6fc59a8fb8c88946e71e6010268fd7b1aa35597a05cfd1cd569a44a3432ba"
+      ],
+      "trace_sha256": {
+        "fresh_instrumented": "70aa10070a492fafe3085e0a05d18a0cadd6e2aa9b228cb5a8901850c4706a5c",
+        "fresh_uninstrumented": "70aa10070a492fafe3085e0a05d18a0cadd6e2aa9b228cb5a8901850c4706a5c",
+        "selective_instrumented": "26b999c0012cf82501d60f6a014f48571290c1be03e0e70fc0bed57b6b72e1ee",
+        "selective_uninstrumented": "26b999c0012cf82501d60f6a014f48571290c1be03e0e70fc0bed57b6b72e1ee"
+      }
+    },
+    "right": {
+      "features": {
+        "stream_constant": 1,
+        "queries": 4,
+        "records_visited": 12,
+        "raw_encode_bytes": 6728,
+        "saved_stage_calls": 9,
+        "saved_stage_characters": 14022,
+        "exact_probe_bytes": 5055,
+        "encoded_context_payload_bytes": 494,
+        "admission_attempts": 1,
+        "policy_control_actions": 56
+      },
+      "resident_raw_sha256_in_insertion_order": [
+        "60e6fc59a8fb8c88946e71e6010268fd7b1aa35597a05cfd1cd569a44a3432ba"
+      ],
+      "trace_sha256": {
+        "fresh_instrumented": "4069413650f5379c65bd1f54299520932f5fd7d016cc11f3dbca87ffe5dddf91",
+        "fresh_uninstrumented": "4069413650f5379c65bd1f54299520932f5fd7d016cc11f3dbca87ffe5dddf91",
+        "selective_instrumented": "fa86c0386aa5a37d9d7b5576e043ef6c033f95ce1c00548cba8ea0f5766d1efd",
+        "selective_uninstrumented": "fa86c0386aa5a37d9d7b5576e043ef6c033f95ce1c00548cba8ea0f5766d1efd"
+      }
+    },
+    "entity_regex_sources": [
+      "(?:aa|bb)",
+      "(?:\\[\\]|bb)"
+    ],
+    "regex_source_lengths": [
+      9,
+      11
+    ],
+    "feature_vectors_equal": true,
+    "raw_execution_traces_equal": false,
+    "time_relation": "unmeasured; different regex inputs alone do not prove different elapsed times"
+  },
+  "same_features_different_order_and_future_reuse": {
+    "ab": {
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 6,
+        "raw_encode_bytes": 40164,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 20085,
+        "encoded_context_payload_bytes": 478,
+        "admission_attempts": 2,
+        "policy_control_actions": 53
+      },
+      "resident_raw_sha256_in_insertion_order": [
+        "07119a5f22c45035ad5d17c79021b347df57d32ca641d1c1f0b11a6107e259bb",
+        "dd6790788b9671474b4cbbade6d32348d9a2d2a505ecd73fa7874f30d0206410"
+      ],
+      "trace_sha256": {
+        "fresh_instrumented": "8800b5e619323a6e76382556321dea9aec130c90356f29e85b1ca9b6fdd4913f",
+        "fresh_uninstrumented": "8800b5e619323a6e76382556321dea9aec130c90356f29e85b1ca9b6fdd4913f",
+        "selective_instrumented": "8800b5e619323a6e76382556321dea9aec130c90356f29e85b1ca9b6fdd4913f",
+        "selective_uninstrumented": "8800b5e619323a6e76382556321dea9aec130c90356f29e85b1ca9b6fdd4913f"
+      }
+    },
+    "ba": {
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 6,
+        "raw_encode_bytes": 40164,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 20085,
+        "encoded_context_payload_bytes": 478,
+        "admission_attempts": 2,
+        "policy_control_actions": 53
+      },
+      "resident_raw_sha256_in_insertion_order": [
+        "dd6790788b9671474b4cbbade6d32348d9a2d2a505ecd73fa7874f30d0206410",
+        "07119a5f22c45035ad5d17c79021b347df57d32ca641d1c1f0b11a6107e259bb"
+      ],
+      "trace_sha256": {
+        "fresh_instrumented": "3810df4146ef873678d5fd4c484712184b300a50ead02417bb46c16513e1d07b",
+        "fresh_uninstrumented": "3810df4146ef873678d5fd4c484712184b300a50ead02417bb46c16513e1d07b",
+        "selective_instrumented": "3810df4146ef873678d5fd4c484712184b300a50ead02417bb46c16513e1d07b",
+        "selective_uninstrumented": "3810df4146ef873678d5fd4c484712184b300a50ead02417bb46c16513e1d07b"
+      }
+    },
+    "abc": {
+      "features": {
+        "stream_constant": 1,
+        "queries": 3,
+        "records_visited": 9,
+        "raw_encode_bytes": 70246,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 20085,
+        "encoded_context_payload_bytes": 717,
+        "admission_attempts": 3,
+        "policy_control_actions": 88
+      },
+      "resident_raw_sha256_in_insertion_order": [
+        "dd6790788b9671474b4cbbade6d32348d9a2d2a505ecd73fa7874f30d0206410",
+        "e2a07c1d2d905f7fa436e06927eee7c45a2e51989a1e24ea84ebafc1e649ff62"
+      ],
+      "trace_sha256": {
+        "fresh_instrumented": "eb29c49b1b2030a3aa26d3f8efe643cb58890d84c7439b7008c60e1b7fe37732",
+        "fresh_uninstrumented": "eb29c49b1b2030a3aa26d3f8efe643cb58890d84c7439b7008c60e1b7fe37732",
+        "selective_instrumented": "eb29c49b1b2030a3aa26d3f8efe643cb58890d84c7439b7008c60e1b7fe37732",
+        "selective_uninstrumented": "eb29c49b1b2030a3aa26d3f8efe643cb58890d84c7439b7008c60e1b7fe37732"
+      }
+    },
+    "bac": {
+      "features": {
+        "stream_constant": 1,
+        "queries": 3,
+        "records_visited": 9,
+        "raw_encode_bytes": 70246,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 20085,
+        "encoded_context_payload_bytes": 717,
+        "admission_attempts": 3,
+        "policy_control_actions": 88
+      },
+      "resident_raw_sha256_in_insertion_order": [
+        "07119a5f22c45035ad5d17c79021b347df57d32ca641d1c1f0b11a6107e259bb",
+        "e2a07c1d2d905f7fa436e06927eee7c45a2e51989a1e24ea84ebafc1e649ff62"
+      ],
+      "trace_sha256": {
+        "fresh_instrumented": "866eb58f8c49d9b9f3307fd8abc2f0ab98627da5455256ff567e3c34e1b96415",
+        "fresh_uninstrumented": "866eb58f8c49d9b9f3307fd8abc2f0ab98627da5455256ff567e3c34e1b96415",
+        "selective_instrumented": "866eb58f8c49d9b9f3307fd8abc2f0ab98627da5455256ff567e3c34e1b96415",
+        "selective_uninstrumented": "866eb58f8c49d9b9f3307fd8abc2f0ab98627da5455256ff567e3c34e1b96415"
+      }
+    },
+    "prefix_feature_vectors_equal": true,
+    "prefix_policy_states_equal": false,
+    "abca_saved_stage_calls": 0,
+    "baca_saved_stage_calls": 3,
+    "time_relation": "unmeasured; observed future parser-call differences are not a CPU-time inequality"
+  },
+  "abstract_same_prefix_opposite_final_costs": {
+    "initial_cost": "4",
+    "per_hit_saving": "1",
+    "extra_hits": 5,
+    "stop_cost": "4",
+    "continued_cost": "-1",
+    "assumptions": "stipulated positive setup cost and positive warm saving; no CPU calibration"
+  },
+  "abstract_feature_collision_error_radius": {
+    "targets": [
+      "-2",
+      "4"
+    ],
+    "best_common_prediction": "1",
+    "unavoidable_max_absolute_error": "3"
+  },
+  "median_is_not_additive": {
+    "first": [
+      0,
+      0,
+      100
+    ],
+    "second": [
+      0,
+      100,
+      0
+    ],
+    "sum_of_medians": 0,
+    "median_of_sums": 100
+  },
+  "ridge_rank_one_witness": {
+    "features": 10,
+    "lambda": 0.01,
+    "unique_theta": [
+      0.09990009990009993,
+      0.09990009990009993,
+      0.09990009990009989,
+      0.09990009990009992,
+      0.09990009990009992,
+      0.09990009990009989,
+      0.09990009990009989,
+      0.09990009990009988,
+      0.09990009990009988,
+      0.09990009990009988
+    ],
+    "normal_equation_residual": 0.0,
+    "exact_spectral_condition_number": 1001.0,
+    "boundary": "Abstract standardized design; no causal component-price identification"
+  },
+  "small_mean_error_does_not_imply_balanced_sign_accuracy": {
+    "streams": 48,
+    "speedups": 4,
+    "slowdowns": 44,
+    "normalized_mean_absolute_error": 0.006666666666666667,
+    "balanced_accuracy": 0.5,
+    "boundary": "Constructed normalized targets, not elapsed-time observations"
+  },
+  "material_sign_error_bound_grid": {
+    "exact_rational_cases_checked": 244,
+    "margin": "3/100"
+  },
+  "actual_on_off_contract_failures": 0
+}

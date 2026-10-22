@@ -1,0 +1,1169 @@
+{
+  "feature_order": [
+    "stream_constant",
+    "queries",
+    "records_visited",
+    "raw_encode_bytes",
+    "saved_stage_calls",
+    "saved_stage_characters",
+    "exact_probe_bytes",
+    "encoded_context_payload_bytes",
+    "admission_attempts",
+    "policy_control_actions"
+  ],
+  "records": [
+    {
+      "stream_id": "p10-holdout-short_repeated-00",
+      "family": "short_repeated",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 20,
+        "raw_encode_bytes": 1400,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 20
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 1680,
+        "selective_uninstrumented": 1680
+      },
+      "p8_fresh": 6208,
+      "p8_selective": 6368,
+      "p8_delta": 160
+    },
+    {
+      "stream_id": "p10-holdout-short_repeated-01",
+      "family": "short_repeated",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 80,
+        "raw_encode_bytes": 5600,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 80
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 6736,
+        "selective_uninstrumented": 6736
+      },
+      "p8_fresh": 24637,
+      "p8_selective": 25277,
+      "p8_delta": 640
+    },
+    {
+      "stream_id": "p10-holdout-short_repeated-02",
+      "family": "short_repeated",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 240,
+        "raw_encode_bytes": 16776,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 240
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 20136,
+        "selective_uninstrumented": 20136
+      },
+      "p8_fresh": 73603,
+      "p8_selective": 75523,
+      "p8_delta": 1920
+    },
+    {
+      "stream_id": "p10-holdout-short_repeated-03",
+      "family": "short_repeated",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 640,
+        "raw_encode_bytes": 44736,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 640
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 53696,
+        "selective_uninstrumented": 53696
+      },
+      "p8_fresh": 196363,
+      "p8_selective": 201483,
+      "p8_delta": 5120
+    },
+    {
+      "stream_id": "p10-holdout-short_churn-00",
+      "family": "short_churn",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 19,
+        "raw_encode_bytes": 1849,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 19
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 1585,
+        "selective_uninstrumented": 1585
+      },
+      "p8_fresh": 7039,
+      "p8_selective": 7191,
+      "p8_delta": 152
+    },
+    {
+      "stream_id": "p10-holdout-short_churn-01",
+      "family": "short_churn",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 83,
+        "raw_encode_bytes": 9271,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 83
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 8486,
+        "selective_uninstrumented": 8486
+      },
+      "p8_fresh": 34720,
+      "p8_selective": 35384,
+      "p8_delta": 664
+    },
+    {
+      "stream_id": "p10-holdout-short_churn-02",
+      "family": "short_churn",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 254,
+        "raw_encode_bytes": 29357,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 254
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 30549,
+        "selective_uninstrumented": 30549
+      },
+      "p8_fresh": 108498,
+      "p8_selective": 110530,
+      "p8_delta": 2032
+    },
+    {
+      "stream_id": "p10-holdout-short_churn-03",
+      "family": "short_churn",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 682,
+        "raw_encode_bytes": 79142,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 682
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 75015,
+        "selective_uninstrumented": 75015
+      },
+      "p8_fresh": 295171,
+      "p8_selective": 300627,
+      "p8_delta": 5456
+    },
+    {
+      "stream_id": "p10-holdout-long_cheap-00",
+      "family": "long_cheap",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 16,
+        "raw_encode_bytes": 111216,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 22
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 73174,
+        "selective_uninstrumented": 73174
+      },
+      "p8_fresh": 224697,
+      "p8_selective": 224873,
+      "p8_delta": 176
+    },
+    {
+      "stream_id": "p10-holdout-long_cheap-01",
+      "family": "long_cheap",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 64,
+        "raw_encode_bytes": 572096,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 88
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 570448,
+        "selective_uninstrumented": 570448
+      },
+      "p8_fresh": 1153045,
+      "p8_selective": 1153749,
+      "p8_delta": 704
+    },
+    {
+      "stream_id": "p10-holdout-long_cheap-02",
+      "family": "long_cheap",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 192,
+        "raw_encode_bytes": 41928,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 264
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 26136,
+        "selective_uninstrumented": 26136
+      },
+      "p8_fresh": 110301,
+      "p8_selective": 112413,
+      "p8_delta": 2112
+    },
+    {
+      "stream_id": "p10-holdout-long_cheap-03",
+      "family": "long_cheap",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 512,
+        "raw_encode_bytes": 1055616,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 704
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 1042304,
+        "selective_uninstrumented": 1042304
+      },
+      "p8_fresh": 2181945,
+      "p8_selective": 2187577,
+      "p8_delta": 5632
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_repeat-00",
+      "family": "long_deep_repeat",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 16,
+        "raw_encode_bytes": 142058,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 520,
+        "admission_attempts": 2,
+        "policy_control_actions": 42
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 312102,
+        "selective_uninstrumented": 312102
+      },
+      "p8_fresh": 568993,
+      "p8_selective": 569849,
+      "p8_delta": 856
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_repeat-01",
+      "family": "long_deep_repeat",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 64,
+        "raw_encode_bytes": 19648,
+        "saved_stage_calls": 21,
+        "saved_stage_characters": 25137,
+        "exact_probe_bytes": 15323,
+        "encoded_context_payload_bytes": 1002,
+        "admission_attempts": 1,
+        "policy_control_actions": 136
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 30304,
+        "selective_uninstrumented": 5167
+      },
+      "p8_fresh": 81477,
+      "p8_selective": 75232,
+      "p8_delta": -6245
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_repeat-02",
+      "family": "long_deep_repeat",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 192,
+        "raw_encode_bytes": 327672,
+        "saved_stage_calls": 69,
+        "saved_stage_characters": 672267,
+        "exact_probe_bytes": 307809,
+        "encoded_context_payload_bytes": 2698,
+        "admission_attempts": 1,
+        "policy_control_actions": 376
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 706248,
+        "selective_uninstrumented": 33981
+      },
+      "p8_fresh": 1319133,
+      "p8_selective": 1052262,
+      "p8_delta": -266871
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_repeat-03",
+      "family": "long_deep_repeat",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 512,
+        "raw_encode_bytes": 3350784,
+        "saved_stage_calls": 189,
+        "saved_stage_characters": 5764500,
+        "exact_probe_bytes": 3281418,
+        "encoded_context_payload_bytes": 6938,
+        "admission_attempts": 1,
+        "policy_control_actions": 976
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 5868672,
+        "selective_uninstrumented": 104172
+      },
+      "p8_fresh": 13425721,
+      "p8_selective": 10286327,
+      "p8_delta": -3139394
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_churn-00",
+      "family": "long_deep_churn",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 16,
+        "raw_encode_bytes": 4790,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 2125,
+        "encoded_context_payload_bytes": 520,
+        "admission_attempts": 2,
+        "policy_control_actions": 63
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 12258,
+        "selective_uninstrumented": 12258
+      },
+      "p8_fresh": 19921,
+      "p8_selective": 31666,
+      "p8_delta": 11745
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_churn-01",
+      "family": "long_deep_churn",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 64,
+        "raw_encode_bytes": 82872,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 70644,
+        "encoded_context_payload_bytes": 2080,
+        "admission_attempts": 8,
+        "policy_control_actions": 261
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 159016,
+        "selective_uninstrumented": 159016
+      },
+      "p8_fresh": 334365,
+      "p8_selective": 550541,
+      "p8_delta": 216176
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_churn-02",
+      "family": "long_deep_churn",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 192,
+        "raw_encode_bytes": 1467360,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 1400010,
+        "encoded_context_payload_bytes": 6240,
+        "admission_attempts": 24,
+        "policy_control_actions": 606
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 4376736,
+        "selective_uninstrumented": 4376736
+      },
+      "p8_fresh": 5877861,
+      "p8_selective": 8808319,
+      "p8_delta": 2930458
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_churn-03",
+      "family": "long_deep_churn",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 512,
+        "raw_encode_bytes": 4521216,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 16640,
+        "admission_attempts": 64,
+        "policy_control_actions": 1344
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 8900160,
+        "selective_uninstrumented": 8900160
+      },
+      "p8_fresh": 18107385,
+      "p8_selective": 18134777,
+      "p8_delta": 27392
+    },
+    {
+      "stream_id": "p10-holdout-fit_working_set-00",
+      "family": "fit_working_set",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 18,
+        "raw_encode_bytes": 65000,
+        "saved_stage_calls": 9,
+        "saved_stage_characters": 72711,
+        "exact_probe_bytes": 32512,
+        "encoded_context_payload_bytes": 674,
+        "admission_attempts": 3,
+        "policy_control_actions": 108
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 145678,
+        "selective_uninstrumented": 72967
+      },
+      "p8_fresh": 260591,
+      "p8_selective": 295883,
+      "p8_delta": 35292
+    },
+    {
+      "stream_id": "p10-holdout-fit_working_set-01",
+      "family": "fit_working_set",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 80,
+        "raw_encode_bytes": 336576,
+        "saved_stage_calls": 84,
+        "saved_stage_characters": 645582,
+        "exact_probe_bytes": 295344,
+        "encoded_context_payload_bytes": 1464,
+        "admission_attempts": 4,
+        "policy_control_actions": 368
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 738832,
+        "selective_uninstrumented": 93250
+      },
+      "p8_fresh": 1349142,
+      "p8_selective": 1153030,
+      "p8_delta": -196112
+    },
+    {
+      "stream_id": "p10-holdout-fit_working_set-02",
+      "family": "fit_working_set",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 288,
+        "raw_encode_bytes": 1353744,
+        "saved_stage_calls": 414,
+        "saved_stage_characters": 2808990,
+        "exact_probe_bytes": 1304928,
+        "encoded_context_payload_bytes": 3468,
+        "admission_attempts": 6,
+        "policy_control_actions": 1392
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 2934192,
+        "selective_uninstrumented": 125202
+      },
+      "p8_fresh": 5426271,
+      "p8_selective": 4300215,
+      "p8_delta": -1126056
+    },
+    {
+      "stream_id": "p10-holdout-fit_working_set-03",
+      "family": "fit_working_set",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 512,
+        "raw_encode_bytes": 1350848,
+        "saved_stage_calls": 378,
+        "saved_stage_characters": 3364578,
+        "exact_probe_bytes": 1323756,
+        "encoded_context_payload_bytes": 7092,
+        "admission_attempts": 2,
+        "policy_control_actions": 1440
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 3426240,
+        "selective_uninstrumented": 61662
+      },
+      "p8_fresh": 5418467,
+      "p8_selective": 4201559,
+      "p8_delta": -1216908
+    },
+    {
+      "stream_id": "p10-holdout-pressure_working_set-00",
+      "family": "pressure_working_set",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 20,
+        "raw_encode_bytes": 226282,
+        "saved_stage_calls": 6,
+        "saved_stage_characters": 135975,
+        "exact_probe_bytes": 57243,
+        "encoded_context_payload_bytes": 1136,
+        "admission_attempts": 6,
+        "policy_control_actions": 180
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 505266,
+        "selective_uninstrumented": 369291
+      },
+      "p8_fresh": 905833,
+      "p8_selective": 1078606,
+      "p8_delta": 172773
+    },
+    {
+      "stream_id": "p10-holdout-pressure_working_set-01",
+      "family": "pressure_working_set",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 96,
+        "raw_encode_bytes": 1001208,
+        "saved_stage_calls": 63,
+        "saved_stage_characters": 956592,
+        "exact_probe_bytes": 443688,
+        "encoded_context_payload_bytes": 5006,
+        "admission_attempts": 27,
+        "policy_control_actions": 854
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 2107984,
+        "selective_uninstrumented": 1151392
+      },
+      "p8_fresh": 4008622,
+      "p8_selective": 3751960,
+      "p8_delta": -256662
+    },
+    {
+      "stream_id": "p10-holdout-pressure_working_set-02",
+      "family": "pressure_working_set",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 192,
+        "raw_encode_bytes": 1824288,
+        "saved_stage_calls": 69,
+        "saved_stage_characters": 1749633,
+        "exact_probe_bytes": 888490,
+        "encoded_context_payload_bytes": 6394,
+        "admission_attempts": 25,
+        "policy_control_actions": 774
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 3796776,
+        "selective_uninstrumented": 2047143
+      },
+      "p8_fresh": 7302783,
+      "p8_selective": 6587227,
+      "p8_delta": -715556
+    },
+    {
+      "stream_id": "p10-holdout-pressure_working_set-03",
+      "family": "pressure_working_set",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 576,
+        "raw_encode_bytes": 6381056,
+        "saved_stage_calls": 189,
+        "saved_stage_characters": 4700997,
+        "exact_probe_bytes": 2138157,
+        "encoded_context_payload_bytes": 26650,
+        "admission_attempts": 129,
+        "policy_control_actions": 3116
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 14789888,
+        "selective_uninstrumented": 10088891
+      },
+      "p8_fresh": 25543075,
+      "p8_selective": 23679130,
+      "p8_delta": -1863945
+    },
+    {
+      "stream_id": "p10-holdout-phase_shift-00",
+      "family": "phase_shift",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 14,
+        "raw_encode_bytes": 140516,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 520,
+        "admission_attempts": 2,
+        "policy_control_actions": 40
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 308904,
+        "selective_uninstrumented": 308904
+      },
+      "p8_fresh": 562421,
+      "p8_selective": 563261,
+      "p8_delta": 840
+    },
+    {
+      "stream_id": "p10-holdout-phase_shift-01",
+      "family": "phase_shift",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 56,
+        "raw_encode_bytes": 9664,
+        "saved_stage_calls": 12,
+        "saved_stage_characters": 6192,
+        "exact_probe_bytes": 7084,
+        "encoded_context_payload_bytes": 1464,
+        "admission_attempts": 4,
+        "policy_control_actions": 179
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 13392,
+        "selective_uninstrumented": 7200
+      },
+      "p8_fresh": 39926,
+      "p8_selective": 51562,
+      "p8_delta": 11636
+    },
+    {
+      "stream_id": "p10-holdout-phase_shift-02",
+      "family": "phase_shift",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 168,
+        "raw_encode_bytes": 399024,
+        "saved_stage_calls": 45,
+        "saved_stage_characters": 538830,
+        "exact_probe_bytes": 377798,
+        "encoded_context_payload_bytes": 3930,
+        "admission_attempts": 9,
+        "policy_control_actions": 470
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 865200,
+        "selective_uninstrumented": 326370
+      },
+      "p8_fresh": 1599719,
+      "p8_selective": 1694537,
+      "p8_delta": 94818
+    },
+    {
+      "stream_id": "p10-holdout-phase_shift-03",
+      "family": "phase_shift",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 448,
+        "raw_encode_bytes": 3827264,
+        "saved_stage_calls": 63,
+        "saved_stage_characters": 2200338,
+        "exact_probe_bytes": 3754800,
+        "encoded_context_payload_bytes": 13406,
+        "admission_attempts": 43,
+        "policy_control_actions": 1332
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 6714048,
+        "selective_uninstrumented": 4513710
+      },
+      "p8_fresh": 15318755,
+      "p8_selective": 19220099,
+      "p8_delta": 3901344
+    },
+    {
+      "stream_id": "p10-holdout-same_length_misses-00",
+      "family": "same_length_misses",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 12,
+        "raw_encode_bytes": 3222,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 1457,
+        "encoded_context_payload_bytes": 520,
+        "admission_attempts": 2,
+        "policy_control_actions": 59
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 8070,
+        "selective_uninstrumented": 8070
+      },
+      "p8_fresh": 13600,
+      "p8_selective": 21973,
+      "p8_delta": 8373
+    },
+    {
+      "stream_id": "p10-holdout-same_length_misses-01",
+      "family": "same_length_misses",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 48,
+        "raw_encode_bytes": 80032,
+        "saved_stage_calls": 3,
+        "saved_stage_characters": 19170,
+        "exact_probe_bytes": 68971,
+        "encoded_context_payload_bytes": 1926,
+        "admission_attempts": 7,
+        "policy_control_actions": 230
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 154216,
+        "selective_uninstrumented": 135046
+      },
+      "p8_fresh": 322763,
+      "p8_selective": 504431,
+      "p8_delta": 181668
+    },
+    {
+      "stream_id": "p10-holdout-same_length_misses-02",
+      "family": "same_length_misses",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 144,
+        "raw_encode_bytes": 1204824,
+        "saved_stage_calls": 6,
+        "saved_stage_characters": 299394,
+        "exact_probe_bytes": 1151081,
+        "encoded_context_payload_bytes": 5932,
+        "admission_attempts": 22,
+        "policy_control_actions": 538
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 3595320,
+        "selective_uninstrumented": 3295926
+      },
+      "p8_fresh": 4826770,
+      "p8_selective": 6937534,
+      "p8_delta": 2110764
+    },
+    {
+      "stream_id": "p10-holdout-same_length_misses-03",
+      "family": "same_length_misses",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 384,
+        "raw_encode_bytes": 4521216,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 16640,
+        "admission_attempts": 64,
+        "policy_control_actions": 1216
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 8910336,
+        "selective_uninstrumented": 8910336
+      },
+      "p8_fresh": 18104982,
+      "p8_selective": 18131350,
+      "p8_delta": 26368
+    },
+    {
+      "stream_id": "p10-holdout-revisions_copy_context-00",
+      "family": "revisions_copy_context",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 13,
+        "raw_encode_bytes": 21510,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 10554,
+        "encoded_context_payload_bytes": 520,
+        "admission_attempts": 2,
+        "policy_control_actions": 60
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 37068,
+        "selective_uninstrumented": 37068
+      },
+      "p8_fresh": 87352,
+      "p8_selective": 141218,
+      "p8_delta": 53866
+    },
+    {
+      "stream_id": "p10-holdout-revisions_copy_context-01",
+      "family": "revisions_copy_context",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 51,
+        "raw_encode_bytes": 409822,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 357294,
+        "encoded_context_payload_bytes": 2080,
+        "admission_attempts": 8,
+        "policy_control_actions": 193
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 900108,
+        "selective_uninstrumented": 900108
+      },
+      "p8_fresh": 1695365,
+      "p8_selective": 2514967,
+      "p8_delta": 819602
+    },
+    {
+      "stream_id": "p10-holdout-revisions_copy_context-02",
+      "family": "revisions_copy_context",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 122,
+        "raw_encode_bytes": 1857732,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 6240,
+        "admission_attempts": 24,
+        "policy_control_actions": 434
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 3265220,
+        "selective_uninstrumented": 3265220
+      },
+      "p8_fresh": 7836821,
+      "p8_selective": 7846533,
+      "p8_delta": 9712
+    },
+    {
+      "stream_id": "p10-holdout-revisions_copy_context-03",
+      "family": "revisions_copy_context",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 320,
+        "raw_encode_bytes": 90486,
+        "saved_stage_calls": 165,
+        "saved_stage_characters": 140250,
+        "exact_probe_bytes": 81648,
+        "encoded_context_payload_bytes": 8170,
+        "admission_attempts": 9,
+        "policy_control_actions": 920
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 172980,
+        "selective_uninstrumented": 32730
+      },
+      "p8_fresh": 433024,
+      "p8_selective": 431532,
+      "p8_delta": -1492
+    },
+    {
+      "stream_id": "p10-holdout-scope_ambiguity-00",
+      "family": "scope_ambiguity",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 14,
+        "raw_encode_bytes": 833,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 14
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 444,
+        "selective_uninstrumented": 444
+      },
+      "p8_fresh": 4150,
+      "p8_selective": 4262,
+      "p8_delta": 112
+    },
+    {
+      "stream_id": "p10-holdout-scope_ambiguity-01",
+      "family": "scope_ambiguity",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 54,
+        "raw_encode_bytes": 3205,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 54
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 1912,
+        "selective_uninstrumented": 1912
+      },
+      "p8_fresh": 17207,
+      "p8_selective": 17639,
+      "p8_delta": 432
+    },
+    {
+      "stream_id": "p10-holdout-scope_ambiguity-02",
+      "family": "scope_ambiguity",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 146,
+        "raw_encode_bytes": 8751,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 146
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 5327,
+        "selective_uninstrumented": 5327
+      },
+      "p8_fresh": 50733,
+      "p8_selective": 51901,
+      "p8_delta": 1168
+    },
+    {
+      "stream_id": "p10-holdout-scope_ambiguity-03",
+      "family": "scope_ambiguity",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 387,
+        "raw_encode_bytes": 23160,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 0,
+        "admission_attempts": 0,
+        "policy_control_actions": 387
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 14212,
+        "selective_uninstrumented": 14212
+      },
+      "p8_fresh": 135926,
+      "p8_selective": 139022,
+      "p8_delta": 3096
+    },
+    {
+      "stream_id": "p10-holdout-integrity_unsupported_recovery-00",
+      "family": "integrity_unsupported_recovery",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 2,
+        "records_visited": 15,
+        "raw_encode_bytes": 155237,
+        "saved_stage_calls": 0,
+        "saved_stage_characters": 0,
+        "exact_probe_bytes": 0,
+        "encoded_context_payload_bytes": 520,
+        "admission_attempts": 2,
+        "policy_control_actions": 41
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 341293,
+        "selective_uninstrumented": 341293
+      },
+      "p8_fresh": 621365,
+      "p8_selective": 622213,
+      "p8_delta": 848
+    },
+    {
+      "stream_id": "p10-holdout-integrity_unsupported_recovery-01",
+      "family": "integrity_unsupported_recovery",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 8,
+        "records_visited": 38,
+        "raw_encode_bytes": 10058,
+        "saved_stage_calls": 12,
+        "saved_stage_characters": 11592,
+        "exact_probe_bytes": 7136,
+        "encoded_context_payload_bytes": 684,
+        "admission_attempts": 1,
+        "policy_control_actions": 89
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 15314,
+        "selective_uninstrumented": 3722
+      },
+      "p8_fresh": 48491,
+      "p8_selective": 47831,
+      "p8_delta": -660
+    },
+    {
+      "stream_id": "p10-holdout-integrity_unsupported_recovery-02",
+      "family": "integrity_unsupported_recovery",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 24,
+        "records_visited": 98,
+        "raw_encode_bytes": 185997,
+        "saved_stage_calls": 36,
+        "saved_stage_characters": 369108,
+        "exact_probe_bytes": 168972,
+        "encoded_context_payload_bytes": 1532,
+        "admission_attempts": 1,
+        "policy_control_actions": 205
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 401959,
+        "selective_uninstrumented": 32851
+      },
+      "p8_fresh": 893343,
+      "p8_selective": 760145,
+      "p8_delta": -133198
+    },
+    {
+      "stream_id": "p10-holdout-integrity_unsupported_recovery-03",
+      "family": "integrity_unsupported_recovery",
+      "base_stream": null,
+      "features": {
+        "stream_constant": 1,
+        "queries": 64,
+        "records_visited": 248,
+        "raw_encode_bytes": 1832499,
+        "saved_stage_calls": 96,
+        "saved_stage_characters": 3110880,
+        "exact_probe_bytes": 1769696,
+        "encoded_context_payload_bytes": 3652,
+        "admission_attempts": 1,
+        "policy_control_actions": 495
+      },
+      "stage_characters": {
+        "fresh_uninstrumented": 3213423,
+        "selective_uninstrumented": 102543
+      },
+      "p8_fresh": 9014641,
+      "p8_selective": 7374923,
+      "p8_delta": -1639718
+    }
+  ],
+  "boundary": "Offline complete-stream untimed diagnostic replay; no online availability or extraction-cost savings claim. Family/base_stream are reporting/group-CV metadata only."
+}

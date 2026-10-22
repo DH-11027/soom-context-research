@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-10-22T14:17:30.011730+00:00",
+  "baseline": "0c08785fcee9ab146f33fa8a7d94a4b7700833aa",
+  "frozen_verify_exit_code": 0,
+  "changed_and_untracked_outside_phase10": [],
+  "local_markdown_targets_checked": 69,
+  "delivery_receipt_link_pending_initial_publication": [
+    {
+      "file": "research/phase10/README.md",
+      "target": "DELIVERY.json"
+    }
+  ],
+  "stored_recount_sha256": "a5123cc062eccc6fb5c0e5865e257603e2f82d4190756ab0bcdfa5841f6f1314",
+  "note": "Final delivery receipt and links are added after initial publication; no new timing or fit."
+}

@@ -1,0 +1,48 @@
+{
+  "checked_at_utc": "2026-10-22 13:59:23 UTC",
+  "repository": "DH-11027/soom-context-research",
+  "prs": [
+    {
+      "number": 1,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/1",
+      "state": "open",
+      "merged": false,
+      "base": "main",
+      "base_sha": "780891f6c147cfd3c1a3b0d065792776aaa525f3",
+      "head": "research/phase06-scoped-opaque",
+      "head_sha": "13d166dc106fa3ab33128ad0626679fafdce5019"
+    },
+    {
+      "number": 2,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/2",
+      "state": "open",
+      "merged": false,
+      "base": "research/phase06-scoped-opaque",
+      "base_sha": "13d166dc106fa3ab33128ad0626679fafdce5019",
+      "head": "research/phase07-parse-reuse",
+      "head_sha": "6da051c0132811184ecf39975d7ff647a1f47842"
+    },
+    {
+      "number": 3,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/3",
+      "state": "open",
+      "merged": false,
+      "base": "research/phase07-parse-reuse",
+      "base_sha": "6da051c0132811184ecf39975d7ff647a1f47842",
+      "head": "research/phase08-cost-aware-reuse",
+      "head_sha": "efba3224dd09d5c5e2bf9d9be11734fa10b32502"
+    },
+    {
+      "number": 4,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/4",
+      "state": "open",
+      "merged": false,
+      "base": "research/phase08-cost-aware-reuse",
+      "base_sha": "efba3224dd09d5c5e2bf9d9be11734fa10b32502",
+      "head": "research/phase09-instrumentation-erasure",
+      "head_sha": "0c08785fcee9ab146f33fa8a7d94a4b7700833aa"
+    }
+  ],
+  "proposed_phase10_base": "research/phase09-instrumentation-erasure",
+  "reason": "Phase09 PR #4 remains open/unmerged and head equals exact Phase10 baseline. No existing branches overwritten or PRs merged."
+}

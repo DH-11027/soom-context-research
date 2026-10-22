@@ -1,0 +1,533 @@
+{
+  "predictions": [
+    {
+      "stream_id": "p10-holdout-short_repeated-00",
+      "predicted_delta_us": {
+        "trace_ridge": 22.33212717798506,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 0.17038596628532995
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-short_repeated-01",
+      "predicted_delta_us": {
+        "trace_ridge": 66.7411775143336,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": 0.6815438651413198
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-short_repeated-02",
+      "predicted_delta_us": {
+        "trace_ridge": 185.15059910666687,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": 2.0446315954239593
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-short_repeated-03",
+      "predicted_delta_us": {
+        "trace_ridge": 481.186413619108,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": 5.4523509211305585
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-short_churn-00",
+      "predicted_delta_us": {
+        "trace_ridge": 21.904104369753945,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 0.16186666797106347
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-short_churn-01",
+      "predicted_delta_us": {
+        "trace_ridge": 71.10141331944732,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": 0.7071017600841193
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-short_churn-02",
+      "predicted_delta_us": {
+        "trace_ridge": 202.70889091420847,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": 2.1639017718236904
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-short_churn-03",
+      "predicted_delta_us": {
+        "trace_ridge": 531.8156193429558,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": 5.810161450329752
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_cheap-00",
+      "predicted_delta_us": {
+        "trace_ridge": 86.6581474828652,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 0.18742456291386295
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_cheap-01",
+      "predicted_delta_us": {
+        "trace_ridge": 402.04185661062667,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": 0.7496982516554518
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_cheap-02",
+      "predicted_delta_us": {
+        "trace_ridge": 164.64016388388353,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": 2.2490947549663556
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_cheap-03",
+      "predicted_delta_us": {
+        "trace_ridge": 1005.071310480803,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": 5.997586013243614
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_repeat-00",
+      "predicted_delta_us": {
+        "trace_ridge": 174.0223291567884,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 0.9115649196265153
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_repeat-01",
+      "predicted_delta_us": {
+        "trace_ridge": 73.64765949814134,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": -6.650377246574285
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_repeat-02",
+      "predicted_delta_us": {
+        "trace_ridge": 213.19251691037198,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": -284.1942075533268
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_repeat-03",
+      "predicted_delta_us": {
+        "trace_ridge": 1634.2208072840274,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": -3343.179251502295
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_churn-00",
+      "predicted_delta_us": {
+        "trace_ridge": 89.76404282857841,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 12.507394837632502
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_churn-01",
+      "predicted_delta_us": {
+        "trace_ridge": 390.5847320700042,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": 230.2084790481093
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_churn-02",
+      "predicted_delta_us": {
+        "trace_ridge": 2202.2448844138335,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": 3120.680737428597
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-long_deep_churn-03",
+      "predicted_delta_us": {
+        "trace_ridge": 5320.207135701036,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": 29.17007742804849
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-fit_working_set-00",
+      "predicted_delta_us": {
+        "trace_ridge": 99.66859046151045,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 37.58288451338666
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-fit_working_set-01",
+      "predicted_delta_us": {
+        "trace_ridge": -23.938762234084056,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": -208.84207887592893
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-fit_working_set-02",
+      "predicted_delta_us": {
+        "trace_ridge": -835.2749998493655,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": -1199.1508728212095
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-fit_working_set-03",
+      "predicted_delta_us": {
+        "trace_ridge": -319.8258970837627,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": -1295.900284127177
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-pressure_working_set-00",
+      "predicted_delta_us": {
+        "trace_ridge": 273.54598969602387,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 183.9880909563457
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-pressure_working_set-01",
+      "predicted_delta_us": {
+        "trace_ridge": 985.0369819035228,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": -273.3225179920335
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-pressure_working_set-02",
+      "predicted_delta_us": {
+        "trace_ridge": 1569.0216903210346,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": -762.0043780704098
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-pressure_working_set-03",
+      "predicted_delta_us": {
+        "trace_ridge": 6519.992576851843,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": -1984.9379370481834
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-phase_shift-00",
+      "predicted_delta_us": {
+        "trace_ridge": 171.67049868416322,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 0.8945263229979823
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-phase_shift-01",
+      "predicted_delta_us": {
+        "trace_ridge": 175.3448956090415,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": 12.391319398100622
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-phase_shift-02",
+      "predicted_delta_us": {
+        "trace_ridge": 586.3764092566464,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": 100.9728534452651
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-phase_shift-03",
+      "predicted_delta_us": {
+        "trace_ridge": 4442.267958761466,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": 4154.589170321715
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-same_length_misses-00",
+      "predicted_delta_us": {
+        "trace_ridge": 85.82494159654038,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 8.916510598169173
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-same_length_misses-01",
+      "predicted_delta_us": {
+        "trace_ridge": 335.4361983065564,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": 193.46048576952077
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-same_length_misses-02",
+      "predicted_delta_us": {
+        "trace_ridge": 1797.5697671847752,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": 2247.7785233768013
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-same_length_misses-03",
+      "predicted_delta_us": {
+        "trace_ridge": 5230.188352619011,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": 28.079607243822377
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-revisions_copy_context-00",
+      "predicted_delta_us": {
+        "trace_ridge": 99.98337777772191,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 57.362565374534896
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-revisions_copy_context-01",
+      "predicted_delta_us": {
+        "trace_ridge": 654.2441306514673,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": 872.8042421211813
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-revisions_copy_context-02",
+      "predicted_delta_us": {
+        "trace_ridge": 2050.0338492495307,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": 10.34242815351953
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-revisions_copy_context-03",
+      "predicted_delta_us": {
+        "trace_ridge": 402.2762329897142,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": -1.588849135610702
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-scope_ambiguity-00",
+      "predicted_delta_us": {
+        "trace_ridge": 17.764910649931394,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 0.11927017639973098
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-scope_ambiguity-01",
+      "predicted_delta_us": {
+        "trace_ridge": 46.987913540752174,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": 0.4600421089703909
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-scope_ambiguity-02",
+      "predicted_delta_us": {
+        "trace_ridge": 114.12351697313804,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": 1.2438175538829088
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-scope_ambiguity-03",
+      "predicted_delta_us": {
+        "trace_ridge": 290.0320011849489,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": 3.296968447621135
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-integrity_unsupported_recovery-00",
+      "predicted_delta_us": {
+        "trace_ridge": 181.39813471698122,
+        "zero_change": 0.0,
+        "per_query": 40.465410714285724,
+        "p8_calibrated": 0.9030456213122487
+      },
+      "raw_p8_sign": 1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-integrity_unsupported_recovery-01",
+      "predicted_delta_us": {
+        "trace_ridge": 60.181644675409565,
+        "zero_change": 0.0,
+        "per_query": 161.8616428571429,
+        "p8_calibrated": -0.7028421109269861
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-integrity_unsupported_recovery-02",
+      "predicted_delta_us": {
+        "trace_ridge": 135.52173807418782,
+        "zero_change": 0.0,
+        "per_query": 485.5849285714287,
+        "p8_calibrated": -141.84418710795862
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    },
+    {
+      "stream_id": "p10-holdout-integrity_unsupported_recovery-03",
+      "predicted_delta_us": {
+        "trace_ridge": 900.0720670418356,
+        "zero_change": 0.0,
+        "per_query": 1294.8931428571432,
+        "p8_calibrated": -1746.1558491590542
+      },
+      "raw_p8_sign": -1,
+      "always_slowdown_sign": 1
+    }
+  ],
+  "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+}

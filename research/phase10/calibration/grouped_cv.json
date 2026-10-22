@@ -1,0 +1,4813 @@
+{
+  "folds": [
+    {
+      "held_out_family": "fit_working_set",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 7.5697007722955645,
+        "queries": -0.4576652629291668,
+        "records_visited": 0.6730383313855118,
+        "raw_encode_bytes": 0.0006189775074632093,
+        "saved_stage_calls": -3.620081417969034,
+        "saved_stage_characters": -0.00026044707719665756,
+        "exact_probe_bytes": 0.00022382655280336086,
+        "encoded_context_payload_bytes": 0.0768084644463345,
+        "admission_attempts": 13.219098809484501,
+        "policy_control_actions": 0.053477748206947374
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 84.60078242945988,
+            "zero_change": 0.0,
+            "per_query": 21.059723214285718,
+            "p8_calibrated": 43.26360437815091
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 76.26744330283977,
+            "zero_change": 0.0,
+            "per_query": 84.23889285714287,
+            "p8_calibrated": -4.285376311396021
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 54.045205631852866,
+            "zero_change": 0.0,
+            "per_query": 252.71667857142862,
+            "p8_calibrated": -131.08265815018785
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": -12.621507381107978,
+            "zero_change": 0.0,
+            "per_query": 758.1500357142859,
+            "p8_calibrated": -511.4745036665633
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 126.35389551236148,
+            "zero_change": 0.0,
+            "per_query": 21.059723214285718,
+            "p8_calibrated": 95.63350138152862
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 110.9672580686853,
+            "zero_change": 0.0,
+            "per_query": 84.23889285714287,
+            "p8_calibrated": -20.97795749182277
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 69.93622488554878,
+            "zero_change": 0.0,
+            "per_query": 252.71667857142862,
+            "p8_calibrated": -331.9418478207598
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": -53.156874663860506,
+            "zero_change": 0.0,
+            "per_query": 758.1500357142859,
+            "p8_calibrated": -1264.833518807571
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 194.22680111918467,
+            "zero_change": 0.0,
+            "per_query": 21.059723214285718,
+            "p8_calibrated": 149.56037267206375
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 135.73524701327116,
+            "zero_change": 0.0,
+            "per_query": 84.23889285714287,
+            "p8_calibrated": -13.15505954698695
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": -20.24223060249818,
+            "zero_change": 0.0,
+            "per_query": 252.71667857142862,
+            "p8_calibrated": -447.06287879778887
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-fit_working_set-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": -488.1746634498064,
+            "zero_change": 0.0,
+            "per_query": 758.1500357142859,
+            "p8_calibrated": -1748.7863365501946
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "integrity_unsupported_recovery",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 7.6224952245882625,
+        "queries": -0.17174568127575823,
+        "records_visited": 0.748069134654427,
+        "raw_encode_bytes": 0.000614650837102366,
+        "saved_stage_calls": -4.555263923303762,
+        "saved_stage_characters": -0.00024266695191679007,
+        "exact_probe_bytes": 0.0002439722542892606,
+        "encoded_context_payload_bytes": 0.10269662872053946,
+        "admission_attempts": 8.064657755583665,
+        "policy_control_actions": -0.03620489390551922
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 46.511162328062085,
+            "zero_change": 0.0,
+            "per_query": 22.338883928571427,
+            "p8_calibrated": 3.6195900558585627
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 47.835706338575775,
+            "zero_change": 0.0,
+            "per_query": 89.35553571428571,
+            "p8_calibrated": 2.7206351524333914
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 53.46750691827487,
+            "zero_change": 0.0,
+            "per_query": 268.06660714285715,
+            "p8_calibrated": 0.04105803645451504
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 70.71626684483087,
+            "zero_change": 0.0,
+            "per_query": 804.1998214285713,
+            "p8_calibrated": -8.913915809203923
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 54.315384006750826,
+            "zero_change": 0.0,
+            "per_query": 22.338883928571427,
+            "p8_calibrated": 31.063646001771247
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 60.513294238102304,
+            "zero_change": 0.0,
+            "per_query": 89.35553571428571,
+            "p8_calibrated": 16.442663125389736
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 80.76519348031475,
+            "zero_change": 0.0,
+            "per_query": 268.06660714285715,
+            "p8_calibrated": -27.402997909458172
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 146.74761561524855,
+            "zero_change": 0.0,
+            "per_query": 804.1998214285713,
+            "p8_calibrated": -173.57825148468004
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 81.9765156288686,
+            "zero_change": 0.0,
+            "per_query": 22.338883928571427,
+            "p8_calibrated": 128.3063639203595
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 105.44165980223521,
+            "zero_change": 0.0,
+            "per_query": 89.35553571428571,
+            "p8_calibrated": 65.06402208468386
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 177.49526087049304,
+            "zero_change": 0.0,
+            "per_query": 268.06660714285715,
+            "p8_calibrated": -124.64571582804642
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 416.1500224255782,
+            "zero_change": 0.0,
+            "per_query": 804.1998214285713,
+            "p8_calibrated": -757.0345589962095
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "long_cheap",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 8.22043532052475,
+        "queries": -0.17912745299493554,
+        "records_visited": 0.6816584202996112,
+        "raw_encode_bytes": 0.0006502508130974881,
+        "saved_stage_calls": -4.614810826050443,
+        "saved_stage_characters": -0.000264175446253485,
+        "exact_probe_bytes": 0.00023022890065962576,
+        "encoded_context_payload_bytes": 0.09727017733136113,
+        "admission_attempts": 6.4174216150419126,
+        "policy_control_actions": 0.05491055755436759
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 14.925710397284753,
+            "zero_change": 0.0,
+            "per_query": 22.338883928571427,
+            "p8_calibrated": 0.09368635824284746
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 35.04153562756476,
+            "zero_change": 0.0,
+            "per_query": 89.35553571428571,
+            "p8_calibrated": 0.37474543297138985
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 88.68373624164478,
+            "zero_change": 0.0,
+            "per_query": 268.06660714285715,
+            "p8_calibrated": 1.1242362989141697
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 249.61033808388484,
+            "zero_change": 0.0,
+            "per_query": 804.1998214285713,
+            "p8_calibrated": 3.372708896742509
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 21.227941277825607,
+            "zero_change": 0.0,
+            "per_query": 22.338883928571427,
+            "p8_calibrated": 0.09368635824284746
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 60.25045914972818,
+            "zero_change": 0.0,
+            "per_query": 89.35553571428571,
+            "p8_calibrated": 0.37474543297138985
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 164.31050680813505,
+            "zero_change": 0.0,
+            "per_query": 268.06660714285715,
+            "p8_calibrated": 1.1242362989141697
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 476.4906497833556,
+            "zero_change": 0.0,
+            "per_query": 804.1998214285713,
+            "p8_calibrated": 3.372708896742509
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 57.13544142788199,
+            "zero_change": 0.0,
+            "per_query": 22.338883928571427,
+            "p8_calibrated": 0.09368635824284746
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 203.88045974995373,
+            "zero_change": 0.0,
+            "per_query": 89.35553571428571,
+            "p8_calibrated": 0.37474543297138985
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 595.2005086088117,
+            "zero_change": 0.0,
+            "per_query": 268.06660714285715,
+            "p8_calibrated": 1.1242362989141697
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_cheap-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 1769.1606551853856,
+            "zero_change": 0.0,
+            "per_query": 804.1998214285713,
+            "p8_calibrated": 3.372708896742509
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "long_deep_churn",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 8.01322178627201,
+        "queries": 0.25550871054936264,
+        "records_visited": 0.7183505380593641,
+        "raw_encode_bytes": 0.0006062698944869184,
+        "saved_stage_calls": -4.3463792542394994,
+        "saved_stage_characters": -0.00017860918522520893,
+        "exact_probe_bytes": 0.00016095785094598968,
+        "encoded_context_payload_bytes": 0.09656702195129158,
+        "admission_attempts": 9.978782341289264,
+        "policy_control_actions": -0.08236309476702215
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 47.66264086948276,
+            "zero_change": 0.0,
+            "per_query": 16.973869047619043,
+            "p8_calibrated": 4.197378847520872
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 167.20690605806902,
+            "zero_change": 0.0,
+            "per_query": 67.89547619047617,
+            "p8_calibrated": 22.245693131104936
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 485.99161322763246,
+            "zero_change": 0.0,
+            "per_query": 203.6864285714285,
+            "p8_calibrated": 70.37453122066245
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 553.0923675087456,
+            "zero_change": 0.0,
+            "per_query": 611.0592857142856,
+            "p8_calibrated": 41.58183956108745
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 54.40557463596627,
+            "zero_change": 0.0,
+            "per_query": 16.973869047619043,
+            "p8_calibrated": 27.26637207865831
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 199.55012652577264,
+            "zero_change": 0.0,
+            "per_query": 67.89547619047617,
+            "p8_calibrated": 149.12515590236086
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 586.0257232352204,
+            "zero_change": 0.0,
+            "per_query": 203.6864285714285,
+            "p8_calibrated": 379.60770783589334
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 1336.691470548967,
+            "zero_change": 0.0,
+            "per_query": 611.0592857142856,
+            "p8_calibrated": 631.9917014733131
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 82.24670073059454,
+            "zero_change": 0.0,
+            "per_query": 16.973869047619043,
+            "p8_calibrated": 122.4954415836773
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 334.8178094407127,
+            "zero_change": 0.0,
+            "per_query": 67.89547619047617,
+            "p8_calibrated": 489.35340378984813
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 1008.3407660010278,
+            "zero_change": 0.0,
+            "per_query": 203.6864285714285,
+            "p8_calibrated": 1467.6413030063036
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_churn-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 2913.784391633781,
+            "zero_change": 0.0,
+            "per_query": 611.0592857142856,
+            "p8_calibrated": 4037.235572143769
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "long_deep_repeat",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 6.324530072632886,
+        "queries": 0.7779678870334228,
+        "records_visited": 0.626938013906308,
+        "raw_encode_bytes": 0.0006326369256848893,
+        "saved_stage_calls": -4.687793996792706,
+        "saved_stage_characters": -0.0002375639876034651,
+        "exact_probe_bytes": 0.00025264485924777997,
+        "encoded_context_payload_bytes": 0.09490865097978099,
+        "admission_attempts": 8.563432347488497,
+        "policy_control_actions": -0.012973865803097362
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 45.78486773069815,
+            "zero_change": 0.0,
+            "per_query": 19.43656349206349,
+            "p8_calibrated": 3.1411204860699837
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 52.48724844201686,
+            "zero_change": 0.0,
+            "per_query": 77.74625396825397,
+            "p8_calibrated": 1.1747537301733508
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 70.36026367220008,
+            "zero_change": 0.0,
+            "per_query": 233.2387619047619,
+            "p8_calibrated": -4.068890952217671
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 123.97930936274975,
+            "zero_change": 0.0,
+            "per_query": 699.7162857142857,
+            "p8_calibrated": -19.799824999390736
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 52.310517619137784,
+            "zero_change": 0.0,
+            "per_query": 19.43656349206349,
+            "p8_calibrated": 24.919978049768925
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 72.0308986846537,
+            "zero_change": 0.0,
+            "per_query": 77.74625396825397,
+            "p8_calibrated": -9.714675051676119
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 124.61858152602949,
+            "zero_change": 0.0,
+            "per_query": 233.2387619047619,
+            "p8_calibrated": -102.0737499888629
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 282.3816300501569,
+            "zero_change": 0.0,
+            "per_query": 699.7162857142857,
+            "p8_calibrated": -379.1509748004232
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 89.51657594385738,
+            "zero_change": 0.0,
+            "per_query": 19.43656349206349,
+            "p8_calibrated": 0.450691682645122
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 339.0927135575309,
+            "zero_change": 0.0,
+            "per_query": 77.74625396825397,
+            "p8_calibrated": 1.802766730580488
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 1004.6290805273269,
+            "zero_change": 0.0,
+            "per_query": 233.2387619047619,
+            "p8_calibrated": 5.408300191741464
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-long_deep_repeat-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 3001.2381814367145,
+            "zero_change": 0.0,
+            "per_query": 699.7162857142857,
+            "p8_calibrated": 16.224900575224392
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "phase_shift",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 7.432391077207663,
+        "queries": -0.13001587544156631,
+        "records_visited": 0.7415510546292834,
+        "raw_encode_bytes": 0.0005879554339898025,
+        "saved_stage_calls": -4.4251925703727055,
+        "saved_stage_characters": -0.0002675169539624122,
+        "exact_probe_bytes": 0.00025735785023129037,
+        "encoded_context_payload_bytes": 0.10266312798311478,
+        "admission_attempts": 8.569198113895743,
+        "policy_control_actions": -0.028199252513798467
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 47.08061659726698,
+            "zero_change": 0.0,
+            "per_query": 19.43656349206349,
+            "p8_calibrated": 3.770040770793598
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 53.41496747030303,
+            "zero_change": 0.0,
+            "per_query": 77.74625396825397,
+            "p8_calibrated": 0.7663792556869077
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 221.91384488514683,
+            "zero_change": 0.0,
+            "per_query": 233.2387619047619,
+            "p8_calibrated": 18.283020300853604
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 272.5886518694353,
+            "zero_change": 0.0,
+            "per_query": 699.7162857142857,
+            "p8_calibrated": -5.74627181999992
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 53.87855732505707,
+            "zero_change": 0.0,
+            "per_query": 19.43656349206349,
+            "p8_calibrated": 28.019496562911485
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 71.38928345710573,
+            "zero_change": 0.0,
+            "per_query": 77.74625396825397,
+            "p8_calibrated": -11.358348640372036
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 293.85893236097905,
+            "zero_change": 0.0,
+            "per_query": 233.2387619047619,
+            "p8_calibrated": 89.2763686976999
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 521.7896321478028,
+            "zero_change": 0.0,
+            "per_query": 699.7162857142857,
+            "p8_calibrated": -143.74486096850373
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 85.4832876405678,
+            "zero_change": 0.0,
+            "per_query": 19.43656349206349,
+            "p8_calibrated": 0.43089175661739954
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 319.6359773306482,
+            "zero_change": 0.0,
+            "per_query": 77.74625396825397,
+            "p8_calibrated": 1.7235670264695981
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 944.0431498375293,
+            "zero_change": 0.0,
+            "per_query": 233.2387619047619,
+            "p8_calibrated": 5.170701079408794
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-phase_shift-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 2817.2646673581726,
+            "zero_change": 0.0,
+            "per_query": 699.7162857142857,
+            "p8_calibrated": 15.512103238226384
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "pressure_working_set",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 7.385852757601063,
+        "queries": -0.08868245754063649,
+        "records_visited": 0.6833767408503605,
+        "raw_encode_bytes": 0.0006196665050128825,
+        "saved_stage_calls": -4.358456126745792,
+        "saved_stage_characters": -0.0002777863693229159,
+        "exact_probe_bytes": 0.0002111466035579469,
+        "encoded_context_payload_bytes": 0.09663825521770618,
+        "admission_attempts": 8.420393603100369,
+        "policy_control_actions": 0.020242197138514554
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 133.8933985771748,
+            "zero_change": 0.0,
+            "per_query": 16.973869047619043,
+            "p8_calibrated": 198.91193488832474
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 359.4965006408526,
+            "zero_change": 0.0,
+            "per_query": 67.89547619047617,
+            "p8_calibrated": 350.0556799588436
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 961.10477281066,
+            "zero_change": 0.0,
+            "per_query": 203.6864285714285,
+            "p8_calibrated": 753.1056668135606
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 2765.9295893200824,
+            "zero_change": 0.0,
+            "per_query": 611.0592857142856,
+            "p8_calibrated": 1962.2556273777113
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 164.64314910497566,
+            "zero_change": 0.0,
+            "per_query": 16.973869047619043,
+            "p8_calibrated": 243.31711500338452
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 335.57682894060684,
+            "zero_change": 0.0,
+            "per_query": 67.89547619047617,
+            "p8_calibrated": 247.3863567437073
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 791.3999751689566,
+            "zero_change": 0.0,
+            "per_query": 203.6864285714285,
+            "p8_calibrated": 258.2376680512348
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 2158.869413854006,
+            "zero_change": 0.0,
+            "per_query": 611.0592857142856,
+            "p8_calibrated": 290.79160197381725
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 222.74308882420877,
+            "zero_change": 0.0,
+            "per_query": 16.973869047619043,
+            "p8_calibrated": 288.3848080298853
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 447.6589839389165,
+            "zero_change": 0.0,
+            "per_query": 67.89547619047617,
+            "p8_calibrated": 223.50898785420986
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 1047.434704244804,
+            "zero_change": 0.0,
+            "per_query": 203.6864285714285,
+            "p8_calibrated": 50.50680071907547
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-pressure_working_set-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 2846.7618651624653,
+            "zero_change": 0.0,
+            "per_query": 611.0592857142856,
+            "p8_calibrated": -468.4997606863277
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "revisions_copy_context",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 7.858652023789874,
+        "queries": 0.06368999231631225,
+        "records_visited": 0.7334998129137991,
+        "raw_encode_bytes": 0.000601215212822679,
+        "saved_stage_calls": -4.760747704894735,
+        "saved_stage_characters": -0.00027070668750672246,
+        "exact_probe_bytes": 0.000331407445688243,
+        "encoded_context_payload_bytes": 0.1070100972488721,
+        "admission_attempts": 7.800364525356227,
+        "policy_control_actions": -0.05744037120484727
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 47.33930613912569,
+            "zero_change": 0.0,
+            "per_query": 18.866678571428572,
+            "p8_calibrated": 4.587335793016951
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 165.22295942747746,
+            "zero_change": 0.0,
+            "per_query": 75.46671428571429,
+            "p8_calibrated": 24.31649000169561
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 179.0913958172181,
+            "zero_change": 0.0,
+            "per_query": 226.40014285714287,
+            "p8_calibrated": 13.593902845563512
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 215.05135065891628,
+            "zero_change": 0.0,
+            "per_query": 679.2004285714286,
+            "p8_calibrated": -18.646064596948143
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 53.96229292358032,
+            "zero_change": 0.0,
+            "per_query": 18.866678571428572,
+            "p8_calibrated": 29.444242382232265
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 202.66545618476258,
+            "zero_change": 0.0,
+            "per_query": 75.46671428571429,
+            "p8_calibrated": 161.02947624237984
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 252.09465909204212,
+            "zero_change": 0.0,
+            "per_query": 226.40014285714287,
+            "p8_calibrated": 50.87926272938648
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 394.7405207776339,
+            "zero_change": 0.0,
+            "per_query": 679.2004285714286,
+            "p8_calibrated": -279.64358378370895
+          },
+          "raw_p8_sign": -1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 81.7228041604547,
+            "zero_change": 0.0,
+            "per_query": 18.866678571428572,
+            "p8_calibrated": 133.62618084725227
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 360.8149823761134,
+            "zero_change": 0.0,
+            "per_query": 75.46671428571429,
+            "p8_calibrated": 533.7939458313109
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 1043.0012430721442,
+            "zero_change": 0.0,
+            "per_query": 226.40014285714287,
+            "p8_calibrated": 1401.7379601566688
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-revisions_copy_context-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 3014.781896625896,
+            "zero_change": 0.0,
+            "per_query": 679.2004285714286,
+            "p8_calibrated": 3806.2375140588515
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "same_length_misses",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 6.939180789890812,
+        "queries": -0.20459840457498302,
+        "records_visited": 0.8022023605926923,
+        "raw_encode_bytes": 0.0006089724045734672,
+        "saved_stage_calls": -4.565171174509846,
+        "saved_stage_characters": -0.0002370108270774442,
+        "exact_probe_bytes": 0.0002451049473569871,
+        "encoded_context_payload_bytes": 0.10594284545677353,
+        "admission_attempts": 8.089848667485462,
+        "policy_control_actions": -0.06367400594190004
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 47.00834026660439,
+            "zero_change": 0.0,
+            "per_query": 18.726928571428573,
+            "p8_calibrated": 3.6049179179247233
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 130.48623685980434,
+            "zero_change": 0.0,
+            "per_query": 74.90771428571429,
+            "p8_calibrated": 12.944288130570714
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 302.89936914663883,
+            "zero_change": 0.0,
+            "per_query": 224.72314285714288,
+            "p8_calibrated": 29.749686379413046
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 368.38743835185466,
+            "zero_change": 0.0,
+            "per_query": 674.1694285714286,
+            "p8_calibrated": 7.269580262017301
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 52.79236016524318,
+            "zero_change": 0.0,
+            "per_query": 18.726928571428573,
+            "p8_calibrated": 22.846673613544272
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 156.19800828779154,
+            "zero_change": 0.0,
+            "per_query": 74.90771428571429,
+            "p8_calibrated": 80.29043306523913
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 375.29803262463247,
+            "zero_change": 0.0,
+            "per_query": 224.72314285714288,
+            "p8_calibrated": 151.53211710953013
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 696.8466920816513,
+            "zero_change": 0.0,
+            "per_query": 674.1694285714286,
+            "p8_calibrated": 31.306079311955266
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 86.58277587445089,
+            "zero_change": 0.0,
+            "per_query": 18.726928571428573,
+            "p8_calibrated": 0.42428668753102783
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 325.51356112813113,
+            "zero_change": 0.0,
+            "per_query": 74.90771428571429,
+            "p8_calibrated": 1.6971467501241113
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 962.6623218046117,
+            "zero_change": 0.0,
+            "per_query": 224.72314285714288,
+            "p8_calibrated": 5.091440250372334
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-same_length_misses-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 2874.1086038340536,
+            "zero_change": 0.0,
+            "per_query": 674.1694285714286,
+            "p8_calibrated": 15.274320751117003
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "scope_ambiguity",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 6.265615175476578,
+        "queries": -0.5920079527843387,
+        "records_visited": 0.7606129085215371,
+        "raw_encode_bytes": 0.0006180116483354317,
+        "saved_stage_calls": -4.566705317935344,
+        "saved_stage_characters": -0.00023830667578475848,
+        "exact_probe_bytes": 0.000223627200535153,
+        "encoded_context_payload_bytes": 0.10369921717385527,
+        "admission_attempts": 8.145029607450443,
+        "policy_control_actions": -0.014281257434080158
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 10.36666518283771,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.05110566162989032
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 24.992241730708763,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.22997547733450643
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 57.846992663222984,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 0.6388207703736289
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 161.00974763871582,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 1.916462311120887
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 10.367283194486046,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.05110566162989032
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 24.994713777302106,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.22997547733450643
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 57.848228686519654,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 0.6388207703736289
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 161.01345570860582,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 1.916462311120887
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 10.36666518283771,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.05110566162989032
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 24.994095765653768,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.22997547733450643
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 57.85317277970634,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 0.6388207703736289
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-scope_ambiguity-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 161.02828798816589,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 1.916462311120887
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "short_churn",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 9.719055208994044,
+        "queries": -0.22474623015836384,
+        "records_visited": 0.7360890660580828,
+        "raw_encode_bytes": 0.0006100799919921474,
+        "saved_stage_calls": -4.326015256510534,
+        "saved_stage_characters": -0.0002683690933979368,
+        "exact_probe_bytes": 0.00027953118604158786,
+        "encoded_context_payload_bytes": 0.09984120522683206,
+        "admission_attempts": 8.171638574981317,
+        "policy_control_actions": -0.0536834721387735
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-short_churn-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 16.33389083494848,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.0766604956099248
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 44.83058947088544,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.40033814374071836
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 111.47324794728186,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 1.158425266994419
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 314.9816334238575,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 3.4752758009832574
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 16.37659643438793,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.0766604956099248
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 45.08011218761023,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.40033814374071836
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 112.21510521754432,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 1.158425266994419
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 317.20720523464485,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 3.4752758009832574
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 16.419912113819375,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.0766604956099248
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 45.33756594423092,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.40033814374071836
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 112.99173704735033,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 1.158425266994419
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_churn-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 319.53710072406284,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 3.4752758009832574
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    },
+    {
+      "held_out_family": "short_repeated",
+      "training_streams": 132,
+      "coefficients_us_per_feature": {
+        "stream_constant": 7.144012360846688,
+        "queries": 0.01560238549767013,
+        "records_visited": 0.8149269850536742,
+        "raw_encode_bytes": 0.0006081760960947641,
+        "saved_stage_calls": -4.532591248708422,
+        "saved_stage_characters": -0.00024109175274557477,
+        "exact_probe_bytes": 0.0002447656012920818,
+        "encoded_context_payload_bytes": 0.09748785710500762,
+        "admission_attempts": 9.428901833947052,
+        "policy_control_actions": -0.05037258684374648
+      },
+      "predictions": [
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-00-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 13.682311564215082,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.0681461362171835
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-00-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 33.297209174320265,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.272584544868734
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-00-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 85.60360280126743,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 0.817753634606202
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-00-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 242.5227836821089,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 2.453260903818606
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-01-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 13.692650557848694,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.0681461362171835
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-01-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 33.33856514885471,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.272584544868734
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-01-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 85.72767072487076,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 0.817753634606202
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-01-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 242.89498745291888,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 2.453260903818606
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-02-h1",
+          "predicted_delta_us": {
+            "trace_ridge": 13.702989551482304,
+            "zero_change": 0.0,
+            "per_query": 26.018500000000003,
+            "p8_calibrated": 0.0681461362171835
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-02-h4",
+          "predicted_delta_us": {
+            "trace_ridge": 33.37992112338915,
+            "zero_change": 0.0,
+            "per_query": 104.07400000000001,
+            "p8_calibrated": 0.272584544868734
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-02-h12",
+          "predicted_delta_us": {
+            "trace_ridge": 85.8517386484741,
+            "zero_change": 0.0,
+            "per_query": 312.22200000000004,
+            "p8_calibrated": 0.817753634606202
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        },
+        {
+          "stream_id": "cal-p9-holdout-short_repeated-02-h36",
+          "predicted_delta_us": {
+            "trace_ridge": 243.26719122372887,
+            "zero_change": 0.0,
+            "per_query": 936.6660000000002,
+            "p8_calibrated": 2.453260903818606
+          },
+          "raw_p8_sign": 1,
+          "always_slowdown_sign": 1
+        }
+      ],
+      "boundary": "All predictions computed from frozen coefficients and untimed whole-stream features before primary holdout timing; no online gate implemented."
+    }
+  ],
+  "selection_performed": false,
+  "boundary": "Prespecified leave-family-out development diagnostic only; no lambda/features/threshold selection from CV.",
+  "scores": {
+    "streams": 144,
+    "mean_normalized_absolute_error": {
+      "trace_ridge": 0.048315927612125706,
+      "zero_change": 0.21189191312425873,
+      "per_query": 0.1922272849913936,
+      "p8_calibrated": 0.16263394398162231
+    },
+    "best_baseline_error": 0.16263394398162231,
+    "model_error_divided_by_best_baseline": 0.29708390775781357,
+    "numerical_rule_passed": true,
+    "family_errors": {
+      "fit_working_set": {
+        "trace_ridge": 0.049589945968915125,
+        "zero_change": 0.17862795856408917,
+        "per_query": 0.1929692684268435,
+        "p8_calibrated": 0.09836245620733655
+      },
+      "integrity_unsupported_recovery": {
+        "trace_ridge": 0.02888220283674557,
+        "zero_change": 0.18952798715063104,
+        "per_query": 0.22077854424903665,
+        "p8_calibrated": 0.1633874573109384
+      },
+      "long_cheap": {
+        "trace_ridge": 0.04223247998178943,
+        "zero_change": 0.12686652960369474,
+        "per_query": 0.12448538398988448,
+        "p8_calibrated": 0.12604497966070688
+      },
+      "long_deep_churn": {
+        "trace_ridge": 0.06215687744422822,
+        "zero_change": 0.3932573664855039,
+        "per_query": 0.2665625898322036,
+        "p8_calibrated": 0.20830563176264263
+      },
+      "long_deep_repeat": {
+        "trace_ridge": 0.05764202172038927,
+        "zero_change": 0.24640195213489655,
+        "per_query": 0.194092404094559,
+        "p8_calibrated": 0.24523666062673544
+      },
+      "phase_shift": {
+        "trace_ridge": 0.05963240141865167,
+        "zero_change": 0.2717607020128289,
+        "per_query": 0.17537095648951662,
+        "p8_calibrated": 0.24932305111950703
+      },
+      "pressure_working_set": {
+        "trace_ridge": 0.04121927134622627,
+        "zero_change": 0.2710034980509821,
+        "per_query": 0.22777634646200623,
+        "p8_calibrated": 0.13876365458902093
+      },
+      "revisions_copy_context": {
+        "trace_ridge": 0.03892287699935988,
+        "zero_change": 0.24944370316603418,
+        "per_query": 0.15162089630874037,
+        "p8_calibrated": 0.16299425574436108
+      },
+      "same_length_misses": {
+        "trace_ridge": 0.048127973569111984,
+        "zero_change": 0.33736594890386146,
+        "per_query": 0.1992849349928453,
+        "p8_calibrated": 0.2825314796886939
+      },
+      "scope_ambiguity": {
+        "trace_ridge": 0.03797189087623829,
+        "zero_change": 0.10236188985192382,
+        "per_query": 0.2326521044099407,
+        "p8_calibrated": 0.10166782367407054
+      },
+      "short_churn": {
+        "trace_ridge": 0.05891237679422714,
+        "zero_change": 0.08738402114509147,
+        "per_query": 0.1329646819111967,
+        "p8_calibrated": 0.08672758440654137
+      },
+      "short_repeated": {
+        "trace_ridge": 0.05450081238962558,
+        "zero_change": 0.08870140042156752,
+        "per_query": 0.18816930872995025,
+        "p8_calibrated": 0.08826229298891297
+      }
+    },
+    "horizon_errors": {
+      "1": {
+        "trace_ridge": 0.06799388295720811,
+        "zero_change": 0.30979636555676715,
+        "per_query": 0.23522085103836457,
+        "p8_calibrated": 0.20236890075610559
+      },
+      "4": {
+        "trace_ridge": 0.044191462573620596,
+        "zero_change": 0.22195894028653837,
+        "per_query": 0.1708520351833372,
+        "p8_calibrated": 0.16636860423597302
+      },
+      "12": {
+        "trace_ridge": 0.047396137312313964,
+        "zero_change": 0.18547105758599933,
+        "per_query": 0.18132897034304798,
+        "p8_calibrated": 0.1594606582391723
+      },
+      "36": {
+        "trace_ridge": 0.03368222760536013,
+        "zero_change": 0.13034128906773013,
+        "per_query": 0.1815072834008247,
+        "p8_calibrated": 0.12233761269523834
+      }
+    },
+    "rows": [
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-00-h1",
+        "family": "short_repeated",
+        "queries": 1,
+        "delta_us": 13.8275,
+        "fresh_us": 124.99357142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 13.682311564215082,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.0681461362171835
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0011615672240222975,
+          "zero_change": 0.1106256893211651,
+          "per_query": 0.09753301598367918,
+          "p8_calibrated": 0.11008049219271816
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-00-h4",
+        "family": "short_repeated",
+        "queries": 4,
+        "delta_us": 57.58885714285714,
+        "fresh_us": 397.8094285714286,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 33.297209174320265,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.272584544868734
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.061063529981605726,
+          "zero_change": 0.14476493769809373,
+          "per_query": 0.11685279311773838,
+          "p8_calibrated": 0.14407972381101317
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-00-h12",
+        "family": "short_repeated",
+        "queries": 12,
+        "delta_us": -141.9481428571429,
+        "fresh_us": 1298.7757142857145,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 85.60360280126743,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 0.817753634606202
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.1752048049216539,
+          "zero_change": 0.10929380746483228,
+          "per_query": 0.3496909727072639,
+          "p8_calibrated": 0.1099234416854382
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-00-h36",
+        "family": "short_repeated",
+        "queries": 36,
+        "delta_us": 88.88792857142857,
+        "fresh_us": 3387.530857142857,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 242.5227836821089,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 2.453260903818606
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04535304963694426,
+          "zero_change": 0.026239739893144255,
+          "per_query": 0.2502643096640639,
+          "p8_calibrated": 0.02551553662909259
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-01-h1",
+        "family": "short_repeated",
+        "queries": 1,
+        "delta_us": 20.009642857142858,
+        "fresh_us": 125.80128571428571,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 13.692650557848694,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.0681461362171835
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.050214051974325886,
+          "zero_change": 0.1590575385897714,
+          "per_query": 0.0477646719486174,
+          "p8_calibrated": 0.15851584193039103
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-01-h4",
+        "family": "short_repeated",
+        "queries": 4,
+        "delta_us": 33.584,
+        "fresh_us": 414.85914285714284,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 33.33856514885471,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.272584544868734
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0005916100810867421,
+          "zero_change": 0.08095277777586472,
+          "per_query": 0.16991309270547597,
+          "p8_calibrated": 0.08029572453366922
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-01-h12",
+        "family": "short_repeated",
+        "queries": 12,
+        "delta_us": 112.52392857142843,
+        "fresh_us": 1130.1733571428572,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 85.72767072487076,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 0.817753634606202
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.023709865108039827,
+          "zero_change": 0.09956342348743324,
+          "per_query": 0.17669684935187266,
+          "p8_calibrated": 0.0988398587091292
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-01-h36",
+        "family": "short_repeated",
+        "queries": 36,
+        "delta_us": 369.4702142857143,
+        "fresh_us": 3373.6675714285716,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 242.89498745291888,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 2.453260903818606
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03751858301178069,
+          "zero_change": 0.10951589226358274,
+          "per_query": 0.1681243850217608,
+          "p8_calibrated": 0.10878871305819951
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-02-h1",
+        "family": "short_repeated",
+        "queries": 1,
+        "delta_us": 8.844642857142865,
+        "fresh_us": 119.009,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 13.702989551482304,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.0681461362171835
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04082335532891999,
+          "zero_change": 0.07431910911899828,
+          "per_query": 0.1443072132599815,
+          "p8_calibrated": 0.07374649581901942
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-02-h4",
+        "family": "short_repeated",
+        "queries": 4,
+        "delta_us": 2.5860000000000127,
+        "fresh_us": 406.7392142857143,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 33.37992112338915,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.272584544868734
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.07570925064962614,
+          "zero_change": 0.006357882174064178,
+          "per_query": 0.24951614310959866,
+          "p8_calibrated": 0.005687711865190894
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-02-h12",
+        "family": "short_repeated",
+        "queries": 12,
+        "delta_us": -43.345642857142934,
+        "fresh_us": 1163.4527142857141,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 85.8517386484741,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 0.817753634606202
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.11104652550055376,
+          "zero_change": 0.03725604171524444,
+          "per_query": 0.3056141762284158,
+          "p8_calibrated": 0.03795890967417842
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_repeated-02-h36",
+        "family": "short_repeated",
+        "queries": 36,
+        "delta_us": 346.0044285714289,
+        "fresh_us": 3249.784357142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 243.26719122372887,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 2.453260903818606
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.031613555256947715,
+          "zero_change": 0.10646996555661582,
+          "per_query": 0.1817540816609348,
+          "p8_calibrated": 0.10571506595891592
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-00-h1",
+        "family": "short_churn",
+        "queries": 1,
+        "delta_us": 1.5852857142857104,
+        "fresh_us": 129.56028571428573,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 16.33389083494848,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.0766604956099248
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.11383584899764189,
+          "zero_change": 0.012235892392068968,
+          "per_query": 0.18858567770988027,
+          "p8_calibrated": 0.011644194904005525
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-00-h4",
+        "family": "short_churn",
+        "queries": 4,
+        "delta_us": 12.719428571428551,
+        "fresh_us": 513.8065714285715,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 44.83058947088544,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.40033814374071836
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.06249659440940204,
+          "zero_change": 0.02475528589691614,
+          "per_query": 0.17779953879253063,
+          "p8_calibrated": 0.02397612469890415
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-00-h12",
+        "family": "short_churn",
+        "queries": 12,
+        "delta_us": 114.17849999999999,
+        "fresh_us": 1315.5290714285716,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 111.47324794728186,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 1.158425266994419
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.00205639853308632,
+          "zero_change": 0.08679283679836144,
+          "per_query": 0.15054285329091116,
+          "p8_calibrated": 0.08591225932413167
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-00-h36",
+        "family": "short_churn",
+        "queries": 36,
+        "delta_us": 565.6010714285712,
+        "fresh_us": 4264.828714285714,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 314.9816334238575,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 3.4752758009832574
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.05876424466127433,
+          "zero_change": 0.1326198797935311,
+          "per_query": 0.08700582213970015,
+          "p8_calibrated": 0.13180501100657555
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-01-h1",
+        "family": "short_churn",
+        "queries": 1,
+        "delta_us": -12.720857142857156,
+        "fresh_us": 156.122,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 16.37659643438793,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.0766604956099248
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.18637638242685262,
+          "zero_change": 0.08148023432224258,
+          "per_query": 0.24813515803574868,
+          "p8_calibrated": 0.08197126374544958
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-01-h4",
+        "family": "short_churn",
+        "queries": 4,
+        "delta_us": 86.65471428571428,
+        "fresh_us": 583.8692142857143,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 45.08011218761023,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.40033814374071836
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.07120533345633748,
+          "zero_change": 0.1484145972514148,
+          "per_query": 0.02983422535061366,
+          "p8_calibrated": 0.14772893317811633
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-01-h12",
+        "family": "short_churn",
+        "queries": 12,
+        "delta_us": 127.76407142857147,
+        "fresh_us": 1405.6708571428571,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 112.21510521754432,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 1.158425266994419
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.011061598191365877,
+          "zero_change": 0.09089188324517346,
+          "per_query": 0.13122412521687662,
+          "p8_calibrated": 0.09006777476977332
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-01-h36",
+        "family": "short_churn",
+        "queries": 36,
+        "delta_us": 270.3280714285713,
+        "fresh_us": 4393.060285714286,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 317.20720523464485,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 3.4752758009832574
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.01067117925936936,
+          "zero_change": 0.06153525193078874,
+          "per_query": 0.1516796686670295,
+          "p8_calibrated": 0.06074416881902621
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-02-h1",
+        "family": "short_churn",
+        "queries": 1,
+        "delta_us": 8.707142857142856,
+        "fresh_us": 135.47692857142857,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 16.419912113819375,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.0766604956099248
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0569304998128154,
+          "zero_change": 0.06427030010908551,
+          "per_query": 0.12778085040309978,
+          "p8_calibrated": 0.06370444364615642
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-02-h4",
+        "family": "short_churn",
+        "queries": 4,
+        "delta_us": 37.25150000000002,
+        "fresh_us": 493.33635714285714,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 45.33756594423092,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.40033814374071836
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.01639057374782006,
+          "zero_change": 0.07550933447463912,
+          "per_query": 0.13545018329279543,
+          "p8_calibrated": 0.07469784321123567
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-02-h12",
+        "family": "short_churn",
+        "queries": 12,
+        "delta_us": 281.63878571428575,
+        "fresh_us": 1444.6418571428571,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 112.99173704735033,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 1.158425266994419
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.11673969422461383,
+          "zero_change": 0.19495405336745353,
+          "per_query": 0.021170101180786976,
+          "p8_calibrated": 0.1941521762369615
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-short_churn-02-h36",
+        "family": "short_churn",
+        "queries": 36,
+        "delta_us": 317.7604285714283,
+        "fresh_us": 4228.421928571428,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 319.53710072406284,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 3.4752758009832574
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.00042017381014642377,
+          "zero_change": 0.07514870415942233,
+          "per_query": 0.14636797885438765,
+          "p8_calibrated": 0.07432681933816057
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-00-h1",
+        "family": "long_cheap",
+        "queries": 1,
+        "delta_us": 10.646500000000003,
+        "fresh_us": 89.50692857142857,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 14.925710397284753,
+          "zero_change": 0.0,
+          "per_query": 22.338883928571427,
+          "p8_calibrated": 0.09368635824284746
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.047808705600593165,
+          "zero_change": 0.11894609914475898,
+          "per_query": 0.13063104851420115,
+          "p8_calibrated": 0.11789940522130385
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-00-h4",
+        "family": "long_cheap",
+        "queries": 4,
+        "delta_us": 19.490285714285704,
+        "fresh_us": 295.40392857142854,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 35.04153562756476,
+          "zero_change": 0.0,
+          "per_query": 89.35553571428571,
+          "p8_calibrated": 0.37474543297138985
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.05264401861033061,
+          "zero_change": 0.06597842421575298,
+          "per_query": 0.2365075181561325,
+          "p8_calibrated": 0.06470983772543899
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-00-h12",
+        "family": "long_cheap",
+        "queries": 12,
+        "delta_us": 114.3850714285714,
+        "fresh_us": 825.2697142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 88.68373624164478,
+          "zero_change": 0.0,
+          "per_query": 268.06660714285715,
+          "p8_calibrated": 1.1242362989141697
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.031142952106477797,
+          "zero_change": 0.13860325836332638,
+          "per_query": 0.18621976919060926,
+          "p8_calibrated": 0.13724099305847726
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-00-h36",
+        "family": "long_cheap",
+        "queries": 36,
+        "delta_us": 234.0457142857142,
+        "fresh_us": 2471.1395,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 249.61033808388484,
+          "zero_change": 0.0,
+          "per_query": 804.1998214285713,
+          "p8_calibrated": 3.372708896742509
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.006298561371452574,
+          "zero_change": 0.09471165601363832,
+          "per_query": 0.23072518048570592,
+          "p8_calibrated": 0.09334681647433166
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-01-h1",
+        "family": "long_cheap",
+        "queries": 1,
+        "delta_us": 13.588571428571427,
+        "fresh_us": 150.3812142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 21.227941277825607,
+          "zero_change": 0.0,
+          "per_query": 22.338883928571427,
+          "p8_calibrated": 0.09368635824284746
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.05080002768656919,
+          "zero_change": 0.0903608305938669,
+          "per_query": 0.05818753719713281,
+          "p8_calibrated": 0.0897378381630115
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-01-h4",
+        "family": "long_cheap",
+        "queries": 4,
+        "delta_us": 34.566,
+        "fresh_us": 428.5981428571429,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 60.25045914972818,
+          "zero_change": 0.0,
+          "per_query": 89.35553571428571,
+          "p8_calibrated": 0.37474543297138985
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.05992666925364893,
+          "zero_change": 0.08064897288069044,
+          "per_query": 0.12783428166310964,
+          "p8_calibrated": 0.07977462137166794
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-01-h12",
+        "family": "long_cheap",
+        "queries": 12,
+        "delta_us": 213.3258571428571,
+        "fresh_us": 1160.241857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 164.31050680813505,
+          "zero_change": 0.0,
+          "per_query": 268.06660714285715,
+          "p8_calibrated": 1.1242362989141697
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04224580421139465,
+          "zero_change": 0.18386326594713687,
+          "per_query": 0.04718046471345326,
+          "p8_calibrated": 0.18289429875120872
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-01-h36",
+        "family": "long_cheap",
+        "queries": 36,
+        "delta_us": 302.0226428571432,
+        "fresh_us": 3492.537214285714,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 476.4906497833556,
+          "zero_change": 0.0,
+          "per_query": 804.1998214285713,
+          "p8_calibrated": 3.372708896742509
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.049954516221781826,
+          "zero_change": 0.08647657113623976,
+          "per_query": 0.14378577743347892,
+          "p8_calibrated": 0.08551088095462997
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-02-h1",
+        "family": "long_cheap",
+        "queries": 1,
+        "delta_us": 51.64507142857144,
+        "fresh_us": 302.6230714285714,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 57.13544142788199,
+          "zero_change": 0.0,
+          "per_query": 22.338883928571427,
+          "p8_calibrated": 0.09368635824284746
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.01814260219286173,
+          "zero_change": 0.17065807700904692,
+          "per_query": 0.09684055931907756,
+          "p8_calibrated": 0.17034849599197313
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-02-h4",
+        "family": "long_cheap",
+        "queries": 4,
+        "delta_us": 131.39307142857143,
+        "fresh_us": 1048.947642857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 203.88045974995373,
+          "zero_change": 0.0,
+          "per_query": 89.35553571428571,
+          "p8_calibrated": 0.37474543297138985
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0691048679264294,
+          "zero_change": 0.1252618015048688,
+          "per_query": 0.040075914179837524,
+          "p8_calibrated": 0.12490454303203342
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-02-h12",
+        "family": "long_cheap",
+        "queries": 12,
+        "delta_us": 700.2822142857142,
+        "fresh_us": 3111.249,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 595.2005086088117,
+          "zero_change": 0.0,
+          "per_query": 268.06660714285715,
+          "p8_calibrated": 1.1242362989141697
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03377476559314363,
+          "zero_change": 0.22508073583493776,
+          "per_query": 0.13892028800743916,
+          "p8_calibrated": 0.22471939018278514
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_cheap-02-h36",
+        "family": "long_cheap",
+        "queries": 36,
+        "delta_us": 1343.3771428571426,
+        "fresh_us": 9473.167000000001,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 1769.1606551853856,
+          "zero_change": 0.0,
+          "per_query": 804.1998214285713,
+          "p8_calibrated": 3.372708896742509
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0449462690067897,
+          "zero_change": 0.14180866260007266,
+          "per_query": 0.0569162690184361,
+          "p8_calibrated": 0.1414526350016209
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-00-h1",
+        "family": "long_deep_repeat",
+        "queries": 1,
+        "delta_us": 74.2362142857143,
+        "fresh_us": 118.88457142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 45.78486773069815,
+          "zero_change": 0.0,
+          "per_query": 19.43656349206349,
+          "p8_calibrated": 3.1411204860699837
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.23931908247749678,
+          "zero_change": 0.6244394322464047,
+          "per_query": 0.4609483815700651,
+          "p8_calibrated": 0.5980178331412825
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-00-h4",
+        "family": "long_deep_repeat",
+        "queries": 4,
+        "delta_us": 92.05635714285714,
+        "fresh_us": 326.40549999999996,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 52.48724844201686,
+          "zero_change": 0.0,
+          "per_query": 77.74625396825397,
+          "p8_calibrated": 1.1747537301733508
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.12122684421935377,
+          "zero_change": 0.2820306555583688,
+          "per_query": 0.043841489112785084,
+          "p8_calibrated": 0.2784315932564978
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-00-h12",
+        "family": "long_deep_repeat",
+        "queries": 12,
+        "delta_us": 113.5396428571429,
+        "fresh_us": 1008.5752857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 70.36026367220008,
+          "zero_change": 0.0,
+          "per_query": 233.2387619047619,
+          "p8_calibrated": -4.068890952217671
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04281225189288933,
+          "zero_change": 0.11257428618899054,
+          "per_query": 0.11868139220053027,
+          "p8_calibrated": 0.11660858190280632
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-00-h36",
+        "family": "long_deep_repeat",
+        "queries": 36,
+        "delta_us": 128.72642857142864,
+        "fresh_us": 2886.351857142857,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 123.97930936274975,
+          "zero_change": 0.0,
+          "per_query": 699.7162857142857,
+          "p8_calibrated": -19.799824999390736
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0016446779338184971,
+          "zero_change": 0.0445983147386793,
+          "per_query": 0.19782406491080706,
+          "p8_calibrated": 0.051458124623046685
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-01-h1",
+        "family": "long_deep_repeat",
+        "queries": 1,
+        "delta_us": 61.11121428571428,
+        "fresh_us": 145.3762142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 52.310517619137784,
+          "zero_change": 0.0,
+          "per_query": 19.43656349206349,
+          "p8_calibrated": 24.919978049768925
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0605373905890829,
+          "zero_change": 0.4203659765524621,
+          "per_query": 0.28666760238883204,
+          "p8_calibrated": 0.24894881472712665
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-01-h4",
+        "family": "long_deep_repeat",
+        "queries": 4,
+        "delta_us": 106.62714285714287,
+        "fresh_us": 464.21028571428576,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 72.0308986846537,
+          "zero_change": 0.0,
+          "per_query": 77.74625396825397,
+          "p8_calibrated": -9.714675051676119
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.07452709523498714,
+          "zero_change": 0.22969577826797707,
+          "per_query": 0.06221509901369278,
+          "p8_calibrated": 0.2506230936477474
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-01-h12",
+        "family": "long_deep_repeat",
+        "queries": 12,
+        "delta_us": 48.43528571428567,
+        "fresh_us": 1417.3694285714287,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 124.61858152602949,
+          "zero_change": 0.0,
+          "per_query": 233.2387619047619,
+          "p8_calibrated": -102.0737499888629
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.05374978059780026,
+          "zero_change": 0.03417266150794839,
+          "per_query": 0.1303848329625257,
+          "p8_calibrated": 0.1061889953805813
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-01-h36",
+        "family": "long_deep_repeat",
+        "queries": 36,
+        "delta_us": 164.9514999999999,
+        "fresh_us": 4220.697428571428,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 282.3816300501569,
+          "zero_change": 0.0,
+          "per_query": 699.7162857142857,
+          "p8_calibrated": -379.1509748004232
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.027822446891177268,
+          "zero_change": 0.03908157426386064,
+          "per_query": 0.12670057372373333,
+          "p8_calibrated": 0.12891293062544512
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-02-h1",
+        "family": "long_deep_repeat",
+        "queries": 1,
+        "delta_us": 84.22192857142855,
+        "fresh_us": 305.15457142857144,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 89.51657594385738,
+          "zero_change": 0.0,
+          "per_query": 19.43656349206349,
+          "p8_calibrated": 0.450691682645122
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0173507063900177,
+          "zero_change": 0.275997597470509,
+          "per_query": 0.21230343945389518,
+          "p8_calibrated": 0.274520668317735
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-02-h4",
+        "family": "long_deep_repeat",
+        "queries": 4,
+        "delta_us": 365.31421428571434,
+        "fresh_us": 1174.4553571428573,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 339.0927135575309,
+          "zero_change": 0.0,
+          "per_query": 77.74625396825397,
+          "p8_calibrated": 1.802766730580488
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.022326519751226227,
+          "zero_change": 0.3110498939478025,
+          "per_query": 0.24485218494557168,
+          "p8_calibrated": 0.3095149128864822
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-02-h12",
+        "family": "long_deep_repeat",
+        "queries": 12,
+        "delta_us": 1037.1242857142856,
+        "fresh_us": 3336.0030714285713,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 1004.6290805273269,
+          "zero_change": 0.0,
+          "per_query": 233.2387619047619,
+          "p8_calibrated": 5.408300191741464
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.009740759972694921,
+          "zero_change": 0.31088828862203643,
+          "per_query": 0.2409726569781835,
+          "p8_calibrated": 0.30926709701161453
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_repeat-02-h36",
+        "family": "long_deep_repeat",
+        "queries": 36,
+        "delta_us": 2789.4444999999996,
+        "fresh_us": 10257.98957142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 3001.2381814367145,
+          "zero_change": 0.0,
+          "per_query": 699.7162857142857,
+          "p8_calibrated": 16.224900575224392
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.020646704694126494,
+          "zero_change": 0.2719289662537189,
+          "per_query": 0.20371713187408608,
+          "p8_calibrated": 0.2703472820004598
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-00-h1",
+        "family": "long_deep_churn",
+        "queries": 1,
+        "delta_us": 52.01564285714285,
+        "fresh_us": 107.71021428571427,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 47.66264086948276,
+          "zero_change": 0.0,
+          "per_query": 16.973869047619043,
+          "p8_calibrated": 4.197378847520872
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.040414012881946675,
+          "zero_change": 0.4829220998406438,
+          "per_query": 0.32533380461551487,
+          "p8_calibrated": 0.443952918734135
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-00-h4",
+        "family": "long_deep_churn",
+        "queries": 4,
+        "delta_us": 194.77114285714288,
+        "fresh_us": 360.85749999999996,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 167.20690605806902,
+          "zero_change": 0.0,
+          "per_query": 67.89547619047617,
+          "p8_calibrated": 22.245693131104936
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.07638537871340864,
+          "zero_change": 0.5397453090406681,
+          "per_query": 0.35159492782238616,
+          "p8_calibrated": 0.47809855615038616
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-00-h12",
+        "family": "long_deep_churn",
+        "queries": 12,
+        "delta_us": 459.82050000000004,
+        "fresh_us": 1012.1822142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 485.99161322763246,
+          "zero_change": 0.0,
+          "per_query": 203.6864285714285,
+          "p8_calibrated": 70.37453122066245
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.02585612833169676,
+          "zero_change": 0.4542862871034444,
+          "per_query": 0.25305134570984583,
+          "p8_calibrated": 0.38475875517548513
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-00-h36",
+        "family": "long_deep_churn",
+        "queries": 36,
+        "delta_us": 708.237714285714,
+        "fresh_us": 2847.0947142857144,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 553.0923675087456,
+          "zero_change": 0.0,
+          "per_query": 611.0592857142856,
+          "p8_calibrated": 41.58183956108745
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.05449251336757569,
+          "zero_change": 0.2487580447296072,
+          "per_query": 0.03413248884338881,
+          "p8_calibrated": 0.23415303726271666
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-01-h1",
+        "family": "long_deep_churn",
+        "queries": 1,
+        "delta_us": 39.52564285714287,
+        "fresh_us": 170.11685714285716,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 54.40557463596627,
+          "zero_change": 0.0,
+          "per_query": 16.973869047619043,
+          "p8_calibrated": 27.26637207865831
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08746888479327973,
+          "zero_change": 0.23234406937080232,
+          "per_query": 0.1325663675445507,
+          "p8_calibrated": 0.07206382121314249
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-01-h4",
+        "family": "long_deep_churn",
+        "queries": 4,
+        "delta_us": 244.2645,
+        "fresh_us": 518.0810714285715,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 199.55012652577264,
+          "zero_change": 0.0,
+          "per_query": 67.89547619047617,
+          "p8_calibrated": 149.12515590236086
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08630767642394399,
+          "zero_change": 0.4714792982620618,
+          "per_query": 0.34042746113691985,
+          "p8_calibrated": 0.18363794653855856
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-01-h12",
+        "family": "long_deep_churn",
+        "queries": 12,
+        "delta_us": 699.7167142857144,
+        "fresh_us": 1438.7014285714286,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 586.0257232352204,
+          "zero_change": 0.0,
+          "per_query": 203.6864285714285,
+          "p8_calibrated": 379.60770783589334
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0790233392368175,
+          "zero_change": 0.4863529710820572,
+          "per_query": 0.34477639061415516,
+          "p8_calibrated": 0.22249856717503655
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-01-h36",
+        "family": "long_deep_churn",
+        "queries": 36,
+        "delta_us": 1507.9125714285715,
+        "fresh_us": 4371.360000000001,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 1336.691470548967,
+          "zero_change": 0.0,
+          "per_query": 611.0592857142856,
+          "p8_calibrated": 631.9917014733131
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03916884010459092,
+          "zero_change": 0.3449527312846737,
+          "per_query": 0.20516573462590265,
+          "p8_calibrated": 0.20037719839026258
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-02-h1",
+        "family": "long_deep_churn",
+        "queries": 1,
+        "delta_us": 119.92849999999999,
+        "fresh_us": 296.6220714285714,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 82.24670073059454,
+          "zero_change": 0.0,
+          "per_query": 16.973869047619043,
+          "p8_calibrated": 122.4954415836773
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.1270363971498307,
+          "zero_change": 0.40431414770454654,
+          "per_query": 0.3470902568259257,
+          "p8_calibrated": 0.008653912944895122
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-02-h4",
+        "family": "long_deep_churn",
+        "queries": 4,
+        "delta_us": 376.96014285714284,
+        "fresh_us": 1077.8934285714286,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 334.8178094407127,
+          "zero_change": 0.0,
+          "per_query": 67.89547619047617,
+          "p8_calibrated": 489.35340378984813
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03909693880617019,
+          "zero_change": 0.34971930699748477,
+          "per_query": 0.2867302633770403,
+          "p8_calibrated": 0.10427121824247892
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-02-h12",
+        "family": "long_deep_churn",
+        "queries": 12,
+        "delta_us": 1134.3957857142855,
+        "fresh_us": 3317.2191428571427,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 1008.3407660010278,
+          "zero_change": 0.0,
+          "per_query": 203.6864285714285,
+          "p8_calibrated": 1467.6413030063036
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03800020869428774,
+          "zero_change": 0.3419719158913399,
+          "per_query": 0.28056915056303183,
+          "p8_calibrated": 0.1004593012823963
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-long_deep_churn-02-h36",
+        "family": "long_deep_churn",
+        "queries": 36,
+        "delta_us": 3409.113714285714,
+        "fresh_us": 9411.144142857142,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 2913.784391633781,
+          "zero_change": 0.0,
+          "per_query": 611.0592857142856,
+          "p8_calibrated": 4037.235572143769
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.05263221082719018,
+          "zero_change": 0.36224221651871724,
+          "per_query": 0.29731288630778147,
+          "p8_calibrated": 0.06674234804221821
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-00-h1",
+        "family": "fit_working_set",
+        "queries": 1,
+        "delta_us": 81.68228571428574,
+        "fresh_us": 157.5665,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 84.60078242945988,
+          "zero_change": 0.0,
+          "per_query": 21.059723214285718,
+          "p8_calibrated": 43.26360437815091
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.018522317340133487,
+          "zero_change": 0.518398807578297,
+          "per_query": 0.3847427118073958,
+          "p8_calibrated": 0.24382518705521056
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-00-h4",
+        "family": "fit_working_set",
+        "queries": 4,
+        "delta_us": 54.89128571428563,
+        "fresh_us": 603.4913571428572,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 76.26744330283977,
+          "zero_change": 0.0,
+          "per_query": 84.23889285714287,
+          "p8_calibrated": -4.285376311396021
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03542081810376949,
+          "zero_change": 0.09095620851002822,
+          "per_query": 0.04862970578700457,
+          "p8_calibrated": 0.09805718230306566
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-00-h12",
+        "family": "fit_working_set",
+        "queries": 12,
+        "delta_us": -72.58742857142852,
+        "fresh_us": 1467.7800000000002,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 54.045205631852866,
+          "zero_change": 0.0,
+          "per_query": 252.71667857142862,
+          "p8_calibrated": -131.08265815018785
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08627494188725925,
+          "zero_change": 0.04945388857419267,
+          "per_query": 0.22163001753863457,
+          "p8_calibrated": 0.0398528591333574
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-00-h36",
+        "family": "fit_working_set",
+        "queries": 36,
+        "delta_us": -174.30885714285728,
+        "fresh_us": 4156.391428571429,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": -12.621507381107978,
+          "zero_change": 0.0,
+          "per_query": 758.1500357142859,
+          "p8_calibrated": -511.4745036665633
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03890089577470859,
+          "zero_change": 0.041937546099398065,
+          "per_query": 0.2243433778751761,
+          "p8_calibrated": 0.08111980123094215
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-01-h1",
+        "family": "fit_working_set",
+        "queries": 1,
+        "delta_us": 103.13321428571429,
+        "fresh_us": 227.72314285714285,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 126.35389551236148,
+          "zero_change": 0.0,
+          "per_query": 21.059723214285718,
+          "p8_calibrated": 95.63350138152862
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.10196891249307136,
+          "zero_change": 0.4528885952993046,
+          "per_query": 0.3604090916789937,
+          "p8_calibrated": 0.03293346829000359
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-01-h4",
+        "family": "fit_working_set",
+        "queries": 4,
+        "delta_us": 101.52085714285715,
+        "fresh_us": 788.7062142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 110.9672580686853,
+          "zero_change": 0.0,
+          "per_query": 84.23889285714287,
+          "p8_calibrated": -20.97795749182277
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.011977084438700922,
+          "zero_change": 0.1287182163700824,
+          "per_query": 0.021911789171542864,
+          "p8_calibrated": 0.1553161524733516
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-01-h12",
+        "family": "fit_working_set",
+        "queries": 12,
+        "delta_us": -42.82764285714302,
+        "fresh_us": 2647.322714285714,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 69.93622488554878,
+          "zero_change": 0.0,
+          "per_query": 252.71667857142862,
+          "p8_calibrated": -331.9418478207598
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04259543694245721,
+          "zero_change": 0.016177718955846507,
+          "per_query": 0.11163894746708798,
+          "p8_calibrated": 0.10921003450145063
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-01-h36",
+        "family": "fit_working_set",
+        "queries": 36,
+        "delta_us": -274.97035714285676,
+        "fresh_us": 7485.637785714285,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": -53.156874663860506,
+          "zero_change": 0.0,
+          "per_query": 758.1500357142859,
+          "p8_calibrated": -1264.833518807571
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.02963187490881656,
+          "zero_change": 0.03673305668992089,
+          "per_query": 0.1380136766474016,
+          "p8_calibrated": 0.13223497983749433
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-02-h1",
+        "family": "fit_working_set",
+        "queries": 1,
+        "delta_us": 165.11342857142859,
+        "fresh_us": 307.19764285714285,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 194.22680111918467,
+          "zero_change": 0.0,
+          "per_query": 21.059723214285718,
+          "p8_calibrated": 149.56037267206375
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.09477082010455,
+          "zero_change": 0.5374827327311618,
+          "per_query": 0.4689284202096975,
+          "p8_calibrated": 0.05062882564693872
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-02-h4",
+        "family": "fit_working_set",
+        "queries": 4,
+        "delta_us": 114.4164285714287,
+        "fresh_us": 1098.9924999999998,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 135.73524701327116,
+          "zero_change": 0.0,
+          "per_query": 84.23889285714287,
+          "p8_calibrated": -13.15505954698695
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.019398511310898363,
+          "zero_change": 0.10411029062657726,
+          "per_query": 0.02745927357492051,
+          "p8_calibrated": 0.11608039920055474
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-02-h12",
+        "family": "fit_working_set",
+        "queries": 12,
+        "delta_us": -161.8762857142858,
+        "fresh_us": 3572.0867857142857,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": -20.24223060249818,
+          "zero_change": 0.0,
+          "per_query": 252.71667857142862,
+          "p8_calibrated": -447.06287879778887
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03965022789429962,
+          "zero_change": 0.04531700807541173,
+          "per_query": 0.11606463928697944,
+          "p8_calibrated": 0.0798375320062321
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-fit_working_set-02-h36",
+        "family": "fit_working_set",
+        "queries": 36,
+        "delta_us": -1305.143357142858,
+        "fresh_us": 10754.185428571429,
+        "material_label": "speedup",
+        "predicted_delta_us": {
+          "trace_ridge": -488.1746634498064,
+          "zero_change": 0.0,
+          "per_query": 758.1500357142859,
+          "p8_calibrated": -1748.7863365501946
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.07596751042831669,
+          "zero_change": 0.121361433258849,
+          "per_query": 0.19185957007728746,
+          "p8_calibrated": 0.041253052809437155
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-00-h1",
+        "family": "pressure_working_set",
+        "queries": 1,
+        "delta_us": 131.63557142857144,
+        "fresh_us": 352.69642857142856,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 133.8933985771748,
+          "zero_change": 0.0,
+          "per_query": 16.973869047619043,
+          "p8_calibrated": 198.91193488832474
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.00640161613699498,
+          "zero_change": 0.3732262670244545,
+          "per_query": 0.32510026496548705,
+          "p8_calibrated": 0.190748638233314
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-00-h4",
+        "family": "pressure_working_set",
+        "queries": 4,
+        "delta_us": 482.79628571428566,
+        "fresh_us": 1373.0777857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 359.4965006408526,
+          "zero_change": 0.0,
+          "per_query": 67.89547619047617,
+          "p8_calibrated": 350.0556799588436
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08979810638280157,
+          "zero_change": 0.3516161216337291,
+          "per_query": 0.3021684669583194,
+          "p8_calibrated": 0.09667376978674909
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-00-h12",
+        "family": "pressure_working_set",
+        "queries": 12,
+        "delta_us": 1040.3278571428568,
+        "fresh_us": 4021.524785714286,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 961.10477281066,
+          "zero_change": 0.0,
+          "per_query": 203.6864285714285,
+          "p8_calibrated": 753.1056668135606
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.019699762789880584,
+          "zero_change": 0.2586899031030287,
+          "per_query": 0.20804084847206225,
+          "p8_calibrated": 0.07142121598991491
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-00-h36",
+        "family": "pressure_working_set",
+        "queries": 36,
+        "delta_us": 2752.1515,
+        "fresh_us": 12331.994714285713,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 2765.9295893200824,
+          "zero_change": 0.0,
+          "per_query": 611.0592857142856,
+          "p8_calibrated": 1962.2556273777113
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.001117263641389788,
+          "zero_change": 0.22317164122782457,
+          "per_query": 0.17362091566625598,
+          "p8_calibrated": 0.0640525633462405
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-01-h1",
+        "family": "pressure_working_set",
+        "queries": 1,
+        "delta_us": 197.54007142857145,
+        "fresh_us": 389.178,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 164.64314910497566,
+          "zero_change": 0.0,
+          "per_query": 16.973869047619043,
+          "p8_calibrated": 243.31711500338452
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08452924451946356,
+          "zero_change": 0.5075828320937243,
+          "per_query": 0.463968164646903,
+          "p8_calibrated": 0.11762495201376508
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-01-h4",
+        "family": "pressure_working_set",
+        "queries": 4,
+        "delta_us": 267.7595,
+        "fresh_us": 1475.7482857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 335.57682894060684,
+          "zero_change": 0.0,
+          "per_query": 67.89547619047617,
+          "p8_calibrated": 247.3863567437073
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04595453682521622,
+          "zero_change": 0.18143981774669665,
+          "per_query": 0.1354323265995098,
+          "p8_calibrated": 0.013805296915138737
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-01-h12",
+        "family": "pressure_working_set",
+        "queries": 12,
+        "delta_us": 995.0972857142851,
+        "fresh_us": 4544.223785714285,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 791.3999751689566,
+          "zero_change": 0.0,
+          "per_query": 203.6864285714285,
+          "p8_calibrated": 258.2376680512348
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.044825545604882715,
+          "zero_change": 0.21898069563444056,
+          "per_query": 0.17415754471221723,
+          "p8_calibrated": 0.16215302159623435
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-01-h36",
+        "family": "pressure_working_set",
+        "queries": 36,
+        "delta_us": 2658.2645714285727,
+        "fresh_us": 13325.850071428571,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 2158.869413854006,
+          "zero_change": 0.0,
+          "per_query": 611.0592857142856,
+          "p8_calibrated": 290.79160197381725
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03747566983702603,
+          "zero_change": 0.19948180094927323,
+          "per_query": 0.1536266185452303,
+          "p8_calibrated": 0.17766018353536492
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-02-h1",
+        "family": "pressure_working_set",
+        "queries": 1,
+        "delta_us": 162.60278571428574,
+        "fresh_us": 539.2957142857142,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 222.74308882420877,
+          "zero_change": 0.0,
+          "per_query": 16.973869047619043,
+          "p8_calibrated": 288.3848080298853
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.11151637499952616,
+          "zero_change": 0.3015095084329563,
+          "per_query": 0.2700353679975913,
+          "p8_calibrated": 0.23323386220896483
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-02-h4",
+        "family": "pressure_working_set",
+        "queries": 4,
+        "delta_us": 523.6879999999999,
+        "fresh_us": 1894.1087142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 447.6589839389165,
+          "zero_change": 0.0,
+          "per_query": 67.89547619047617,
+          "p8_calibrated": 223.50898785420986
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0401397319423424,
+          "zero_change": 0.27648254614439455,
+          "per_query": 0.2406369393540366,
+          "p8_calibrated": 0.15848035008855882
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-02-h12",
+        "family": "pressure_working_set",
+        "queries": 12,
+        "delta_us": 1086.4098571428572,
+        "fresh_us": 5619.993285714285,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 1047.434704244804,
+          "zero_change": 0.0,
+          "per_query": 203.6864285714285,
+          "p8_calibrated": 50.50680071907547
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.006935088872281386,
+          "zero_change": 0.1933115934327629,
+          "per_query": 0.15706841337609126,
+          "p8_calibrated": 0.18432460747897875
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-pressure_working_set-02-h36",
+        "family": "pressure_working_set",
+        "queries": 36,
+        "delta_us": 2743.9825,
+        "fresh_us": 16475.50207142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 2846.7618651624653,
+          "zero_change": 0.0,
+          "per_query": 611.0592857142856,
+          "p8_calibrated": -468.4997606863277
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.006238314602909902,
+          "zero_change": 0.1665492491884997,
+          "per_query": 0.12946028625037048,
+          "p8_calibrated": 0.19498539387502728
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-00-h1",
+        "family": "phase_shift",
+        "queries": 1,
+        "delta_us": 36.855999999999995,
+        "fresh_us": 89.91842857142856,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 47.08061659726698,
+          "zero_change": 0.0,
+          "per_query": 19.43656349206349,
+          "p8_calibrated": 3.770040770793598
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.11370991196921164,
+          "zero_change": 0.4098826078874662,
+          "per_query": 0.19372487692107535,
+          "p8_calibrated": 0.36795526517596866
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-00-h4",
+        "family": "phase_shift",
+        "queries": 4,
+        "delta_us": 54.25707142857141,
+        "fresh_us": 259.71607142857147,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 53.41496747030303,
+          "zero_change": 0.0,
+          "per_query": 77.74625396825397,
+          "p8_calibrated": 0.7663792556869077
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.003242402188037003,
+          "zero_change": 0.20890917966735642,
+          "per_query": 0.09044177516809036,
+          "p8_calibrated": 0.20595834473645888
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-00-h12",
+        "family": "phase_shift",
+        "queries": 12,
+        "delta_us": 139.21114285714287,
+        "fresh_us": 806.4412857142856,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 221.91384488514683,
+          "zero_change": 0.0,
+          "per_query": 233.2387619047619,
+          "p8_calibrated": 18.283020300853604
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.10255266377483645,
+          "zero_change": 0.17262402771683497,
+          "per_query": 0.11659574071079008,
+          "p8_calibrated": 0.14995279222241226
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-00-h36",
+        "family": "phase_shift",
+        "queries": 36,
+        "delta_us": 181.33585714285732,
+        "fresh_us": 2303.2220714285713,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 272.5886518694353,
+          "zero_change": 0.0,
+          "per_query": 699.7162857142857,
+          "p8_calibrated": -5.74627181999992
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03961962498474084,
+          "zero_change": 0.07873138217644117,
+          "per_query": 0.22506749783354735,
+          "p8_calibrated": 0.08122626614411511
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-01-h1",
+        "family": "phase_shift",
+        "queries": 1,
+        "delta_us": 57.60464285714285,
+        "fresh_us": 147.8302857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 53.87855732505707,
+          "zero_change": 0.0,
+          "per_query": 19.43656349206349,
+          "p8_calibrated": 28.019496562911485
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.025205156805874335,
+          "zero_change": 0.38966739852263016,
+          "per_query": 0.25818849757787454,
+          "p8_calibrated": 0.2001291288268976
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-01-h4",
+        "family": "phase_shift",
+        "queries": 4,
+        "delta_us": 98.56885714285715,
+        "fresh_us": 409.27971428571425,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 71.38928345710573,
+          "zero_change": 0.0,
+          "per_query": 77.74625396825397,
+          "p8_calibrated": -11.358348640372036
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.06640830888280386,
+          "zero_change": 0.24083494417719217,
+          "per_query": 0.05087621606397802,
+          "p8_calibrated": 0.2685869881801424
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-01-h12",
+        "family": "phase_shift",
+        "queries": 12,
+        "delta_us": 368.9299285714286,
+        "fresh_us": 1163.0820714285715,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 293.85893236097905,
+          "zero_change": 0.0,
+          "per_query": 233.2387619047619,
+          "p8_calibrated": 89.2763686976999
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0645448829919995,
+          "zero_change": 0.31720025407861835,
+          "per_query": 0.11666516920856855,
+          "p8_calibrated": 0.24044181123885813
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-01-h36",
+        "family": "phase_shift",
+        "queries": 36,
+        "delta_us": 515.2424285714285,
+        "fresh_us": 3513.2777857142855,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 521.7896321478028,
+          "zero_change": 0.0,
+          "per_query": 699.7162857142857,
+          "p8_calibrated": -143.74486096850373
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0018635598935548326,
+          "zero_change": 0.14665576137090863,
+          "per_query": 0.052507620630787046,
+          "p8_calibrated": 0.18757050530405278
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-02-h1",
+        "family": "phase_shift",
+        "queries": 1,
+        "delta_us": 126.20692857142856,
+        "fresh_us": 267.20721428571426,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 85.4832876405678,
+          "zero_change": 0.0,
+          "per_query": 19.43656349206349,
+          "p8_calibrated": 0.43089175661739954
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.15240472095680982,
+          "zero_change": 0.47231856710455583,
+          "per_query": 0.39957890120885614,
+          "p8_calibrated": 0.4707059917937835
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-02-h4",
+        "family": "phase_shift",
+        "queries": 4,
+        "delta_us": 268.41464285714284,
+        "fresh_us": 1028.4807857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 319.6359773306482,
+          "zero_change": 0.0,
+          "per_query": 77.74625396825397,
+          "p8_calibrated": 1.7235670264695981
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.049802908508331384,
+          "zero_change": 0.26098167956606727,
+          "per_query": 0.18538838210425934,
+          "p8_calibrated": 0.25930584171823373
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-02-h12",
+        "family": "phase_shift",
+        "queries": 12,
+        "delta_us": 1037.5412142857144,
+        "fresh_us": 2997.1407142857142,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 944.0431498375293,
+          "zero_change": 0.0,
+          "per_query": 233.2387619047619,
+          "p8_calibrated": 5.170701079408794
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.031195754007321542,
+          "zero_change": 0.3461770110893788,
+          "per_query": 0.2683565868453513,
+          "p8_calibrated": 0.34445179977221807
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-phase_shift-02-h36",
+        "family": "phase_shift",
+        "queries": 36,
+        "delta_us": 2167.9312142857143,
+        "fresh_us": 9983.767142857141,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 2817.2646673581726,
+          "zero_change": 0.0,
+          "per_query": 699.7162857142857,
+          "p8_calibrated": 15.512103238226384
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.06503892206029886,
+          "zero_change": 0.21714561079649727,
+          "per_query": 0.14706021360102123,
+          "p8_calibrated": 0.21559187832094326
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-00-h1",
+        "family": "same_length_misses",
+        "queries": 1,
+        "delta_us": 43.12178571428571,
+        "fresh_us": 95.967,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 47.00834026660439,
+          "zero_change": 0.0,
+          "per_query": 18.726928571428573,
+          "p8_calibrated": 3.6049179179247233
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.040498864738073355,
+          "zero_change": 0.44933972838877645,
+          "per_query": 0.25420047665194423,
+          "p8_calibrated": 0.41177558740359693
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-00-h4",
+        "family": "same_length_misses",
+        "queries": 4,
+        "delta_us": 133.48971428571429,
+        "fresh_us": 275.35321428571433,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 130.48623685980434,
+          "zero_change": 0.0,
+          "per_query": 74.90771428571429,
+          "p8_calibrated": 12.944288130570714
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.010907726040900527,
+          "zero_change": 0.484794465290685,
+          "per_query": 0.21275219231402778,
+          "p8_calibrated": 0.4377847067006169
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-00-h12",
+        "family": "same_length_misses",
+        "queries": 12,
+        "delta_us": 222.402,
+        "fresh_us": 816.0449285714285,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 302.89936914663883,
+          "zero_change": 0.0,
+          "per_query": 224.72314285714288,
+          "p8_calibrated": 29.749686379413046
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.09864330544588747,
+          "zero_change": 0.27253646486025934,
+          "per_query": 0.002844381204851417,
+          "p8_calibrated": 0.23608052311267327
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-00-h36",
+        "family": "same_length_misses",
+        "queries": 36,
+        "delta_us": 411.2577142857142,
+        "fresh_us": 2330.5100714285713,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 368.38743835185466,
+          "zero_change": 0.0,
+          "per_query": 674.1694285714286,
+          "p8_calibrated": 7.269580262017301
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.018395233069119776,
+          "zero_change": 0.17646682557935428,
+          "per_query": 0.11281294919465981,
+          "p8_calibrated": 0.17334751691335004
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-01-h1",
+        "family": "same_length_misses",
+        "queries": 1,
+        "delta_us": 69.09214285714286,
+        "fresh_us": 113.99435714285714,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 52.79236016524318,
+          "zero_change": 0.0,
+          "per_query": 18.726928571428573,
+          "p8_calibrated": 22.846673613544272
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.1429876276373301,
+          "zero_change": 0.6061014298326798,
+          "per_query": 0.44182199494837154,
+          "p8_calibrated": 0.4056820916639234
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-01-h4",
+        "family": "same_length_misses",
+        "queries": 4,
+        "delta_us": 147.09207142857144,
+        "fresh_us": 416.812,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 156.19800828779154,
+          "zero_change": 0.0,
+          "per_query": 74.90771428571429,
+          "p8_calibrated": 80.29043306523913
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0218466283581569,
+          "zero_change": 0.3528978806478015,
+          "per_query": 0.17318205124338346,
+          "p8_calibrated": 0.16026803058293024
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-01-h12",
+        "family": "same_length_misses",
+        "queries": 12,
+        "delta_us": 452.19678571428574,
+        "fresh_us": 1207.8757857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 375.29803262463247,
+          "zero_change": 0.0,
+          "per_query": 224.72314285714288,
+          "p8_calibrated": 151.53211710953013
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.06366445457318168,
+          "zero_change": 0.3743735829979206,
+          "per_query": 0.18832536056066787,
+          "p8_calibrated": 0.24892018878162664
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-01-h36",
+        "family": "same_length_misses",
+        "queries": 36,
+        "delta_us": 406.0264285714286,
+        "fresh_us": 3537.4507142857146,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 696.8466920816513,
+          "zero_change": 0.0,
+          "per_query": 674.1694285714286,
+          "p8_calibrated": 31.306079311955266
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08221182060170283,
+          "zero_change": 0.11477938814291405,
+          "per_query": 0.07580119743212979,
+          "p8_calibrated": 0.10592948977244965
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-02-h1",
+        "family": "same_length_misses",
+        "queries": 1,
+        "delta_us": 74.27,
+        "fresh_us": 280.41949999999997,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 86.58277587445089,
+          "zero_change": 0.0,
+          "per_query": 18.726928571428573,
+          "p8_calibrated": 0.42428668753102783
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04390841533649013,
+          "zero_change": 0.2648531931623871,
+          "per_query": 0.19807135890539507,
+          "p8_calibrated": 0.2633401504263041
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-02-h4",
+        "family": "same_length_misses",
+        "queries": 4,
+        "delta_us": 355.7002142857143,
+        "fresh_us": 1031.0355,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 325.51356112813113,
+          "zero_change": 0.0,
+          "per_query": 74.90771428571429,
+          "p8_calibrated": 1.6971467501241113
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.029277995915352267,
+          "zero_change": 0.3449931784945468,
+          "per_query": 0.27234028314253006,
+          "p8_calibrated": 0.34334711805324863
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-02-h12",
+        "family": "same_length_misses",
+        "queries": 12,
+        "delta_us": 960.2715000000001,
+        "fresh_us": 2989.3154999999997,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 962.6623218046117,
+          "zero_change": 0.0,
+          "per_query": 224.72314285714288,
+          "p8_calibrated": 5.091440250372334
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0007997890502396349,
+          "zero_change": 0.3212345769457925,
+          "per_query": 0.24605912528900253,
+          "p8_calibrated": 0.31953136420348666
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-same_length_misses-02-h36",
+        "family": "same_length_misses",
+        "queries": 36,
+        "delta_us": 2648.247714285714,
+        "fresh_us": 9258.938142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 2874.1086038340536,
+          "zero_change": 0.0,
+          "per_query": 674.1694285714286,
+          "p8_calibrated": 15.274320751117003
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.02439382206290912,
+          "zero_change": 0.28602067250321994,
+          "per_query": 0.21320784902718015,
+          "p8_calibrated": 0.28437098865012056
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-00-h1",
+        "family": "revisions_copy_context",
+        "queries": 1,
+        "delta_us": 34.518357142857155,
+        "fresh_us": 135.48414285714284,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 47.33930613912569,
+          "zero_change": 0.0,
+          "per_query": 18.866678571428572,
+          "p8_calibrated": 4.587335793016951
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.09463062411508331,
+          "zero_change": 0.2547778390512755,
+          "per_query": 0.11552406238368443,
+          "p8_calibrated": 0.22091899995558936
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-00-h4",
+        "family": "revisions_copy_context",
+        "queries": 4,
+        "delta_us": 157.52821428571428,
+        "fresh_us": 364.70642857142855,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 165.22295942747746,
+          "zero_change": 0.0,
+          "per_query": 75.46671428571429,
+          "p8_calibrated": 24.31649000169561
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.021098463144463453,
+          "zero_change": 0.4319315535587332,
+          "per_query": 0.22500700171762417,
+          "p8_calibrated": 0.36525740663748374
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-00-h12",
+        "family": "revisions_copy_context",
+        "queries": 12,
+        "delta_us": 194.04699999999997,
+        "fresh_us": 998.7374285714286,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 179.0913958172181,
+          "zero_change": 0.0,
+          "per_query": 226.40014285714287,
+          "p8_calibrated": 13.593902845563512
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.014974510571986885,
+          "zero_change": 0.19429230791676688,
+          "per_query": 0.03239404264984852,
+          "p8_calibrated": 0.1806812201006149
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-00-h36",
+        "family": "revisions_copy_context",
+        "queries": 36,
+        "delta_us": 312.75342857142846,
+        "fresh_us": 2830.078285714286,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 215.05135065891628,
+          "zero_change": 0.0,
+          "per_query": 679.2004285714286,
+          "p8_calibrated": -18.646064596948143
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03452274744684424,
+          "zero_change": 0.11051052197041693,
+          "per_query": 0.1294829905765353,
+          "p8_calibrated": 0.1170990551184468
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-01-h1",
+        "family": "revisions_copy_context",
+        "queries": 1,
+        "delta_us": 48.749285714285705,
+        "fresh_us": 159.44042857142858,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 53.96229292358032,
+          "zero_change": 0.0,
+          "per_query": 18.866678571428572,
+          "p8_calibrated": 29.444242382232265
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03269564222827721,
+          "zero_change": 0.3057523499596355,
+          "per_query": 0.1874217688111009,
+          "p8_calibrated": 0.12107997642144364
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-01-h4",
+        "family": "revisions_copy_context",
+        "queries": 4,
+        "delta_us": 159.70228571428567,
+        "fresh_us": 532.9242142857142,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 202.66545618476258,
+          "zero_change": 0.0,
+          "per_query": 75.46671428571429,
+          "p8_calibrated": 161.02947624237984
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08061778639212527,
+          "zero_change": 0.2996716633120844,
+          "per_query": 0.15806294623237094,
+          "p8_calibrated": 0.0024903926159051152
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-01-h12",
+        "family": "revisions_copy_context",
+        "queries": 12,
+        "delta_us": 245.46921428571443,
+        "fresh_us": 1414.2287857142856,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 252.09465909204212,
+          "zero_change": 0.0,
+          "per_query": 226.40014285714287,
+          "p8_calibrated": 50.87926272938648
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0046848465207709475,
+          "zero_change": 0.17357107758327456,
+          "per_query": 0.013483724572145752,
+          "p8_calibrated": 0.13759439315757263
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-01-h36",
+        "family": "revisions_copy_context",
+        "queries": 36,
+        "delta_us": 301.52099999999973,
+        "fresh_us": 4326.563357142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 394.7405207776339,
+          "zero_change": 0.0,
+          "per_query": 679.2004285714286,
+          "p8_calibrated": -279.64358378370895
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.021545858244219437,
+          "zero_change": 0.06969064708187143,
+          "per_query": 0.08729316951938453,
+          "p8_calibrated": 0.13432475981756883
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-02-h1",
+        "family": "revisions_copy_context",
+        "queries": 1,
+        "delta_us": 86.23128571428569,
+        "fresh_us": 277.2231428571429,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 81.7228041604547,
+          "zero_change": 0.0,
+          "per_query": 18.866678571428572,
+          "p8_calibrated": 133.62618084725227
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.01626300570495399,
+          "zero_change": 0.3110537050606988,
+          "per_query": 0.24299777590203242,
+          "p8_calibrated": 0.17096298182215566
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-02-h4",
+        "family": "revisions_copy_context",
+        "queries": 4,
+        "delta_us": 361.0901428571429,
+        "fresh_us": 1057.8454285714288,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 360.8149823761134,
+          "zero_change": 0.0,
+          "per_query": 75.46671428571429,
+          "p8_calibrated": 533.7939458313109
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.00026011407110875694,
+          "zero_change": 0.34134490078080537,
+          "per_query": 0.2700048805402031,
+          "p8_calibrated": 0.16325996058554273
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-02-h12",
+        "family": "revisions_copy_context",
+        "queries": 12,
+        "delta_us": 806.9063571428571,
+        "fresh_us": 3173.9401428571427,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 1043.0012430721442,
+          "zero_change": 0.0,
+          "per_query": 226.40014285714287,
+          "p8_calibrated": 1401.7379601566688
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.07438542483562949,
+          "zero_change": 0.2542285994141306,
+          "per_query": 0.1828976565900671,
+          "p8_calibrated": 0.1874110966939507
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-revisions_copy_context-02-h36",
+        "family": "revisions_copy_context",
+        "queries": 36,
+        "delta_us": 2337.696642857143,
+        "fresh_us": 9483.584357142856,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 3014.781896625896,
+          "zero_change": 0.0,
+          "per_query": 679.2004285714286,
+          "p8_calibrated": 3806.2375140588515
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.07139550071685555,
+          "zero_change": 0.2464992723027169,
+          "per_query": 0.17488073620988742,
+          "p8_calibrated": 0.15485082600605868
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-00-h1",
+        "family": "scope_ambiguity",
+        "queries": 1,
+        "delta_us": 10.35821428571429,
+        "fresh_us": 96.20307142857143,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 10.36666518283771,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.05110566162989032
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 8.784435879155196e-05,
+          "zero_change": 0.10767030752656401,
+          "per_query": 0.16278363550911276,
+          "p8_calibrated": 0.10713908060344196
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-00-h4",
+        "family": "scope_ambiguity",
+        "queries": 4,
+        "delta_us": 28.711142857142846,
+        "fresh_us": 291.02778571428576,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 24.992241730708763,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.22997547733450643
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.012778508819378111,
+          "zero_change": 0.0986543012952371,
+          "per_query": 0.25895416466125354,
+          "p8_calibrated": 0.09786408301154276
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-00-h12",
+        "family": "scope_ambiguity",
+        "queries": 12,
+        "delta_us": 46.95021428571431,
+        "fresh_us": 860.8317857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 57.846992663222984,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 0.6388207703736289
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.012658429391599358,
+          "zero_change": 0.054540521231748886,
+          "per_query": 0.3081575170858418,
+          "p8_calibrated": 0.053798424133366815
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-00-h36",
+        "family": "scope_ambiguity",
+        "queries": 36,
+        "delta_us": 197.6678571428572,
+        "fresh_us": 2568.189714285714,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 161.00974763871582,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 1.916462311120887
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.014273910256796208,
+          "zero_change": 0.07696777852637503,
+          "per_query": 0.28775060453922857,
+          "p8_calibrated": 0.07622154770843333
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-01-h1",
+        "family": "scope_ambiguity",
+        "queries": 1,
+        "delta_us": 19.199857142857148,
+        "fresh_us": 100.99807142857142,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 10.367283194486046,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.05110566162989032
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08745289710425548,
+          "zero_change": 0.1901012254123665,
+          "per_query": 0.06751260455468384,
+          "p8_calibrated": 0.18959521910049318
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-01-h4",
+        "family": "scope_ambiguity",
+        "queries": 4,
+        "delta_us": 40.71528571428571,
+        "fresh_us": 303.7027857142857,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 24.994713777302106,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.22997547733450643
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.051763015278276175,
+          "zero_change": 0.13406293135746672,
+          "per_query": 0.20862078738164833,
+          "p8_calibrated": 0.13330569274079213
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-01-h12",
+        "family": "scope_ambiguity",
+        "queries": 12,
+        "delta_us": 83.27107142857142,
+        "fresh_us": 888.4043571428572,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 57.848228686519654,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 0.6388207703736289
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.02861629677708089,
+          "zero_change": 0.09373104798402206,
+          "per_query": 0.2577102720519558,
+          "p8_calibrated": 0.09301198265612554
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-01-h36",
+        "family": "scope_ambiguity",
+        "queries": 36,
+        "delta_us": 241.67807142857168,
+        "fresh_us": 2473.0434285714286,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 161.01345570860582,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 1.916462311120887
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.032617549205984774,
+          "zero_change": 0.09772496052290468,
+          "per_query": 0.2810253635428041,
+          "p8_calibrated": 0.09695001969939154
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-02-h1",
+        "family": "scope_ambiguity",
+        "queries": 1,
+        "delta_us": 18.253999999999998,
+        "fresh_us": 91.52907142857143,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 10.36666518283771,
+          "zero_change": 0.0,
+          "per_query": 26.018500000000003,
+          "p8_calibrated": 0.05110566162989032
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.08617300158362802,
+          "zero_change": 0.19943390351387183,
+          "per_query": 0.08483097095614436,
+          "p8_calibrated": 0.198875549093443
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-02-h4",
+        "family": "scope_ambiguity",
+        "queries": 4,
+        "delta_us": 14.48721428571426,
+        "fresh_us": 308.61199999999997,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 24.994095765653768,
+          "zero_change": 0.0,
+          "per_query": 104.07400000000001,
+          "p8_calibrated": 0.22997547733450643
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.03404560250391919,
+          "zero_change": 0.04694313340283029,
+          "per_query": 0.2902893786187373,
+          "p8_calibrated": 0.046197940483130126
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-02-h12",
+        "family": "scope_ambiguity",
+        "queries": 12,
+        "delta_us": 97.70242857142853,
+        "fresh_us": 828.9500714285714,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 57.85317277970634,
+          "zero_change": 0.0,
+          "per_query": 312.22200000000004,
+          "p8_calibrated": 0.6388207703736289
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0480719613462943,
+          "zero_change": 0.11786286284173064,
+          "per_query": 0.25878467090168544,
+          "p8_calibrated": 0.11709222442526641
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-scope_ambiguity-02-h36",
+        "family": "scope_ambiguity",
+        "queries": 36,
+        "delta_us": 29.683285714285603,
+        "fresh_us": 2787.2402857142856,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 161.02828798816589,
+          "zero_change": 0.0,
+          "per_query": 936.6660000000002,
+          "p8_calibrated": 1.916462311120887
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04712367388885545,
+          "zero_change": 0.010649704607968047,
+          "per_query": 0.32540528311619255,
+          "p8_calibrated": 0.009962120433419652
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h1",
+        "family": "integrity_unsupported_recovery",
+        "queries": 1,
+        "delta_us": 45.825714285714284,
+        "fresh_us": 98.50392857142857,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 46.511162328062085,
+          "zero_change": 0.0,
+          "per_query": 22.338883928571427,
+          "p8_calibrated": 3.6195900558585627
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0069585858380334445,
+          "zero_change": 0.4652171233199546,
+          "per_query": 0.23843546849110442,
+          "p8_calibrated": 0.42847148171608823
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h4",
+        "family": "integrity_unsupported_recovery",
+        "queries": 4,
+        "delta_us": 52.48842857142856,
+        "fresh_us": 183.65764285714283,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 47.835706338575775,
+          "zero_change": 0.0,
+          "per_query": 89.35553571428571,
+          "p8_calibrated": 2.7206351524333914
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.02533367063015111,
+          "zero_change": 0.28579495933232907,
+          "per_query": 0.20073821360940608,
+          "p8_calibrated": 0.2709813359507548
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h12",
+        "family": "integrity_unsupported_recovery",
+        "queries": 12,
+        "delta_us": 89.11207142857145,
+        "fresh_us": 503.5257857142857,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 53.46750691827487,
+          "zero_change": 0.0,
+          "per_query": 268.06660714285715,
+          "p8_calibrated": 0.04105803645451504
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.07078994864132397,
+          "zero_change": 0.1769761826639323,
+          "per_query": 0.3554029223357975,
+          "p8_calibrated": 0.17689464158377435
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-00-h36",
+        "family": "integrity_unsupported_recovery",
+        "queries": 36,
+        "delta_us": -20.588571428571413,
+        "fresh_us": 1339.0394285714287,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 70.71626684483087,
+          "zero_change": 0.0,
+          "per_query": 804.1998214285713,
+          "p8_calibrated": -8.913915809203923
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0681868183454553,
+          "zero_change": 0.015375627475388527,
+          "per_query": 0.6159552700677968,
+          "p8_calibrated": 0.008718679502830432
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h1",
+        "family": "integrity_unsupported_recovery",
+        "queries": 1,
+        "delta_us": 49.08057142857142,
+        "fresh_us": 124.71121428571428,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 54.315384006750826,
+          "zero_change": 0.0,
+          "per_query": 22.338883928571427,
+          "p8_calibrated": 31.063646001771247
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04197547596791428,
+          "zero_change": 0.39355379313465333,
+          "per_query": 0.21442889200593135,
+          "p8_calibrated": 0.14446916847047345
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h4",
+        "family": "integrity_unsupported_recovery",
+        "queries": 4,
+        "delta_us": 60.470357142857125,
+        "fresh_us": 321.32628571428575,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 60.513294238102304,
+          "zero_change": 0.0,
+          "per_query": 89.35553571428571,
+          "p8_calibrated": 16.442663125389736
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0001336245964121265,
+          "zero_change": 0.18818988620378743,
+          "per_query": 0.08989360614311045,
+          "p8_calibrated": 0.1370186504337699
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h12",
+        "family": "integrity_unsupported_recovery",
+        "queries": 12,
+        "delta_us": 73.58464285714291,
+        "fresh_us": 845.8143571428571,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 80.76519348031475,
+          "zero_change": 0.0,
+          "per_query": 268.06660714285715,
+          "p8_calibrated": -27.402997909458172
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.008489511395180836,
+          "zero_change": 0.08699857390185509,
+          "per_query": 0.22993457446462623,
+          "p8_calibrated": 0.11939693375238414
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-01-h36",
+        "family": "integrity_unsupported_recovery",
+        "queries": 36,
+        "delta_us": 110.44114285714295,
+        "fresh_us": 2642.6538571428573,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 146.74761561524855,
+          "zero_change": 0.0,
+          "per_query": 804.1998214285713,
+          "p8_calibrated": -173.57825148468004
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.013738641048267615,
+          "zero_change": 0.04179175511716391,
+          "per_query": 0.26252347680581045,
+          "p8_calibrated": 0.10747506472485753
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h1",
+        "family": "integrity_unsupported_recovery",
+        "queries": 1,
+        "delta_us": 80.24385714285715,
+        "fresh_us": 251.13864285714286,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 81.9765156288686,
+          "zero_change": 0.0,
+          "per_query": 22.338883928571427,
+          "p8_calibrated": 128.3063639203595
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.006899210994769318,
+          "zero_change": 0.31952015121982996,
+          "per_query": 0.23056974647754333,
+          "p8_calibrated": 0.1913783806056566
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h4",
+        "family": "integrity_unsupported_recovery",
+        "queries": 4,
+        "delta_us": 141.9809285714286,
+        "fresh_us": 706.9716428571428,
+        "material_label": "slowdown",
+        "predicted_delta_us": {
+          "trace_ridge": 105.44165980223521,
+          "zero_change": 0.0,
+          "per_query": 89.35553571428571,
+          "p8_calibrated": 65.06402208468386
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.05168420705181925,
+          "zero_change": 0.20082973625028205,
+          "per_query": 0.07443777043795356,
+          "p8_calibrated": 0.1087977251476369
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h12",
+        "family": "integrity_unsupported_recovery",
+        "queries": 12,
+        "delta_us": 72.95828571428581,
+        "fresh_us": 2270.406642857143,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 177.49526087049304,
+          "zero_change": 0.0,
+          "per_query": 268.06660714285715,
+          "p8_calibrated": -124.64571582804642
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.04604328281239302,
+          "zero_change": 0.03213445747431089,
+          "per_query": 0.08593540810955415,
+          "p8_calibrated": 0.08703462974970062
+        }
+      },
+      {
+        "stream_id": "cal-p9-holdout-integrity_unsupported_recovery-02-h36",
+        "family": "integrity_unsupported_recovery",
+        "queries": 36,
+        "delta_us": 459.07185714285697,
+        "fresh_us": 6755.666499999999,
+        "material_label": "unresolved",
+        "predicted_delta_us": {
+          "trace_ridge": 416.1500224255782,
+          "zero_change": 0.0,
+          "per_query": 804.1998214285713,
+          "p8_calibrated": -757.0345589962095
+        },
+        "normalized_absolute_error": {
+          "trace_ridge": 0.0063534567192265615,
+          "zero_change": 0.0679535997140855,
+          "per_query": 0.051087182039805314,
+          "p8_calibrated": 0.18001279609333387
+        }
+      }
+    ],
+    "boundary": "Each stream has equal weight. Denominator is observed marginal median fresh elapsed time; not a conversation-population estimate."
+  }
+}

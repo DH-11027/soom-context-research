@@ -1,0 +1,26 @@
+{
+  "baseline_commit": "0c08785fcee9ab146f33fa8a7d94a4b7700833aa",
+  "head_at_start": "0c08785fcee9ab146f33fa8a7d94a4b7700833aa",
+  "started_at_utc": "2026-10-22T13:24:15.985277+00:00",
+  "finished_at_utc": "2026-10-22T13:24:16.704777+00:00",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "temporary_evidence_directory": "/tmp/soom-phase09-verify-for-phase10-7cy3_6yc",
+  "new_timing_sessions": 0,
+  "new_phase10_holdout_opened": false,
+  "command_count": 5,
+  "all_exit_zero": true,
+  "eight_old_artifacts_rechecked_byte_identical": true,
+  "inherited_phase09_primary_receipt_sha256": "7405e839ede0d71af541a5d26eae65805ade815b221069c9ebf3b0527df7b994",
+  "inherited_phase09_reproduction_receipt_sha256": "1b20d3c21ffe166fd265d7693886d27b8009bf074faa90616c77028cf91561eb",
+  "phase09_freeze_sha256": "776b11146a962fff666ddbacbba6b07e2766d0789816de490ea441d911594fbc",
+  "artifacts_sha256": {
+    "command-01.json": "338af8fc286c0d7271006d2b49ae235bc7880c5b9fac0df8f5a4f732aead3e55",
+    "command-02.json": "9b6e345f6379779dd5d9b68965ace6c3258dc7005ba55e9e55b6bbca999f19ae",
+    "command-03.json": "68e17176f145b1bea6d020631981564ea195bf62fac0803f10e542ef5aa1440d",
+    "command-04.json": "5d9783c13f8c3f54e6c663745dca935a63544a1848011a0a5626948d590a4216",
+    "command-05.json": "756dfa95abd7e0bdb682de088d5e6da5a9c0d560c9724f63c332332d18177b53",
+    "deterministic_artifacts.json": "723aee2cf7ba166c9e6bd17f9fa16b6cda9e03b258f441d3ca34980da1f22b8c"
+  }
+}

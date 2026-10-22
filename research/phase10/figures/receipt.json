@@ -1,0 +1,14 @@
+{
+  "matplotlib": "3.10.8",
+  "source_hashes": {
+    "combined_results.json": "4aacedb91e326d63518353f169b3283e1a216d5fb7675be20231ebd6cd75004f",
+    "results/predictions.json": "db62c145df97d0426184fac031713cee8d571e9a80740b7effa15c81d8d83041",
+    "results/timing.json": "ff0da759daad155b6f24f32bc8d66ff0bbe3a74949c84f419a5b91b9edfa4e5e",
+    "reproduction_timing.json": "103af7d90fd0766dc154dd57ed398dd35027a4201d54f3d044c10059d32158d2"
+  },
+  "figure_hashes": {
+    "phase10_results.png": "fb8701bb136c3d016a3331aa20dd0af35e4c785ea9781f2e3a6a78191f3090fe",
+    "phase10_results.svg": "e06737dd14af558d3c8cd7663afce9f51f825a0c62b8f3796014608d93feb579"
+  },
+  "boundary": "Postfreeze descriptive figure only. No new timing, fitting, or inference."
+}

@@ -1,0 +1,1755 @@
+{
+  "seed": 2026102210,
+  "families": 12,
+  "streams": 48,
+  "parameters_per_family": 4,
+  "horizons_per_family": [
+    2,
+    8,
+    24,
+    64
+  ],
+  "steps": 1176,
+  "valid_steps": 1148,
+  "invalid_steps": 28,
+  "gold_applicable_steps": 1128,
+  "unsupported_questions": 17,
+  "valid_supported_steps": 1131,
+  "gold_supported_steps": 1111,
+  "excluded_entity_membership_undefined": 20,
+  "excluded_invalid_snapshot": 28,
+  "schema_and_typed_plan_checks": "passed",
+  "selector_evaluated": false,
+  "trace_model_or_calibration_read": false,
+  "raw_length_bands_bytes": [
+    [
+      850,
+      2100
+    ],
+    [
+      7000,
+      19000
+    ],
+    [
+      48000,
+      63000
+    ],
+    [
+      68000,
+      83000
+    ]
+  ],
+  "unicode_styles": [
+    "ascii",
+    "hangul",
+    "emoji",
+    "mixed"
+  ],
+  "horizon_band_design_stream_counts": [
+    {
+      "horizon": 2,
+      "band": 0,
+      "streams": 3
+    },
+    {
+      "horizon": 2,
+      "band": 1,
+      "streams": 3
+    },
+    {
+      "horizon": 2,
+      "band": 2,
+      "streams": 3
+    },
+    {
+      "horizon": 2,
+      "band": 3,
+      "streams": 3
+    },
+    {
+      "horizon": 8,
+      "band": 0,
+      "streams": 3
+    },
+    {
+      "horizon": 8,
+      "band": 1,
+      "streams": 3
+    },
+    {
+      "horizon": 8,
+      "band": 2,
+      "streams": 3
+    },
+    {
+      "horizon": 8,
+      "band": 3,
+      "streams": 3
+    },
+    {
+      "horizon": 24,
+      "band": 0,
+      "streams": 3
+    },
+    {
+      "horizon": 24,
+      "band": 1,
+      "streams": 3
+    },
+    {
+      "horizon": 24,
+      "band": 2,
+      "streams": 3
+    },
+    {
+      "horizon": 24,
+      "band": 3,
+      "streams": 3
+    },
+    {
+      "horizon": 64,
+      "band": 0,
+      "streams": 3
+    },
+    {
+      "horizon": 64,
+      "band": 1,
+      "streams": 3
+    },
+    {
+      "horizon": 64,
+      "band": 2,
+      "streams": 3
+    },
+    {
+      "horizon": 64,
+      "band": 3,
+      "streams": 3
+    }
+  ],
+  "record_occurrences": 10370,
+  "record_bytes_min_max": [
+    45,
+    77287
+  ],
+  "record_characters_min_max": [
+    19,
+    71109
+  ],
+  "raw_bytes_sum_over_steps": 41147526,
+  "valid_unique_raw_histories": 518,
+  "exact_typed_arrays_gold_applicable": 346,
+  "exact_public_and_namespace": 927,
+  "family_distribution": {
+    "short_repeated": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 68512,
+      "raw_bytes_max": 230,
+      "raw_characters_max": 188,
+      "valid_raw_histories": 4,
+      "gold_typed_arrays": 4
+    },
+    "short_churn": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 124169,
+      "raw_bytes_max": 235,
+      "raw_characters_max": 205,
+      "valid_raw_histories": 98,
+      "gold_typed_arrays": 98
+    },
+    "long_cheap": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 1785414,
+      "raw_bytes_max": 71139,
+      "raw_characters_max": 71109,
+      "valid_raw_histories": 17,
+      "gold_typed_arrays": 17
+    },
+    "long_deep_repeat": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 3844768,
+      "raw_bytes_max": 70653,
+      "raw_characters_max": 51951,
+      "valid_raw_histories": 17,
+      "gold_typed_arrays": 17
+    },
+    "long_deep_churn": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 6080748,
+      "raw_bytes_max": 70268,
+      "raw_characters_max": 60722,
+      "valid_raw_histories": 98,
+      "gold_typed_arrays": 17
+    },
+    "fit_working_set": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 3106168,
+      "raw_bytes_max": 11345,
+      "raw_characters_max": 11303,
+      "valid_raw_histories": 11,
+      "gold_typed_arrays": 4
+    },
+    "pressure_working_set": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 9432834,
+      "raw_bytes_max": 38524,
+      "raw_characters_max": 33091,
+      "valid_raw_histories": 10,
+      "gold_typed_arrays": 4
+    },
+    "phase_shift": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 4376468,
+      "raw_bytes_max": 69951,
+      "raw_characters_max": 51441,
+      "valid_raw_histories": 50,
+      "gold_typed_arrays": 11
+    },
+    "same_length_misses": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 5813714,
+      "raw_bytes_max": 70384,
+      "raw_characters_max": 49899,
+      "valid_raw_histories": 23,
+      "gold_typed_arrays": 4
+    },
+    "revisions_copy_context": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 2396288,
+      "raw_bytes_max": 77177,
+      "raw_characters_max": 45299,
+      "valid_raw_histories": 98,
+      "gold_typed_arrays": 78
+    },
+    "scope_ambiguity": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 49808,
+      "raw_bytes_max": 81,
+      "raw_characters_max": 33,
+      "valid_raw_histories": 84,
+      "gold_typed_arrays": 84
+    },
+    "integrity_unsupported_recovery": {
+      "streams": 4,
+      "horizons": [
+        2,
+        8,
+        24,
+        64
+      ],
+      "steps": 98,
+      "raw_bytes_sum_over_steps": 4068635,
+      "raw_bytes_max": 77287,
+      "raw_characters_max": 56829,
+      "valid_raw_histories": 8,
+      "gold_typed_arrays": 8
+    }
+  },
+  "stream_distribution": [
+    {
+      "id": "p10-holdout-short_repeated-00",
+      "family": "short_repeated",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": null,
+      "record_occurrences": 20,
+      "record_bytes_min_max": [
+        46,
+        230
+      ],
+      "record_characters_min_max": [
+        19,
+        188
+      ],
+      "raw_bytes_sum_over_steps": 1400,
+      "max_noop_raw_bytes_per_history": 230
+    },
+    {
+      "id": "p10-holdout-short_repeated-01",
+      "family": "short_repeated",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": null,
+      "record_occurrences": 80,
+      "record_bytes_min_max": [
+        46,
+        230
+      ],
+      "record_characters_min_max": [
+        19,
+        188
+      ],
+      "raw_bytes_sum_over_steps": 5600,
+      "max_noop_raw_bytes_per_history": 230
+    },
+    {
+      "id": "p10-holdout-short_repeated-02",
+      "family": "short_repeated",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": null,
+      "record_occurrences": 240,
+      "record_bytes_min_max": [
+        46,
+        230
+      ],
+      "record_characters_min_max": [
+        19,
+        188
+      ],
+      "raw_bytes_sum_over_steps": 16776,
+      "max_noop_raw_bytes_per_history": 230
+    },
+    {
+      "id": "p10-holdout-short_repeated-03",
+      "family": "short_repeated",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": null,
+      "record_occurrences": 640,
+      "record_bytes_min_max": [
+        46,
+        230
+      ],
+      "record_characters_min_max": [
+        19,
+        188
+      ],
+      "raw_bytes_sum_over_steps": 44736,
+      "max_noop_raw_bytes_per_history": 230
+    },
+    {
+      "id": "p10-holdout-short_churn-00",
+      "family": "short_churn",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": null,
+      "record_occurrences": 21,
+      "record_bytes_min_max": [
+        46,
+        220
+      ],
+      "record_characters_min_max": [
+        19,
+        168
+      ],
+      "raw_bytes_sum_over_steps": 1943,
+      "max_noop_raw_bytes_per_history": 645
+    },
+    {
+      "id": "p10-holdout-short_churn-01",
+      "family": "short_churn",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": null,
+      "record_occurrences": 91,
+      "record_bytes_min_max": [
+        45,
+        235
+      ],
+      "record_characters_min_max": [
+        19,
+        200
+      ],
+      "raw_bytes_sum_over_steps": 9635,
+      "max_noop_raw_bytes_per_history": 1335
+    },
+    {
+      "id": "p10-holdout-short_churn-02",
+      "family": "short_churn",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": null,
+      "record_occurrences": 278,
+      "record_bytes_min_max": [
+        45,
+        235
+      ],
+      "record_characters_min_max": [
+        19,
+        193
+      ],
+      "raw_bytes_sum_over_steps": 30455,
+      "max_noop_raw_bytes_per_history": 1335
+    },
+    {
+      "id": "p10-holdout-short_churn-03",
+      "family": "short_churn",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": null,
+      "record_occurrences": 746,
+      "record_bytes_min_max": [
+        45,
+        235
+      ],
+      "record_characters_min_max": [
+        19,
+        205
+      ],
+      "raw_bytes_sum_over_steps": 82136,
+      "max_noop_raw_bytes_per_history": 1335
+    },
+    {
+      "id": "p10-holdout-long_cheap-00",
+      "family": "long_cheap",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 55232,
+        "quote_lengths": [
+          55232
+        ]
+      },
+      "record_occurrences": 18,
+      "record_bytes_min_max": [
+        46,
+        55232
+      ],
+      "record_characters_min_max": [
+        19,
+        36389
+      ],
+      "raw_bytes_sum_over_steps": 111310,
+      "max_noop_raw_bytes_per_history": 55232
+    },
+    {
+      "id": "p10-holdout-long_cheap-01",
+      "family": "long_cheap",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 71139,
+        "quote_lengths": [
+          71139
+        ]
+      },
+      "record_occurrences": 72,
+      "record_bytes_min_max": [
+        46,
+        71139
+      ],
+      "record_characters_min_max": [
+        19,
+        71109
+      ],
+      "raw_bytes_sum_over_steps": 572472,
+      "max_noop_raw_bytes_per_history": 71139
+    },
+    {
+      "id": "p10-holdout-long_cheap-02",
+      "family": "long_cheap",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 1371,
+        "quote_lengths": [
+          1371
+        ]
+      },
+      "record_occurrences": 216,
+      "record_bytes_min_max": [
+        45,
+        1371
+      ],
+      "record_characters_min_max": [
+        19,
+        891
+      ],
+      "raw_bytes_sum_over_steps": 43008,
+      "max_noop_raw_bytes_per_history": 1371
+    },
+    {
+      "id": "p10-holdout-long_cheap-03",
+      "family": "long_cheap",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 16118,
+        "quote_lengths": [
+          16118
+        ]
+      },
+      "record_occurrences": 576,
+      "record_bytes_min_max": [
+        46,
+        16118
+      ],
+      "record_characters_min_max": [
+        19,
+        16088
+      ],
+      "raw_bytes_sum_over_steps": 1058624,
+      "max_noop_raw_bytes_per_history": 16118
+    },
+    {
+      "id": "p10-holdout-long_deep_repeat-00",
+      "family": "long_deep_repeat",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 70653,
+        "quote_lengths": [
+          70653
+        ]
+      },
+      "record_occurrences": 18,
+      "record_bytes_min_max": [
+        46,
+        70653
+      ],
+      "record_characters_min_max": [
+        19,
+        51951
+      ],
+      "raw_bytes_sum_over_steps": 142152,
+      "max_noop_raw_bytes_per_history": 70653
+    },
+    {
+      "id": "p10-holdout-long_deep_repeat-01",
+      "family": "long_deep_repeat",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 2083,
+        "quote_lengths": [
+          2083
+        ]
+      },
+      "record_occurrences": 72,
+      "record_bytes_min_max": [
+        46,
+        2083
+      ],
+      "record_characters_min_max": [
+        19,
+        1197
+      ],
+      "raw_bytes_sum_over_steps": 20024,
+      "max_noop_raw_bytes_per_history": 2083
+    },
+    {
+      "id": "p10-holdout-long_deep_repeat-02",
+      "family": "long_deep_repeat",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 13277,
+        "quote_lengths": [
+          13277
+        ]
+      },
+      "record_occurrences": 216,
+      "record_bytes_min_max": [
+        46,
+        13277
+      ],
+      "record_characters_min_max": [
+        19,
+        9743
+      ],
+      "raw_bytes_sum_over_steps": 328800,
+      "max_noop_raw_bytes_per_history": 13277
+    },
+    {
+      "id": "p10-holdout-long_deep_repeat-03",
+      "family": "long_deep_repeat",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 51980,
+        "quote_lengths": [
+          51980
+        ]
+      },
+      "record_occurrences": 576,
+      "record_bytes_min_max": [
+        46,
+        51980
+      ],
+      "record_characters_min_max": [
+        19,
+        30500
+      ],
+      "raw_bytes_sum_over_steps": 3353792,
+      "max_noop_raw_bytes_per_history": 51980
+    },
+    {
+      "id": "p10-holdout-long_deep_churn-00",
+      "family": "long_deep_churn",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": {
+        "quote_pool_count": 2,
+        "simultaneous_quote_raw_bytes": 2019,
+        "quote_lengths": [
+          2019
+        ]
+      },
+      "record_occurrences": 18,
+      "record_bytes_min_max": [
+        46,
+        2019
+      ],
+      "record_characters_min_max": [
+        19,
+        1977
+      ],
+      "raw_bytes_sum_over_steps": 4884,
+      "max_noop_raw_bytes_per_history": 2019
+    },
+    {
+      "id": "p10-holdout-long_deep_churn-01",
+      "family": "long_deep_churn",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": {
+        "quote_pool_count": 8,
+        "simultaneous_quote_raw_bytes": 9986,
+        "quote_lengths": [
+          9986
+        ]
+      },
+      "record_occurrences": 72,
+      "record_bytes_min_max": [
+        46,
+        9986
+      ],
+      "record_characters_min_max": [
+        19,
+        6560
+      ],
+      "raw_bytes_sum_over_steps": 83240,
+      "max_noop_raw_bytes_per_history": 9986
+    },
+    {
+      "id": "p10-holdout-long_deep_churn-02",
+      "family": "long_deep_churn",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": {
+        "quote_pool_count": 24,
+        "simultaneous_quote_raw_bytes": 60764,
+        "quote_lengths": [
+          60764
+        ]
+      },
+      "record_occurrences": 216,
+      "record_bytes_min_max": [
+        46,
+        60764
+      ],
+      "record_characters_min_max": [
+        19,
+        60722
+      ],
+      "raw_bytes_sum_over_steps": 1468464,
+      "max_noop_raw_bytes_per_history": 60764
+    },
+    {
+      "id": "p10-holdout-long_deep_churn-03",
+      "family": "long_deep_churn",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": {
+        "quote_pool_count": 64,
+        "simultaneous_quote_raw_bytes": 70268,
+        "quote_lengths": [
+          70268
+        ]
+      },
+      "record_occurrences": 576,
+      "record_bytes_min_max": [
+        46,
+        70268
+      ],
+      "record_characters_min_max": [
+        19,
+        46289
+      ],
+      "raw_bytes_sum_over_steps": 4524160,
+      "max_noop_raw_bytes_per_history": 70268
+    },
+    {
+      "id": "p10-holdout-fit_working_set-00",
+      "family": "fit_working_set",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 3,
+        "simultaneous_quote_raw_bytes": 32194,
+        "quote_lengths": [
+          11345,
+          10731,
+          10118
+        ]
+      },
+      "record_occurrences": 18,
+      "record_bytes_min_max": [
+        46,
+        11345
+      ],
+      "record_characters_min_max": [
+        19,
+        11303
+      ],
+      "raw_bytes_sum_over_steps": 65000,
+      "max_noop_raw_bytes_per_history": 32194
+    },
+    {
+      "id": "p10-holdout-fit_working_set-01",
+      "family": "fit_working_set",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 4,
+        "simultaneous_quote_raw_bytes": 41768,
+        "quote_lengths": [
+          11084,
+          10442,
+          10442,
+          9800
+        ]
+      },
+      "record_occurrences": 80,
+      "record_bytes_min_max": [
+        46,
+        11084
+      ],
+      "record_characters_min_max": [
+        19,
+        9758
+      ],
+      "raw_bytes_sum_over_steps": 336576,
+      "max_noop_raw_bytes_per_history": 41768
+    },
+    {
+      "id": "p10-holdout-fit_working_set-02",
+      "family": "fit_working_set",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 6,
+        "simultaneous_quote_raw_bytes": 56100,
+        "quote_lengths": [
+          10021,
+          9350,
+          9350,
+          9350,
+          9350,
+          8679
+        ]
+      },
+      "record_occurrences": 288,
+      "record_bytes_min_max": [
+        46,
+        10021
+      ],
+      "record_characters_min_max": [
+        19,
+        9308
+      ],
+      "raw_bytes_sum_over_steps": 1353744,
+      "max_noop_raw_bytes_per_history": 56100
+    },
+    {
+      "id": "p10-holdout-fit_working_set-03",
+      "family": "fit_working_set",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 2,
+        "simultaneous_quote_raw_bytes": 20800,
+        "quote_lengths": [
+          11100,
+          9700
+        ]
+      },
+      "record_occurrences": 512,
+      "record_bytes_min_max": [
+        46,
+        11100
+      ],
+      "record_characters_min_max": [
+        19,
+        9658
+      ],
+      "raw_bytes_sum_over_steps": 1350848,
+      "max_noop_raw_bytes_per_history": 20800
+    },
+    {
+      "id": "p10-holdout-pressure_working_set-00",
+      "family": "pressure_working_set",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": {
+        "quote_pool_count": 4,
+        "simultaneous_quote_raw_bytes": 112834,
+        "quote_lengths": [
+          28822,
+          28209,
+          28208,
+          27595
+        ]
+      },
+      "record_occurrences": 20,
+      "record_bytes_min_max": [
+        46,
+        28822
+      ],
+      "record_characters_min_max": [
+        19,
+        28780
+      ],
+      "raw_bytes_sum_over_steps": 226282,
+      "max_noop_raw_bytes_per_history": 112834
+    },
+    {
+      "id": "p10-holdout-pressure_working_set-01",
+      "family": "pressure_working_set",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": {
+        "quote_pool_count": 6,
+        "simultaneous_quote_raw_bytes": 124847,
+        "quote_lengths": [
+          21450,
+          20808,
+          20808,
+          20808,
+          20808,
+          20165
+        ]
+      },
+      "record_occurrences": 96,
+      "record_bytes_min_max": [
+        46,
+        21450
+      ],
+      "record_characters_min_max": [
+        19,
+        20766
+      ],
+      "raw_bytes_sum_over_steps": 1001208,
+      "max_noop_raw_bytes_per_history": 124847
+    },
+    {
+      "id": "p10-holdout-pressure_working_set-02",
+      "family": "pressure_working_set",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": {
+        "quote_pool_count": 2,
+        "simultaneous_quote_raw_bytes": 75705,
+        "quote_lengths": [
+          38524,
+          37181
+        ]
+      },
+      "record_occurrences": 192,
+      "record_bytes_min_max": [
+        46,
+        38524
+      ],
+      "record_characters_min_max": [
+        19,
+        27333
+      ],
+      "raw_bytes_sum_over_steps": 1824288,
+      "max_noop_raw_bytes_per_history": 75705
+    },
+    {
+      "id": "p10-holdout-pressure_working_set-03",
+      "family": "pressure_working_set",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": {
+        "quote_pool_count": 3,
+        "simultaneous_quote_raw_bytes": 99398,
+        "quote_lengths": [
+          33833,
+          33133,
+          32432
+        ]
+      },
+      "record_occurrences": 576,
+      "record_bytes_min_max": [
+        46,
+        33833
+      ],
+      "record_characters_min_max": [
+        19,
+        33091
+      ],
+      "raw_bytes_sum_over_steps": 6381056,
+      "max_noop_raw_bytes_per_history": 99398
+    },
+    {
+      "id": "p10-holdout-phase_shift-00",
+      "family": "phase_shift",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 2,
+        "simultaneous_quote_raw_bytes": 69951,
+        "quote_lengths": [
+          69951
+        ]
+      },
+      "record_occurrences": 14,
+      "record_bytes_min_max": [
+        46,
+        69951
+      ],
+      "record_characters_min_max": [
+        19,
+        51441
+      ],
+      "raw_bytes_sum_over_steps": 140516,
+      "max_noop_raw_bytes_per_history": 69951
+    },
+    {
+      "id": "p10-holdout-phase_shift-01",
+      "family": "phase_shift",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 4,
+        "simultaneous_quote_raw_bytes": 906,
+        "quote_lengths": [
+          906
+        ]
+      },
+      "record_occurrences": 56,
+      "record_bytes_min_max": [
+        45,
+        906
+      ],
+      "record_characters_min_max": [
+        19,
+        516
+      ],
+      "raw_bytes_sum_over_steps": 9664,
+      "max_noop_raw_bytes_per_history": 906
+    },
+    {
+      "id": "p10-holdout-phase_shift-02",
+      "family": "phase_shift",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 9,
+        "simultaneous_quote_raw_bytes": 16320,
+        "quote_lengths": [
+          16320
+        ]
+      },
+      "record_occurrences": 168,
+      "record_bytes_min_max": [
+        46,
+        16320
+      ],
+      "record_characters_min_max": [
+        19,
+        11974
+      ],
+      "raw_bytes_sum_over_steps": 399024,
+      "max_noop_raw_bytes_per_history": 16320
+    },
+    {
+      "id": "p10-holdout-phase_shift-03",
+      "family": "phase_shift",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 23,
+        "simultaneous_quote_raw_bytes": 59494,
+        "quote_lengths": [
+          59494
+        ]
+      },
+      "record_occurrences": 448,
+      "record_bytes_min_max": [
+        46,
+        59494
+      ],
+      "record_characters_min_max": [
+        19,
+        34926
+      ],
+      "raw_bytes_sum_over_steps": 3827264,
+      "max_noop_raw_bytes_per_history": 59494
+    },
+    {
+      "id": "p10-holdout-same_length_misses-00",
+      "family": "same_length_misses",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": {
+        "quote_pool_count": 7,
+        "simultaneous_quote_raw_bytes": 1351,
+        "potential_quote_pool_raw_bytes": 9457,
+        "quote_lengths": [
+          1351,
+          1351,
+          1351,
+          1351,
+          1351,
+          1351,
+          1351
+        ]
+      },
+      "record_occurrences": 14,
+      "record_bytes_min_max": [
+        46,
+        1351
+      ],
+      "record_characters_min_max": [
+        19,
+        1309
+      ],
+      "raw_bytes_sum_over_steps": 3314,
+      "max_noop_raw_bytes_per_history": 1351
+    },
+    {
+      "id": "p10-holdout-same_length_misses-01",
+      "family": "same_length_misses",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": {
+        "quote_pool_count": 7,
+        "simultaneous_quote_raw_bytes": 9747,
+        "potential_quote_pool_raw_bytes": 68229,
+        "quote_lengths": [
+          9747,
+          9747,
+          9747,
+          9747,
+          9747,
+          9747,
+          9747
+        ]
+      },
+      "record_occurrences": 56,
+      "record_bytes_min_max": [
+        46,
+        9747
+      ],
+      "record_characters_min_max": [
+        19,
+        6390
+      ],
+      "raw_bytes_sum_over_steps": 80400,
+      "max_noop_raw_bytes_per_history": 9747
+    },
+    {
+      "id": "p10-holdout-same_length_misses-02",
+      "family": "same_length_misses",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": {
+        "quote_pool_count": 7,
+        "simultaneous_quote_raw_bytes": 49941,
+        "potential_quote_pool_raw_bytes": 349587,
+        "quote_lengths": [
+          49941,
+          49941,
+          49941,
+          49941,
+          49941,
+          49941,
+          49941
+        ]
+      },
+      "record_occurrences": 168,
+      "record_bytes_min_max": [
+        45,
+        49941
+      ],
+      "record_characters_min_max": [
+        19,
+        49899
+      ],
+      "raw_bytes_sum_over_steps": 1205904,
+      "max_noop_raw_bytes_per_history": 49941
+    },
+    {
+      "id": "p10-holdout-same_length_misses-03",
+      "family": "same_length_misses",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": {
+        "quote_pool_count": 7,
+        "simultaneous_quote_raw_bytes": 70384,
+        "potential_quote_pool_raw_bytes": 492688,
+        "quote_lengths": [
+          70384,
+          70384,
+          70384,
+          70384,
+          70384,
+          70384,
+          70384
+        ]
+      },
+      "record_occurrences": 448,
+      "record_bytes_min_max": [
+        45,
+        70384
+      ],
+      "record_characters_min_max": [
+        19,
+        46372
+      ],
+      "raw_bytes_sum_over_steps": 4524096,
+      "max_noop_raw_bytes_per_history": 70384
+    },
+    {
+      "id": "p10-holdout-revisions_copy_context-00",
+      "family": "revisions_copy_context",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 10448,
+        "quote_lengths": [
+          10448
+        ]
+      },
+      "record_occurrences": 18,
+      "record_bytes_min_max": [
+        46,
+        10448
+      ],
+      "record_characters_min_max": [
+        19,
+        6112
+      ],
+      "raw_bytes_sum_over_steps": 21745,
+      "max_noop_raw_bytes_per_history": 10448
+    },
+    {
+      "id": "p10-holdout-revisions_copy_context-01",
+      "family": "revisions_copy_context",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 50936,
+        "quote_lengths": [
+          50936
+        ]
+      },
+      "record_occurrences": 70,
+      "record_bytes_min_max": [
+        46,
+        50936
+      ],
+      "record_characters_min_max": [
+        19,
+        37444
+      ],
+      "raw_bytes_sum_over_steps": 410731,
+      "max_noop_raw_bytes_per_history": 50936
+    },
+    {
+      "id": "p10-holdout-revisions_copy_context-02",
+      "family": "revisions_copy_context",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 77177,
+        "quote_lengths": [
+          77177
+        ]
+      },
+      "record_occurrences": 208,
+      "record_bytes_min_max": [
+        46,
+        77177
+      ],
+      "record_characters_min_max": [
+        19,
+        45299
+      ],
+      "raw_bytes_sum_over_steps": 1861918,
+      "max_noop_raw_bytes_per_history": 77177
+    },
+    {
+      "id": "p10-holdout-revisions_copy_context-03",
+      "family": "revisions_copy_context",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 1190,
+        "quote_lengths": [
+          1190
+        ]
+      },
+      "record_occurrences": 555,
+      "record_bytes_min_max": [
+        45,
+        1190
+      ],
+      "record_characters_min_max": [
+        19,
+        850
+      ],
+      "raw_bytes_sum_over_steps": 101894,
+      "max_noop_raw_bytes_per_history": 1190
+    },
+    {
+      "id": "p10-holdout-scope_ambiguity-00",
+      "family": "scope_ambiguity",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": null,
+      "record_occurrences": 16,
+      "record_bytes_min_max": [
+        46,
+        81
+      ],
+      "record_characters_min_max": [
+        19,
+        33
+      ],
+      "raw_bytes_sum_over_steps": 925,
+      "max_noop_raw_bytes_per_history": 0
+    },
+    {
+      "id": "p10-holdout-scope_ambiguity-01",
+      "family": "scope_ambiguity",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": null,
+      "record_occurrences": 71,
+      "record_bytes_min_max": [
+        46,
+        81
+      ],
+      "record_characters_min_max": [
+        19,
+        33
+      ],
+      "raw_bytes_sum_over_steps": 4046,
+      "max_noop_raw_bytes_per_history": 0
+    },
+    {
+      "id": "p10-holdout-scope_ambiguity-02",
+      "family": "scope_ambiguity",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "emoji",
+      "working_set": null,
+      "record_occurrences": 213,
+      "record_bytes_min_max": [
+        46,
+        81
+      ],
+      "record_characters_min_max": [
+        19,
+        33
+      ],
+      "raw_bytes_sum_over_steps": 12226,
+      "max_noop_raw_bytes_per_history": 0
+    },
+    {
+      "id": "p10-holdout-scope_ambiguity-03",
+      "family": "scope_ambiguity",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "ascii",
+      "working_set": null,
+      "record_occurrences": 568,
+      "record_bytes_min_max": [
+        46,
+        81
+      ],
+      "record_characters_min_max": [
+        19,
+        33
+      ],
+      "raw_bytes_sum_over_steps": 32611,
+      "max_noop_raw_bytes_per_history": 0
+    },
+    {
+      "id": "p10-holdout-integrity_unsupported_recovery-00",
+      "family": "integrity_unsupported_recovery",
+      "parameter": 0,
+      "horizon": 2,
+      "raw_length_band_index": 3,
+      "raw_length_band": [
+        68000,
+        83000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 77287,
+        "quote_lengths": [
+          77287
+        ]
+      },
+      "record_occurrences": 15,
+      "record_bytes_min_max": [
+        46,
+        77287
+      ],
+      "record_characters_min_max": [
+        19,
+        56829
+      ],
+      "raw_bytes_sum_over_steps": 155237,
+      "max_noop_raw_bytes_per_history": 77287
+    },
+    {
+      "id": "p10-holdout-integrity_unsupported_recovery-01",
+      "family": "integrity_unsupported_recovery",
+      "parameter": 1,
+      "horizon": 8,
+      "raw_length_band_index": 0,
+      "raw_length_band": [
+        850,
+        2100
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 1678,
+        "quote_lengths": [
+          1678
+        ]
+      },
+      "record_occurrences": 60,
+      "record_bytes_min_max": [
+        46,
+        1678
+      ],
+      "record_characters_min_max": [
+        19,
+        966
+      ],
+      "raw_bytes_sum_over_steps": 16066,
+      "max_noop_raw_bytes_per_history": 1678
+    },
+    {
+      "id": "p10-holdout-integrity_unsupported_recovery-02",
+      "family": "integrity_unsupported_recovery",
+      "parameter": 2,
+      "horizon": 24,
+      "raw_length_band_index": 1,
+      "raw_length_band": [
+        7000,
+        19000
+      ],
+      "primary_unicode_style": "mixed",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 13975,
+        "quote_lengths": [
+          13975
+        ]
+      },
+      "record_occurrences": 180,
+      "record_bytes_min_max": [
+        45,
+        13975
+      ],
+      "record_characters_min_max": [
+        19,
+        10253
+      ],
+      "raw_bytes_sum_over_steps": 343360,
+      "max_noop_raw_bytes_per_history": 13975
+    },
+    {
+      "id": "p10-holdout-integrity_unsupported_recovery-03",
+      "family": "integrity_unsupported_recovery",
+      "parameter": 3,
+      "horizon": 64,
+      "raw_length_band_index": 2,
+      "raw_length_band": [
+        48000,
+        63000
+      ],
+      "primary_unicode_style": "hangul",
+      "working_set": {
+        "quote_pool_count": 1,
+        "simultaneous_quote_raw_bytes": 55197,
+        "quote_lengths": [
+          55197
+        ]
+      },
+      "record_occurrences": 480,
+      "record_bytes_min_max": [
+        46,
+        55197
+      ],
+      "record_characters_min_max": [
+        19,
+        32405
+      ],
+      "raw_bytes_sum_over_steps": 3553972,
+      "max_noop_raw_bytes_per_history": 55197
+    }
+  ],
+  "authorship": "same-model separate data author; shared public grammar/design and Phase09 history; not external blind data",
+  "semantic_boundary": "long payloads are controlled-grammar noop; no new natural-language or execution-evidence ability",
+  "identity_boundary": "exact canonical JSON identities, not independent programs or semantic equivalence classes",
+  "data_file": "data/holdout.json.gz",
+  "data_bytes": 805628,
+  "data_sha256": "e1cca1bad32e230ac9cc9dc667533ab9c49cf1ee96fb7669bf76823cb94660b5",
+  "uncompressed_data_bytes": 45779143,
+  "uncompressed_data_sha256": "53380abc1d54d0be127f699b30b0320393482863b60f1e4acd581cad14480e5f",
+  "compression": "gzip level=9 filename='' mtime=0",
+  "builder_sha256": "ab2eb58254333f7b406d3504c8866c304237ed163c6c6ac678361a796334bd0f"
+}
