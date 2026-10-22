@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-10-22T11:19:06.451193+00:00",
+  "baseline_commit": "6da051c0132811184ecf39975d7ff647a1f47842",
+  "checkpoint_commit": "55714fd4e9b690309805767d17b48b22b4630891",
+  "checkpoint_tree": "f2602622899b4949859882c42a11eb348afb3406",
+  "seed": 2026102208,
+  "boundary": "Local freeze before root opens new Phase08 raw data/labels/builder; same model with shared public design; not external preregistration",
+  "primary_metric": "P8=P7+8*control_actions; aggregate cold-start selective versus frozen fresh",
+  "hashes": {
+    "frozen.py": "cff396a3c06e8065434d57edbbfb86a888b84d5eb094f2b97e369c1c3026e9bf",
+    "runtime.py": "d923f5f1a0012b5f70348ed4cfdd376791ac6e12b1af3ed7b663e4aab674de13",
+    "evaluation.py": "e173c1bde61dd7913fe4d943f6e7a300ec0f9a3d6c0e7128552612bf89443291",
+    "development.py": "d1cff89a41544bcebc01e232e1676f0d9a20e65ad8d0f283a6988b896b92bc5f",
+    "audit.py": "6513991cb0849ca0830cdb7bc8efea3d811bac49d7ada9edc4a68d3ad5361ce9",
+    "run_study.py": "c46b9202c2ed935230d50c7b31589e66624c4cc56442c392bffd2c053a139f73",
+    "PROTOCOL.md": "bae69c57ab12f77960868625474203edadbc74de7e1d6da6e0edd12821a1a952",
+    "THEORY.md": "e436b7658c460decd33985ec080a91075733bce303a127a9ac0d733a54c36d79",
+    "MATH_REVIEW.md": "4e0996b49a4088a9f4a3aee479b41700f919f68c93e137ae834e5a2c30f1d572",
+    "EVALUATOR_REVIEW.md": "2ef515be786026de7e3e3a112cf664123bcdef2892b5805a04a055a268f3c0a2",
+    "data/development.json": "058f9421d0bb62572af615e2b6a70d366ab6587a3a5464d4446af0c32698c920",
+    "holdout_builder.py": "29990e176c3b9ff30880e6b90bd33c8d923b5aeb2a15d00ca0dd377351c1ffbc",
+    "data/holdout.json": "9f8c46a60d23eea8bea3f6dc7626908d4f74885a52b05d93d83c714ad6dc6613",
+    "data/holdout_manifest.json": "a2291be3d7c86aaed0efc22aab3cea8873c85ef5aa1f32ed42917ca2905f67b1",
+    "HOLDOUT_AUTHOR.md": "60a2056e8cbd17205191cc236bb4b716cbd4af3d8403254a078552cb9b0cef7a"
+  },
+  "baseline_hashes": {
+    "research/phase05/revision02/engine.py": "67163a9f83b11364ffa82be824925d96b8d62a828fd18d18cb3812f869f9d993",
+    "research/phase06/scoped.py": "1b443560f5899a6ae2eecd2b16aee2493d303dff945a07354b8e831ce10872b4",
+    "research/phase06/evaluate.py": "a1dbd02e80c6daa67cad7ffc5772d073dc88d83e513cb487b58b41687e7dbcb6",
+    "research/phase07/baseline.py": "c88c1f0a17203d04efbc20d75073bc57543924b9b7be1c1da212e94d9346365d",
+    "research/phase07/cached.py": "101553dd0ce11b3f114e804d96305829e19e6debf71aa3b674598bc548f8fe93",
+    "research/phase07/study.py": "f1d3772a7e5bb30dbac910c611cb2e84b19983c2be3c4711ed378fd96aa7920b",
+    "research/phase07/data/holdout.json": "76a93ffa695c4abcc6d240382a40211d4d406b2c9d84352e5d2c9c181c0f9f98",
+    "research/phase06/data/holdout.json": "ee2640474780954514f3018e971701c49e273bf6b4e6f5d156bcd2428035a830",
+    "research/phase05/corpus.json": "38619b2b12c356e43abd4b7755d08cca65ab5e3147324c4838895532fd1e309a"
+  }
+}
