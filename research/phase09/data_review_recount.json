@@ -1,0 +1,1224 @@
+{
+  "passed": true,
+  "rows": 1728,
+  "prefixes": 432,
+  "duplicates": {
+    "all": {
+      "steps": 432,
+      "exact_records": 324,
+      "ordered_raw_histories": 215,
+      "raw_plus_ordered_entities": 215,
+      "public_plus_namespace": 378
+    },
+    "valid": {
+      "steps": 420,
+      "exact_records": 315,
+      "ordered_raw_histories": 212,
+      "raw_plus_ordered_entities": 212,
+      "public_plus_namespace": 366
+    },
+    "gold_exact_typed_arrays": 135
+  },
+  "methods": {
+    "fresh_instrumented": {
+      "queries": 432,
+      "status_counts": {
+        "certified_model": 372,
+        "ambiguous": 24,
+        "opaque_fallback": 15,
+        "integrity_failure": 12,
+        "unsupported_query": 9
+      },
+      "valid_supported": 411,
+      "gold_evaluated": 414,
+      "certified_gold_evaluated": 372,
+      "containment_evaluated": 405,
+      "gold_projection_evaluated": 414,
+      "actual_full_history": 24,
+      "output_bytes": 544794,
+      "audit_sums": {
+        "cheap_calls": 3162,
+        "contract_calls": 885,
+        "detail_calls": 858,
+        "cheap_source_bytes": 10851030,
+        "contract_source_bytes": 9788788,
+        "detail_source_bytes": 9786691,
+        "snapshot_calls": 426,
+        "snapshot_serialized_bytes": 11452505,
+        "render_calls": 420,
+        "rendered_bytes": 544794,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "cost_sums": {
+        "abstract_steps": 1332,
+        "admission_attempts": 0,
+        "admission_reject_capacity": 0,
+        "admission_reject_gain": 0,
+        "cache_entry_hits": 0,
+        "cache_entry_misses": 0,
+        "cache_evictions": 0,
+        "cache_lookups": 0,
+        "cache_overhead_bytes": 0,
+        "cache_oversize": 0,
+        "cache_read_payload_bytes": 0,
+        "cache_write_bytes": 0,
+        "cache_writes": 0,
+        "cheap_calls": 3162,
+        "cheap_requests": 3162,
+        "cheap_reused": 0,
+        "cheap_source_bytes": 10851030,
+        "contract_calls": 885,
+        "contract_requests": 885,
+        "contract_reused": 0,
+        "contract_source_bytes": 9788788,
+        "control_actions": 0,
+        "detail_calls": 858,
+        "detail_requests": 858,
+        "detail_reused": 0,
+        "detail_source_bytes": 9786691,
+        "directory_skips": 0,
+        "hash_calls": 426,
+        "hash_serialized_bytes": 11452505,
+        "key_build_bytes": 0,
+        "key_probe_bytes": 0,
+        "oracle_metadata_fields": 0,
+        "output_plus_source_work_proxy": 42423808,
+        "phase07_work_proxy": 42423808,
+        "phase08_work_score": 42423808,
+        "records_visited": 3162,
+        "reparse_calls": 0,
+        "reparse_source_bytes": 0,
+        "short_bypasses": 0,
+        "source_work_bytes": 41879014,
+        "value_encode_bytes": 0
+      }
+    },
+    "fresh_uninstrumented": {
+      "queries": 432,
+      "status_counts": {
+        "certified_model": 372,
+        "ambiguous": 24,
+        "opaque_fallback": 15,
+        "integrity_failure": 12,
+        "unsupported_query": 9
+      },
+      "valid_supported": 411,
+      "gold_evaluated": 414,
+      "certified_gold_evaluated": 372,
+      "containment_evaluated": 405,
+      "gold_projection_evaluated": 414,
+      "actual_full_history": 24,
+      "output_bytes": 544794,
+      "audit_sums": {
+        "cheap_calls": 3162,
+        "contract_calls": 885,
+        "detail_calls": 858,
+        "cheap_source_bytes": 10851030,
+        "contract_source_bytes": 9788788,
+        "detail_source_bytes": 9786691,
+        "snapshot_calls": 426,
+        "snapshot_serialized_bytes": 11452505,
+        "render_calls": 420,
+        "rendered_bytes": 544794,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      }
+    },
+    "selective_instrumented": {
+      "queries": 432,
+      "status_counts": {
+        "certified_model": 372,
+        "ambiguous": 24,
+        "opaque_fallback": 15,
+        "integrity_failure": 12,
+        "unsupported_query": 9
+      },
+      "valid_supported": 411,
+      "gold_evaluated": 414,
+      "certified_gold_evaluated": 372,
+      "containment_evaluated": 405,
+      "gold_projection_evaluated": 414,
+      "actual_full_history": 24,
+      "output_bytes": 544794,
+      "audit_sums": {
+        "cheap_calls": 2911,
+        "contract_calls": 634,
+        "detail_calls": 607,
+        "cheap_source_bytes": 7045779,
+        "contract_source_bytes": 5983537,
+        "detail_source_bytes": 5981440,
+        "snapshot_calls": 426,
+        "snapshot_serialized_bytes": 11452505,
+        "render_calls": 420,
+        "rendered_bytes": 544794,
+        "policy_possible_calls": 471,
+        "policy_get_calls": 364,
+        "policy_admit_calls": 184,
+        "policy_insertions": 70,
+        "policy_evictions": 1
+      },
+      "cost_sums": {
+        "abstract_steps": 1332,
+        "admission_attempts": 184,
+        "admission_reject_capacity": 114,
+        "admission_reject_gain": 0,
+        "cache_entry_hits": 251,
+        "cache_entry_misses": 113,
+        "cache_evictions": 1,
+        "cache_lookups": 364,
+        "cache_overhead_bytes": 14646905,
+        "cache_oversize": 36,
+        "cache_read_payload_bytes": 38654,
+        "cache_write_bytes": 783728,
+        "cache_writes": 70,
+        "cheap_calls": 2911,
+        "cheap_requests": 3162,
+        "cheap_reused": 251,
+        "cheap_source_bytes": 7045779,
+        "contract_calls": 634,
+        "contract_requests": 885,
+        "contract_reused": 251,
+        "contract_source_bytes": 5983537,
+        "control_actions": 8680,
+        "detail_calls": 607,
+        "detail_requests": 858,
+        "detail_reused": 251,
+        "detail_source_bytes": 5981440,
+        "directory_skips": 107,
+        "hash_calls": 426,
+        "hash_serialized_bytes": 11452505,
+        "key_build_bytes": 7108680,
+        "key_probe_bytes": 6687507,
+        "oracle_metadata_fields": 0,
+        "output_plus_source_work_proxy": 31008055,
+        "phase07_work_proxy": 45654960,
+        "phase08_work_score": 45724400,
+        "records_visited": 3162,
+        "reparse_calls": 0,
+        "reparse_source_bytes": 0,
+        "short_bypasses": 2691,
+        "source_work_bytes": 30463261,
+        "value_encode_bytes": 28336
+      }
+    },
+    "selective_uninstrumented": {
+      "queries": 432,
+      "status_counts": {
+        "certified_model": 372,
+        "ambiguous": 24,
+        "opaque_fallback": 15,
+        "integrity_failure": 12,
+        "unsupported_query": 9
+      },
+      "valid_supported": 411,
+      "gold_evaluated": 414,
+      "certified_gold_evaluated": 372,
+      "containment_evaluated": 405,
+      "gold_projection_evaluated": 414,
+      "actual_full_history": 24,
+      "output_bytes": 544794,
+      "audit_sums": {
+        "cheap_calls": 2911,
+        "contract_calls": 634,
+        "detail_calls": 607,
+        "cheap_source_bytes": 7045779,
+        "contract_source_bytes": 5983537,
+        "detail_source_bytes": 5981440,
+        "snapshot_calls": 426,
+        "snapshot_serialized_bytes": 11452505,
+        "render_calls": 420,
+        "rendered_bytes": 544794,
+        "policy_possible_calls": 471,
+        "policy_get_calls": 364,
+        "policy_admit_calls": 184,
+        "policy_insertions": 70,
+        "policy_evictions": 1
+      }
+    }
+  },
+  "families_cost": {
+    "fit_working_set": {
+      "fresh_instrumented": {
+        "P7": 5179695,
+        "P8": 5179695,
+        "calls": 540
+      },
+      "selective_instrumented": {
+        "P7": 4307668,
+        "P8": 4318108,
+        "calls": 210
+      }
+    },
+    "integrity_unsupported_recovery": {
+      "fresh_instrumented": {
+        "P7": 2119486,
+        "P8": 2119486,
+        "calls": 138
+      },
+      "selective_instrumented": {
+        "P7": 1976808,
+        "P8": 1978800,
+        "calls": 102
+      }
+    },
+    "long_cheap": {
+      "fresh_instrumented": {
+        "P7": 1917714,
+        "P8": 1917714,
+        "calls": 360
+      },
+      "selective_instrumented": {
+        "P7": 1917714,
+        "P8": 1920882,
+        "calls": 360
+      }
+    },
+    "long_deep_churn": {
+      "fresh_instrumented": {
+        "P7": 3569562,
+        "P8": 3569562,
+        "calls": 432
+      },
+      "selective_instrumented": {
+        "P7": 5410308,
+        "P8": 5418940,
+        "calls": 432
+      }
+    },
+    "long_deep_repeat": {
+      "fresh_instrumented": {
+        "P7": 4023738,
+        "P8": 4023738,
+        "calls": 432
+      },
+      "selective_instrumented": {
+        "P7": 3923147,
+        "P8": 3928299,
+        "calls": 366
+      }
+    },
+    "phase_shift": {
+      "fresh_instrumented": {
+        "P7": 3919563,
+        "P8": 3919563,
+        "calls": 288
+      },
+      "selective_instrumented": {
+        "P7": 4021417,
+        "P8": 4027089,
+        "calls": 246
+      }
+    },
+    "pressure_working_set": {
+      "fresh_instrumented": {
+        "P7": 13788507,
+        "P8": 13788507,
+        "calls": 540
+      },
+      "selective_instrumented": {
+        "P7": 14721011,
+        "P8": 14735739,
+        "calls": 342
+      }
+    },
+    "revisions_copy_context": {
+      "fresh_instrumented": {
+        "P7": 3722497,
+        "P8": 3722497,
+        "calls": 369
+      },
+      "selective_instrumented": {
+        "P7": 5016358,
+        "P8": 5022078,
+        "calls": 318
+      }
+    },
+    "same_length_misses": {
+      "fresh_instrumented": {
+        "P7": 3777282,
+        "P8": 3777282,
+        "calls": 324
+      },
+      "selective_instrumented": {
+        "P7": 3954765,
+        "P8": 3961333,
+        "calls": 294
+      }
+    },
+    "scope_ambiguity": {
+      "fresh_instrumented": {
+        "P7": 71001,
+        "P8": 71001,
+        "calls": 354
+      },
+      "selective_instrumented": {
+        "P7": 71001,
+        "P8": 72801,
+        "calls": 354
+      }
+    },
+    "short_churn": {
+      "fresh_instrumented": {
+        "P7": 219545,
+        "P8": 219545,
+        "calls": 624
+      },
+      "selective_instrumented": {
+        "P7": 219545,
+        "P8": 222809,
+        "calls": 624
+      }
+    },
+    "short_repeated": {
+      "fresh_instrumented": {
+        "P7": 115218,
+        "P8": 115218,
+        "calls": 504
+      },
+      "selective_instrumented": {
+        "P7": 115218,
+        "P8": 117522,
+        "calls": 504
+      }
+    }
+  },
+  "big_families": [
+    "fit_working_set",
+    "integrity_unsupported_recovery",
+    "long_cheap",
+    "long_deep_churn",
+    "long_deep_repeat",
+    "phase_shift",
+    "pressure_working_set",
+    "revisions_copy_context",
+    "same_length_misses"
+  ],
+  "big_family_fresh_P7_share": 0.9904354649163036,
+  "original_timing": {
+    "method_medians_seconds": {
+      "fresh_instrumented": 0.078916449,
+      "fresh_uninstrumented": 0.06712819283333334,
+      "selective_instrumented": 0.088123828,
+      "selective_uninstrumented": 0.07971937283333333
+    },
+    "comparisons": {
+      "primary": {
+        "paired_ratio": 1.1793409288463987,
+        "paired_percent": 17.934092884639874
+      },
+      "instrumented": {
+        "paired_ratio": 1.1318695314076788,
+        "paired_percent": 13.186953140767876
+      },
+      "fresh_erasure": {
+        "paired_ratio": 0.8652233524694294,
+        "paired_percent": -13.477664753057061
+      },
+      "selective_erasure": {
+        "paired_ratio": 0.9034262624915738,
+        "paired_percent": -9.657373750842623
+      }
+    },
+    "ratio_of_marginal_medians": 1.1875691787392746,
+    "diagnostic_stream_wins": [
+      "p9-holdout-short_churn-00",
+      "p9-holdout-short_churn-02",
+      "p9-holdout-fit_working_set-01",
+      "p9-holdout-fit_working_set-02",
+      "p9-holdout-scope_ambiguity-01"
+    ],
+    "diagnostic_stream_losses": [
+      "p9-holdout-short_repeated-00",
+      "p9-holdout-short_repeated-01",
+      "p9-holdout-short_repeated-02",
+      "p9-holdout-short_churn-01",
+      "p9-holdout-long_cheap-00",
+      "p9-holdout-long_cheap-01",
+      "p9-holdout-long_cheap-02",
+      "p9-holdout-long_deep_repeat-00",
+      "p9-holdout-long_deep_repeat-01",
+      "p9-holdout-long_deep_repeat-02",
+      "p9-holdout-long_deep_churn-00",
+      "p9-holdout-long_deep_churn-01",
+      "p9-holdout-long_deep_churn-02",
+      "p9-holdout-fit_working_set-00",
+      "p9-holdout-pressure_working_set-00",
+      "p9-holdout-pressure_working_set-01",
+      "p9-holdout-pressure_working_set-02",
+      "p9-holdout-phase_shift-00",
+      "p9-holdout-phase_shift-01",
+      "p9-holdout-phase_shift-02",
+      "p9-holdout-same_length_misses-00",
+      "p9-holdout-same_length_misses-01",
+      "p9-holdout-same_length_misses-02",
+      "p9-holdout-revisions_copy_context-00",
+      "p9-holdout-revisions_copy_context-01",
+      "p9-holdout-revisions_copy_context-02",
+      "p9-holdout-scope_ambiguity-00",
+      "p9-holdout-scope_ambiguity-02",
+      "p9-holdout-integrity_unsupported_recovery-00",
+      "p9-holdout-integrity_unsupported_recovery-01",
+      "p9-holdout-integrity_unsupported_recovery-02"
+    ],
+    "diagnostic_cold_stream_wins": [
+      "p9-holdout-long_cheap-02"
+    ],
+    "diagnostic_sum_stream_medians": {
+      "fresh": 0.07111617049999999,
+      "selective": 0.0820682315,
+      "percent": 15.400240090261907
+    },
+    "diagnostic_sum_first_step_medians": {
+      "fresh": 0.007245487500000002,
+      "selective": 0.010410746999999998,
+      "percent": 43.68594245728801
+    },
+    "big_family_diagnostic_fresh_share": 0.8490175170497968,
+    "families": {
+      "short_repeated": {
+        "fresh_seconds": 0.0034735009999999995,
+        "selective_seconds": 0.004154730000000001,
+        "percent": 19.61217227229821
+      },
+      "short_churn": {
+        "fresh_seconds": 0.0044132885,
+        "selective_seconds": 0.0042909725,
+        "percent": -2.7715387289999227
+      },
+      "long_cheap": {
+        "fresh_seconds": 0.0050831445,
+        "selective_seconds": 0.005712211,
+        "percent": 12.375538409344845
+      },
+      "long_deep_repeat": {
+        "fresh_seconds": 0.0071206855,
+        "selective_seconds": 0.007875152,
+        "percent": 10.595419499990566
+      },
+      "long_deep_churn": {
+        "fresh_seconds": 0.0069707155,
+        "selective_seconds": 0.009201119,
+        "percent": 31.996765611794075
+      },
+      "fit_working_set": {
+        "fresh_seconds": 0.007484738500000001,
+        "selective_seconds": 0.0068912045,
+        "percent": -7.929923002654005
+      },
+      "pressure_working_set": {
+        "fresh_seconds": 0.015554514999999998,
+        "selective_seconds": 0.018788737,
+        "percent": 20.792818033863504
+      },
+      "phase_shift": {
+        "fresh_seconds": 0.0047238905,
+        "selective_seconds": 0.005868369,
+        "percent": 24.227456161399164
+      },
+      "same_length_misses": {
+        "fresh_seconds": 0.0046040975,
+        "selective_seconds": 0.006210512999999999,
+        "percent": 34.89099655252736
+      },
+      "revisions_copy_context": {
+        "fresh_seconds": 0.0053815545,
+        "selective_seconds": 0.006373930999999999,
+        "percent": 18.440331692264735
+      },
+      "scope_ambiguity": {
+        "fresh_seconds": 0.0028505065,
+        "selective_seconds": 0.0029626385,
+        "percent": 3.933757035811003
+      },
+      "integrity_unsupported_recovery": {
+        "fresh_seconds": 0.003455533,
+        "selective_seconds": 0.0037386539999999997,
+        "percent": 8.19326569880825
+      }
+    },
+    "streams": {
+      "p9-holdout-short_repeated-00": {
+        "family": "short_repeated",
+        "fresh_seconds": 0.0012104165,
+        "selective_seconds": 0.0014638820000000001,
+        "whole_percent": 20.94035400211416,
+        "first_step_percent": 30.827104753955314
+      },
+      "p9-holdout-short_repeated-01": {
+        "family": "short_repeated",
+        "fresh_seconds": 0.001165079,
+        "selective_seconds": 0.0014174980000000001,
+        "whole_percent": 21.66539779705925,
+        "first_step_percent": 0.26645681466752613
+      },
+      "p9-holdout-short_repeated-02": {
+        "family": "short_repeated",
+        "fresh_seconds": 0.0010980055,
+        "selective_seconds": 0.00127335,
+        "whole_percent": 15.969364452181711,
+        "first_step_percent": 10.244423477471386
+      },
+      "p9-holdout-short_churn-00": {
+        "family": "short_churn",
+        "fresh_seconds": 0.0015301905,
+        "selective_seconds": 0.0014092764999999998,
+        "whole_percent": -7.901891953975682,
+        "first_step_percent": 11.6590972251303
+      },
+      "p9-holdout-short_churn-01": {
+        "family": "short_churn",
+        "fresh_seconds": 0.001325227,
+        "selective_seconds": 0.0014925395,
+        "whole_percent": 12.625195532538957,
+        "first_step_percent": 8.158818985995108
+      },
+      "p9-holdout-short_churn-02": {
+        "family": "short_churn",
+        "fresh_seconds": 0.0015578710000000002,
+        "selective_seconds": 0.0013891565,
+        "whole_percent": -10.829811967743163,
+        "first_step_percent": 26.620151844551508
+      },
+      "p9-holdout-long_cheap-00": {
+        "family": "long_cheap",
+        "fresh_seconds": 0.0008659275,
+        "selective_seconds": 0.0009959844999999998,
+        "whole_percent": 15.019386726948824,
+        "first_step_percent": 13.769929188930874
+      },
+      "p9-holdout-long_cheap-01": {
+        "family": "long_cheap",
+        "fresh_seconds": 0.001178459,
+        "selective_seconds": 0.001333509,
+        "whole_percent": 13.157012675027314,
+        "first_step_percent": 5.879121245013885
+      },
+      "p9-holdout-long_cheap-02": {
+        "family": "long_cheap",
+        "fresh_seconds": 0.003038758,
+        "selective_seconds": 0.0033827175,
+        "whole_percent": 11.319081677448484,
+        "first_step_percent": -9.312618028297138
+      },
+      "p9-holdout-long_deep_repeat-00": {
+        "family": "long_deep_repeat",
+        "fresh_seconds": 0.0011038189999999998,
+        "selective_seconds": 0.001464503,
+        "whole_percent": 32.67600938197297,
+        "first_step_percent": 94.31861468617497
+      },
+      "p9-holdout-long_deep_repeat-01": {
+        "family": "long_deep_repeat",
+        "fresh_seconds": 0.0016931865,
+        "selective_seconds": 0.0017286089999999999,
+        "whole_percent": 2.092061329333772,
+        "first_step_percent": 32.10622110866568
+      },
+      "p9-holdout-long_deep_repeat-02": {
+        "family": "long_deep_repeat",
+        "fresh_seconds": 0.00432368,
+        "selective_seconds": 0.00468204,
+        "whole_percent": 8.28830995818377,
+        "first_step_percent": 35.02186743662688
+      },
+      "p9-holdout-long_deep_churn-00": {
+        "family": "long_deep_churn",
+        "fresh_seconds": 0.001439541,
+        "selective_seconds": 0.0018455615,
+        "whole_percent": 28.20485835415596,
+        "first_step_percent": 65.09858675903301
+      },
+      "p9-holdout-long_deep_churn-01": {
+        "family": "long_deep_churn",
+        "fresh_seconds": 0.002098744,
+        "selective_seconds": 0.003170513,
+        "whole_percent": 51.067162074078574,
+        "first_step_percent": 65.88846778559825
+      },
+      "p9-holdout-long_deep_churn-02": {
+        "family": "long_deep_churn",
+        "fresh_seconds": 0.0034324305,
+        "selective_seconds": 0.0041850445,
+        "whole_percent": 21.926561950780954,
+        "first_step_percent": 82.96942505815889
+      },
+      "p9-holdout-fit_working_set-00": {
+        "family": "fit_working_set",
+        "fresh_seconds": 0.0015232995,
+        "selective_seconds": 0.00177362,
+        "whole_percent": 16.43278291629453,
+        "first_step_percent": 75.98999905489347
+      },
+      "p9-holdout-fit_working_set-01": {
+        "family": "fit_working_set",
+        "fresh_seconds": 0.0026910585000000002,
+        "selective_seconds": 0.0023543645,
+        "whole_percent": -12.511582338325244,
+        "first_step_percent": 61.28276573554952
+      },
+      "p9-holdout-fit_working_set-02": {
+        "family": "fit_working_set",
+        "fresh_seconds": 0.0032703805,
+        "selective_seconds": 0.0027632200000000003,
+        "whole_percent": -15.507690924649275,
+        "first_step_percent": 70.44890253748828
+      },
+      "p9-holdout-pressure_working_set-00": {
+        "family": "pressure_working_set",
+        "fresh_seconds": 0.0050962839999999995,
+        "selective_seconds": 0.005504057,
+        "whole_percent": 8.001379044025025,
+        "first_step_percent": 46.74229510175143
+      },
+      "p9-holdout-pressure_working_set-01": {
+        "family": "pressure_working_set",
+        "fresh_seconds": 0.0050200415,
+        "selective_seconds": 0.006381125499999999,
+        "whole_percent": 27.113002950274414,
+        "first_step_percent": 65.23189380678396
+      },
+      "p9-holdout-pressure_working_set-02": {
+        "family": "pressure_working_set",
+        "fresh_seconds": 0.005438189499999999,
+        "selective_seconds": 0.0069035545,
+        "whole_percent": 26.945824524871753,
+        "first_step_percent": 53.84342332404866
+      },
+      "p9-holdout-phase_shift-00": {
+        "family": "phase_shift",
+        "fresh_seconds": 0.0007920585,
+        "selective_seconds": 0.0008640659999999999,
+        "whole_percent": 9.09118455265614,
+        "first_step_percent": 59.81703819046058
+      },
+      "p9-holdout-phase_shift-01": {
+        "family": "phase_shift",
+        "fresh_seconds": 0.0011035325000000001,
+        "selective_seconds": 0.00139398,
+        "whole_percent": 26.319795746840246,
+        "first_step_percent": 46.83380009657172
+      },
+      "p9-holdout-phase_shift-02": {
+        "family": "phase_shift",
+        "fresh_seconds": 0.0028282995,
+        "selective_seconds": 0.003610323,
+        "whole_percent": 27.649953620541233,
+        "first_step_percent": 32.82927979453321
+      },
+      "p9-holdout-same_length_misses-00": {
+        "family": "same_length_misses",
+        "fresh_seconds": 0.0007661355,
+        "selective_seconds": 0.001059427,
+        "whole_percent": 38.281935767236995,
+        "first_step_percent": 72.29024276720315
+      },
+      "p9-holdout-same_length_misses-01": {
+        "family": "same_length_misses",
+        "fresh_seconds": 0.001024079,
+        "selective_seconds": 0.0014167634999999999,
+        "whole_percent": 38.345137435686105,
+        "first_step_percent": 74.51455351568363
+      },
+      "p9-holdout-same_length_misses-02": {
+        "family": "same_length_misses",
+        "fresh_seconds": 0.002813883,
+        "selective_seconds": 0.0037343224999999997,
+        "whole_percent": 32.7106528594117,
+        "first_step_percent": 33.556996569940665
+      },
+      "p9-holdout-revisions_copy_context-00": {
+        "family": "revisions_copy_context",
+        "fresh_seconds": 0.000980414,
+        "selective_seconds": 0.0011071425,
+        "whole_percent": 12.926019008296485,
+        "first_step_percent": 77.94699903457104
+      },
+      "p9-holdout-revisions_copy_context-01": {
+        "family": "revisions_copy_context",
+        "fresh_seconds": 0.0014361225,
+        "selective_seconds": 0.0016558344999999999,
+        "whole_percent": 15.298973451080954,
+        "first_step_percent": 44.6698493435729
+      },
+      "p9-holdout-revisions_copy_context-02": {
+        "family": "revisions_copy_context",
+        "fresh_seconds": 0.002965018,
+        "selective_seconds": 0.003610954,
+        "whole_percent": 21.785230308888526,
+        "first_step_percent": 42.68373818017099
+      },
+      "p9-holdout-scope_ambiguity-00": {
+        "family": "scope_ambiguity",
+        "fresh_seconds": 0.0010689455,
+        "selective_seconds": 0.0010756055,
+        "whole_percent": 0.6230439250644704,
+        "first_step_percent": 7.461881520266256
+      },
+      "p9-holdout-scope_ambiguity-01": {
+        "family": "scope_ambiguity",
+        "fresh_seconds": 0.0009716354999999999,
+        "selective_seconds": 0.0009474749999999999,
+        "whole_percent": -2.486580615879108,
+        "first_step_percent": 13.031627167923187
+      },
+      "p9-holdout-scope_ambiguity-02": {
+        "family": "scope_ambiguity",
+        "fresh_seconds": 0.0008099255,
+        "selective_seconds": 0.0009395580000000001,
+        "whole_percent": 16.005484455051743,
+        "first_step_percent": 11.285933879367693
+      },
+      "p9-holdout-integrity_unsupported_recovery-00": {
+        "family": "integrity_unsupported_recovery",
+        "fresh_seconds": 0.000508707,
+        "selective_seconds": 0.000531431,
+        "whole_percent": 4.467011462393877,
+        "first_step_percent": 58.88664306013587
+      },
+      "p9-holdout-integrity_unsupported_recovery-01": {
+        "family": "integrity_unsupported_recovery",
+        "fresh_seconds": 0.0008991585,
+        "selective_seconds": 0.0009969585,
+        "whole_percent": 10.876836508802402,
+        "first_step_percent": 47.71484242757087
+      },
+      "p9-holdout-integrity_unsupported_recovery-02": {
+        "family": "integrity_unsupported_recovery",
+        "fresh_seconds": 0.0020476675,
+        "selective_seconds": 0.0022102644999999997,
+        "whole_percent": 7.9405958242732,
+        "first_step_percent": 35.88795316074756
+      }
+    },
+    "boundary": "stream/cold diagnostics are separate executions, not an additive decomposition of primary timing; intervals not recomputed here"
+  },
+  "reproduction_timing": {
+    "method_medians_seconds": {
+      "fresh_instrumented": 0.07640292916666666,
+      "fresh_uninstrumented": 0.065550205,
+      "selective_instrumented": 0.08579829733333333,
+      "selective_uninstrumented": 0.07831337933333334
+    },
+    "comparisons": {
+      "primary": {
+        "paired_ratio": 1.1678169093075235,
+        "paired_percent": 16.781690930752347
+      },
+      "instrumented": {
+        "paired_ratio": 1.1456401318845348,
+        "paired_percent": 14.564013188453483
+      },
+      "fresh_erasure": {
+        "paired_ratio": 0.8735287581888197,
+        "paired_percent": -12.64712418111803
+      },
+      "selective_erasure": {
+        "paired_ratio": 0.9014720834197495,
+        "paired_percent": -9.852791658025051
+      }
+    },
+    "ratio_of_marginal_medians": 1.1947083816646087,
+    "diagnostic_stream_wins": [
+      "p9-holdout-short_repeated-02",
+      "p9-holdout-fit_working_set-00",
+      "p9-holdout-fit_working_set-01",
+      "p9-holdout-fit_working_set-02",
+      "p9-holdout-scope_ambiguity-00",
+      "p9-holdout-scope_ambiguity-01",
+      "p9-holdout-integrity_unsupported_recovery-02"
+    ],
+    "diagnostic_stream_losses": [
+      "p9-holdout-short_repeated-00",
+      "p9-holdout-short_repeated-01",
+      "p9-holdout-short_churn-00",
+      "p9-holdout-short_churn-01",
+      "p9-holdout-short_churn-02",
+      "p9-holdout-long_cheap-00",
+      "p9-holdout-long_cheap-01",
+      "p9-holdout-long_cheap-02",
+      "p9-holdout-long_deep_repeat-00",
+      "p9-holdout-long_deep_repeat-01",
+      "p9-holdout-long_deep_repeat-02",
+      "p9-holdout-long_deep_churn-00",
+      "p9-holdout-long_deep_churn-01",
+      "p9-holdout-long_deep_churn-02",
+      "p9-holdout-pressure_working_set-00",
+      "p9-holdout-pressure_working_set-01",
+      "p9-holdout-pressure_working_set-02",
+      "p9-holdout-phase_shift-00",
+      "p9-holdout-phase_shift-01",
+      "p9-holdout-phase_shift-02",
+      "p9-holdout-same_length_misses-00",
+      "p9-holdout-same_length_misses-01",
+      "p9-holdout-same_length_misses-02",
+      "p9-holdout-revisions_copy_context-00",
+      "p9-holdout-revisions_copy_context-01",
+      "p9-holdout-revisions_copy_context-02",
+      "p9-holdout-scope_ambiguity-02",
+      "p9-holdout-integrity_unsupported_recovery-00",
+      "p9-holdout-integrity_unsupported_recovery-01"
+    ],
+    "diagnostic_cold_stream_wins": [
+      "p9-holdout-short_churn-01",
+      "p9-holdout-scope_ambiguity-02"
+    ],
+    "diagnostic_sum_stream_medians": {
+      "fresh": 0.0653892115,
+      "selective": 0.076229495,
+      "percent": 16.57809178506455
+    },
+    "diagnostic_sum_first_step_medians": {
+      "fresh": 0.007030671499999999,
+      "selective": 0.009390559500000001,
+      "percent": 33.565613185027956
+    },
+    "big_family_diagnostic_fresh_share": 0.84265772955528,
+    "families": {
+      "short_repeated": {
+        "fresh_seconds": 0.003261822,
+        "selective_seconds": 0.003322047,
+        "percent": 1.8463607149623584
+      },
+      "short_churn": {
+        "fresh_seconds": 0.003916899,
+        "selective_seconds": 0.0042684645,
+        "percent": 8.975608000104174
+      },
+      "long_cheap": {
+        "fresh_seconds": 0.0044498635,
+        "selective_seconds": 0.005202731,
+        "percent": 16.91888975920275
+      },
+      "long_deep_repeat": {
+        "fresh_seconds": 0.005188519,
+        "selective_seconds": 0.006121758,
+        "percent": 17.986616219387464
+      },
+      "long_deep_churn": {
+        "fresh_seconds": 0.0052231955,
+        "selective_seconds": 0.007345007,
+        "percent": 40.622862000857516
+      },
+      "fit_working_set": {
+        "fresh_seconds": 0.0064996575000000004,
+        "selective_seconds": 0.006135773000000001,
+        "percent": -5.59851807576014
+      },
+      "pressure_working_set": {
+        "fresh_seconds": 0.0129860995,
+        "selective_seconds": 0.015109919,
+        "percent": 16.354560505254078
+      },
+      "phase_shift": {
+        "fresh_seconds": 0.005715456,
+        "selective_seconds": 0.0068896065,
+        "percent": 20.54342645626177
+      },
+      "same_length_misses": {
+        "fresh_seconds": 0.005769951000000001,
+        "selective_seconds": 0.007346637,
+        "percent": 27.32581264554932
+      },
+      "revisions_copy_context": {
+        "fresh_seconds": 0.0055303655,
+        "selective_seconds": 0.0072421745,
+        "percent": 30.95290898946914
+      },
+      "scope_ambiguity": {
+        "fresh_seconds": 0.003109766,
+        "selective_seconds": 0.003195444,
+        "percent": 2.755126913086059
+      },
+      "integrity_unsupported_recovery": {
+        "fresh_seconds": 0.0037376170000000004,
+        "selective_seconds": 0.0040499335,
+        "percent": 8.356032734226094
+      }
+    },
+    "streams": {
+      "p9-holdout-short_repeated-00": {
+        "family": "short_repeated",
+        "fresh_seconds": 0.000963033,
+        "selective_seconds": 0.001022987,
+        "whole_percent": 6.2255395194141805,
+        "first_step_percent": 2.1976664070457286
+      },
+      "p9-holdout-short_repeated-01": {
+        "family": "short_repeated",
+        "fresh_seconds": 0.0011588035,
+        "selective_seconds": 0.0011635209999999998,
+        "whole_percent": 0.40710094506961614,
+        "first_step_percent": 0.45343628888896426
+      },
+      "p9-holdout-short_repeated-02": {
+        "family": "short_repeated",
+        "fresh_seconds": 0.0011399855,
+        "selective_seconds": 0.001135539,
+        "whole_percent": -0.3900488207963959,
+        "first_step_percent": 20.486358101346713
+      },
+      "p9-holdout-short_churn-00": {
+        "family": "short_churn",
+        "fresh_seconds": 0.0013897459999999999,
+        "selective_seconds": 0.0015383810000000001,
+        "whole_percent": 10.69511982765199,
+        "first_step_percent": 12.740122680687316
+      },
+      "p9-holdout-short_churn-01": {
+        "family": "short_churn",
+        "fresh_seconds": 0.001280474,
+        "selective_seconds": 0.0014061755000000001,
+        "whole_percent": 9.816794405821616,
+        "first_step_percent": -4.7536203554382706
+      },
+      "p9-holdout-short_churn-02": {
+        "family": "short_churn",
+        "fresh_seconds": 0.001246679,
+        "selective_seconds": 0.001323908,
+        "whole_percent": 6.194778286952762,
+        "first_step_percent": 9.455567176320212
+      },
+      "p9-holdout-long_cheap-00": {
+        "family": "long_cheap",
+        "fresh_seconds": 0.0007341385,
+        "selective_seconds": 0.0008490489999999999,
+        "whole_percent": 15.652427981913487,
+        "first_step_percent": 14.739203646519595
+      },
+      "p9-holdout-long_cheap-01": {
+        "family": "long_cheap",
+        "fresh_seconds": 0.0010142889999999998,
+        "selective_seconds": 0.001200996,
+        "whole_percent": 18.40767276387698,
+        "first_step_percent": 17.659364532207444
+      },
+      "p9-holdout-long_cheap-02": {
+        "family": "long_cheap",
+        "fresh_seconds": 0.0027014359999999998,
+        "selective_seconds": 0.003152686,
+        "whole_percent": 16.704078867683727,
+        "first_step_percent": 20.287092315267643
+      },
+      "p9-holdout-long_deep_repeat-00": {
+        "family": "long_deep_repeat",
+        "fresh_seconds": 0.0008940854999999999,
+        "selective_seconds": 0.0009615805,
+        "whole_percent": 7.549054313038317,
+        "first_step_percent": 56.94794971213724
+      },
+      "p9-holdout-long_deep_repeat-01": {
+        "family": "long_deep_repeat",
+        "fresh_seconds": 0.0012202095,
+        "selective_seconds": 0.0012762875,
+        "whole_percent": 4.5957681857090815,
+        "first_step_percent": 40.75846031712578
+      },
+      "p9-holdout-long_deep_repeat-02": {
+        "family": "long_deep_repeat",
+        "fresh_seconds": 0.003074224,
+        "selective_seconds": 0.00388389,
+        "whole_percent": 26.337248033975413,
+        "first_step_percent": 33.760000805771995
+      },
+      "p9-holdout-long_deep_churn-00": {
+        "family": "long_deep_churn",
+        "fresh_seconds": 0.0011041075,
+        "selective_seconds": 0.001573148,
+        "whole_percent": 42.48141598530939,
+        "first_step_percent": 60.62350067526489
+      },
+      "p9-holdout-long_deep_churn-01": {
+        "family": "long_deep_churn",
+        "fresh_seconds": 0.001423741,
+        "selective_seconds": 0.0021049065,
+        "whole_percent": 47.843357745545,
+        "first_step_percent": 36.55208752655024
+      },
+      "p9-holdout-long_deep_churn-02": {
+        "family": "long_deep_churn",
+        "fresh_seconds": 0.002695347,
+        "selective_seconds": 0.0036669525,
+        "whole_percent": 36.04751076577526,
+        "first_step_percent": 25.565452507465515
+      },
+      "p9-holdout-fit_working_set-00": {
+        "family": "fit_working_set",
+        "fresh_seconds": 0.001372545,
+        "selective_seconds": 0.0012587265000000001,
+        "whole_percent": -8.292514999508205,
+        "first_step_percent": 13.89123181017704
+      },
+      "p9-holdout-fit_working_set-01": {
+        "family": "fit_working_set",
+        "fresh_seconds": 0.0022105125,
+        "selective_seconds": 0.0021061730000000002,
+        "whole_percent": -4.720149739031099,
+        "first_step_percent": 50.13022928968933
+      },
+      "p9-holdout-fit_working_set-02": {
+        "family": "fit_working_set",
+        "fresh_seconds": 0.0029166,
+        "selective_seconds": 0.0027708735,
+        "whole_percent": -4.996451347459374,
+        "first_step_percent": 58.59091884998995
+      },
+      "p9-holdout-pressure_working_set-00": {
+        "family": "pressure_working_set",
+        "fresh_seconds": 0.0036284555,
+        "selective_seconds": 0.0045392765,
+        "whole_percent": 25.102168126355686,
+        "first_step_percent": 42.82219663879798
+      },
+      "p9-holdout-pressure_working_set-01": {
+        "family": "pressure_working_set",
+        "fresh_seconds": 0.0041136405,
+        "selective_seconds": 0.004649449999999999,
+        "whole_percent": 13.025190217764514,
+        "first_step_percent": 51.92031718514052
+      },
+      "p9-holdout-pressure_working_set-02": {
+        "family": "pressure_working_set",
+        "fresh_seconds": 0.0052440035,
+        "selective_seconds": 0.0059211925,
+        "whole_percent": 12.91358787231931,
+        "first_step_percent": 63.64644753940352
+      },
+      "p9-holdout-phase_shift-00": {
+        "family": "phase_shift",
+        "fresh_seconds": 0.0008097845,
+        "selective_seconds": 0.0010744635,
+        "whole_percent": 32.685115607917915,
+        "first_step_percent": 70.26900846895805
+      },
+      "p9-holdout-phase_shift-01": {
+        "family": "phase_shift",
+        "fresh_seconds": 0.0011200354999999999,
+        "selective_seconds": 0.0014608065,
+        "whole_percent": 30.425017778454368,
+        "first_step_percent": 15.983109958370822
+      },
+      "p9-holdout-phase_shift-02": {
+        "family": "phase_shift",
+        "fresh_seconds": 0.0037856359999999998,
+        "selective_seconds": 0.0043543365,
+        "whole_percent": 15.022588014272898,
+        "first_step_percent": 38.187083125147424
+      },
+      "p9-holdout-same_length_misses-00": {
+        "family": "same_length_misses",
+        "fresh_seconds": 0.000880088,
+        "selective_seconds": 0.0012468614999999999,
+        "whole_percent": 41.67463935424638,
+        "first_step_percent": 56.024983822928775
+      },
+      "p9-holdout-same_length_misses-01": {
+        "family": "same_length_misses",
+        "fresh_seconds": 0.001158702,
+        "selective_seconds": 0.001578604,
+        "whole_percent": 36.23899846552436,
+        "first_step_percent": 40.85971025123784
+      },
+      "p9-holdout-same_length_misses-02": {
+        "family": "same_length_misses",
+        "fresh_seconds": 0.003731161,
+        "selective_seconds": 0.0045211715,
+        "whole_percent": 21.173315758821442,
+        "first_step_percent": 5.830794475864343
+      },
+      "p9-holdout-revisions_copy_context-00": {
+        "family": "revisions_copy_context",
+        "fresh_seconds": 0.0011236425,
+        "selective_seconds": 0.001358675,
+        "whole_percent": 20.91701764573697,
+        "first_step_percent": 29.50400707832095
+      },
+      "p9-holdout-revisions_copy_context-01": {
+        "family": "revisions_copy_context",
+        "fresh_seconds": 0.0015244135,
+        "selective_seconds": 0.001853325,
+        "whole_percent": 21.576265232497605,
+        "first_step_percent": 16.949125675986252
+      },
+      "p9-holdout-revisions_copy_context-02": {
+        "family": "revisions_copy_context",
+        "fresh_seconds": 0.0028823095,
+        "selective_seconds": 0.0040301745,
+        "whole_percent": 39.82448796702782,
+        "first_step_percent": 45.52921386456692
+      },
+      "p9-holdout-scope_ambiguity-00": {
+        "family": "scope_ambiguity",
+        "fresh_seconds": 0.0009819545,
+        "selective_seconds": 0.0009790200000000002,
+        "whole_percent": -0.2988427671546612,
+        "first_step_percent": 7.8463556023321335
+      },
+      "p9-holdout-scope_ambiguity-01": {
+        "family": "scope_ambiguity",
+        "fresh_seconds": 0.0011269895,
+        "selective_seconds": 0.0010722485,
+        "whole_percent": -4.857276842419567,
+        "first_step_percent": 9.66670923253734
+      },
+      "p9-holdout-scope_ambiguity-02": {
+        "family": "scope_ambiguity",
+        "fresh_seconds": 0.0010008220000000002,
+        "selective_seconds": 0.0011441755,
+        "whole_percent": 14.32357602051113,
+        "first_step_percent": -8.306257902367697
+      },
+      "p9-holdout-integrity_unsupported_recovery-00": {
+        "family": "integrity_unsupported_recovery",
+        "fresh_seconds": 0.0005482375,
+        "selective_seconds": 0.000709446,
+        "whole_percent": 29.404865592010765,
+        "first_step_percent": 73.34169243532696
+      },
+      "p9-holdout-integrity_unsupported_recovery-01": {
+        "family": "integrity_unsupported_recovery",
+        "fresh_seconds": 0.0008705844999999999,
+        "selective_seconds": 0.001069584,
+        "whole_percent": 22.858148749489573,
+        "first_step_percent": 78.91281984878896
+      },
+      "p9-holdout-integrity_unsupported_recovery-02": {
+        "family": "integrity_unsupported_recovery",
+        "fresh_seconds": 0.0023187950000000002,
+        "selective_seconds": 0.0022709035,
+        "whole_percent": -2.0653615347626775,
+        "first_step_percent": 28.90277009519926
+      }
+    },
+    "boundary": "stream/cold diagnostics are separate executions, not an additive decomposition of primary timing; intervals not recomputed here"
+  },
+  "diagnostic_wins_both_sessions": [
+    "p9-holdout-fit_working_set-01",
+    "p9-holdout-fit_working_set-02",
+    "p9-holdout-scope_ambiguity-01"
+  ],
+  "diagnostic_sign_flip_streams": [
+    "p9-holdout-fit_working_set-00",
+    "p9-holdout-integrity_unsupported_recovery-02",
+    "p9-holdout-scope_ambiguity-00",
+    "p9-holdout-short_churn-00",
+    "p9-holdout-short_churn-02",
+    "p9-holdout-short_repeated-02"
+  ],
+  "source_sha256": {
+    "corpus": "1a36ee60f57c7e0ad7f6f91f098e9803db212d4de2e00920510740e5b5ee20e6",
+    "rows": "55653b252fe3c20503350c611bcd8378020af288620b850adc3f8bd1e2b31443",
+    "states": "0d7aee328daf11fa3c9c7b8fc03bfb25f27c542314f1bda792dc229cebd8abfd",
+    "profile": "67a11ae6905b44528d8c0e2f9a8597a6a170f9af263cb0333f4c807c44043484",
+    "summary": "782db8bf78f013b1a982d08bd325044baf52ea68ad0d4b6e0ad55c4fe7666df3",
+    "timing": "0c66ea821dcfdbc13527c85f07f037e2734da129a8db79d3784d02d6c271c2e2",
+    "reproduction_timing": "a0f2b8ee6b80419de6dee58f078c215bf5a71e596f4daf7db95928a85d607779"
+  },
+  "boundary": "same-model data author raw-artifact recount, not external independent semantic validation; no new timing or selector execution"
+}

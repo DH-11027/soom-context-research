@@ -1,0 +1,8 @@
+{
+  "local_freeze_commit": "387b451a19d0c17abc22365b82daeb357b0d3ab3",
+  "local_freeze_tree": "fc0784f91986443d153d26ca8a33281941d1ff02",
+  "execution_boundary_recorded_at_utc": "2026-10-22T12:09:38.665290+00:00",
+  "execution_boundary_recorded_at_kst": "2026-10-22T21:09:38.665290+09:00",
+  "new_holdout_execution_started": false,
+  "boundary": "Recorded immediately before first Phase09 holdout evaluation. Local Git freeze; publication will follow evaluation, not external preregistration."
+}

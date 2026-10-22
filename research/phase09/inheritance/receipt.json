@@ -1,0 +1,30 @@
+{
+  "baseline_commit": "efba3224dd09d5c5e2bf9d9be11734fa10b32502",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "libc": [
+    "glibc",
+    "2.39"
+  ],
+  "reproduction_path": "/tmp/soom-phase08-repro-for-phase09",
+  "recount_path": "/tmp/soom-phase08-recount-for-phase09.json",
+  "all_exit_zero": true,
+  "command_count": 6,
+  "artifacts_sha256": {
+    "command-01.json": "a8365cba6396a95185fdbcd085f13029a57ebdab71c005e2520e5b8bdcc8d35b",
+    "command-02.json": "d5f605366ceda294000af4ecf59b68527eb19310cc2f8943375340b8d2f271e3",
+    "command-03.json": "dc5b06a841fe49499327bf7c4c8850c49dac2c96d7ae5b98b3f0a844600fd7f8",
+    "command-04.json": "eb680158cb7c75607dc25d4afafbe1e6fdcaa81a333a27587d41044f7e170c0f",
+    "command-05.json": "837f2dfc9785b68dca49fc42621b254829b7eba93e1d3efe0c03ae5aa5584b5f",
+    "command-06.json": "b40ad6bd8bd64277a2e3e9a4615f536840f72f65adb6168e2265ad68fea759eb",
+    "reproduction_receipt.json": "c02dc52f91b2f9477cb3eaa4d50978131b12313c3341c3fbf4d04c03f8144cd8",
+    "reproduction_timing.json": "d2d6ae6333c8b4d345217ff29c7e0b2820daa3f80eb73bada7a50547190d83e7",
+    "recount_results.json.gz": "fa65a2cf835999f548162e3d521d7b017018f1a3725510fd1c9fcb333ee7a309"
+  },
+  "recount_gzip": {
+    "file": "recount_results.json.gz",
+    "uncompressed_sha256": "78607ea0cb3e37c785d5d4ff2c902e91aa4d25d260b44b7ef31aa22e95c09814",
+    "uncompressed_byte_identical_to_phase08_recount": true
+  }
+}

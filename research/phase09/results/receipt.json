@@ -1,0 +1,26 @@
+{
+  "started_at_utc": "2026-10-22T12:09:38.827063+00:00",
+  "finished_at_utc": "2026-10-22T12:10:42.357110+00:00",
+  "status": "passed",
+  "failures": 0,
+  "timing_separate_process": true,
+  "session": "primary",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "freeze_sha256": "776b11146a962fff666ddbacbba6b07e2766d0789816de490ea441d911594fbc",
+  "compared": [],
+  "artifact_sha256": {
+    "audit.json": "7fed01a4cb6a3d4e4308b87008dd4807d5a681232a0b682caae4ddcd4060e6ae",
+    "data_profile.json": "67a11ae6905b44528d8c0e2f9a8597a6a170f9af263cb0333f4c807c44043484",
+    "holdout_results.json": "782db8bf78f013b1a982d08bd325044baf52ea68ad0d4b6e0ad55c4fe7666df3",
+    "holdout_rows.json.gz": "55653b252fe3c20503350c611bcd8378020af288620b850adc3f8bd1e2b31443",
+    "holdout_states.json.gz": "0d7aee328daf11fa3c9c7b8fc03bfb25f27c542314f1bda792dc229cebd8abfd",
+    "regression_results.json": "5776adde521ad009ef69dd962e7addb6bd019483c78a2ca620eb5c61fe95e92b",
+    "regression_rows.json.gz": "acd625e059fae585bca9df5bb324e54e3b6d4301920ffa18d5d39a552b6362ea",
+    "regression_states.json.gz": "0874ef5223cd2e6fbcd8477778f9f6cec7cc365d7b4eac32f106b6eb8300970a",
+    "timing.json": "0c66ea821dcfdbc13527c85f07f037e2734da129a8db79d3784d02d6c271c2e2",
+    "timing.progress.json": "4421df86dad57dd63fbcb2ed7b1784d73cea89067fbe92059a8a2ca4e1822b4c",
+    "timing_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "timing_stdout.txt": "d620f652d7e1a9ca55e7ba9c1022e9d93d0e68816382f4c6bb5c9ea131bc757a"
+  }
+}

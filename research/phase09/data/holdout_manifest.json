@@ -1,0 +1,187 @@
+{
+  "seed": 2026102209,
+  "families": 12,
+  "streams": 36,
+  "parameters_per_family": 3,
+  "steps_per_stream": 12,
+  "steps": 432,
+  "valid_steps": 420,
+  "invalid_steps": 12,
+  "gold_applicable_steps": 414,
+  "unsupported_questions": 9,
+  "gold_supported_steps": 405,
+  "excluded_entity_membership_undefined": 6,
+  "excluded_invalid_snapshot": 12,
+  "schema_and_typed_plan_checks": "passed",
+  "selector_evaluated": false,
+  "raw_length_bands_bytes": [
+    [
+      900,
+      1900
+    ],
+    [
+      9000,
+      18000
+    ],
+    [
+      57000,
+      74000
+    ]
+  ],
+  "record_occurrences": 3678,
+  "record_bytes_min_max": [
+    45,
+    70026
+  ],
+  "record_characters_min_max": [
+    19,
+    45642
+  ],
+  "raw_bytes_sum_over_steps": 11395141,
+  "valid_unique_raw_histories": 212,
+  "exact_typed_arrays_gold_applicable": 135,
+  "exact_public_and_namespace": 378,
+  "family_distribution": {
+    "short_repeated": {
+      "steps": 36,
+      "record_occurrences": 324,
+      "raw_bytes_sum_over_steps": 26292,
+      "max_record_bytes": 344,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 3,
+      "unique_typed_arrays_gold_applicable": 3,
+      "max_history_bytes": 747,
+      "max_quote_bytes_per_history": 344
+    },
+    "short_churn": {
+      "steps": 36,
+      "record_occurrences": 450,
+      "raw_bytes_sum_over_steps": 63089,
+      "max_record_bytes": 341,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 36,
+      "unique_typed_arrays_gold_applicable": 36,
+      "max_history_bytes": 2297,
+      "max_quote_bytes_per_history": 1941
+    },
+    "long_cheap": {
+      "steps": 36,
+      "record_occurrences": 288,
+      "raw_bytes_sum_over_steps": 941052,
+      "max_record_bytes": 65828,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 6,
+      "unique_typed_arrays_gold_applicable": 6,
+      "max_history_bytes": 66185,
+      "max_quote_bytes_per_history": 65828
+    },
+    "long_deep_repeat": {
+      "steps": 36,
+      "record_occurrences": 288,
+      "raw_bytes_sum_over_steps": 1003428,
+      "max_record_bytes": 70026,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 6,
+      "unique_typed_arrays_gold_applicable": 6,
+      "max_history_bytes": 70382,
+      "max_quote_bytes_per_history": 70026
+    },
+    "long_deep_churn": {
+      "steps": 36,
+      "record_occurrences": 288,
+      "raw_bytes_sum_over_steps": 889884,
+      "max_record_bytes": 58685,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 36,
+      "unique_typed_arrays_gold_applicable": 6,
+      "max_history_bytes": 59041,
+      "max_quote_bytes_per_history": 58685
+    },
+    "fit_working_set": {
+      "steps": 36,
+      "record_occurrences": 336,
+      "raw_bytes_sum_over_steps": 1292748,
+      "max_record_bytes": 12638,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 10,
+      "unique_typed_arrays_gold_applicable": 3,
+      "max_history_bytes": 53413,
+      "max_quote_bytes_per_history": 53108
+    },
+    "pressure_working_set": {
+      "steps": 36,
+      "record_occurrences": 336,
+      "raw_bytes_sum_over_steps": 3444960,
+      "max_record_bytes": 44072,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 10,
+      "unique_typed_arrays_gold_applicable": 3,
+      "max_history_bytes": 106114,
+      "max_quote_bytes_per_history": 105809
+    },
+    "phase_shift": {
+      "steps": 36,
+      "record_occurrences": 252,
+      "raw_bytes_sum_over_steps": 978900,
+      "max_record_bytes": 66259,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 21,
+      "unique_typed_arrays_gold_applicable": 6,
+      "max_history_bytes": 66561,
+      "max_quote_bytes_per_history": 66259
+    },
+    "same_length_misses": {
+      "steps": 36,
+      "record_occurrences": 252,
+      "raw_bytes_sum_over_steps": 942708,
+      "max_record_bytes": 65342,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 15,
+      "unique_typed_arrays_gold_applicable": 3,
+      "max_history_bytes": 65647,
+      "max_quote_bytes_per_history": 65342
+    },
+    "revisions_copy_context": {
+      "steps": 36,
+      "record_occurrences": 312,
+      "raw_bytes_sum_over_steps": 892545,
+      "max_record_bytes": 58845,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 36,
+      "unique_typed_arrays_gold_applicable": 30,
+      "max_history_bytes": 59269,
+      "max_quote_bytes_per_history": 58845
+    },
+    "scope_ambiguity": {
+      "steps": 36,
+      "record_occurrences": 288,
+      "raw_bytes_sum_over_steps": 16304,
+      "max_record_bytes": 81,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 27,
+      "unique_typed_arrays_gold_applicable": 27,
+      "max_history_bytes": 515,
+      "max_quote_bytes_per_history": 0
+    },
+    "integrity_unsupported_recovery": {
+      "steps": 36,
+      "record_occurrences": 264,
+      "raw_bytes_sum_over_steps": 903231,
+      "max_record_bytes": 59000,
+      "min_record_bytes": 45,
+      "unique_raw_histories": 6,
+      "unique_typed_arrays_gold_applicable": 6,
+      "max_history_bytes": 59357,
+      "max_quote_bytes_per_history": 59000
+    }
+  },
+  "authorship": "separate same-model author; shared finite grammar and study design; not external blind evaluation",
+  "semantic_boundary": "long payloads are grammar-defined noop quotes; no general natural-language or execution-evidence claim",
+  "data_file": "data/holdout.json.gz",
+  "data_bytes": 228838,
+  "data_sha256": "1a36ee60f57c7e0ad7f6f91f098e9803db212d4de2e00920510740e5b5ee20e6",
+  "uncompressed_data_bytes": 13030700,
+  "uncompressed_data_sha256": "c659d9c89126d5184ddc4a59102050ec50a8e6a8bfb2a3306d04fe4f526c6740",
+  "compression": "gzip level=9, filename='', mtime=0; serialization-only change before freeze",
+  "builder_sha256": "2d5256c434c027be5f8ba511763de305995e27c58757e75cf9ca301ed19ba290"
+}
