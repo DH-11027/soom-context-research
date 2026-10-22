@@ -1,0 +1,762 @@
+{
+  "joint_hypothesis": {
+    "H10_supported": false,
+    "numerical_rule_both_sessions": true,
+    "common_resolved_streams": [
+      "p10-holdout-short_repeated-03",
+      "p10-holdout-long_cheap-00",
+      "p10-holdout-long_cheap-01",
+      "p10-holdout-long_cheap-02",
+      "p10-holdout-long_cheap-03",
+      "p10-holdout-long_deep_repeat-00",
+      "p10-holdout-long_deep_repeat-01",
+      "p10-holdout-long_deep_repeat-02",
+      "p10-holdout-long_deep_repeat-03",
+      "p10-holdout-long_deep_churn-00",
+      "p10-holdout-long_deep_churn-01",
+      "p10-holdout-long_deep_churn-02",
+      "p10-holdout-long_deep_churn-03",
+      "p10-holdout-fit_working_set-00",
+      "p10-holdout-pressure_working_set-00",
+      "p10-holdout-pressure_working_set-01",
+      "p10-holdout-pressure_working_set-02",
+      "p10-holdout-pressure_working_set-03",
+      "p10-holdout-phase_shift-00",
+      "p10-holdout-phase_shift-01",
+      "p10-holdout-phase_shift-02",
+      "p10-holdout-phase_shift-03",
+      "p10-holdout-same_length_misses-00",
+      "p10-holdout-same_length_misses-01",
+      "p10-holdout-same_length_misses-02",
+      "p10-holdout-same_length_misses-03",
+      "p10-holdout-revisions_copy_context-00",
+      "p10-holdout-revisions_copy_context-01",
+      "p10-holdout-revisions_copy_context-02",
+      "p10-holdout-scope_ambiguity-03",
+      "p10-holdout-integrity_unsupported_recovery-00",
+      "p10-holdout-integrity_unsupported_recovery-02"
+    ],
+    "common_resolved_counts": {
+      "speedup": 0,
+      "slowdown": 32
+    },
+    "excluded_from_sign_only": {
+      "p10-holdout-short_repeated-00": [
+        "unresolved",
+        "slowdown"
+      ],
+      "p10-holdout-short_repeated-01": [
+        "unresolved",
+        "slowdown"
+      ],
+      "p10-holdout-short_repeated-02": [
+        "unresolved",
+        "unresolved"
+      ],
+      "p10-holdout-short_churn-00": [
+        "unresolved",
+        "slowdown"
+      ],
+      "p10-holdout-short_churn-01": [
+        "unresolved",
+        "unresolved"
+      ],
+      "p10-holdout-short_churn-02": [
+        "slowdown",
+        "unresolved"
+      ],
+      "p10-holdout-short_churn-03": [
+        "unresolved",
+        "slowdown"
+      ],
+      "p10-holdout-fit_working_set-01": [
+        "unresolved",
+        "unresolved"
+      ],
+      "p10-holdout-fit_working_set-02": [
+        "unresolved",
+        "unresolved"
+      ],
+      "p10-holdout-fit_working_set-03": [
+        "unresolved",
+        "unresolved"
+      ],
+      "p10-holdout-revisions_copy_context-03": [
+        "unresolved",
+        "unresolved"
+      ],
+      "p10-holdout-scope_ambiguity-00": [
+        "unresolved",
+        "unresolved"
+      ],
+      "p10-holdout-scope_ambiguity-01": [
+        "unresolved",
+        "unresolved"
+      ],
+      "p10-holdout-scope_ambiguity-02": [
+        "slowdown",
+        "unresolved"
+      ],
+      "p10-holdout-integrity_unsupported_recovery-01": [
+        "slowdown",
+        "unresolved"
+      ],
+      "p10-holdout-integrity_unsupported_recovery-03": [
+        "unresolved",
+        "unresolved"
+      ]
+    },
+    "sign_question_identifiable_under_rule": false,
+    "sign_rule_passed": false,
+    "sign_predictions": {
+      "trace_ridge": {
+        "correct_by_class": {
+          "speedup": 0,
+          "slowdown": 32
+        },
+        "balanced_accuracy": null,
+        "mistake_streams": []
+      },
+      "per_query": {
+        "correct_by_class": {
+          "speedup": 0,
+          "slowdown": 32
+        },
+        "balanced_accuracy": null,
+        "mistake_streams": []
+      },
+      "p8_calibrated": {
+        "correct_by_class": {
+          "speedup": 0,
+          "slowdown": 25
+        },
+        "balanced_accuracy": null,
+        "mistake_streams": [
+          "p10-holdout-long_deep_repeat-01",
+          "p10-holdout-long_deep_repeat-02",
+          "p10-holdout-long_deep_repeat-03",
+          "p10-holdout-pressure_working_set-01",
+          "p10-holdout-pressure_working_set-02",
+          "p10-holdout-pressure_working_set-03",
+          "p10-holdout-integrity_unsupported_recovery-02"
+        ]
+      },
+      "raw_p8": {
+        "correct_by_class": {
+          "speedup": 0,
+          "slowdown": 25
+        },
+        "balanced_accuracy": null,
+        "mistake_streams": [
+          "p10-holdout-long_deep_repeat-01",
+          "p10-holdout-long_deep_repeat-02",
+          "p10-holdout-long_deep_repeat-03",
+          "p10-holdout-pressure_working_set-01",
+          "p10-holdout-pressure_working_set-02",
+          "p10-holdout-pressure_working_set-03",
+          "p10-holdout-integrity_unsupported_recovery-02"
+        ]
+      },
+      "always_slowdown": {
+        "correct_by_class": {
+          "speedup": 0,
+          "slowdown": 32
+        },
+        "balanced_accuracy": null,
+        "mistake_streams": []
+      }
+    },
+    "best_baseline_balanced_accuracy": null,
+    "sign_threshold_arithmetic": "Exact integer-ratio Fractions; floating values are display only.",
+    "conclusion": "not_established_sign_classes_insufficient",
+    "boundary": "Sign subset selected by two measurement sessions; individual CIs not simultaneous. All streams remain in numerical error. No online-policy or causal-cost claim."
+  },
+  "numerical_errors": {
+    "primary": {
+      "trace_ridge": 0.037932860912951206,
+      "zero_change": 0.20033760317982593,
+      "per_query": 0.16568260267779952,
+      "p8_calibrated": 0.17368122598019067
+    },
+    "reproduction": {
+      "trace_ridge": 0.05267747105017678,
+      "zero_change": 0.21421885627257972,
+      "per_query": 0.17448134064251247,
+      "p8_calibrated": 0.19248427137384988
+    }
+  },
+  "model_error_divided_by_best_baseline": {
+    "primary": 0.22894896808639995,
+    "reproduction": 0.3019089081743443
+  },
+  "material_label_counts": {
+    "primary": {
+      "unresolved": 13,
+      "slowdown": 35
+    },
+    "reproduction": {
+      "slowdown": 36,
+      "unresolved": 12
+    }
+  },
+  "whole_workload": {
+    "primary": {
+      "fresh_median_us": 223951.49125000002,
+      "paired_delta_median_us": 36666.91575,
+      "delta_over_fresh_median": 0.16372704439403904,
+      "delta_bootstrap_95pct_us": [
+        27465.691749999998,
+        38736.560750000004
+      ],
+      "delta_interval_divided_by_fixed_fresh_median": [
+        0.12264125412471437,
+        0.17296853230933779
+      ],
+      "material_label": "slowdown",
+      "methods": {
+        "fresh_uninstrumented": {
+          "median_us": 223951.49125000002,
+          "min_us": 199860.5435,
+          "max_us": 255550.152,
+          "q25_us": 208028.15475,
+          "q75_us": 240116.30775
+        },
+        "selective_uninstrumented": {
+          "median_us": 251276.06775,
+          "min_us": 236714.8305,
+          "max_us": 294322.2235,
+          "q25_us": 247477.9835,
+          "q75_us": 278867.133875
+        }
+      },
+      "boundary": "Individual cycle-bootstrap delta interval, normalized by fixed marginal fresh median; not a joint ratio CI or simultaneous 48-stream guarantee. Blocks assumed exchangeable."
+    },
+    "reproduction": {
+      "fresh_median_us": 221852.5625,
+      "paired_delta_median_us": 41032.05750000001,
+      "delta_over_fresh_median": 0.18495192048998763,
+      "delta_bootstrap_95pct_us": [
+        32982.32050000003,
+        54008.258
+      ],
+      "delta_interval_divided_by_fixed_fresh_median": [
+        0.14866774640026992,
+        0.2434421193579858
+      ],
+      "material_label": "slowdown",
+      "methods": {
+        "fresh_uninstrumented": {
+          "median_us": 221852.5625,
+          "min_us": 202598.873,
+          "max_us": 331050.314,
+          "q25_us": 212414.438375,
+          "q75_us": 251809.203125
+        },
+        "selective_uninstrumented": {
+          "median_us": 265677.11199999996,
+          "min_us": 247100.3875,
+          "max_us": 321803.613,
+          "q25_us": 256445.823625,
+          "q75_us": 291145.89675
+        }
+      },
+      "boundary": "Individual cycle-bootstrap delta interval, normalized by fixed marginal fresh median; not a joint ratio CI or simultaneous 48-stream guarantee. Blocks assumed exchangeable."
+    }
+  },
+  "whole_workload_rounds": {
+    "primary": 16,
+    "reproduction": 16
+  },
+  "preservation": {
+    "prefixes": 1176,
+    "exact_observation_comparisons": 3528,
+    "exact_on_off_execution_trace_comparisons": 2352,
+    "exact_policy_state_mismatches": 0,
+    "exact_policy_trace_mismatches": 0,
+    "failures": []
+  },
+  "method_summaries": {
+    "fresh_instrumented": {
+      "queries": 1176,
+      "streams": 48,
+      "status_counts": {
+        "certified_model": 1009,
+        "ambiguous": 67,
+        "opaque_fallback": 55,
+        "integrity_failure": 28,
+        "unsupported_query": 17
+      },
+      "valid_snapshots": 1148,
+      "valid_supported": 1131,
+      "gold_evaluated": 1128,
+      "gold_excluded": 48,
+      "gold_exclusion_reasons": {
+        "undefined_membership_projection": 20,
+        "invalid_snapshot": 28
+      },
+      "certified_gold_evaluated": 1009,
+      "false_certifications": 0,
+      "containment_evaluated": 1111,
+      "containment_violations": 0,
+      "gold_projection_evaluated": 1128,
+      "gold_projection_failures": 0,
+      "structural_errors": 0,
+      "parity_failure_rows": 0,
+      "actual_full_history": 72,
+      "output_bytes": 1674542,
+      "max_retained_bytes_at_step_end": 0,
+      "max_entries_at_step_end": 0,
+      "instrumented_peak_retained_bytes": 0,
+      "instrumented_peak_entries": 0,
+      "separate_audit_actual_work": {
+        "cheap_calls": 8932,
+        "contract_calls": 2266,
+        "detail_calls": 2203,
+        "cheap_source_bytes": 39209441,
+        "contract_source_bytes": 37083637,
+        "detail_source_bytes": 37078745,
+        "snapshot_calls": 1157,
+        "snapshot_serialized_bytes": 40946856,
+        "render_calls": 1148,
+        "rendered_bytes": 1674542,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "instrumented_cost": {
+        "abstract_steps": 3792,
+        "admission_attempts": 0,
+        "admission_reject_capacity": 0,
+        "admission_reject_gain": 0,
+        "cache_entry_hits": 0,
+        "cache_entry_misses": 0,
+        "cache_evictions": 0,
+        "cache_lookups": 0,
+        "cache_overhead_bytes": 0,
+        "cache_oversize": 0,
+        "cache_read_payload_bytes": 0,
+        "cache_write_bytes": 0,
+        "cache_writes": 0,
+        "cheap_calls": 8932,
+        "cheap_requests": 8932,
+        "cheap_reused": 0,
+        "cheap_source_bytes": 39209441,
+        "contract_calls": 2266,
+        "contract_requests": 2266,
+        "contract_reused": 0,
+        "contract_source_bytes": 37083637,
+        "control_actions": 0,
+        "detail_calls": 2203,
+        "detail_requests": 2203,
+        "detail_reused": 0,
+        "detail_source_bytes": 37078745,
+        "directory_skips": 0,
+        "hash_calls": 1157,
+        "hash_serialized_bytes": 40946856,
+        "key_build_bytes": 0,
+        "key_probe_bytes": 0,
+        "oracle_metadata_fields": 0,
+        "output_plus_source_work_proxy": 155993221,
+        "phase07_work_proxy": 155993221,
+        "phase08_work_score": 155993221,
+        "records_visited": 8932,
+        "reparse_calls": 0,
+        "reparse_source_bytes": 0,
+        "short_bypasses": 0,
+        "source_work_bytes": 154318679,
+        "value_encode_bytes": 0
+      },
+      "instrumented_control_events": {},
+      "boundary": "Actual invocation counters belong to a separate wrapped correctness replay, never primary timing. No synthetic cost ledger is attached to an uninstrumented result."
+    },
+    "fresh_uninstrumented": {
+      "queries": 1176,
+      "streams": 48,
+      "status_counts": {
+        "certified_model": 1009,
+        "ambiguous": 67,
+        "opaque_fallback": 55,
+        "integrity_failure": 28,
+        "unsupported_query": 17
+      },
+      "valid_snapshots": 1148,
+      "valid_supported": 1131,
+      "gold_evaluated": 1128,
+      "gold_excluded": 48,
+      "gold_exclusion_reasons": {
+        "undefined_membership_projection": 20,
+        "invalid_snapshot": 28
+      },
+      "certified_gold_evaluated": 1009,
+      "false_certifications": 0,
+      "containment_evaluated": 1111,
+      "containment_violations": 0,
+      "gold_projection_evaluated": 1128,
+      "gold_projection_failures": 0,
+      "structural_errors": 0,
+      "parity_failure_rows": 0,
+      "actual_full_history": 72,
+      "output_bytes": 1674542,
+      "max_retained_bytes_at_step_end": 0,
+      "max_entries_at_step_end": 0,
+      "instrumented_peak_retained_bytes": null,
+      "instrumented_peak_entries": null,
+      "separate_audit_actual_work": {
+        "cheap_calls": 8932,
+        "contract_calls": 2266,
+        "detail_calls": 2203,
+        "cheap_source_bytes": 39209441,
+        "contract_source_bytes": 37083637,
+        "detail_source_bytes": 37078745,
+        "snapshot_calls": 1157,
+        "snapshot_serialized_bytes": 40946856,
+        "render_calls": 1148,
+        "rendered_bytes": 1674542,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "instrumented_cost": null,
+      "instrumented_control_events": null,
+      "boundary": "Actual invocation counters belong to a separate wrapped correctness replay, never primary timing. No synthetic cost ledger is attached to an uninstrumented result."
+    },
+    "selective_instrumented": {
+      "queries": 1176,
+      "streams": 48,
+      "status_counts": {
+        "certified_model": 1009,
+        "ambiguous": 67,
+        "opaque_fallback": 55,
+        "integrity_failure": 28,
+        "unsupported_query": 17
+      },
+      "valid_snapshots": 1148,
+      "valid_supported": 1131,
+      "gold_evaluated": 1128,
+      "gold_excluded": 48,
+      "gold_exclusion_reasons": {
+        "undefined_membership_projection": 20,
+        "invalid_snapshot": 28
+      },
+      "certified_gold_evaluated": 1009,
+      "false_certifications": 0,
+      "containment_evaluated": 1111,
+      "containment_violations": 0,
+      "gold_projection_evaluated": 1128,
+      "gold_projection_failures": 0,
+      "structural_errors": 0,
+      "parity_failure_rows": 0,
+      "actual_full_history": 72,
+      "output_bytes": 1674542,
+      "max_retained_bytes_at_step_end": 64086,
+      "max_entries_at_step_end": 9,
+      "instrumented_peak_retained_bytes": 64086,
+      "instrumented_peak_entries": 9,
+      "separate_audit_actual_work": {
+        "cheap_calls": 8289,
+        "contract_calls": 1623,
+        "detail_calls": 1560,
+        "cheap_source_bytes": 25559862,
+        "contract_source_bytes": 23434058,
+        "detail_source_bytes": 23429166,
+        "snapshot_calls": 1157,
+        "snapshot_serialized_bytes": 40946856,
+        "render_calls": 1148,
+        "rendered_bytes": 1674542,
+        "policy_possible_calls": 1247,
+        "policy_get_calls": 771,
+        "policy_admit_calls": 506,
+        "policy_insertions": 72,
+        "policy_evictions": 6
+      },
+      "instrumented_cost": {
+        "abstract_steps": 3792,
+        "admission_attempts": 506,
+        "admission_reject_capacity": 434,
+        "admission_reject_gain": 0,
+        "cache_entry_hits": 643,
+        "cache_entry_misses": 128,
+        "cache_evictions": 6,
+        "cache_lookups": 771,
+        "cache_overhead_bytes": 40852155,
+        "cache_oversize": 158,
+        "cache_read_payload_bytes": 99022,
+        "cache_write_bytes": 1109403,
+        "cache_writes": 72,
+        "cheap_calls": 8289,
+        "cheap_requests": 8932,
+        "cheap_reused": 643,
+        "cheap_source_bytes": 25559862,
+        "contract_calls": 1623,
+        "contract_requests": 2266,
+        "contract_reused": 643,
+        "contract_source_bytes": 23434058,
+        "control_actions": 22234,
+        "detail_calls": 1560,
+        "detail_requests": 2203,
+        "detail_reused": 643,
+        "detail_source_bytes": 23429166,
+        "directory_skips": 476,
+        "hash_calls": 1157,
+        "hash_serialized_bytes": 40946856,
+        "key_build_bytes": 20247868,
+        "key_probe_bytes": 19317938,
+        "oracle_metadata_fields": 0,
+        "output_plus_source_work_proxy": 115044484,
+        "phase07_work_proxy": 155896639,
+        "phase08_work_score": 156074511,
+        "records_visited": 8932,
+        "reparse_calls": 0,
+        "reparse_source_bytes": 0,
+        "short_bypasses": 7685,
+        "source_work_bytes": 113369942,
+        "value_encode_bytes": 77924
+      },
+      "instrumented_control_events": {
+        "character_length_gate": 8932,
+        "length_directory_lookup": 1247,
+        "stage_observation": 1616,
+        "bundle_eligibility": 604,
+        "context_access": 1149,
+        "stage_payload_prepare": 1518,
+        "candidate_arithmetic": 1012,
+        "positive_surplus_check": 506,
+        "capacity_check": 506,
+        "entry_initialization": 720,
+        "exact_lookup": 771,
+        "bounded_hit_update": 643,
+        "cached_stage_read": 1929,
+        "resident_score_read": 361,
+        "density_comparison": 132,
+        "victim_plan_step": 282,
+        "victim_benefit_check": 282,
+        "entry_removal": 24
+      },
+      "boundary": "Actual invocation counters belong to a separate wrapped correctness replay, never primary timing. No synthetic cost ledger is attached to an uninstrumented result."
+    },
+    "selective_uninstrumented": {
+      "queries": 1176,
+      "streams": 48,
+      "status_counts": {
+        "certified_model": 1009,
+        "ambiguous": 67,
+        "opaque_fallback": 55,
+        "integrity_failure": 28,
+        "unsupported_query": 17
+      },
+      "valid_snapshots": 1148,
+      "valid_supported": 1131,
+      "gold_evaluated": 1128,
+      "gold_excluded": 48,
+      "gold_exclusion_reasons": {
+        "undefined_membership_projection": 20,
+        "invalid_snapshot": 28
+      },
+      "certified_gold_evaluated": 1009,
+      "false_certifications": 0,
+      "containment_evaluated": 1111,
+      "containment_violations": 0,
+      "gold_projection_evaluated": 1128,
+      "gold_projection_failures": 0,
+      "structural_errors": 0,
+      "parity_failure_rows": 0,
+      "actual_full_history": 72,
+      "output_bytes": 1674542,
+      "max_retained_bytes_at_step_end": 64086,
+      "max_entries_at_step_end": 9,
+      "instrumented_peak_retained_bytes": null,
+      "instrumented_peak_entries": null,
+      "separate_audit_actual_work": {
+        "cheap_calls": 8289,
+        "contract_calls": 1623,
+        "detail_calls": 1560,
+        "cheap_source_bytes": 25559862,
+        "contract_source_bytes": 23434058,
+        "detail_source_bytes": 23429166,
+        "snapshot_calls": 1157,
+        "snapshot_serialized_bytes": 40946856,
+        "render_calls": 1148,
+        "rendered_bytes": 1674542,
+        "policy_possible_calls": 1247,
+        "policy_get_calls": 771,
+        "policy_admit_calls": 506,
+        "policy_insertions": 72,
+        "policy_evictions": 6
+      },
+      "instrumented_cost": null,
+      "instrumented_control_events": null,
+      "boundary": "Actual invocation counters belong to a separate wrapped correctness replay, never primary timing. No synthetic cost ledger is attached to an uninstrumented result."
+    }
+  },
+  "separate_audit_totals": {
+    "fresh_instrumented": {
+      "parser_calls": 13401,
+      "parser_source_bytes": 113371823,
+      "snapshot_serialized_bytes": 40946856,
+      "output_bytes": 1674542,
+      "p8_instrumented_only": 155993221
+    },
+    "fresh_uninstrumented": {
+      "parser_calls": 13401,
+      "parser_source_bytes": 113371823,
+      "snapshot_serialized_bytes": 40946856,
+      "output_bytes": 1674542,
+      "p8_instrumented_only": null
+    },
+    "selective_instrumented": {
+      "parser_calls": 11472,
+      "parser_source_bytes": 72423086,
+      "snapshot_serialized_bytes": 40946856,
+      "output_bytes": 1674542,
+      "p8_instrumented_only": 156074511
+    },
+    "selective_uninstrumented": {
+      "parser_calls": 11472,
+      "parser_source_bytes": 72423086,
+      "snapshot_serialized_bytes": 40946856,
+      "output_bytes": 1674542,
+      "p8_instrumented_only": null
+    }
+  },
+  "extrapolation_outside_training_coordinate_ranges": {
+    "p10-holdout-short_repeated-00": [],
+    "p10-holdout-short_repeated-01": [],
+    "p10-holdout-short_repeated-02": [],
+    "p10-holdout-short_repeated-03": [
+      "queries",
+      "records_visited"
+    ],
+    "p10-holdout-short_churn-00": [],
+    "p10-holdout-short_churn-01": [],
+    "p10-holdout-short_churn-02": [],
+    "p10-holdout-short_churn-03": [
+      "queries",
+      "records_visited"
+    ],
+    "p10-holdout-long_cheap-00": [],
+    "p10-holdout-long_cheap-01": [],
+    "p10-holdout-long_cheap-02": [],
+    "p10-holdout-long_cheap-03": [
+      "queries",
+      "records_visited"
+    ],
+    "p10-holdout-long_deep_repeat-00": [],
+    "p10-holdout-long_deep_repeat-01": [],
+    "p10-holdout-long_deep_repeat-02": [],
+    "p10-holdout-long_deep_repeat-03": [
+      "queries",
+      "records_visited",
+      "saved_stage_characters"
+    ],
+    "p10-holdout-long_deep_churn-00": [],
+    "p10-holdout-long_deep_churn-01": [],
+    "p10-holdout-long_deep_churn-02": [],
+    "p10-holdout-long_deep_churn-03": [
+      "queries",
+      "records_visited",
+      "raw_encode_bytes",
+      "encoded_context_payload_bytes"
+    ],
+    "p10-holdout-fit_working_set-00": [],
+    "p10-holdout-fit_working_set-01": [],
+    "p10-holdout-fit_working_set-02": [],
+    "p10-holdout-fit_working_set-03": [
+      "queries",
+      "records_visited"
+    ],
+    "p10-holdout-pressure_working_set-00": [],
+    "p10-holdout-pressure_working_set-01": [],
+    "p10-holdout-pressure_working_set-02": [],
+    "p10-holdout-pressure_working_set-03": [
+      "queries",
+      "records_visited",
+      "raw_encode_bytes",
+      "saved_stage_characters",
+      "encoded_context_payload_bytes",
+      "admission_attempts",
+      "policy_control_actions"
+    ],
+    "p10-holdout-phase_shift-00": [],
+    "p10-holdout-phase_shift-01": [],
+    "p10-holdout-phase_shift-02": [],
+    "p10-holdout-phase_shift-03": [
+      "queries",
+      "records_visited",
+      "raw_encode_bytes",
+      "exact_probe_bytes"
+    ],
+    "p10-holdout-same_length_misses-00": [],
+    "p10-holdout-same_length_misses-01": [],
+    "p10-holdout-same_length_misses-02": [],
+    "p10-holdout-same_length_misses-03": [
+      "queries",
+      "raw_encode_bytes",
+      "encoded_context_payload_bytes"
+    ],
+    "p10-holdout-revisions_copy_context-00": [],
+    "p10-holdout-revisions_copy_context-01": [],
+    "p10-holdout-revisions_copy_context-02": [],
+    "p10-holdout-revisions_copy_context-03": [
+      "queries"
+    ],
+    "p10-holdout-scope_ambiguity-00": [],
+    "p10-holdout-scope_ambiguity-01": [],
+    "p10-holdout-scope_ambiguity-02": [],
+    "p10-holdout-scope_ambiguity-03": [
+      "queries"
+    ],
+    "p10-holdout-integrity_unsupported_recovery-00": [],
+    "p10-holdout-integrity_unsupported_recovery-01": [],
+    "p10-holdout-integrity_unsupported_recovery-02": [],
+    "p10-holdout-integrity_unsupported_recovery-03": [
+      "queries"
+    ]
+  },
+  "extrapolation_stream_count": 12,
+  "deterministic_artifact_comparisons": [
+    {
+      "file": "audit.json",
+      "byte_identical": true
+    },
+    {
+      "file": "model_refit.json",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_features.json",
+      "byte_identical": true
+    },
+    {
+      "file": "predictions.json",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_results.json",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_rows.json.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_states.json.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "data_profile.json",
+      "byte_identical": true
+    }
+  ],
+  "source_sha256": {
+    "predictions.json": "db62c145df97d0426184fac031713cee8d571e9a80740b7effa15c81d8d83041",
+    "primary_timing.json": "ff0da759daad155b6f24f32bc8d66ff0bbe3a74949c84f419a5b91b9edfa4e5e",
+    "reproduction_timing.json": "103af7d90fd0766dc154dd57ed398dd35027a4201d54f3d044c10059d32158d2",
+    "model.json": "160ecc6b568a475878473eed411a1caff96d99ede41ee984231ecb5016621365",
+    "freeze.json": "0cefac067755fd2f571b04df748b0a3d56ac0c5dd1afdff33a83188eb7d5fd83"
+  },
+  "boundary": "Postfreeze deterministic aggregation. No policy/model/data changes, no new timing or resampling. Error is equal-weight over fixed 48 streams; sign subset measurement-selected; no population, online-gate, or causal-cost conclusion. Coordinate-range extrapolation is descriptive, not a joint support guarantee."
+}

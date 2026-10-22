@@ -1,0 +1,15 @@
+{
+  "command": [
+    "git",
+    "bundle",
+    "verify",
+    "research/phase09/pre_evaluation.bundle"
+  ],
+  "cwd": "/workspace/scratch/ff70ac34eaeb/soom-context-phase10",
+  "started_at_utc": "2026-10-22T13:24:15.988831+00:00",
+  "finished_at_utc": "2026-10-22T13:24:15.994973+00:00",
+  "returncode": 0,
+  "stdout": "The bundle contains this ref:\n387b451a19d0c17abc22365b82daeb357b0d3ab3 refs/heads/research/phase09-instrumentation-erasure\nThe bundle requires this ref:\nefba3224dd09d5c5e2bf9d9be11734fa10b32502 \nThe bundle uses this hash algorithm: sha1\n",
+  "stderr": "research/phase09/pre_evaluation.bundle is okay\n",
+  "new_timing_session": false
+}

@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python",
+    "research/phase10/run_study.py",
+    "--run",
+    "--session",
+    "reproduction",
+    "--output",
+    "/tmp/soom-phase10-reproduction",
+    "--compare",
+    "research/phase10/results"
+  ],
+  "cwd": "/workspace/scratch/ff70ac34eaeb/soom-context-phase10",
+  "started_at_utc": "2026-10-22T13:57:41.271377+00:00",
+  "finished_at_utc": "2026-10-22T14:00:20.371411+00:00",
+  "returncode": 0,
+  "stdout": "{\"session\": \"reproduction\", \"streams\": 48, \"prefixes\": 1176, \"errors\": {\"trace_ridge\": 0.05267747105017678, \"zero_change\": 0.21421885627257972, \"per_query\": 0.17448134064251247, \"p8_calibrated\": 0.19248427137384988}, \"numerical_rule_passed\": true, \"compared\": [{\"file\": \"audit.json\", \"byte_identical\": true}, {\"file\": \"model_refit.json\", \"byte_identical\": true}, {\"file\": \"holdout_features.json\", \"byte_identical\": true}, {\"file\": \"predictions.json\", \"byte_identical\": true}, {\"file\": \"holdout_results.json\", \"byte_identical\": true}, {\"file\": \"holdout_rows.json.gz\", \"byte_identical\": true}, {\"file\": \"holdout_states.json.gz\", \"byte_identical\": true}, {\"file\": \"data_profile.json\", \"byte_identical\": true}]}\n",
+  "stderr": "",
+  "requested_new_timing_sessions": 1
+}

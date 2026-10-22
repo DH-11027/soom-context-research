@@ -1,0 +1,105 @@
+{
+  "feature_order": [
+    "stream_constant",
+    "queries",
+    "records_visited",
+    "raw_encode_bytes",
+    "saved_stage_calls",
+    "saved_stage_characters",
+    "exact_probe_bytes",
+    "encoded_context_payload_bytes",
+    "admission_attempts",
+    "policy_control_actions"
+  ],
+  "ridge_lambda": 0.01,
+  "training_streams": 144,
+  "training_base_streams": 36,
+  "feature_rms_of_x_over_fresh_us": [
+    0.003833721439165332,
+    0.009470773264662566,
+    0.06477050688964392,
+    139.96239100178926,
+    0.01568811266575306,
+    110.38026465505116,
+    89.77372431715308,
+    1.312168390760166,
+    0.004718123984146442,
+    0.17163842468845608
+  ],
+  "theta": [
+    0.02886451195526419,
+    -0.0005713494489771364,
+    0.04750538996400388,
+    0.0858006659396863,
+    -0.07060373029488363,
+    -0.027391349206490227,
+    0.022146234716864915,
+    0.13113984990932606,
+    0.04031902312019344,
+    -0.00517832201655849
+  ],
+  "coefficients_us_per_feature": {
+    "stream_constant": 7.529110399202216,
+    "queries": -0.06032764516799917,
+    "records_visited": 0.7334416888992953,
+    "raw_encode_bytes": 0.0006130265803946536,
+    "saved_stage_calls": -4.500460431356451,
+    "saved_stage_characters": -0.00024815440778377186,
+    "exact_probe_bytes": 0.0002466894950088801,
+    "encoded_context_payload_bytes": 0.09994132676321678,
+    "admission_attempts": 8.545562442969073,
+    "policy_control_actions": -0.03016994607097888
+  },
+  "training_feature_bounds": {
+    "stream_constant": {
+      "min": 1,
+      "max": 1
+    },
+    "queries": {
+      "min": 1,
+      "max": 36
+    },
+    "records_visited": {
+      "min": 6,
+      "max": 408
+    },
+    "raw_encode_bytes": {
+      "min": 348,
+      "max": 3818484
+    },
+    "saved_stage_calls": {
+      "min": 0,
+      "max": 525
+    },
+    "saved_stage_characters": {
+      "min": 0,
+      "max": 4340070
+    },
+    "exact_probe_bytes": {
+      "min": 0,
+      "max": 3300201
+    },
+    "encoded_context_payload_bytes": {
+      "min": 0,
+      "max": 15330
+    },
+    "admission_attempts": {
+      "min": 0,
+      "max": 75
+    },
+    "policy_control_actions": {
+      "min": 6,
+      "max": 2656
+    }
+  },
+  "normal_equation_residual": 2.7755575615628914e-17,
+  "per_query_baseline_us": 20.232705357142862,
+  "p8_nonnegative_scale_us_per_point": 0.0010649122892833123,
+  "target": "median paired (selective_us-fresh_us), training loss normalized by marginal median fresh_us",
+  "boundary": "Predictive coefficients; no causal CPU unit-cost interpretation. No holdout timing or labels enter fit.",
+  "calibration_sha256": {
+    "calibration_data.json.gz": "67cf91a722b2bae3bbada84d9bf9337e9e78a42255d153fb97fe8deedc327a7f",
+    "calibration_features.json": "29904e6ce9e01ab29a00d95af5b985491154254cd1103420345034b05d76fd28",
+    "timing.json": "f7ab6083f4314cd2efe42f4ef4475be845c474b710f32b1c503d06fd6087f39e"
+  }
+}

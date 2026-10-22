@@ -1,0 +1,1 @@
+{"session": "calibration", "streams": 144, "rounds_per_stream": 12, "whole": null}

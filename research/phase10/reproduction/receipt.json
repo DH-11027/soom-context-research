@@ -1,0 +1,60 @@
+{
+  "started_at_utc": "2026-10-22T13:57:41.378829+00:00",
+  "finished_at_utc": "2026-10-22T14:00:20.346352+00:00",
+  "status": "passed",
+  "meaning_of_passed": "Execution and preservation; not H10 support",
+  "session": "reproduction",
+  "predictions_sealed_before_timing": true,
+  "model_refitted_on_reproduction_timing": false,
+  "compared": [
+    {
+      "file": "audit.json",
+      "byte_identical": true
+    },
+    {
+      "file": "model_refit.json",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_features.json",
+      "byte_identical": true
+    },
+    {
+      "file": "predictions.json",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_results.json",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_rows.json.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_states.json.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "data_profile.json",
+      "byte_identical": true
+    }
+  ],
+  "preservation_failures": 0,
+  "files": {
+    "audit.json": "37b94db12390590a5788be8a0da480ba7728ed7bf44a15f1ab2fe0ff90446a3a",
+    "data_profile.json": "77cba25371bb9bc8c5626b552658cb4e7f912d11d6d42d85d8e16cad6a101763",
+    "holdout_features.json": "87de999b4b0e636483a4323f16fb7b0371c70fdc9b4e42e82e02fd828aa157ad",
+    "holdout_results.json": "1e7fc5d1a1d04ad35fabd1ca5847a7d9f78af48a17b111128d6afa0c73c23779",
+    "holdout_rows.json.gz": "36e0c1d84e1d03fa3e9a9d69c0ba96360353a53823754a89aa99d0d39ac5b254",
+    "holdout_states.json.gz": "9ccbc1992635d90622e24976d250f827dbfdb1a622b2363037c424153b3cc799",
+    "model_refit.json": "160ecc6b568a475878473eed411a1caff96d99ede41ee984231ecb5016621365",
+    "prediction_receipt.json": "e59bd1d6a6279399d04598b4a8719ec9aa1d028e39bcdd8d690187ad1a3a8a35",
+    "predictions.json": "db62c145df97d0426184fac031713cee8d571e9a80740b7effa15c81d8d83041",
+    "scores.json": "52f204b00d1784098179665997a8163bcf1f9a439f31544993105c334ad90755",
+    "timing.json": "103af7d90fd0766dc154dd57ed398dd35027a4201d54f3d044c10059d32158d2",
+    "timing.progress.json": "15a2687005041ffb91df26dc4b8c43650657638c3ecb3b58f6b61ceb10aa82b5",
+    "timing_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "timing_stdout.txt": "10d3b623c450c059485a607b810903fb9a03a537f402e4693d0bf14f355bf39d"
+  }
+}
