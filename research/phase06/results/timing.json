@@ -1,0 +1,224 @@
+{
+  "heldout_challenge": {
+    "repeats": 5,
+    "query_count": 192,
+    "rotation": [
+      "full_history",
+      "frozen_lazy",
+      "global_control",
+      "text_scoped",
+      "text_scoped_eager"
+    ],
+    "scope": "Instrumented local Python path including hashing, parsing, inference, rendering; no LLM, retrieval service or gold evaluation",
+    "methods": {
+      "full_history": {
+        "seconds": [
+          0.003613058999690111,
+          0.0029785589999846707,
+          0.0034777580003719777,
+          0.002597574999981589,
+          0.0024270219996651576
+        ],
+        "median_seconds": 0.0029785589999846707,
+        "min_seconds": 0.0024270219996651576,
+        "max_seconds": 0.003613058999690111
+      },
+      "frozen_lazy": {
+        "seconds": [
+          0.006855599000118673,
+          0.005561812999985705,
+          0.006775659000140877,
+          0.0052794940002058866,
+          0.00595612600000095
+        ],
+        "median_seconds": 0.00595612600000095,
+        "min_seconds": 0.0052794940002058866,
+        "max_seconds": 0.006855599000118673
+      },
+      "global_control": {
+        "seconds": [
+          0.010646559000178968,
+          0.006642012000156683,
+          0.007071336999615596,
+          0.0061355019997790805,
+          0.009648451999964891
+        ],
+        "median_seconds": 0.007071336999615596,
+        "min_seconds": 0.0061355019997790805,
+        "max_seconds": 0.010646559000178968
+      },
+      "text_scoped": {
+        "seconds": [
+          0.006217012999968574,
+          0.005761159000030602,
+          0.006040721999852394,
+          0.007037578000108624,
+          0.00828248000016174
+        ],
+        "median_seconds": 0.006217012999968574,
+        "min_seconds": 0.005761159000030602,
+        "max_seconds": 0.00828248000016174
+      },
+      "text_scoped_eager": {
+        "seconds": [
+          0.011272375999851647,
+          0.013074173999939376,
+          0.011920816000383638,
+          0.01113948000011078,
+          0.01110500899994804
+        ],
+        "median_seconds": 0.011272375999851647,
+        "min_seconds": 0.01110500899994804,
+        "max_seconds": 0.013074173999939376
+      }
+    }
+  },
+  "heldout_controlled": {
+    "repeats": 5,
+    "query_count": 192,
+    "rotation": [
+      "full_history",
+      "frozen_lazy",
+      "global_control",
+      "text_scoped",
+      "text_scoped_eager"
+    ],
+    "scope": "Instrumented local Python path including hashing, parsing, inference, rendering; no LLM, retrieval service or gold evaluation",
+    "methods": {
+      "full_history": {
+        "seconds": [
+          0.0031581849998474354,
+          0.0024781279998933314,
+          0.002895656999953644,
+          0.0025408810001863458,
+          0.0026105750002898276
+        ],
+        "median_seconds": 0.0026105750002898276,
+        "min_seconds": 0.0024781279998933314,
+        "max_seconds": 0.0031581849998474354
+      },
+      "frozen_lazy": {
+        "seconds": [
+          0.0060617219996856875,
+          0.005367434999698162,
+          0.005872724000255403,
+          0.006776941999760311,
+          0.0059920810003859515
+        ],
+        "median_seconds": 0.0059920810003859515,
+        "min_seconds": 0.005367434999698162,
+        "max_seconds": 0.006776941999760311
+      },
+      "global_control": {
+        "seconds": [
+          0.00682335100009368,
+          0.0062853050003468525,
+          0.006446652999784419,
+          0.006752544999926613,
+          0.006367926000166335
+        ],
+        "median_seconds": 0.006446652999784419,
+        "min_seconds": 0.0062853050003468525,
+        "max_seconds": 0.00682335100009368
+      },
+      "text_scoped": {
+        "seconds": [
+          0.008169081999767513,
+          0.008803611000075762,
+          0.008492231000218453,
+          0.008362879000287649,
+          0.009062475000064296
+        ],
+        "median_seconds": 0.008492231000218453,
+        "min_seconds": 0.008169081999767513,
+        "max_seconds": 0.009062475000064296
+      },
+      "text_scoped_eager": {
+        "seconds": [
+          0.01132079800026986,
+          0.010212255999704212,
+          0.010519872000259056,
+          0.011546142000042892,
+          0.010856610999780969
+        ],
+        "median_seconds": 0.010856610999780969,
+        "min_seconds": 0.010212255999704212,
+        "max_seconds": 0.011546142000042892
+      }
+    }
+  },
+  "legacy_regression": {
+    "repeats": 5,
+    "query_count": 672,
+    "rotation": [
+      "full_history",
+      "frozen_lazy",
+      "global_control",
+      "text_scoped",
+      "text_scoped_eager"
+    ],
+    "scope": "Instrumented local Python path including hashing, parsing, inference, rendering; no LLM, retrieval service or gold evaluation",
+    "methods": {
+      "full_history": {
+        "seconds": [
+          0.014597919000152615,
+          0.014750564999758353,
+          0.014220230000319134,
+          0.01423789599994052,
+          0.014678948999971908
+        ],
+        "median_seconds": 0.014597919000152615,
+        "min_seconds": 0.014220230000319134,
+        "max_seconds": 0.014750564999758353
+      },
+      "frozen_lazy": {
+        "seconds": [
+          0.026197288999810553,
+          0.027021068000067316,
+          0.02697289700017791,
+          0.028660735999892495,
+          0.027469993000067916
+        ],
+        "median_seconds": 0.027021068000067316,
+        "min_seconds": 0.026197288999810553,
+        "max_seconds": 0.028660735999892495
+      },
+      "global_control": {
+        "seconds": [
+          0.02892719000010402,
+          0.029399599000043963,
+          0.03180433900024582,
+          0.028158513000107632,
+          0.02901082399966981
+        ],
+        "median_seconds": 0.02901082399966981,
+        "min_seconds": 0.028158513000107632,
+        "max_seconds": 0.03180433900024582
+      },
+      "text_scoped": {
+        "seconds": [
+          0.029962842999793793,
+          0.029065244999856077,
+          0.029974069999752828,
+          0.030206563999854552,
+          0.027734575000067707
+        ],
+        "median_seconds": 0.029962842999793793,
+        "min_seconds": 0.027734575000067707,
+        "max_seconds": 0.030206563999854552
+      },
+      "text_scoped_eager": {
+        "seconds": [
+          0.09304495300011695,
+          0.09827442400001019,
+          0.0948879110001144,
+          0.09254165699985606,
+          0.09539890599990031
+        ],
+        "median_seconds": 0.0948879110001144,
+        "min_seconds": 0.09254165699985606,
+        "max_seconds": 0.09827442400001019
+      }
+    }
+  }
+}

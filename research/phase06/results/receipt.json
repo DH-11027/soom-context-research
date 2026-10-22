@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-10-22T09:35:50.571972+00:00",
+  "baseline_commit": "780891f6c147cfd3c1a3b0d065792776aaa525f3",
+  "freeze_sha256": "2c4c3e1d2814d03f338d8c7f6f77ef2518ae41db5f297aac533f22ef571ca79e",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "elapsed_seconds": 3.2283066200002395,
+  "status": "passed",
+  "failures": 0,
+  "compared_artifacts": [],
+  "artifact_sha256": {
+    "regression_results.json": "127b4966fbf33f076096981b931dbf574dc1926d50b295db0134944b5efe130c",
+    "timing.json": "ea86e2c8ea8bda638a1ae18833e35ee58b6178b2f3e3270b7f60edf1f36de814",
+    "holdout_results.json": "4b115e92393aa769b34d24545b268b7d42bddbad708d50107e03d9296d2c8c97",
+    "holdout_rows.json.gz": "cb1539adfc27f89ab525cabbcf68bda869fca4d0c0a8395c46885662450681aa",
+    "audit.json": "9f7bde69364c281c975e7fee55bcb2d7413f22f03c23ea437bad11fd3b936060",
+    "regression_rows.json.gz": "0184a80b926c28ff8d42c6ecf2e1ce92651e6adc3efaeca45c51a5284c26125a"
+  }
+}

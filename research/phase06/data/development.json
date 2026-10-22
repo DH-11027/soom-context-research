@@ -1,0 +1,1996 @@
+[
+  {
+    "id": "place_disjoint",
+    "family": "place_disjoint",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-place_disjoint-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-place_disjoint-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-place_disjoint-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-place_disjoint-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-place_disjoint-4",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "f1f535643608f6323424007dd3845cd4404bc7cab57976bbbd27267551362118"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "place_explicit_frame",
+    "family": "place_explicit_frame",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-place_explicit_frame-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-place_explicit_frame-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-place_explicit_frame-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-place_explicit_frame-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-place_explicit_frame-4",
+          "text": "은하 모임 장소는 카페로 확정해줘. 시간은 건드리지 않아."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "4d5cafd18964e0874d7629d1735d90c8289cc2ac9de7bbb521bb84cf2d2fe09a"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "time_scope",
+    "family": "time_scope",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-time_scope-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-time_scope-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-time_scope-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-time_scope-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-time_scope-4",
+          "text": "은하 모임 시간은 16시로 재합의했어. 장소는 그대로야."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "9a9f776ab86a26ca82548be40e1a1c66f1c1a967e6cdd1a64153f1fc0ec14cf7"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 16,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "overwritten",
+    "family": "overwritten",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-overwritten-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-overwritten-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-overwritten-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-overwritten-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-overwritten-4",
+          "text": "은하 모임 시간은 16시로 재합의했어. 장소는 그대로야."
+        },
+        {
+          "seq": 5,
+          "id": "dev-overwritten-5",
+          "text": "은하 모임 시간은 12시로 확정해줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 5,
+        "digest": "5f957c370967641ad6749e16c333e1d7aa9cbfc4f93cff14f63708befb1cc796"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 16,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 12,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "temporal_copy",
+    "family": "temporal_copy",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-temporal_copy-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-temporal_copy-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-temporal_copy-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-temporal_copy-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-temporal_copy-4",
+          "text": "은하 모임 시간은 16시로 재합의했어. 장소는 그대로야."
+        },
+        {
+          "seq": 5,
+          "id": "dev-temporal_copy-5",
+          "text": "새벽 모임 시간은 은하 모임 시간과 같게 맞춰줘."
+        },
+        {
+          "seq": 6,
+          "id": "dev-temporal_copy-6",
+          "text": "은하 모임 시간은 12시로 확정해줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 6,
+        "digest": "cf3aee1f9ec25b3dbb92e9104de3de44d1d00df11c9f94b09cac411bb3fe588e"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 16,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "copy",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": null,
+        "source": [
+          "은하",
+          "time"
+        ],
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 12,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "copy_before_unknown",
+    "family": "copy_before_unknown",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-copy_before_unknown-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-copy_before_unknown-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-copy_before_unknown-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-copy_before_unknown-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-copy_before_unknown-4",
+          "text": "새벽 모임 시간은 은하 모임 시간과 같게 맞춰줘."
+        },
+        {
+          "seq": 5,
+          "id": "dev-copy_before_unknown-5",
+          "text": "은하 모임 시간은 16시로 재합의했어. 장소는 그대로야."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 5,
+        "digest": "cc2804391799f9a91fb1b7af948193b387de37e707db703645129115b90e5514"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "copy",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": null,
+        "source": [
+          "은하",
+          "time"
+        ],
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 16,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "place_copy",
+    "family": "place_copy",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-place_copy-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-place_copy-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-place_copy-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-place_copy-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-place_copy-4",
+          "text": "은하 모임 장소는 새벽 모임 장소와 같게 맞춰줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "b67f3c88dad3c916246a9686a18f1d467f7a85ae3508619996779abc76be850b"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "copy",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": null,
+        "source": [
+          "새벽",
+          "place"
+        ],
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "weak_update",
+    "family": "weak_update",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-weak_update-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-weak_update-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-weak_update-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-weak_update-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-weak_update-4",
+          "text": "은하 모임과 새벽 모임 중 하나의 시간은 17시로 확정해줘."
+        },
+        {
+          "seq": 5,
+          "id": "dev-weak_update-5",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 5,
+        "digest": "251ca0e76360d299376e471f365c579923b14ca8b9b67e2df3ff348842bb05b6"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "maybe_set",
+        "target": null,
+        "value": 17,
+        "source": null,
+        "targets": [
+          [
+            "은하",
+            "time"
+          ],
+          [
+            "새벽",
+            "time"
+          ]
+        ]
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "quote",
+    "family": "quote",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-quote-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-quote-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-quote-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-quote-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-quote-4",
+          "text": "예시일 뿐이야:「은하 모임 장소는 카페로 바꿔줘.」 실제 변경은 없어."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "88adda425dd650d33e9c207467e385a461f65a6653321b603800584c5fbd0211"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "noop",
+        "target": null,
+        "value": null,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "compound",
+    "family": "compound",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-compound-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-compound-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-compound-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-compound-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-compound-4",
+          "text": "은하 모임 장소는 카페로 바꿔줘. 은하 모임 시간은 18시로 확정해줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "f9ddcd4f2a480507db2d89a05ce2cdcff13e17c7d8c5664029f0ca3ce8dc3ae4"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "sequence",
+        "events": [
+          {
+            "kind": "set",
+            "target": [
+              "은하",
+              "place"
+            ],
+            "value": "카페",
+            "source": null,
+            "targets": []
+          },
+          {
+            "kind": "set",
+            "target": [
+              "은하",
+              "time"
+            ],
+            "value": 18,
+            "source": null,
+            "targets": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "negation",
+    "family": "negation",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-negation-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-negation-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-negation-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-negation-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-negation-4",
+          "text": "은하 모임 장소는 카페로 바꿔줘라는 말은 취소야. 시간은 19시로 해."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "0f7001bf236bfc5a8959c36c7047107168f1d1519c6567504b6e8552fc7fc6f9"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 19,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "hidden_reference",
+    "family": "hidden_reference",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-hidden_reference-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-hidden_reference-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-hidden_reference-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-hidden_reference-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-hidden_reference-4",
+          "text": "은하 모임 장소는 카페로 바꿔줘. 둘째 모임도 한 시간 늦춰줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "9a6284cd4e226aeddc760f7b8b99f9d9e05394949a5a3bddbdd2d9dd9882a966"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "sequence",
+        "events": [
+          {
+            "kind": "set",
+            "target": [
+              "은하",
+              "place"
+            ],
+            "value": "카페",
+            "source": null,
+            "targets": []
+          },
+          {
+            "kind": "add",
+            "target": [
+              "새벽",
+              "time"
+            ],
+            "value": 1,
+            "source": null,
+            "targets": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "late_correction",
+    "family": "late_correction",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-late_correction-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-late_correction-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-late_correction-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-late_correction-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-late_correction-4",
+          "text": "은하 모임 시간은 12시로 확정해줘."
+        },
+        {
+          "seq": 5,
+          "id": "dev-late_correction-5",
+          "text": "정정할게. 은하 약속은 열네 시로 기억해줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 5,
+        "digest": "d39fc57776d87f5e98c6a4c129e6128be99df285af23d237c35583bba5cb77e5"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 12,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 14,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "independent_unknown",
+    "family": "independent_unknown",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-independent_unknown-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-independent_unknown-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-independent_unknown-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-independent_unknown-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-independent_unknown-4",
+          "text": "새벽 모임 시간은 16시로 재합의했어. 장소는 그대로야."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "a251407b50822fae646d6c8cbc651a3cfc59ed46abcc426e72c5bb6d79112d1e"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 16,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "detail_noop",
+    "family": "detail_noop",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-detail_noop-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-detail_noop-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-detail_noop-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-detail_noop-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-detail_noop-4",
+          "text": "참고로 남기는 감상이야. 오늘 하늘빛이 참 맑았어."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "c793e2fb20b064acdc52b25f2c9d5468f6664778b31fbcfca553dd49e7622ddb"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "noop",
+        "target": null,
+        "value": null,
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "scope_suffix",
+    "family": "scope_suffix",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-scope_suffix-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-scope_suffix-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-scope_suffix-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-scope_suffix-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-scope_suffix-4",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 5,
+          "id": "dev-scope_suffix-5",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 6,
+          "id": "dev-scope_suffix-6",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 7,
+          "id": "dev-scope_suffix-7",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 8,
+          "id": "dev-scope_suffix-8",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 9,
+          "id": "dev-scope_suffix-9",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 10,
+          "id": "dev-scope_suffix-10",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 11,
+          "id": "dev-scope_suffix-11",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 12,
+          "id": "dev-scope_suffix-12",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 13,
+          "id": "dev-scope_suffix-13",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 14,
+          "id": "dev-scope_suffix-14",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        },
+        {
+          "seq": 15,
+          "id": "dev-scope_suffix-15",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 15,
+        "digest": "99b7bda8d100102a17987edd9680121e4c65ba31282a19c1a1a5d29571baab75"
+      }
+    },
+    "queries": [
+      "은하 모임은 지금 몇 시야?",
+      "은하 모임의 시간과 장소를 알려줘.",
+      "새벽 모임은 지금 몇 시야?",
+      "두 모임의 현재 시간을 알려줘."
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      }
+    ]
+  },
+  {
+    "id": "unsupported",
+    "family": "unsupported",
+    "split": "development",
+    "public": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-unsupported-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-unsupported-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-unsupported-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-unsupported-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-unsupported-4",
+          "text": "은하 모임 장소는 카페로 바꿔줘."
+        }
+      ],
+      "entities": [
+        "은하",
+        "새벽"
+      ],
+      "snapshot": {
+        "head": 4,
+        "digest": "acfa6a35da8c165c546c85b37b2c2adfd6ccbb7feed8b9122fdae8b24a0badb5"
+      }
+    },
+    "queries": [
+      "은하 모임 시간이 어떻게 바뀌었어?",
+      "은하 모임 최초 요청을 인용해줘.",
+      "은하 모임 캘린더 반영은 실제 완료됐어?",
+      "은하 모임은 지금 몇 시야?"
+    ],
+    "gold": [
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "time"
+        ],
+        "value": 8,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "time"
+        ],
+        "value": 11,
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "도서관",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "새벽",
+          "place"
+        ],
+        "value": "공원",
+        "source": null,
+        "targets": []
+      },
+      {
+        "kind": "set",
+        "target": [
+          "은하",
+          "place"
+        ],
+        "value": "카페",
+        "source": null,
+        "targets": []
+      }
+    ]
+  }
+]
