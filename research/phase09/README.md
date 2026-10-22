@@ -8,6 +8,10 @@
 직접 기준: Phase08 공개 완료 `efba3224dd09d5c5e2bf9d9be11734fa10b32502`.
 기존 파일과 SOOM 운영 변경 없음. 추가는 이 폴더뿐이다.
 
+GitHub 전달: [PR #4](https://github.com/DH-11027/soom-context-research/pull/4),
+base `research/phase08-cost-aware-reuse`. [전달 확인](DELIVERY.json)은 공개 branch를
+다시 fetch해 로컬 연구 tree와 정확히 같음을 확인한 기록이다. PR은 merge하지 않았다.
+
 ## 읽기 순서
 
 1. [HANDOFF_BACK.md](HANDOFF_BACK.md): RETURN_TEMPLATE에 따른 전체 인수인계.

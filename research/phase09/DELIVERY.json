@@ -1,0 +1,22 @@
+{
+  "verified_at_utc": "2026-10-22T12:55:59.667983+00:00",
+  "local_research_commit": "f8649c3196dd289cb53325920fbbff7d0e87641b",
+  "public_research_commit": "218b1ad042cf2a2f8ec260420e13f6af9b729e7b",
+  "local_tree": "1a020e0813a03e1a399bc84cd558e94f3ee2ef0e",
+  "remote_tree": "1a020e0813a03e1a399bc84cd558e94f3ee2ef0e",
+  "tree_identical": true,
+  "git_diff_empty": true,
+  "base_commit": "efba3224dd09d5c5e2bf9d9be11734fa10b32502",
+  "added_files": 75,
+  "changes_only_under": "research/phase09/",
+  "working_tree_clean": true,
+  "pull_request": "https://github.com/DH-11027/soom-context-research/pull/4",
+  "branch": "research/phase09-instrumentation-erasure",
+  "base_branch": "research/phase08-cost-aware-reuse",
+  "state_at_creation": "open",
+  "merged": false,
+  "publication": "GitHub connector Git objects after HTTPS git push lacked shell credentials; public commit differs from local commit, whole tree verified equal by public git fetch and git diff.",
+  "freeze_objects_preserved": "research/phase09/pre_evaluation.bundle",
+  "local_freeze_commit": "387b451a19d0c17abc22365b82daeb357b0d3ab3",
+  "boundary": "This receipt records the first complete research publication. A subsequent documentation-only commit adds this receipt and links in README/HANDOFF; final head/tree is verified again and stated in PR metadata and the final response. No experiment, source core, protocol, data, result, or timing is changed after publication."
+}

@@ -24,8 +24,14 @@
   전달 직전에도 #1/#2/#3의 open/unmerged 상태와 #3 head `efba3224…`를 다시 확인했다.
   열린 Phase08 branch를 base로 사용한다. 기존 branch를 덮어쓰거나 PR을 merge하지 않는다.
 
-공개 전달 commit과 로컬 동결 commit은 별개일 수 있다. 최종 원격 SHA/tree 대조는
-GitHub 전달 receipt에 기록한다. 이 문서의 로컬 동결 시각을 외부 공개 시각으로 소급하지 않는다.
+**GitHub 전달:** [PR #4](https://github.com/DH-11027/soom-context-research/pull/4)를 open/unmerged 상태로 열었다.
+연구 내용의 최초 공개 commit은 `218b1ad042cf2a2f8ec260420e13f6af9b729e7b`이고,
+로컬 연구 완료 commit `f8649c3196dd289cb53325920fbbff7d0e87641b`와 전체 Git tree
+`1a020e0813a03e1a399bc84cd558e94f3ee2ef0e`가 정확히 같았다. 공개 branch를 다시 fetch한
+`git diff`가 비어 있었으며, 기존 기준 대비 75파일 추가가 모두 이 폴더 아래임을 확인했다.
+[DELIVERY.json](DELIVERY.json)에 그 검증을 기록했다. 이어진 문서 commit은 이 receipt와
+README/HANDOFF의 전달 링크만 추가한다. 최종 공개 head와 tree 대조도 PR 본문에 남긴다.
+로컬 freeze 객체는 bundle에 보존했다. 로컬 동결 시각을 외부 공개 시각으로 소급하지 않는다.
 
 ### 실제 읽기와 역할 구분
 
