@@ -1,0 +1,53 @@
+{
+  "created_at_utc": "2026-10-22T09:24:17.824052+00:00",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "phases": [
+    "05r2"
+  ],
+  "initial_archive_check": {
+    "archive_files": 59,
+    "archive_bytes": 14076747,
+    "original_frozen_source_bindings": 18,
+    "parsed_json_and_notebooks": 28,
+    "python_syntax_files": 28,
+    "notebooks_basic_structure": 5,
+    "resolved_local_links": 161,
+    "status": "passed",
+    "boundary": "Integrity and packaging only; does not rerun experiments or prove scientific claims."
+  },
+  "steps": [
+    {
+      "script": "phase05/revision02/reduction_study.py",
+      "arguments": [
+        "--run"
+      ],
+      "exit_code": 0,
+      "seconds": 2.689401577999888,
+      "log": "01-reduction_study.log",
+      "comparisons": [
+        {
+          "path": "phase05/revision02/reduction_results.json",
+          "semantic_json_equal": true
+        }
+      ]
+    }
+  ],
+  "status": "passed",
+  "revision_regression": {
+    "mode_query_comparisons": 2688,
+    "all_existing_corpus_outputs_unchanged": true,
+    "engine_sha256": "67163a9f83b11364ffa82be824925d96b8d62a828fd18d18cb3812f869f9d993"
+  },
+  "final_archive_check": {
+    "archive_files": 59,
+    "archive_bytes": 14076747,
+    "original_frozen_source_bindings": 18,
+    "parsed_json_and_notebooks": 28,
+    "python_syntax_files": 28,
+    "notebooks_basic_structure": 5,
+    "resolved_local_links": 161,
+    "status": "passed",
+    "boundary": "Integrity and packaging only; does not rerun experiments or prove scientific claims."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-10-22T09:35:43.730612+00:00",
+  "baseline_commit": "780891f6c147cfd3c1a3b0d065792776aaa525f3",
+  "scope": "Code chosen on development only; root has not read holdout examples or outcomes",
+  "holdout_provenance": "Same-model separate agent; shared public grammar and hypothesis, no selector source/results; not external blind evaluation",
+  "hashes": {
+    "scoped.py": "1b443560f5899a6ae2eecd2b16aee2493d303dff945a07354b8e831ce10872b4",
+    "evaluate.py": "a1dbd02e80c6daa67cad7ffc5772d073dc88d83e513cb487b58b41687e7dbcb6",
+    "audit.py": "bedc0cb8b887d6f1fd8bafa17eb50c7f7e9aa16310f505d26e26032d5acdc76e",
+    "development.py": "c2865f20e1f577b6a28ee23055ca15f7ede9ce06a865f13a2b87511a09c67b81",
+    "run_study.py": "85e4f171f05efee6623dc5a3bfafb1091519846859a1f6c6c2e51190f2b4a855",
+    "PROTOCOL.md": "d6bb8e86f900418b008460a8b2df7bd6fd181e0cc9691832d37782c9a757143a",
+    "THEORY.md": "9fadd3f9617d6224945fad3ea6e54cb45c65fba0142e149a2886f907ee28340d",
+    "data/development.json": "027dc51472f33c53cfd86a83f7bb68043ac50051c709213895e1a10f531528aa",
+    "holdout_builder.py": "61a116677fc4f80f0e5139c41fb032338b2d20a3fc9560c7386a639dc184c916",
+    "data/holdout.json": "ee2640474780954514f3018e971701c49e273bf6b4e6f5d156bcd2428035a830",
+    "HOLDOUT_AUTHOR.md": "5baee995801aa0fb2a93d0aad80fd8a8bbe15f6d78398a301c1dacce1be99d60"
+  },
+  "baseline_hashes": {
+    "research/phase05/revision02/engine.py": "67163a9f83b11364ffa82be824925d96b8d62a828fd18d18cb3812f869f9d993",
+    "research/phase05/corpus.json": "38619b2b12c356e43abd4b7755d08cca65ab5e3147324c4838895532fd1e309a"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "model": {
+    "operator_count": 12,
+    "program_length": 3,
+    "programs": 1728,
+    "initial_states": 16,
+    "question_sets": 4,
+    "comparisons": 6912,
+    "reset_prefix": true,
+    "effective_full_states_after_prefix": 1,
+    "finite_havoc_choices": {
+      "은하.time": [
+        0,
+        1
+      ],
+      "은하.place": [
+        "도서관",
+        "공원"
+      ],
+      "새벽.time": [
+        0,
+        1
+      ],
+      "새벽.place": [
+        "도서관",
+        "공원"
+      ]
+    },
+    "havoc_choices_are_not_a_closed_value_universe": true,
+    "abstract_projection_failures": 0,
+    "concrete_projection_failures": 0,
+    "containment_failures": 0,
+    "strict_record_reductions": 6912,
+    "prefix_free_per_input": {
+      "program_length": 2,
+      "programs": 144,
+      "singleton_initial_states": 16,
+      "question_sets": 4,
+      "comparisons": 9216,
+      "abstract_projection_failures": 0,
+      "concrete_projection_failures": 0,
+      "containment_failures": 0,
+      "strict_record_reductions": 6944
+    },
+    "total_projection_comparisons": 16128,
+    "nonvacuity_scope": "Record reductions here can arise from ordinary slicing; scope-specific gains are measured separately against global control in the corpus",
+    "limits": "Finite typed model with scoped nondeterminism, not a language or IID evaluation"
+  },
+  "evaluator_mutations": {
+    "empty_certification": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": true,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "wrong_value": {
+      "supported": true,
+      "schema_error": false,
+      "false_certification": true,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "empty_value_list": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": true,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "top_certified": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": true,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "unrequested_key": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": true,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "false_unsupported": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": false,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "unknown_status": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": false,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "false_integrity_failure": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": false,
+      "containment_violation": null,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "full_history_with_prediction": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": false,
+      "containment_violation": null,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "nonmapping_prediction": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": true,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "partial_fallback": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": false,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "missing_one_field": {
+      "supported": true,
+      "schema_error": true,
+      "false_certification": true,
+      "containment_violation": true,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    },
+    "honest_top_control": {
+      "supported": true,
+      "schema_error": false,
+      "false_certification": false,
+      "containment_violation": false,
+      "gold_singleton": true,
+      "gold_joint_answer_count": 1
+    }
+  },
+  "counterexamples": {
+    "underestimated_scope": {
+      "records": [
+        {
+          "seq": 0,
+          "id": "dev-compound-0",
+          "text": "은하 모임 시간은 8시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "dev-compound-1",
+          "text": "새벽 모임 시간은 11시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "dev-compound-2",
+          "text": "은하 모임 장소는 도서관로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "dev-compound-3",
+          "text": "새벽 모임 장소는 공원로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "dev-compound-4",
+          "text": "은하 모임 장소는 카페로 바꿔줘. 은하 모임 시간은 18시로 확정해줘."
+        }
+      ],
+      "query": "은하 모임은 지금 몇 시야?",
+      "bad_prediction": {
+        "은하.time": [
+          8
+        ]
+      },
+      "bad_assessment": {
+        "supported": true,
+        "schema_error": false,
+        "false_certification": true,
+        "containment_violation": true,
+        "gold_singleton": true,
+        "gold_joint_answer_count": 1
+      },
+      "text_only_status": "opaque_fallback"
+    },
+    "partial_demand_preserved": {
+      "은하.place": null,
+      "은하.time": [
+        8
+      ]
+    },
+    "historical_copy_status": "opaque_fallback",
+    "joint_correlation_counterexample": {
+      "c0": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "c1": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "same_marginals": true,
+      "same_joint": false
+    }
+  },
+  "integrity_and_interface": {
+    "opaque_id_invariance": true,
+    "snapshot_faults": {
+      "dropped": "integrity_failure",
+      "edited": "integrity_failure",
+      "reordered": "integrity_failure"
+    },
+    "text_only_rejects_oracle_arguments": true,
+    "whitelisted_public_input": true
+  },
+  "scope_grammar": {
+    "positive_rules": 6,
+    "negative_minimal_pairs": 18,
+    "cases": [
+      {
+        "rule": "place_replace",
+        "positive": "은하 모임 장소는 카페로 바꿔줘.",
+        "negative_minimal_pairs": [
+          "이전 기록 인용: 은하 모임 장소는 카페로 바꿔줘.",
+          "은하 모임 장소는 카페로 바꿔줘. 아니, 그 말은 취소야.",
+          "은하 모임 장소는 카페로 바꿔줘. 새벽 모임 시간을 한 시간 늦춰줘."
+        ]
+      },
+      {
+        "rule": "place_frame",
+        "positive": "은하 모임 장소는 카페로 확정해줘. 시간은 건드리지 않아.",
+        "negative_minimal_pairs": [
+          "이전 기록 인용: 은하 모임 장소는 카페로 확정해줘. 시간은 건드리지 않아.",
+          "은하 모임 장소는 카페로 확정해줘. 시간은 건드리지 않아. 아니, 그 말은 취소야.",
+          "은하 모임 장소는 카페로 확정해줘. 시간은 건드리지 않아. 새벽 모임 시간을 한 시간 늦춰줘."
+        ]
+      },
+      {
+        "rule": "time_frame",
+        "positive": "은하 모임 시간은 -3시로 재합의했어. 장소는 그대로야.",
+        "negative_minimal_pairs": [
+          "이전 기록 인용: 은하 모임 시간은 -3시로 재합의했어. 장소는 그대로야.",
+          "은하 모임 시간은 -3시로 재합의했어. 장소는 그대로야. 아니, 그 말은 취소야.",
+          "은하 모임 시간은 -3시로 재합의했어. 장소는 그대로야. 새벽 모임 시간을 한 시간 늦춰줘."
+        ]
+      },
+      {
+        "rule": "place_copy",
+        "positive": "은하 모임 장소는 새벽 모임 장소와 같게 맞춰줘.",
+        "negative_minimal_pairs": [
+          "이전 기록 인용: 은하 모임 장소는 새벽 모임 장소와 같게 맞춰줘.",
+          "은하 모임 장소는 새벽 모임 장소와 같게 맞춰줘. 아니, 그 말은 취소야.",
+          "은하 모임 장소는 새벽 모임 장소와 같게 맞춰줘. 새벽 모임 시간을 한 시간 늦춰줘."
+        ]
+      },
+      {
+        "rule": "place_undetermined",
+        "positive": "은하 모임 장소만 다시 정해줘.",
+        "negative_minimal_pairs": [
+          "이전 기록 인용: 은하 모임 장소만 다시 정해줘.",
+          "은하 모임 장소만 다시 정해줘. 아니, 그 말은 취소야.",
+          "은하 모임 장소만 다시 정해줘. 새벽 모임 시간을 한 시간 늦춰줘."
+        ]
+      },
+      {
+        "rule": "time_undetermined",
+        "positive": "은하 모임 시간만 다시 정해줘.",
+        "negative_minimal_pairs": [
+          "이전 기록 인용: 은하 모임 시간만 다시 정해줘.",
+          "은하 모임 시간만 다시 정해줘. 아니, 그 말은 취소야.",
+          "은하 모임 시간만 다시 정해줘. 새벽 모임 시간을 한 시간 늦춰줘."
+        ]
+      }
+    ],
+    "boundary": "Tests full-string whitelist recognition; does not prove natural-language frame semantics"
+  }
+}
