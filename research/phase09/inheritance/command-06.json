@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "bundle",
+    "verify",
+    "research/phase08/pre_evaluation.bundle"
+  ],
+  "started_at_utc": "2026-10-22T11:55:15.128876+00:00",
+  "finished_at_utc": "2026-10-22T11:55:15.134329+00:00",
+  "exit_code": 0,
+  "stdout": "The bundle contains this ref:\n4a128204cad4abbf374fea7326b6c844f800812f refs/heads/research/phase08-cost-aware-reuse\nThe bundle requires this ref:\n6da051c0132811184ecf39975d7ff647a1f47842 \nThe bundle uses this hash algorithm: sha1\n",
+  "stderr": "research/phase08/pre_evaluation.bundle is okay\n"
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python",
+    "research/phase08/run_study.py",
+    "--verify"
+  ],
+  "started_at_utc": "2026-10-22T11:55:05.970371+00:00",
+  "finished_at_utc": "2026-10-22T11:55:06.078813+00:00",
+  "exit_code": 0,
+  "stdout": "All frozen Phase08 and baseline hashes verified.\n",
+  "stderr": ""
+}

@@ -1,0 +1,62 @@
+{
+  "hypothesis": "H9: fixed-policy selective_uninstrumented materially reduces whole-workload elapsed time against fresh_uninstrumented",
+  "hypothesis_supported": false,
+  "local_frozen_rule_conclusion": "material_slowdown_observed_in_both_sessions",
+  "execution_and_preservation_contract": "passed",
+  "receipt_passed_means": "Successful execution and preservation/reproduction checks, not support for H9 speedup.",
+  "primary": {
+    "candidate": "selective_uninstrumented",
+    "reference": "fresh_uninstrumented",
+    "paired_median_ratio": 1.1793409288463985,
+    "change_percent": 17.934092884639853,
+    "measurement_bootstrap_95pct_ratio": [
+      1.1519418085595488,
+      1.2136089083535055
+    ],
+    "decision": "material_slowdown_observed",
+    "bootstrap_unit": "four consecutive order-balanced rounds of the same fixed workload",
+    "cycles": 10,
+    "bootstrap_samples": 20000,
+    "assumption": "cycles are sufficiently exchangeable; arbitrary inter-cycle host drift is not covered",
+    "population_inference": false
+  },
+  "reproduction": {
+    "candidate": "selective_uninstrumented",
+    "reference": "fresh_uninstrumented",
+    "paired_median_ratio": 1.1678169093075235,
+    "change_percent": 16.781690930752347,
+    "measurement_bootstrap_95pct_ratio": [
+      1.1591045538068923,
+      1.1914482389061465
+    ],
+    "decision": "material_slowdown_observed",
+    "bootstrap_unit": "four consecutive order-balanced rounds of the same fixed workload",
+    "cycles": 10,
+    "bootstrap_samples": 20000,
+    "assumption": "cycles are sufficiently exchangeable; arbitrary inter-cycle host drift is not covered",
+    "population_inference": false
+  },
+  "time_scope": "External elapsed wall time for all 36 synthetic streams / 432 steps, with cold parser-cache creation; finite fixed workload and this environment only.",
+  "new_data_independence": "Separate same-model author with shared grammar/design; not external blind evaluation.",
+  "source_sha256": {
+    "PROTOCOL.md": "afbb5ca7fe0d35d44584a2b351cb5d873f1bfb778d7728b73e15e1b14cd5adad",
+    "freeze.json": "776b11146a962fff666ddbacbba6b07e2766d0789816de490ea441d911594fbc",
+    "results/timing.json": "0c66ea821dcfdbc13527c85f07f037e2734da129a8db79d3784d02d6c271c2e2",
+    "reproduction_timing.json": "a0f2b8ee6b80419de6dee58f078c215bf5a71e596f4daf7db95928a85d607779",
+    "results/holdout_results.json": "782db8bf78f013b1a982d08bd325044baf52ea68ad0d4b6e0ad55c4fe7666df3",
+    "reproduction_receipt.json": "1b20d3c21ffe166fd265d7693886d27b8009bf074faa90616c77028cf91561eb",
+    "recount_results.json": "8e099f3a7af91d35ab304382c5e068262e349adacfec2a4d6f581c23f34e66aa",
+    "data_review_recount.json": "c77fd1834f46177c2cc19a0dcf2151501a1c7c04a41e6e2824c5c3d57699ab02"
+  },
+  "unmeasured": [
+    "Per-component causal time attribution",
+    "General natural-language semantics",
+    "General unfinished-request or execution-evidence preservation",
+    "LLM tokens, billing, answer quality",
+    "Other hardware/interpreters",
+    "Physical RSS",
+    "Production deployment"
+  ],
+  "soom_operating_changes": false,
+  "postfreeze_summary": true
+}

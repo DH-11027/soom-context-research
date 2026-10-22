@@ -1,0 +1,65 @@
+{
+  "recorded_after_checks_utc": "2026-10-22 12:22:14 UTC",
+  "boundary": "Post-evaluation final packaging checks only; no timing rerun; not preregistration.",
+  "commands": [
+    {
+      "command": "python research/phase09/run_study.py --verify",
+      "exit_code": 0,
+      "stdout": "Frozen source/data, base sources and exact AST erasure verified.\n"
+    },
+    {
+      "command": "python research/phase09/erase.py --check",
+      "exit_code": 0,
+      "stdout": "Erasure source/output identity checked.\n"
+    },
+    {
+      "command": "python research/phase09/holdout_builder.py --check",
+      "exit_code": 0,
+      "stdout": "{\n  \"seed\": 2026102209,\n  \"families\": 12,\n  \"streams\": 36,\n  \"parameters_per_family\": 3,\n  \"steps_per_stream\": 12,\n  \"steps\": 432,\n  \"valid_steps\": 420,\n  \"invalid_steps\": 12,\n  \"gold_applicable_steps\": 414,\n  \"unsupported_questions\": 9,\n  \"gold_supported_steps\": 405,\n  \"excluded_entity_membership_undefined\": 6,\n  \"excluded_invalid_snapshot\": 12,\n  \"schema_and_typed_plan_checks\": \"passed\",\n  \"selector_evaluated\": false,\n  \"raw_length_bands_bytes\": [\n    [\n      900,\n      1900\n    ],\n    [\n      9000,\n      18000\n    ],\n    [\n      57000,\n      74000\n    ]\n  ],\n  \"record_occurrences\": 3678,\n  \"record_bytes_min_max\": [\n    45,\n    70026\n  ],\n  \"record_characters_min_max\": [\n    19,\n    45642\n  ],\n  \"raw_bytes_sum_over_steps\": 11395141,\n  \"valid_unique_raw_histories\": 212,\n  \"exact_typed_arrays_gold_applicable\": 135,\n  \"exact_public_and_namespace\": 378,\n  \"family_distribution\": {\n    \"short_repeated\": {\n      \"steps\": 36,\n      \"record_occurrences\": 324,\n      \"raw_bytes_sum_over_steps\": 26292,\n      \"max_record_bytes\": 344,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 3,\n      \"unique_typed_arrays_gold_applicable\": 3,\n      \"max_history_bytes\": 747,\n      \"max_quote_bytes_per_history\": 344\n    },\n    \"short_churn\": {\n      \"steps\": 36,\n      \"record_occurrences\": 450,\n      \"raw_bytes_sum_over_steps\": 63089,\n      \"max_record_bytes\": 341,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 36,\n      \"unique_typed_arrays_gold_applicable\": 36,\n      \"max_history_bytes\": 2297,\n      \"max_quote_bytes_per_history\": 1941\n    },\n    \"long_cheap\": {\n      \"steps\": 36,\n      \"record_occurrences\": 288,\n      \"raw_bytes_sum_over_steps\": 941052,\n      \"max_record_bytes\": 65828,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 6,\n      \"unique_typed_arrays_gold_applicable\": 6,\n      \"max_history_bytes\": 66185,\n      \"max_quote_bytes_per_history\": 65828\n    },\n    \"long_deep_repeat\": {\n      \"steps\": 36,\n      \"record_occurrences\": 288,\n      \"raw_bytes_sum_over_steps\": 1003428,\n      \"max_record_bytes\": 70026,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 6,\n      \"unique_typed_arrays_gold_applicable\": 6,\n      \"max_history_bytes\": 70382,\n      \"max_quote_bytes_per_history\": 70026\n    },\n    \"long_deep_churn\": {\n      \"steps\": 36,\n      \"record_occurrences\": 288,\n      \"raw_bytes_sum_over_steps\": 889884,\n      \"max_record_bytes\": 58685,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 36,\n      \"unique_typed_arrays_gold_applicable\": 6,\n      \"max_history_bytes\": 59041,\n      \"max_quote_bytes_per_history\": 58685\n    },\n    \"fit_working_set\": {\n      \"steps\": 36,\n      \"record_occurrences\": 336,\n      \"raw_bytes_sum_over_steps\": 1292748,\n      \"max_record_bytes\": 12638,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 10,\n      \"unique_typed_arrays_gold_applicable\": 3,\n      \"max_history_bytes\": 53413,\n      \"max_quote_bytes_per_history\": 53108\n    },\n    \"pressure_working_set\": {\n      \"steps\": 36,\n      \"record_occurrences\": 336,\n      \"raw_bytes_sum_over_steps\": 3444960,\n      \"max_record_bytes\": 44072,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 10,\n      \"unique_typed_arrays_gold_applicable\": 3,\n      \"max_history_bytes\": 106114,\n      \"max_quote_bytes_per_history\": 105809\n    },\n    \"phase_shift\": {\n      \"steps\": 36,\n      \"record_occurrences\": 252,\n      \"raw_bytes_sum_over_steps\": 978900,\n      \"max_record_bytes\": 66259,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 21,\n      \"unique_typed_arrays_gold_applicable\": 6,\n      \"max_history_bytes\": 66561,\n      \"max_quote_bytes_per_history\": 66259\n    },\n    \"same_length_misses\": {\n      \"steps\": 36,\n      \"record_occurrences\": 252,\n      \"raw_bytes_sum_over_steps\": 942708,\n      \"max_record_bytes\": 65342,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 15,\n      \"unique_typed_arrays_gold_applicable\": 3,\n      \"max_history_bytes\": 65647,\n      \"max_quote_bytes_per_history\": 65342\n    },\n    \"revisions_copy_context\": {\n      \"steps\": 36,\n      \"record_occurrences\": 312,\n      \"raw_bytes_sum_over_steps\": 892545,\n      \"max_record_bytes\": 58845,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 36,\n      \"unique_typed_arrays_gold_applicable\": 30,\n      \"max_history_bytes\": 59269,\n      \"max_quote_bytes_per_history\": 58845\n    },\n    \"scope_ambiguity\": {\n      \"steps\": 36,\n      \"record_occurrences\": 288,\n      \"raw_bytes_sum_over_steps\": 16304,\n      \"max_record_bytes\": 81,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 27,\n      \"unique_typed_arrays_gold_applicable\": 27,\n      \"max_history_bytes\": 515,\n      \"max_quote_bytes_per_history\": 0\n    },\n    \"integrity_unsupported_recovery\": {\n      \"steps\": 36,\n      \"record_occurrences\": 264,\n      \"raw_bytes_sum_over_steps\": 903231,\n      \"max_record_bytes\": 59000,\n      \"min_record_bytes\": 45,\n      \"unique_raw_histories\": 6,\n      \"unique_typed_arrays_gold_applicable\": 6,\n      \"max_history_bytes\": 59357,\n      \"max_quote_bytes_per_history\": 59000\n    }\n  },\n  \"authorship\": \"separate same-model author; shared finite grammar and study design; not external blind evaluation\",\n  \"semantic_boundary\": \"long payloads are grammar-defined noop quotes; no general natural-language or execution-evidence claim\",\n  \"data_file\": \"data/holdout.json.gz\",\n  \"data_bytes\": 228838,\n  \"data_sha256\": \"1a36ee60f57c7e0ad7f6f91f098e9803db212d4de2e00920510740e5b5ee20e6\",\n  \"uncompressed_data_bytes\": 13030700,\n  \"uncompressed_data_sha256\": \"c659d9c89126d5184ddc4a59102050ec50a8e6a8bfb2a3306d04fe4f526c6740\",\n  \"compression\": \"gzip level=9, filename='', mtime=0; serialization-only change before freeze\",\n  \"builder_sha256\": \"2d5256c434c027be5f8ba511763de305995e27c58757e75cf9ca301ed19ba290\"\n}\n"
+    },
+    {
+      "command": "python tools/verify_archive.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"archive_files\": 59,\n  \"archive_bytes\": 14076747,\n  \"original_frozen_source_bindings\": 18,\n  \"parsed_json_and_notebooks\": 28,\n  \"python_syntax_files\": 28,\n  \"notebooks_basic_structure\": 5,\n  \"resolved_local_links\": 161,\n  \"status\": \"passed\",\n  \"boundary\": \"Integrity and packaging only; does not rerun experiments or prove scientific claims.\"\n}\n"
+    },
+    {
+      "command": "git bundle verify research/phase09/pre_evaluation.bundle",
+      "exit_code": 0,
+      "stdout": "The bundle contains this ref:\n387b451a19d0c17abc22365b82daeb357b0d3ab3 refs/heads/research/phase09-instrumentation-erasure\nThe bundle requires this ref:\nefba3224dd09d5c5e2bf9d9be11734fa10b32502 \nThe bundle uses this hash algorithm: sha1\nresearch/phase09/pre_evaluation.bundle is okay\n"
+    }
+  ],
+  "prior_pull_requests": [
+    {
+      "number": 1,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/1",
+      "state": "open",
+      "merged": false,
+      "base": "main",
+      "base_sha": "780891f6c147cfd3c1a3b0d065792776aaa525f3",
+      "head": "research/phase06-scoped-opaque",
+      "head_sha": "13d166dc106fa3ab33128ad0626679fafdce5019"
+    },
+    {
+      "number": 2,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/2",
+      "state": "open",
+      "merged": false,
+      "base": "research/phase06-scoped-opaque",
+      "base_sha": "13d166dc106fa3ab33128ad0626679fafdce5019",
+      "head": "research/phase07-parse-reuse",
+      "head_sha": "6da051c0132811184ecf39975d7ff647a1f47842"
+    },
+    {
+      "number": 3,
+      "url": "https://github.com/DH-11027/soom-context-research/pull/3",
+      "state": "open",
+      "merged": false,
+      "base": "research/phase07-parse-reuse",
+      "base_sha": "6da051c0132811184ecf39975d7ff647a1f47842",
+      "head": "research/phase08-cost-aware-reuse",
+      "head_sha": "efba3224dd09d5c5e2bf9d9be11734fa10b32502"
+    }
+  ],
+  "selected_base": "research/phase08-cost-aware-reuse",
+  "base_commit": "efba3224dd09d5c5e2bf9d9be11734fa10b32502"
+}

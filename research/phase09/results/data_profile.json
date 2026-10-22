@@ -1,0 +1,324 @@
+{
+  "streams": 36,
+  "steps": 432,
+  "all": {
+    "steps": 432,
+    "exact_records": 324,
+    "ordered_raw_histories": 215,
+    "raw_plus_ordered_entities": 215,
+    "public_plus_namespace": 378
+  },
+  "valid": {
+    "steps": 420,
+    "exact_records": 315,
+    "ordered_raw_histories": 212,
+    "raw_plus_ordered_entities": 212,
+    "public_plus_namespace": 366
+  },
+  "gold_steps": 414,
+  "distinct_exact_typed_events": 135,
+  "families": {
+    "fit_working_set": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 36,
+      "ordered_raw_histories": 10,
+      "raw_plus_ordered_entities": 10,
+      "public_plus_namespace": 36,
+      "record_occurrences": 336,
+      "distinct_raw_strings": 28,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 12638,
+      "record_utf8_bytes_sum": 1292748,
+      "snapshot_serialization_bytes_all_inputs": 1311948,
+      "length_bin_occurrences": {
+        "lt_1k": 216,
+        "1k_to_8k": 24,
+        "8k_to_55k": 96
+      },
+      "distinct_exact_typed_events": 3,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "integrity_unsupported_recovery": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 21,
+      "ordered_raw_histories": 9,
+      "raw_plus_ordered_entities": 9,
+      "public_plus_namespace": 33,
+      "record_occurrences": 264,
+      "distinct_raw_strings": 27,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 59000,
+      "record_utf8_bytes_sum": 903231,
+      "snapshot_serialization_bytes_all_inputs": 918315,
+      "length_bin_occurrences": {
+        "lt_1k": 228,
+        "1k_to_8k": 12,
+        "8k_to_55k": 12,
+        "ge_55k": 12
+      },
+      "distinct_exact_typed_events": 6,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "long_cheap": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 6,
+      "ordered_raw_histories": 6,
+      "raw_plus_ordered_entities": 6,
+      "public_plus_namespace": 21,
+      "record_occurrences": 288,
+      "distinct_raw_strings": 24,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 65828,
+      "record_utf8_bytes_sum": 941052,
+      "snapshot_serialization_bytes_all_inputs": 957504,
+      "length_bin_occurrences": {
+        "lt_1k": 264,
+        "8k_to_55k": 12,
+        "ge_55k": 12
+      },
+      "distinct_exact_typed_events": 6,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "long_deep_churn": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 36,
+      "ordered_raw_histories": 36,
+      "raw_plus_ordered_entities": 36,
+      "public_plus_namespace": 36,
+      "record_occurrences": 288,
+      "distinct_raw_strings": 57,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 58685,
+      "record_utf8_bytes_sum": 889884,
+      "snapshot_serialization_bytes_all_inputs": 906336,
+      "length_bin_occurrences": {
+        "lt_1k": 252,
+        "1k_to_8k": 12,
+        "8k_to_55k": 12,
+        "ge_55k": 12
+      },
+      "distinct_exact_typed_events": 6,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "long_deep_repeat": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 6,
+      "ordered_raw_histories": 6,
+      "raw_plus_ordered_entities": 6,
+      "public_plus_namespace": 21,
+      "record_occurrences": 288,
+      "distinct_raw_strings": 24,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 70026,
+      "record_utf8_bytes_sum": 1003428,
+      "snapshot_serialization_bytes_all_inputs": 1019880,
+      "length_bin_occurrences": {
+        "lt_1k": 252,
+        "1k_to_8k": 12,
+        "8k_to_55k": 12,
+        "ge_55k": 12
+      },
+      "distinct_exact_typed_events": 6,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "phase_shift": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 36,
+      "ordered_raw_histories": 21,
+      "raw_plus_ordered_entities": 21,
+      "public_plus_namespace": 36,
+      "record_occurrences": 252,
+      "distinct_raw_strings": 36,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 66259,
+      "record_utf8_bytes_sum": 978900,
+      "snapshot_serialization_bytes_all_inputs": 993300,
+      "length_bin_occurrences": {
+        "lt_1k": 216,
+        "1k_to_8k": 12,
+        "8k_to_55k": 12,
+        "ge_55k": 12
+      },
+      "distinct_exact_typed_events": 6,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "pressure_working_set": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 36,
+      "ordered_raw_histories": 10,
+      "raw_plus_ordered_entities": 10,
+      "public_plus_namespace": 36,
+      "record_occurrences": 336,
+      "distinct_raw_strings": 28,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 44072,
+      "record_utf8_bytes_sum": 3444960,
+      "snapshot_serialization_bytes_all_inputs": 3464160,
+      "length_bin_occurrences": {
+        "lt_1k": 216,
+        "8k_to_55k": 120
+      },
+      "distinct_exact_typed_events": 3,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "revisions_copy_context": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 36,
+      "ordered_raw_histories": 36,
+      "raw_plus_ordered_entities": 36,
+      "public_plus_namespace": 36,
+      "record_occurrences": 312,
+      "distinct_raw_strings": 66,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 58845,
+      "record_utf8_bytes_sum": 892545,
+      "snapshot_serialization_bytes_all_inputs": 910365,
+      "length_bin_occurrences": {
+        "lt_1k": 276,
+        "1k_to_8k": 12,
+        "8k_to_55k": 12,
+        "ge_55k": 12
+      },
+      "distinct_exact_typed_events": 30,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "same_length_misses": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 36,
+      "ordered_raw_histories": 15,
+      "raw_plus_ordered_entities": 15,
+      "public_plus_namespace": 36,
+      "record_occurrences": 252,
+      "distinct_raw_strings": 33,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 65342,
+      "record_utf8_bytes_sum": 942708,
+      "snapshot_serialization_bytes_all_inputs": 957108,
+      "length_bin_occurrences": {
+        "lt_1k": 216,
+        "1k_to_8k": 12,
+        "8k_to_55k": 12,
+        "ge_55k": 12
+      },
+      "distinct_exact_typed_events": 3,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "scope_ambiguity": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 36,
+      "ordered_raw_histories": 27,
+      "raw_plus_ordered_entities": 27,
+      "public_plus_namespace": 36,
+      "record_occurrences": 288,
+      "distinct_raw_strings": 57,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 81,
+      "record_utf8_bytes_sum": 16304,
+      "snapshot_serialization_bytes_all_inputs": 32756,
+      "length_bin_occurrences": {
+        "lt_1k": 288
+      },
+      "distinct_exact_typed_events": 27,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "short_churn": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 36,
+      "ordered_raw_histories": 36,
+      "raw_plus_ordered_entities": 36,
+      "public_plus_namespace": 36,
+      "record_occurrences": 450,
+      "distinct_raw_strings": 351,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 341,
+      "record_utf8_bytes_sum": 63089,
+      "snapshot_serialization_bytes_all_inputs": 88865,
+      "length_bin_occurrences": {
+        "lt_1k": 450
+      },
+      "distinct_exact_typed_events": 36,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    },
+    "short_repeated": {
+      "streams": 3,
+      "steps": 36,
+      "exact_records": 3,
+      "ordered_raw_histories": 3,
+      "raw_plus_ordered_entities": 3,
+      "public_plus_namespace": 15,
+      "record_occurrences": 324,
+      "distinct_raw_strings": 27,
+      "record_utf8_bytes_min": 45,
+      "record_utf8_bytes_max": 344,
+      "record_utf8_bytes_sum": 26292,
+      "snapshot_serialization_bytes_all_inputs": 44796,
+      "length_bin_occurrences": {
+        "lt_1k": 324
+      },
+      "distinct_exact_typed_events": 3,
+      "step_counts_per_stream": [
+        12,
+        12,
+        12
+      ]
+    }
+  },
+  "identity_definition": "canonical sorted-key JSON; list order, names and numeric constants preserved; not semantic equivalence or statistical independence",
+  "length_sum_definition": "occurrences across snapshots, not unique source bytes or measured parser scanning",
+  "natural_language_semantics": "not externally evaluated; long quote payload is controlled-grammar noop"
+}

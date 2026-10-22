@@ -1,0 +1,1507 @@
+{
+  "passed": true,
+  "phase09_holdout_read": false,
+  "erasure_source_identity": {
+    "off_fresh.py": "6e15bec049362c5d5c3464331337987770882d70baf4b82b8fe321ff85771ea9",
+    "off_selective.py": "f3b8e770335d2866b2bdb88bdc34ed6cb6f04ad1f62e31ba77794a8985879e84",
+    "erasure_manifest.json": "b6c97eb68dd49ba453aa0cf45160e2e9d9163596b1971bbfcf318936a839e29b"
+  },
+  "authored_prefix_checks": [
+    {
+      "name": "cold",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 1,
+        "policy_insertions": 1,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 1612,
+      "entries": 1
+    },
+    {
+      "name": "warm",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 1,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 45,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 1612,
+      "entries": 1
+    },
+    {
+      "name": "same_length_exact_edit",
+      "status": "opaque_fallback",
+      "fresh_actual_work": {
+        "cheap_calls": 1,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1271,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 1524,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 1,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1271,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 1524,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 1,
+        "policy_insertions": 1,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 3225,
+      "entries": 2
+    },
+    {
+      "name": "restore_exact",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 1,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 45,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 3225,
+      "entries": 2
+    },
+    {
+      "name": "same_length_cheap_false_positive",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 1320,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1397,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 1320,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1397,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 3225,
+      "entries": 2
+    },
+    {
+      "name": "ordered_entities",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 1,
+        "policy_insertions": 1,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 4837,
+      "entries": 3
+    },
+    {
+      "name": "membership",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 1,
+        "policy_insertions": 1,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 6458,
+      "entries": 4
+    },
+    {
+      "name": "namespace",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1316,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 1,
+        "policy_insertions": 1,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "copy_before_edit",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 4,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1428,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1581,
+        "render_calls": 1,
+        "rendered_bytes": 319,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 3,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 157,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1581,
+        "render_calls": 1,
+        "rendered_bytes": 319,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "copy_after_source_edit",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 4,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1428,
+        "contract_source_bytes": 1271,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1581,
+        "render_calls": 1,
+        "rendered_bytes": 319,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 3,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 157,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1581,
+        "render_calls": 1,
+        "rendered_bytes": 319,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "proper_scope_time",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 3,
+        "contract_calls": 2,
+        "detail_calls": 1,
+        "cheap_source_bytes": 1357,
+        "contract_source_bytes": 1312,
+        "detail_source_bytes": 1271,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1472,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 0,
+        "cheap_source_bytes": 86,
+        "contract_source_bytes": 41,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1472,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "proper_scope_both",
+      "status": "opaque_fallback",
+      "fresh_actual_work": {
+        "cheap_calls": 3,
+        "contract_calls": 2,
+        "detail_calls": 2,
+        "cheap_source_bytes": 1357,
+        "contract_source_bytes": 1312,
+        "detail_source_bytes": 1312,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1472,
+        "render_calls": 1,
+        "rendered_bytes": 1589,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 86,
+        "contract_source_bytes": 41,
+        "detail_source_bytes": 41,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1472,
+        "render_calls": 1,
+        "rendered_bytes": 1589,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 1,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "duplicate_raw_same_query",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 3,
+        "contract_calls": 2,
+        "detail_calls": 2,
+        "cheap_source_bytes": 2587,
+        "contract_source_bytes": 2542,
+        "detail_source_bytes": 2542,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 2702,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 1,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 45,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 2702,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 2,
+        "policy_get_calls": 2,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "invalid_digest",
+      "status": "integrity_failure",
+      "fresh_actual_work": {
+        "cheap_calls": 0,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 0,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 0,
+        "rendered_bytes": 0,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 0,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 0,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 0,
+        "rendered_bytes": 0,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "invalid_order",
+      "status": "integrity_failure",
+      "fresh_actual_work": {
+        "cheap_calls": 0,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 0,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 0,
+        "snapshot_serialized_bytes": 0,
+        "render_calls": 0,
+        "rendered_bytes": 0,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 0,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 0,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 0,
+        "snapshot_serialized_bytes": 0,
+        "render_calls": 0,
+        "rendered_bytes": 0,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "unsupported",
+      "status": "unsupported_query",
+      "fresh_actual_work": {
+        "cheap_calls": 0,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 0,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 1512,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 0,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 0,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 1393,
+        "render_calls": 1,
+        "rendered_bytes": 1512,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "empty",
+      "status": "opaque_fallback",
+      "fresh_actual_work": {
+        "cheap_calls": 0,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 0,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 2,
+        "render_calls": 1,
+        "rendered_bytes": 185,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 0,
+        "contract_calls": 0,
+        "detail_calls": 0,
+        "cheap_source_bytes": 0,
+        "contract_source_bytes": 0,
+        "detail_source_bytes": 0,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 2,
+        "render_calls": 1,
+        "rendered_bytes": 185,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 8073,
+      "entries": 5
+    },
+    {
+      "name": "large_default_capacity_a",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 32516,
+        "contract_source_bytes": 32471,
+        "detail_source_bytes": 32471,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 32593,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 32516,
+        "contract_source_bytes": 32471,
+        "detail_source_bytes": 32471,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 32593,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 1,
+        "policy_insertions": 1,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 40885,
+      "entries": 6
+    },
+    {
+      "name": "large_default_capacity_b",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 33716,
+        "contract_source_bytes": 33671,
+        "detail_source_bytes": 33671,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 33793,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 33716,
+        "contract_source_bytes": 33671,
+        "detail_source_bytes": 33671,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 33793,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 1,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 40885,
+      "entries": 6
+    },
+    {
+      "name": "large_default_capacity_b_warm",
+      "status": "certified_model",
+      "fresh_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 33716,
+        "contract_source_bytes": 33671,
+        "detail_source_bytes": 33671,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 33793,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "selective_actual_work": {
+        "cheap_calls": 2,
+        "contract_calls": 1,
+        "detail_calls": 1,
+        "cheap_source_bytes": 33716,
+        "contract_source_bytes": 33671,
+        "detail_source_bytes": 33671,
+        "snapshot_calls": 1,
+        "snapshot_serialized_bytes": 33793,
+        "render_calls": 1,
+        "rendered_bytes": 241,
+        "policy_possible_calls": 1,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 1,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "retained_bytes": 40885,
+      "entries": 6
+    }
+  ],
+  "authored_prefix_count": 20,
+  "phase08_development_queries": 89,
+  "phase08_development_summary": {
+    "fresh_instrumented": {
+      "queries": 89,
+      "streams": 9,
+      "status_counts": {
+        "certified_model": 86,
+        "unsupported_query": 1,
+        "integrity_failure": 2
+      },
+      "valid_snapshots": 87,
+      "valid_supported": 86,
+      "gold_evaluated": 87,
+      "gold_excluded": 2,
+      "gold_exclusion_reasons": {
+        "invalid_snapshot": 2
+      },
+      "certified_gold_evaluated": 86,
+      "false_certifications": 0,
+      "containment_evaluated": 86,
+      "containment_violations": 0,
+      "gold_projection_evaluated": 87,
+      "gold_projection_failures": 0,
+      "structural_errors": 0,
+      "parity_failure_rows": 0,
+      "actual_full_history": 1,
+      "output_bytes": 26101,
+      "separate_audit_actual_work": {
+        "cheap_calls": 451,
+        "contract_calls": 80,
+        "detail_calls": 80,
+        "cheap_source_bytes": 2222975,
+        "contract_source_bytes": 2120380,
+        "detail_source_bytes": 2120380,
+        "snapshot_calls": 88,
+        "snapshot_serialized_bytes": 2247208,
+        "render_calls": 87,
+        "rendered_bytes": 26101,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "instrumented_cost": {
+        "abstract_steps": 95,
+        "admission_attempts": 0,
+        "admission_reject_capacity": 0,
+        "admission_reject_gain": 0,
+        "cache_entries": 0,
+        "cache_entry_hits": 0,
+        "cache_entry_misses": 0,
+        "cache_evictions": 0,
+        "cache_lookups": 0,
+        "cache_overhead_bytes": 0,
+        "cache_oversize": 0,
+        "cache_peak_bytes": 0,
+        "cache_peak_entries": 0,
+        "cache_read_payload_bytes": 0,
+        "cache_retained_bytes": 0,
+        "cache_write_bytes": 0,
+        "cache_writes": 0,
+        "cheap_calls": 451,
+        "cheap_requests": 451,
+        "cheap_reused": 0,
+        "cheap_source_bytes": 2222975,
+        "contract_calls": 80,
+        "contract_requests": 80,
+        "contract_reused": 0,
+        "contract_source_bytes": 2120380,
+        "control_actions": 0,
+        "detail_calls": 80,
+        "detail_requests": 80,
+        "detail_reused": 0,
+        "detail_source_bytes": 2120380,
+        "directory_entries": 0,
+        "directory_skips": 0,
+        "hash_calls": 88,
+        "hash_serialized_bytes": 2247208,
+        "key_build_bytes": 0,
+        "key_probe_bytes": 0,
+        "oracle_metadata_fields": 0,
+        "output_plus_source_work_proxy": 8737044,
+        "phase07_work_proxy": 8737044,
+        "phase08_work_score": 8737044,
+        "records_visited": 451,
+        "reparse_calls": 0,
+        "reparse_source_bytes": 0,
+        "short_bypasses": 0,
+        "source_work_bytes": 8710943,
+        "value_encode_bytes": 0
+      },
+      "instrumented_control_events": {},
+      "boundary": "Actual invocation counters belong to a separate wrapped correctness replay, never primary timing. No synthetic cost ledger is attached to an uninstrumented result."
+    },
+    "fresh_uninstrumented": {
+      "queries": 89,
+      "streams": 9,
+      "status_counts": {
+        "certified_model": 86,
+        "unsupported_query": 1,
+        "integrity_failure": 2
+      },
+      "valid_snapshots": 87,
+      "valid_supported": 86,
+      "gold_evaluated": 87,
+      "gold_excluded": 2,
+      "gold_exclusion_reasons": {
+        "invalid_snapshot": 2
+      },
+      "certified_gold_evaluated": 86,
+      "false_certifications": 0,
+      "containment_evaluated": 86,
+      "containment_violations": 0,
+      "gold_projection_evaluated": 87,
+      "gold_projection_failures": 0,
+      "structural_errors": 0,
+      "parity_failure_rows": 0,
+      "actual_full_history": 1,
+      "output_bytes": 26101,
+      "separate_audit_actual_work": {
+        "cheap_calls": 451,
+        "contract_calls": 80,
+        "detail_calls": 80,
+        "cheap_source_bytes": 2222975,
+        "contract_source_bytes": 2120380,
+        "detail_source_bytes": 2120380,
+        "snapshot_calls": 88,
+        "snapshot_serialized_bytes": 2247208,
+        "render_calls": 87,
+        "rendered_bytes": 26101,
+        "policy_possible_calls": 0,
+        "policy_get_calls": 0,
+        "policy_admit_calls": 0,
+        "policy_insertions": 0,
+        "policy_evictions": 0
+      },
+      "instrumented_cost": null,
+      "instrumented_control_events": null,
+      "boundary": "Actual invocation counters belong to a separate wrapped correctness replay, never primary timing. No synthetic cost ledger is attached to an uninstrumented result."
+    },
+    "selective_instrumented": {
+      "queries": 89,
+      "streams": 9,
+      "status_counts": {
+        "certified_model": 86,
+        "unsupported_query": 1,
+        "integrity_failure": 2
+      },
+      "valid_snapshots": 87,
+      "valid_supported": 86,
+      "gold_evaluated": 87,
+      "gold_excluded": 2,
+      "gold_exclusion_reasons": {
+        "invalid_snapshot": 2
+      },
+      "certified_gold_evaluated": 86,
+      "false_certifications": 0,
+      "containment_evaluated": 86,
+      "containment_violations": 0,
+      "gold_projection_evaluated": 87,
+      "gold_projection_failures": 0,
+      "structural_errors": 0,
+      "parity_failure_rows": 0,
+      "actual_full_history": 1,
+      "output_bytes": 26101,
+      "separate_audit_actual_work": {
+        "cheap_calls": 399,
+        "contract_calls": 28,
+        "detail_calls": 28,
+        "cheap_source_bytes": 1086753,
+        "contract_source_bytes": 984158,
+        "detail_source_bytes": 984158,
+        "snapshot_calls": 88,
+        "snapshot_serialized_bytes": 2247208,
+        "render_calls": 87,
+        "rendered_bytes": 26101,
+        "policy_possible_calls": 98,
+        "policy_get_calls": 60,
+        "policy_admit_calls": 28,
+        "policy_insertions": 10,
+        "policy_evictions": 0
+      },
+      "instrumented_cost": {
+        "abstract_steps": 95,
+        "admission_attempts": 28,
+        "admission_reject_capacity": 18,
+        "admission_reject_gain": 0,
+        "cache_entries": 87,
+        "cache_entry_hits": 52,
+        "cache_entry_misses": 8,
+        "cache_evictions": 0,
+        "cache_lookups": 60,
+        "cache_overhead_bytes": 2725668,
+        "cache_oversize": 0,
+        "cache_peak_bytes": 1875717,
+        "cache_peak_entries": 87,
+        "cache_read_payload_bytes": 8008,
+        "cache_retained_bytes": 1875717,
+        "cache_write_bytes": 182916,
+        "cache_writes": 10,
+        "cheap_calls": 399,
+        "cheap_requests": 451,
+        "cheap_reused": 52,
+        "cheap_source_bytes": 1086753,
+        "contract_calls": 28,
+        "contract_requests": 80,
+        "contract_reused": 52,
+        "contract_source_bytes": 984158,
+        "control_actions": 1401,
+        "detail_calls": 28,
+        "detail_requests": 80,
+        "detail_reused": 52,
+        "detail_source_bytes": 984158,
+        "directory_entries": 79,
+        "directory_skips": 38,
+        "hash_calls": 88,
+        "hash_serialized_bytes": 2247208,
+        "key_build_bytes": 1351534,
+        "key_probe_bytes": 1178898,
+        "oracle_metadata_fields": 0,
+        "output_plus_source_work_proxy": 5328378,
+        "phase07_work_proxy": 8054046,
+        "phase08_work_score": 8065254,
+        "records_visited": 451,
+        "reparse_calls": 0,
+        "reparse_source_bytes": 0,
+        "short_bypasses": 353,
+        "source_work_bytes": 5302277,
+        "value_encode_bytes": 4312
+      },
+      "instrumented_control_events": {
+        "character_length_gate": 451,
+        "length_directory_lookup": 98,
+        "stage_observation": 102,
+        "bundle_eligibility": 46,
+        "context_access": 86,
+        "stage_payload_prepare": 84,
+        "candidate_arithmetic": 56,
+        "positive_surplus_check": 28,
+        "capacity_check": 28,
+        "entry_initialization": 100,
+        "exact_lookup": 60,
+        "bounded_hit_update": 52,
+        "cached_stage_read": 156,
+        "resident_score_read": 18,
+        "victim_plan_step": 18,
+        "victim_benefit_check": 18
+      },
+      "boundary": "Actual invocation counters belong to a separate wrapped correctness replay, never primary timing. No synthetic cost ledger is attached to an uninstrumented result."
+    },
+    "selective_uninstrumented": {
+      "queries": 89,
+      "streams": 9,
+      "status_counts": {
+        "certified_model": 86,
+        "unsupported_query": 1,
+        "integrity_failure": 2
+      },
+      "valid_snapshots": 87,
+      "valid_supported": 86,
+      "gold_evaluated": 87,
+      "gold_excluded": 2,
+      "gold_exclusion_reasons": {
+        "invalid_snapshot": 2
+      },
+      "certified_gold_evaluated": 86,
+      "false_certifications": 0,
+      "containment_evaluated": 86,
+      "containment_violations": 0,
+      "gold_projection_evaluated": 87,
+      "gold_projection_failures": 0,
+      "structural_errors": 0,
+      "parity_failure_rows": 0,
+      "actual_full_history": 1,
+      "output_bytes": 26101,
+      "separate_audit_actual_work": {
+        "cheap_calls": 399,
+        "contract_calls": 28,
+        "detail_calls": 28,
+        "cheap_source_bytes": 1086753,
+        "contract_source_bytes": 984158,
+        "detail_source_bytes": 984158,
+        "snapshot_calls": 88,
+        "snapshot_serialized_bytes": 2247208,
+        "render_calls": 87,
+        "rendered_bytes": 26101,
+        "policy_possible_calls": 98,
+        "policy_get_calls": 60,
+        "policy_admit_calls": 28,
+        "policy_insertions": 10,
+        "policy_evictions": 0
+      },
+      "instrumented_cost": null,
+      "instrumented_control_events": null,
+      "boundary": "Actual invocation counters belong to a separate wrapped correctness replay, never primary timing. No synthetic cost ledger is attached to an uninstrumented result."
+    }
+  },
+  "phase08_development_observation_comparisons": 267,
+  "phase08_development_execution_trace_comparisons": 178,
+  "state_mutants": [
+    {
+      "name": "resident_hit_count",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "surplus",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "logical_size",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "characters",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "entry_order",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "next_order",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "length_directory",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "retained_bytes",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "raw_exact_key",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "context_exact_key",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "stage_payload_length",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "stage_semantic_value",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "dictionary_insertion_order",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "capacity",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    },
+    {
+      "name": "directory_mode",
+      "observations_equal": true,
+      "state_mutant_detected": true
+    }
+  ],
+  "hit_erasure_counterexample": {
+    "name": "deleting_policy_hit_update_changes_victim_decision",
+    "steps": [
+      {
+        "observations_equal": true,
+        "state_equal": true,
+        "good_entries": 1,
+        "bad_entries": 1,
+        "good_keys_changed": true,
+        "bad_keys_changed": true
+      },
+      {
+        "observations_equal": true,
+        "state_equal": false,
+        "good_entries": 1,
+        "bad_entries": 1,
+        "good_keys_changed": true,
+        "bad_keys_changed": false
+      },
+      {
+        "observations_equal": true,
+        "state_equal": false,
+        "good_entries": 1,
+        "bad_entries": 1,
+        "good_keys_changed": false,
+        "bad_keys_changed": true
+      }
+    ],
+    "default_capacity_unchanged": true,
+    "old_surplus": 32146,
+    "new_surplus": 33346,
+    "old_size": 32812,
+    "new_size": 34012,
+    "explanation": "The two answers stay equal. On the second visit hit state diverges; on the third visit the valid policy rejects B, while the mutant evicts A and admits B."
+  },
+  "evaluator_mutants": [
+    {
+      "name": "empty_certification",
+      "detected": true
+    },
+    {
+      "name": "missing_required_field",
+      "detected": true
+    },
+    {
+      "name": "wrong_singleton",
+      "detected": true
+    },
+    {
+      "name": "non_singleton_certification",
+      "detected": true
+    },
+    {
+      "name": "wrong_scalar_type",
+      "detected": true
+    },
+    {
+      "name": "unsupported_misclassification",
+      "detected": true
+    },
+    {
+      "name": "missing_causal_record",
+      "detected": true
+    },
+    {
+      "name": "partial_fallback",
+      "detected": true
+    },
+    {
+      "name": "false_integrity_failure",
+      "detected": true
+    }
+  ],
+  "original_phase08_instrumented_identity": [
+    {
+      "method": "fresh_instrumented",
+      "case": "cold",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "warm",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "same_length_exact_edit",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "restore_exact",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "same_length_cheap_false_positive",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "ordered_entities",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "membership",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "namespace",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "copy_before_edit",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "copy_after_source_edit",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "proper_scope_time",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "proper_scope_both",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "duplicate_raw_same_query",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "invalid_digest",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "invalid_order",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "unsupported",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "empty",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "large_default_capacity_a",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "large_default_capacity_b",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "fresh_instrumented",
+      "case": "large_default_capacity_b_warm",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "cold",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "warm",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "same_length_exact_edit",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "restore_exact",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "same_length_cheap_false_positive",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "ordered_entities",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "membership",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "namespace",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "copy_before_edit",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "copy_after_source_edit",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "proper_scope_time",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "proper_scope_both",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "duplicate_raw_same_query",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "invalid_digest",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "invalid_order",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "unsupported",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "empty",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "large_default_capacity_a",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "large_default_capacity_b",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    },
+    {
+      "method": "selective_instrumented",
+      "case": "large_default_capacity_b_warm",
+      "exact_non_time_result_equal": true,
+      "exact_policy_state_equal": true
+    }
+  ],
+  "public_whitelist_label_independence": true,
+  "failures": [],
+  "boundary": "Authored same-model development audit; no primary timing, no Phase09 holdout, no external natural-language validation."
+}

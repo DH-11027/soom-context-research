@@ -1,0 +1,148 @@
+"""Auditable syntactic erasure, not a policy or data-structure optimization.
+
+The output files are static Python, generated BEFORE timing. --check compares
+their exact bytes. Removed source statements are recorded in erasure_manifest.
+The dependency proof and admissible domain are in THEORY.md. This transformer
+is deliberately specific to the two hash-bound input sources, not a universal
+automatic instrumentation-removal theorem.
+"""
+import argparse
+import ast
+import copy
+import hashlib
+import json
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[1]
+
+
+def is_cost(target):
+    return isinstance(target, ast.Subscript) and isinstance(target.value, ast.Name) and target.value.id == "cost"
+
+
+def is_peak(target):
+    return isinstance(target, ast.Attribute) and target.attr in ("peak_bytes", "peak_entries")
+
+
+class Erase(ast.NodeTransformer):
+    def __init__(self, source, fresh):
+        self.source, self.fresh, self.removed = source, fresh, []
+
+    def note(self, node, reason):
+        self.removed.append({"line": node.lineno, "reason": reason,
+                             "source": ast.get_source_segment(self.source, node)})
+
+    def visit_Assign(self, node):
+        original = copy.deepcopy(node)
+        if any(is_cost(t) or isinstance(t, ast.Name) and t.id in ("cost", "start") for t in node.targets):
+            self.note(node, "ledger_or_internal_timer")
+            return None
+        if self.fresh and any(isinstance(t, ast.Name) and t.id == "size" for t in node.targets):
+            self.note(node, "fresh_utf8_size_only_feeds_erased_source_byte_ledger")
+            return None
+        node.targets = [t for t in node.targets if not is_peak(t)]
+        if len(node.targets) != len(original.targets):
+            self.note(original, "report_only_peak_fields")
+        return self.generic_visit(node) if node.targets else None
+
+    def visit_AugAssign(self, node):
+        if is_cost(node.target):
+            self.note(node, "ledger_update")
+            return None
+        return self.generic_visit(node)
+
+    def visit_Expr(self, node):
+        if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id == "action":
+            self.note(node, "control_event_record")
+            return None
+        return self.generic_visit(node)
+
+    def visit_If(self, node):
+        node = self.generic_visit(node)
+        if not node.body and not node.orelse:
+            return None
+        if not node.body:
+            node.body = [ast.Pass()]
+        return node
+
+    def visit_FunctionDef(self, node):
+        node.args.args = [a for a in node.args.args if a.arg != "cost"]
+        return self.generic_visit(node)
+
+    def visit_Call(self, node):
+        if isinstance(node.func, ast.Name) and node.func.id == "finish":
+            self.note(node, "return_observable_result_without_finish_ledger")
+            return self.visit(node.args[0])
+        if isinstance(node.func, ast.Attribute) and isinstance(node.func.value, ast.Name) and node.func.value.id == "P6" and node.func.attr == "validate":
+            node.func = ast.Name(id="validate", ctx=ast.Load())
+        node.args = [a for a in node.args if not isinstance(a, ast.Name) or a.id != "cost"]
+        return self.generic_visit(node)
+
+
+def build():
+    products, manifests = {}, {}
+    for fresh, rel, keep, output in (
+        (True, "research/phase06/scoped.py", ("counted_digest", "validate", "run"), "off_fresh.py"),
+        (False, "research/phase08/runtime.py", ("SelectiveCache", "run"), "off_selective.py"),
+    ):
+        source = (ROOT / rel).read_text(encoding="utf-8")
+        tree = ast.parse(source)
+        tree.body = [n for n in tree.body if isinstance(n, (ast.FunctionDef, ast.ClassDef)) and n.name in keep]
+        transform = Erase(source, fresh)
+        tree = ast.fix_missing_locations(transform.visit(tree))
+        assert not any(isinstance(n, ast.Name) and n.id in ("cost", "start", "action", "perf_counter", "new_cost", "finish") for n in ast.walk(tree))
+        if fresh:
+            header = '''from bindings import P6
+import hashlib
+import json
+BASE = P6.BASE
+METHODS = P6.METHODS
+scope_from_text = P6.scope_from_text
+scoped_top = P6.scoped_top
+writes = P6.writes
+preimage = P6.preimage
+execute = P6.execute
+render = P6.render
+# Outside the Phase09 domain: only run(method="text_scoped") is used.
+frozen = P6.frozen
+'''
+        else:
+            header = '''from collections import Counter
+from functools import cmp_to_key
+from types import MappingProxyType
+from bindings import P6, P8R
+from off_fresh import validate
+STAGES = P8R.STAGES
+MAX_ENTRIES, MAX_BYTES = P8R.MAX_ENTRIES, P8R.MAX_BYTES
+MIN_CHARS, HIT_CAP = P8R.MIN_CHARS, P8R.HIT_CAP
+META_BYTES = P8R.META_BYTES
+ACTION_WEIGHT, WARM_ACTIONS = P8R.ACTION_WEIGHT, P8R.WARM_ACTIONS
+SEMANTIC_FINGERPRINT = P8R.SEMANTIC_FINGERPRINT
+encode, immutable = P8R.encode, P8R.immutable
+'''
+        content = '# Generated by erase.py from frozen sources. DO NOT EDIT.\n' + header + '\n' + ast.unparse(tree) + '\n'
+        products[output] = content.encode("utf-8")
+        manifests[output] = {"source": rel, "source_sha256": hashlib.sha256(source.encode()).hexdigest(),
+                             "output_sha256": hashlib.sha256(products[output]).hexdigest(),
+                             "erased_statements": transform.removed}
+    products["erasure_manifest.json"] = (json.dumps(manifests, ensure_ascii=False, indent=2) + "\n").encode()
+    return products
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true")
+    args = parser.parse_args()
+    for name, content in build().items():
+        path = HERE / name
+        if args.check:
+            assert path.read_bytes() == content, name
+        else:
+            path.write_bytes(content)
+    print("Erasure source/output identity checked." if args.check else "Static erasure outputs generated.")
+
+
+if __name__ == "__main__":
+    main()
+

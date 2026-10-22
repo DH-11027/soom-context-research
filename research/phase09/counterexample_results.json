@@ -1,0 +1,186 @@
+{
+  "scope": "pre-freeze development counterexamples, not holdout or timing",
+  "lost_hit_counter": {
+    "steps": [
+      {
+        "step": 1,
+        "observation_equal_all_three": true,
+        "real_on_off_policy_equal": true,
+        "mutant_policy_equal": true,
+        "original_state": [
+          {
+            "raw_bytes": 20000,
+            "C": 93,
+            "R": 154,
+            "size": 20327,
+            "surplus": 19689,
+            "hits": 0,
+            "order": 0
+          }
+        ],
+        "mutant_state": [
+          {
+            "raw_bytes": 20000,
+            "C": 93,
+            "R": 154,
+            "size": 20327,
+            "surplus": 19689,
+            "hits": 0,
+            "order": 0
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "observation_equal_all_three": true,
+        "real_on_off_policy_equal": true,
+        "mutant_policy_equal": true,
+        "original_state": [
+          {
+            "raw_bytes": 20000,
+            "C": 93,
+            "R": 154,
+            "size": 20327,
+            "surplus": 19689,
+            "hits": 0,
+            "order": 0
+          },
+          {
+            "raw_bytes": 30000,
+            "C": 93,
+            "R": 154,
+            "size": 30327,
+            "surplus": 29689,
+            "hits": 0,
+            "order": 1
+          }
+        ],
+        "mutant_state": [
+          {
+            "raw_bytes": 20000,
+            "C": 93,
+            "R": 154,
+            "size": 20327,
+            "surplus": 19689,
+            "hits": 0,
+            "order": 0
+          },
+          {
+            "raw_bytes": 30000,
+            "C": 93,
+            "R": 154,
+            "size": 30327,
+            "surplus": 29689,
+            "hits": 0,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "observation_equal_all_three": true,
+        "real_on_off_policy_equal": true,
+        "mutant_policy_equal": false,
+        "original_state": [
+          {
+            "raw_bytes": 20000,
+            "C": 93,
+            "R": 154,
+            "size": 20327,
+            "surplus": 19689,
+            "hits": 1,
+            "order": 0
+          },
+          {
+            "raw_bytes": 30000,
+            "C": 93,
+            "R": 154,
+            "size": 30327,
+            "surplus": 29689,
+            "hits": 0,
+            "order": 1
+          }
+        ],
+        "mutant_state": [
+          {
+            "raw_bytes": 20000,
+            "C": 93,
+            "R": 154,
+            "size": 20327,
+            "surplus": 19689,
+            "hits": 0,
+            "order": 0
+          },
+          {
+            "raw_bytes": 30000,
+            "C": 93,
+            "R": 154,
+            "size": 30327,
+            "surplus": 29689,
+            "hits": 0,
+            "order": 1
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "observation_equal_all_three": true,
+        "real_on_off_policy_equal": true,
+        "mutant_policy_equal": false,
+        "original_state": [
+          {
+            "raw_bytes": 20000,
+            "C": 93,
+            "R": 154,
+            "size": 20327,
+            "surplus": 19689,
+            "hits": 1,
+            "order": 0
+          },
+          {
+            "raw_bytes": 30000,
+            "C": 93,
+            "R": 154,
+            "size": 30327,
+            "surplus": 29689,
+            "hits": 0,
+            "order": 1
+          }
+        ],
+        "mutant_state": [
+          {
+            "raw_bytes": 30000,
+            "C": 93,
+            "R": 154,
+            "size": 30327,
+            "surplus": 29689,
+            "hits": 0,
+            "order": 1
+          },
+          {
+            "raw_bytes": 21000,
+            "C": 93,
+            "R": 154,
+            "size": 21327,
+            "surplus": 20689,
+            "hits": 0,
+            "order": 2
+          }
+        ]
+      }
+    ],
+    "observation_failures": 0,
+    "policy_failure_steps": [
+      3,
+      4
+    ],
+    "resident_set_diverges_at_step": 4
+  },
+  "same_length_identity": {
+    "characters": 1558,
+    "exact_status": "opaque_fallback",
+    "mutant_status": "certified_model",
+    "detected": true
+  },
+  "real_erasure_failures": 0
+}

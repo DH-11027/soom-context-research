@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python",
+    "tools/verify_archive.py"
+  ],
+  "started_at_utc": "2026-10-22T11:55:05.642597+00:00",
+  "finished_at_utc": "2026-10-22T11:55:05.970004+00:00",
+  "exit_code": 0,
+  "stdout": "{\n  \"archive_files\": 59,\n  \"archive_bytes\": 14076747,\n  \"original_frozen_source_bindings\": 18,\n  \"parsed_json_and_notebooks\": 28,\n  \"python_syntax_files\": 28,\n  \"notebooks_basic_structure\": 5,\n  \"resolved_local_links\": 161,\n  \"status\": \"passed\",\n  \"boundary\": \"Integrity and packaging only; does not rerun experiments or prove scientific claims.\"\n}\n",
+  "stderr": ""
+}

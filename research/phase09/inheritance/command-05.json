@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "research/phase08/recount_results.py",
+    "--output",
+    "/tmp/soom-phase08-recount-for-phase09.json"
+  ],
+  "started_at_utc": "2026-10-22T11:55:14.357509+00:00",
+  "finished_at_utc": "2026-10-22T11:55:15.128352+00:00",
+  "exit_code": 0,
+  "stdout": "{\"main_rows\": 1728, \"regression_rows\": 5424, \"mismatches\": 0, \"stream_counts\": {\"final_benefit\": 8, \"final_equal\": 0, \"final_loss\": 28, \"ever_strict_break_even\": 10, \"sustained_break_even\": 8}, \"families_with_gain\": [\"long_deep_repeated\", \"working_set_fit\", \"working_set_pressure\"], \"ablation_state_replay\": {\"streams\": 36, \"checked_after_every_step\": 432, \"complete_resident_state_mismatches\": 0, \"result_and_non_time_ledger_rows_matched_original\": 864, \"boundary\": \"Replay of frozen runtime, not an independently implemented cache or semantic parser; not timed.\"}}\n",
+  "stderr": ""
+}

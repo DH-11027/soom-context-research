@@ -1,0 +1,6240 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "libc": [
+      "glibc",
+      "2.39"
+    ],
+    "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+    "python_hash_seed": "0",
+    "gc_enabled": true,
+    "gc_threshold": [
+      700,
+      10,
+      10
+    ],
+    "clock": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    }
+  },
+  "affinity_before": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "affinity_during": [
+    0
+  ],
+  "affinity_error": null,
+  "started_at_utc": "2026-10-22T12:11:40.584703+00:00",
+  "main_finished_at_utc": "2026-10-22T12:12:18.427533+00:00",
+  "finished_at_utc": "2026-10-22T12:12:27.360031+00:00",
+  "order_seed": 2026102210,
+  "rounds_count": 40,
+  "replays_per_interval": 3,
+  "warmups": [
+    {
+      "fresh_instrumented": 0.07927245066666666,
+      "fresh_uninstrumented": 0.06424703166666666,
+      "selective_instrumented": 0.08684823466666666,
+      "selective_uninstrumented": 0.070137857
+    },
+    {
+      "fresh_instrumented": 0.066689651,
+      "fresh_uninstrumented": 0.057577019666666666,
+      "selective_instrumented": 0.08035395233333334,
+      "selective_uninstrumented": 0.07054123866666667
+    }
+  ],
+  "rounds": [
+    {
+      "round": 0,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.068565588,
+        "fresh_uninstrumented": 0.059471781,
+        "selective_uninstrumented": 0.06968808033333333,
+        "selective_instrumented": 0.077085892
+      }
+    },
+    {
+      "round": 1,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.059381538,
+        "selective_instrumented": 0.079107534,
+        "fresh_instrumented": 0.06789556966666667,
+        "selective_uninstrumented": 0.06989474866666667
+      }
+    },
+    {
+      "round": 2,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.069669403,
+        "fresh_instrumented": 0.06887646,
+        "selective_instrumented": 0.07830861966666666,
+        "fresh_uninstrumented": 0.062166296333333336
+      }
+    },
+    {
+      "round": 3,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.076407759,
+        "selective_uninstrumented": 0.071439612,
+        "fresh_uninstrumented": 0.061210978,
+        "fresh_instrumented": 0.07868285666666666
+      }
+    },
+    {
+      "round": 4,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.06876041466666667,
+        "selective_instrumented": 0.09058648266666666,
+        "fresh_instrumented": 0.07616811433333333,
+        "selective_uninstrumented": 0.076985451
+      }
+    },
+    {
+      "round": 5,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.07667298166666667,
+        "fresh_uninstrumented": 0.067575408,
+        "selective_uninstrumented": 0.072892774,
+        "selective_instrumented": 0.080335549
+      }
+    },
+    {
+      "round": 6,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.08807571133333333,
+        "selective_uninstrumented": 0.07871784666666666,
+        "fresh_uninstrumented": 0.06429088233333333,
+        "fresh_instrumented": 0.07642861
+      }
+    },
+    {
+      "round": 7,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.075398022,
+        "fresh_instrumented": 0.07772940966666667,
+        "selective_instrumented": 0.08388627366666666,
+        "fresh_uninstrumented": 0.061359728333333335
+      }
+    },
+    {
+      "round": 8,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.062472683333333334,
+        "selective_instrumented": 0.08208742633333334,
+        "fresh_instrumented": 0.068844272,
+        "selective_uninstrumented": 0.069126253
+      }
+    },
+    {
+      "round": 9,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.073465689,
+        "fresh_uninstrumented": 0.065667389,
+        "selective_uninstrumented": 0.08371750066666667,
+        "selective_instrumented": 0.09112487966666667
+      }
+    },
+    {
+      "round": 10,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.07960826533333333,
+        "fresh_instrumented": 0.07466230433333333,
+        "selective_instrumented": 0.08891594866666666,
+        "fresh_uninstrumented": 0.068126866
+      }
+    },
+    {
+      "round": 11,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.08463108,
+        "selective_uninstrumented": 0.077684539,
+        "fresh_uninstrumented": 0.064866497,
+        "fresh_instrumented": 0.072976947
+      }
+    },
+    {
+      "round": 12,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.07707186333333334,
+        "fresh_uninstrumented": 0.062549241,
+        "selective_uninstrumented": 0.07414096866666667,
+        "selective_instrumented": 0.081408648
+      }
+    },
+    {
+      "round": 13,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.073015338,
+        "fresh_instrumented": 0.07105118266666667,
+        "selective_instrumented": 0.08285594233333334,
+        "fresh_uninstrumented": 0.06289450033333334
+      }
+    },
+    {
+      "round": 14,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.08216298466666666,
+        "selective_uninstrumented": 0.07425917166666667,
+        "fresh_uninstrumented": 0.059971142,
+        "fresh_instrumented": 0.07003379466666666
+      }
+    },
+    {
+      "round": 15,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.065433021,
+        "selective_instrumented": 0.08588906966666666,
+        "fresh_instrumented": 0.07353776933333334,
+        "selective_uninstrumented": 0.07498504166666667
+      }
+    },
+    {
+      "round": 16,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.08026619733333333,
+        "fresh_uninstrumented": 0.062450366,
+        "selective_uninstrumented": 0.08301425,
+        "selective_instrumented": 0.085707525
+      }
+    },
+    {
+      "round": 17,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.089728399,
+        "fresh_instrumented": 0.092303318,
+        "selective_instrumented": 0.110188807,
+        "fresh_uninstrumented": 0.06219557966666667
+      }
+    },
+    {
+      "round": 18,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.114008414,
+        "selective_instrumented": 0.08131527133333333,
+        "fresh_instrumented": 0.076355604,
+        "selective_uninstrumented": 0.09017574
+      }
+    },
+    {
+      "round": 19,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.096913616,
+        "selective_uninstrumented": 0.085260349,
+        "fresh_uninstrumented": 0.06751662933333333,
+        "fresh_instrumented": 0.08151506466666666
+      }
+    },
+    {
+      "round": 20,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.09461329333333333,
+        "selective_uninstrumented": 0.07839648433333334,
+        "fresh_uninstrumented": 0.06952814866666666,
+        "fresh_instrumented": 0.08442552033333334
+      }
+    },
+    {
+      "round": 21,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.072061334,
+        "selective_instrumented": 0.096227961,
+        "fresh_instrumented": 0.07808856033333333,
+        "selective_uninstrumented": 0.078765854
+      }
+    },
+    {
+      "round": 22,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.086079956,
+        "fresh_instrumented": 0.08351743866666667,
+        "selective_instrumented": 0.100278053,
+        "fresh_uninstrumented": 0.07232932433333333
+      }
+    },
+    {
+      "round": 23,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.080099303,
+        "fresh_uninstrumented": 0.07393314566666667,
+        "selective_uninstrumented": 0.08622690966666667,
+        "selective_instrumented": 0.10042053233333334
+      }
+    },
+    {
+      "round": 24,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.07645293433333333,
+        "selective_instrumented": 0.09024000533333333,
+        "fresh_instrumented": 0.07923241133333334,
+        "selective_uninstrumented": 0.08132847166666667
+      }
+    },
+    {
+      "round": 25,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.06353642666666667,
+        "fresh_uninstrumented": 0.05540746966666667,
+        "selective_uninstrumented": 0.06465552266666667,
+        "selective_instrumented": 0.07576773166666667
+      }
+    },
+    {
+      "round": 26,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.06417102433333334,
+        "fresh_instrumented": 0.06341287033333333,
+        "selective_instrumented": 0.07147441766666666,
+        "fresh_uninstrumented": 0.055533837333333336
+      }
+    },
+    {
+      "round": 27,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.086112971,
+        "selective_uninstrumented": 0.10584700866666667,
+        "fresh_uninstrumented": 0.084465712,
+        "fresh_instrumented": 0.083563901
+      }
+    },
+    {
+      "round": 28,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.07387308566666667,
+        "selective_instrumented": 0.09161597133333334,
+        "fresh_instrumented": 0.08278905466666667,
+        "selective_uninstrumented": 0.08562663
+      }
+    },
+    {
+      "round": 29,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.07946373566666666,
+        "fresh_uninstrumented": 0.06820679966666666,
+        "selective_uninstrumented": 0.07823027433333334,
+        "selective_instrumented": 0.08437917933333333
+      }
+    },
+    {
+      "round": 30,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.07795793433333334,
+        "fresh_instrumented": 0.07467247633333333,
+        "selective_instrumented": 0.090106855,
+        "fresh_uninstrumented": 0.06968291833333333
+      }
+    },
+    {
+      "round": 31,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.09354716866666667,
+        "selective_uninstrumented": 0.08437666066666667,
+        "fresh_uninstrumented": 0.07582578133333333,
+        "fresh_instrumented": 0.07224261933333333
+      }
+    },
+    {
+      "round": 32,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.06576474433333333,
+        "fresh_uninstrumented": 0.060247665666666665,
+        "selective_uninstrumented": 0.07119309466666666,
+        "selective_instrumented": 0.08042824
+      }
+    },
+    {
+      "round": 33,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.075160385,
+        "fresh_instrumented": 0.07136517766666667,
+        "selective_instrumented": 0.083354285,
+        "fresh_uninstrumented": 0.062263103
+      }
+    },
+    {
+      "round": 34,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.064909272,
+        "selective_instrumented": 0.08622296533333333,
+        "fresh_instrumented": 0.07637724833333333,
+        "selective_uninstrumented": 0.08117777466666666
+      }
+    },
+    {
+      "round": 35,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.08719570833333333,
+        "selective_uninstrumented": 0.08760656266666667,
+        "fresh_uninstrumented": 0.06692853433333333,
+        "fresh_instrumented": 0.078732416
+      }
+    },
+    {
+      "round": 36,
+      "order": [
+        "selective_instrumented",
+        "selective_uninstrumented",
+        "fresh_uninstrumented",
+        "fresh_instrumented"
+      ],
+      "seconds": {
+        "selective_instrumented": 0.08884637333333334,
+        "selective_uninstrumented": 0.08048498966666667,
+        "fresh_uninstrumented": 0.070560464,
+        "fresh_instrumented": 0.086579655
+      }
+    },
+    {
+      "round": 37,
+      "order": [
+        "selective_uninstrumented",
+        "fresh_instrumented",
+        "selective_instrumented",
+        "fresh_uninstrumented"
+      ],
+      "seconds": {
+        "selective_uninstrumented": 0.08351051433333333,
+        "fresh_instrumented": 0.082137881,
+        "selective_instrumented": 0.09217813766666667,
+        "fresh_uninstrumented": 0.07113041466666667
+      }
+    },
+    {
+      "round": 38,
+      "order": [
+        "fresh_instrumented",
+        "fresh_uninstrumented",
+        "selective_uninstrumented",
+        "selective_instrumented"
+      ],
+      "seconds": {
+        "fresh_instrumented": 0.08066274166666666,
+        "fresh_uninstrumented": 0.06886183566666666,
+        "selective_uninstrumented": 0.08008580933333333,
+        "selective_instrumented": 0.084530852
+      }
+    },
+    {
+      "round": 39,
+      "order": [
+        "fresh_uninstrumented",
+        "selective_instrumented",
+        "fresh_instrumented",
+        "selective_uninstrumented"
+      ],
+      "seconds": {
+        "fresh_uninstrumented": 0.06056468366666667,
+        "selective_instrumented": 0.07920406366666667,
+        "fresh_instrumented": 0.070688353,
+        "selective_uninstrumented": 0.073602354
+      }
+    }
+  ],
+  "methods": {
+    "fresh_instrumented": {
+      "median_seconds": 0.07640292916666666,
+      "min_seconds": 0.06341287033333333,
+      "max_seconds": 0.092303318,
+      "q25_seconds": 0.07128667891666667,
+      "q75_seconds": 0.08014102658333333
+    },
+    "fresh_uninstrumented": {
+      "median_seconds": 0.065550205,
+      "min_seconds": 0.05540746966666667,
+      "max_seconds": 0.114008414,
+      "q25_seconds": 0.062188258833333336,
+      "q75_seconds": 0.06990230475
+    },
+    "selective_instrumented": {
+      "median_seconds": 0.08579829733333333,
+      "min_seconds": 0.07147441766666666,
+      "max_seconds": 0.110188807,
+      "q25_seconds": 0.08138530383333334,
+      "q75_seconds": 0.09072108191666667
+    },
+    "selective_uninstrumented": {
+      "median_seconds": 0.07831337933333334,
+      "min_seconds": 0.06417102433333334,
+      "max_seconds": 0.10584700866666667,
+      "q25_seconds": 0.0734556,
+      "q75_seconds": 0.08356226091666666
+    }
+  },
+  "comparisons": {
+    "primary": {
+      "candidate": "selective_uninstrumented",
+      "reference": "fresh_uninstrumented",
+      "paired_median_ratio": 1.1678169093075235,
+      "change_percent": 16.781690930752347,
+      "measurement_bootstrap_95pct_ratio": [
+        1.1591045538068923,
+        1.1914482389061465
+      ],
+      "decision": "material_slowdown_observed",
+      "bootstrap_unit": "four consecutive order-balanced rounds of the same fixed workload",
+      "cycles": 10,
+      "bootstrap_samples": 20000,
+      "assumption": "cycles are sufficiently exchangeable; arbitrary inter-cycle host drift is not covered",
+      "population_inference": false
+    },
+    "instrumented": {
+      "candidate": "selective_instrumented",
+      "reference": "fresh_instrumented",
+      "paired_median_ratio": 1.1456401318845348,
+      "change_percent": 14.564013188453483,
+      "measurement_bootstrap_95pct_ratio": [
+        1.122236616582143,
+        1.1784041137738943
+      ],
+      "decision": "material_slowdown_observed",
+      "bootstrap_unit": "four consecutive order-balanced rounds of the same fixed workload",
+      "cycles": 10,
+      "bootstrap_samples": 20000,
+      "assumption": "cycles are sufficiently exchangeable; arbitrary inter-cycle host drift is not covered",
+      "population_inference": false
+    },
+    "fresh_erasure": {
+      "candidate": "fresh_uninstrumented",
+      "reference": "fresh_instrumented",
+      "paired_median_ratio": 0.8735287581888197,
+      "change_percent": -12.64712418111803,
+      "measurement_bootstrap_95pct_ratio": [
+        0.8567844785783405,
+        0.8910455754666513
+      ],
+      "decision": "material_speedup_observed",
+      "bootstrap_unit": "four consecutive order-balanced rounds of the same fixed workload",
+      "cycles": 10,
+      "bootstrap_samples": 20000,
+      "assumption": "cycles are sufficiently exchangeable; arbitrary inter-cycle host drift is not covered",
+      "population_inference": false
+    },
+    "selective_erasure": {
+      "candidate": "selective_uninstrumented",
+      "reference": "selective_instrumented",
+      "paired_median_ratio": 0.9014720834197494,
+      "change_percent": -9.852791658025062,
+      "measurement_bootstrap_95pct_ratio": [
+        0.883201651889315,
+        0.9059290962542256
+      ],
+      "decision": "material_speedup_observed",
+      "bootstrap_unit": "four consecutive order-balanced rounds of the same fixed workload",
+      "cycles": 10,
+      "bootstrap_samples": 20000,
+      "assumption": "cycles are sufficiently exchangeable; arbitrary inter-cycle host drift is not covered",
+      "population_inference": false
+    }
+  },
+  "ratio_of_marginal_medians": 1.1947083816646087,
+  "diagnostics": {
+    "p9-holdout-short_repeated-00": {
+      "family": "short_repeated",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.00126733,
+            0.001128714,
+            0.00109229,
+            0.001088164,
+            0.001071679,
+            0.001094162,
+            0.001115034,
+            0.001574134
+          ],
+          "fresh_uninstrumented": [
+            0.001012771,
+            0.000957179,
+            0.000968887,
+            0.00097778,
+            0.000952693,
+            0.000947465,
+            0.000954926,
+            0.001059871
+          ],
+          "selective_instrumented": [
+            0.001250514,
+            0.001194922,
+            0.001185478,
+            0.001192729,
+            0.001208462,
+            0.001305196,
+            0.001225548,
+            0.00134208
+          ],
+          "selective_uninstrumented": [
+            0.001106851,
+            0.001011781,
+            0.001024429,
+            0.001019382,
+            0.001021545,
+            0.001027283,
+            0.00101128,
+            0.001124828
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.001104598,
+            "min_seconds": 0.001071679,
+            "max_seconds": 0.001574134,
+            "q25_seconds": 0.0010912585,
+            "q75_seconds": 0.0011633680000000001
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000963033,
+            "min_seconds": 0.000947465,
+            "max_seconds": 0.001059871,
+            "q25_seconds": 0.0009543677500000001,
+            "q75_seconds": 0.0009865277499999999
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.001217005,
+            "min_seconds": 0.001185478,
+            "max_seconds": 0.00134208,
+            "q25_seconds": 0.00119437375,
+            "q75_seconds": 0.0012641845
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001022987,
+            "min_seconds": 0.00101128,
+            "max_seconds": 0.001124828,
+            "q25_seconds": 0.00101748175,
+            "q75_seconds": 0.001047175
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000136893,
+            0.000244542,
+            0.000148931,
+            0.000132907,
+            0.000151264,
+            0.000157013,
+            0.000156943,
+            0.000132426
+          ],
+          "fresh_uninstrumented": [
+            0.000271182,
+            0.000134169,
+            0.000112888,
+            0.000132887,
+            0.000153007,
+            0.000113819,
+            0.000112987,
+            0.000248459
+          ],
+          "selective_instrumented": [
+            0.000171865,
+            0.000199656,
+            0.000176972,
+            0.00016919,
+            0.000172986,
+            0.000161749,
+            0.000163502,
+            0.00016164
+          ],
+          "selective_uninstrumented": [
+            0.000209601,
+            0.000139667,
+            0.00012162,
+            0.000125606,
+            0.000136703,
+            0.000144565,
+            0.000136222,
+            0.000135601
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00015009749999999998,
+            "min_seconds": 0.000132426,
+            "max_seconds": 0.000244542,
+            "q25_seconds": 0.0001358965,
+            "q75_seconds": 0.0001569605
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000133528,
+            "min_seconds": 0.000112888,
+            "max_seconds": 0.000271182,
+            "q25_seconds": 0.00011361100000000001,
+            "q75_seconds": 0.00017687
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0001705275,
+            "min_seconds": 0.00016164,
+            "max_seconds": 0.000199656,
+            "q25_seconds": 0.00016306375,
+            "q75_seconds": 0.0001739825
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.00013646250000000002,
+            "min_seconds": 0.00012162,
+            "max_seconds": 0.000209601,
+            "q25_seconds": 0.00013310225,
+            "q75_seconds": 0.0001408915
+          }
+        }
+      }
+    },
+    "p9-holdout-short_repeated-01": {
+      "family": "short_repeated",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001481748,
+            0.00121339,
+            0.001668945,
+            0.00130801,
+            0.001456219,
+            0.001167611,
+            0.00116663,
+            0.001102234
+          ],
+          "fresh_uninstrumented": [
+            0.000979903,
+            0.001154222,
+            0.001172899,
+            0.001046972,
+            0.001192569,
+            0.000987704,
+            0.001247109,
+            0.001163385
+          ],
+          "selective_instrumented": [
+            0.001366546,
+            0.001316342,
+            0.001292817,
+            0.001373186,
+            0.001504831,
+            0.001534705,
+            0.001512803,
+            0.001306468
+          ],
+          "selective_uninstrumented": [
+            0.001054283,
+            0.001487626,
+            0.001283564,
+            0.001549938,
+            0.001195463,
+            0.001122414,
+            0.001131579,
+            0.001094133
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0012607,
+            "min_seconds": 0.001102234,
+            "max_seconds": 0.001668945,
+            "q25_seconds": 0.00116736575,
+            "q75_seconds": 0.0014626012499999999
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0011588035,
+            "min_seconds": 0.000979903,
+            "max_seconds": 0.001247109,
+            "q25_seconds": 0.0010321549999999999,
+            "q75_seconds": 0.0011778165
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.001369866,
+            "min_seconds": 0.001292817,
+            "max_seconds": 0.001534705,
+            "q25_seconds": 0.0013138735,
+            "q75_seconds": 0.0015068240000000001
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0011635209999999998,
+            "min_seconds": 0.001054283,
+            "max_seconds": 0.001549938,
+            "q25_seconds": 0.00111534375,
+            "q75_seconds": 0.0013345795
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.00016227,
+            0.000153348,
+            0.000158986,
+            0.000146728,
+            0.000135922,
+            0.000146838,
+            0.000188189,
+            0.000144845
+          ],
+          "fresh_uninstrumented": [
+            0.000137294,
+            0.000164414,
+            0.000158035,
+            0.000123983,
+            0.000133367,
+            0.000125606,
+            0.000134409,
+            0.000172145
+          ],
+          "selective_instrumented": [
+            0.0001684,
+            0.000171585,
+            0.000268678,
+            0.000159707,
+            0.000154168,
+            0.000159727,
+            0.000166016,
+            0.000151815
+          ],
+          "selective_uninstrumented": [
+            0.000146868,
+            0.000131586,
+            0.000137123,
+            0.000151104,
+            0.00013491,
+            0.000135812,
+            0.000131595,
+            0.000220577
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00015009300000000001,
+            "min_seconds": 0.000135922,
+            "max_seconds": 0.000188189,
+            "q25_seconds": 0.00014625724999999998,
+            "q75_seconds": 0.000159807
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001358515,
+            "min_seconds": 0.000123983,
+            "max_seconds": 0.000172145,
+            "q25_seconds": 0.00013142675,
+            "q75_seconds": 0.00015962974999999998
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0001628715,
+            "min_seconds": 0.000151815,
+            "max_seconds": 0.000268678,
+            "q25_seconds": 0.00015832225,
+            "q75_seconds": 0.00016919625000000002
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0001364675,
+            "min_seconds": 0.000131586,
+            "max_seconds": 0.000220577,
+            "q25_seconds": 0.00013408125,
+            "q75_seconds": 0.000147927
+          }
+        }
+      }
+    },
+    "p9-holdout-short_repeated-02": {
+      "family": "short_repeated",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001613052,
+            0.001169934,
+            0.001423621,
+            0.001260729,
+            0.001332186,
+            0.001253779,
+            0.001111328,
+            0.001421718
+          ],
+          "fresh_uninstrumented": [
+            0.001196985,
+            0.001231316,
+            0.001649727,
+            0.001298606,
+            0.001082986,
+            0.000976738,
+            0.001077548,
+            0.001001775
+          ],
+          "selective_instrumented": [
+            0.001393617,
+            0.001334149,
+            0.001258436,
+            0.001604088,
+            0.001610508,
+            0.001930883,
+            0.001519683,
+            0.001279517
+          ],
+          "selective_uninstrumented": [
+            0.001079541,
+            0.001171978,
+            0.001217786,
+            0.001065921,
+            0.001033552,
+            0.0010991,
+            0.001252257,
+            0.001347789
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0012964575,
+            "min_seconds": 0.001111328,
+            "max_seconds": 0.001613052,
+            "q25_seconds": 0.00123281775,
+            "q75_seconds": 0.00142219375
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0011399855,
+            "min_seconds": 0.000976738,
+            "max_seconds": 0.001649727,
+            "q25_seconds": 0.00105860475,
+            "q75_seconds": 0.0012481385
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0014566499999999999,
+            "min_seconds": 0.001258436,
+            "max_seconds": 0.001930883,
+            "q25_seconds": 0.001320491,
+            "q75_seconds": 0.001605693
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001135539,
+            "min_seconds": 0.001033552,
+            "max_seconds": 0.001347789,
+            "q25_seconds": 0.001076136,
+            "q75_seconds": 0.00122640375
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000156502,
+            0.000227357,
+            0.000156081,
+            0.000152386,
+            0.000135381,
+            0.000133869,
+            0.000239605,
+            0.000203873
+          ],
+          "fresh_uninstrumented": [
+            0.000130213,
+            0.000123433,
+            0.000164514,
+            0.000123633,
+            0.00012184,
+            0.000126727,
+            0.000125196,
+            0.000112818
+          ],
+          "selective_instrumented": [
+            0.000147248,
+            0.000270411,
+            0.000162751,
+            0.000186396,
+            0.000311222,
+            0.000152737,
+            0.000156562,
+            0.000150964
+          ],
+          "selective_uninstrumented": [
+            0.000125486,
+            0.000149231,
+            0.000131435,
+            0.000220487,
+            0.000218094,
+            0.000184724,
+            0.000124324,
+            0.000150574
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00015629149999999998,
+            "min_seconds": 0.000133869,
+            "max_seconds": 0.000239605,
+            "q25_seconds": 0.00014813475,
+            "q75_seconds": 0.000209744
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001244145,
+            "min_seconds": 0.000112818,
+            "max_seconds": 0.000164514,
+            "q25_seconds": 0.00012303474999999999,
+            "q75_seconds": 0.00012759850000000002
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0001596565,
+            "min_seconds": 0.000147248,
+            "max_seconds": 0.000311222,
+            "q25_seconds": 0.00015229375,
+            "q75_seconds": 0.00020739975
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0001499025,
+            "min_seconds": 0.000124324,
+            "max_seconds": 0.000220487,
+            "q25_seconds": 0.00012994775,
+            "q75_seconds": 0.0001930665
+          }
+        }
+      }
+    },
+    "p9-holdout-short_churn-00": {
+      "family": "short_churn",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001885446,
+            0.001763215,
+            0.001607063,
+            0.002088397,
+            0.001667463,
+            0.001552352,
+            0.001470821,
+            0.00147634
+          ],
+          "fresh_uninstrumented": [
+            0.001568947,
+            0.001512783,
+            0.001250764,
+            0.0012748,
+            0.001421188,
+            0.001286478,
+            0.001369131,
+            0.001410361
+          ],
+          "selective_instrumented": [
+            0.001575325,
+            0.001663677,
+            0.001643077,
+            0.001717657,
+            0.00171288,
+            0.001522467,
+            0.001870814,
+            0.001555596
+          ],
+          "selective_uninstrumented": [
+            0.001311855,
+            0.001343192,
+            0.001985995,
+            0.001536128,
+            0.001562537,
+            0.001816484,
+            0.001411123,
+            0.001540634
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.001637263,
+            "min_seconds": 0.001470821,
+            "max_seconds": 0.002088397,
+            "q25_seconds": 0.0015333489999999998,
+            "q75_seconds": 0.00179377275
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0013897459999999999,
+            "min_seconds": 0.001250764,
+            "max_seconds": 0.001568947,
+            "q25_seconds": 0.0012835585,
+            "q75_seconds": 0.00144408675
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.001653377,
+            "min_seconds": 0.001522467,
+            "max_seconds": 0.001870814,
+            "q25_seconds": 0.00157039275,
+            "q75_seconds": 0.00171407425
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0015383810000000001,
+            "min_seconds": 0.001311855,
+            "max_seconds": 0.001985995,
+            "q25_seconds": 0.00139414025,
+            "q75_seconds": 0.00162602375
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000138516,
+            0.000159527,
+            0.000282399,
+            0.000164945,
+            0.000158965,
+            0.000255538,
+            0.000158134,
+            0.000224173
+          ],
+          "fresh_uninstrumented": [
+            0.000130003,
+            0.000132467,
+            0.000120689,
+            0.000126137,
+            0.00022277,
+            0.000135932,
+            0.00012815,
+            0.000144485
+          ],
+          "selective_instrumented": [
+            0.00015496,
+            0.000227828,
+            0.000188369,
+            0.000183582,
+            0.000171455,
+            0.000164514,
+            0.000154329,
+            0.000214018
+          ],
+          "selective_uninstrumented": [
+            0.000132867,
+            0.000150053,
+            0.000145856,
+            0.000152406,
+            0.000153698,
+            0.000143302,
+            0.00012771,
+            0.000153138
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000162236,
+            "min_seconds": 0.000138516,
+            "max_seconds": 0.000282399,
+            "q25_seconds": 0.00015875725000000002,
+            "q75_seconds": 0.00023201425
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000131235,
+            "min_seconds": 0.000120689,
+            "max_seconds": 0.00022277,
+            "q25_seconds": 0.00012764675,
+            "q75_seconds": 0.00013807025000000002
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0001775185,
+            "min_seconds": 0.000154329,
+            "max_seconds": 0.000227828,
+            "q25_seconds": 0.0001621255,
+            "q75_seconds": 0.00019478125
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0001479545,
+            "min_seconds": 0.00012771,
+            "max_seconds": 0.000153698,
+            "q25_seconds": 0.00014069324999999998,
+            "q75_seconds": 0.000152589
+          }
+        }
+      }
+    },
+    "p9-holdout-short_churn-01": {
+      "family": "short_churn",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001564479,
+            0.001821251,
+            0.00178039,
+            0.001361679,
+            0.001425864,
+            0.001347798,
+            0.001433396,
+            0.00171276
+          ],
+          "fresh_uninstrumented": [
+            0.001203835,
+            0.001251797,
+            0.001251196,
+            0.001309462,
+            0.00143585,
+            0.00117382,
+            0.001359376,
+            0.001309151
+          ],
+          "selective_instrumented": [
+            0.001668014,
+            0.001589627,
+            0.001494406,
+            0.002163829,
+            0.001679591,
+            0.001741672,
+            0.00155805,
+            0.001975168
+          ],
+          "selective_uninstrumented": [
+            0.001533374,
+            0.00133515,
+            0.001327329,
+            0.001477201,
+            0.001736956,
+            0.001306127,
+            0.001326868,
+            0.001630207
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0014989374999999998,
+            "min_seconds": 0.001347798,
+            "max_seconds": 0.001821251,
+            "q25_seconds": 0.0014098177499999999,
+            "q75_seconds": 0.0017296675
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.001280474,
+            "min_seconds": 0.00117382,
+            "max_seconds": 0.00143585,
+            "q25_seconds": 0.00123935575,
+            "q75_seconds": 0.0013219405
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0016738025,
+            "min_seconds": 0.001494406,
+            "max_seconds": 0.002163829,
+            "q25_seconds": 0.00158173275,
+            "q75_seconds": 0.001800046
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0014061755000000001,
+            "min_seconds": 0.001306127,
+            "max_seconds": 0.001736956,
+            "q25_seconds": 0.0013272137499999999,
+            "q75_seconds": 0.00155758225
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000149141,
+            0.000170443,
+            0.00014832,
+            0.000159617,
+            0.000233777,
+            0.000187568,
+            0.00015517,
+            0.00013454
+          ],
+          "fresh_uninstrumented": [
+            0.00012121,
+            0.000160488,
+            0.00014139,
+            0.000214598,
+            0.000302358,
+            0.00028354,
+            0.000116993,
+            0.000146457
+          ],
+          "selective_instrumented": [
+            0.000470247,
+            0.000219425,
+            0.000212255,
+            0.000184764,
+            0.000194318,
+            0.000179756,
+            0.000152637,
+            0.000150143
+          ],
+          "selective_uninstrumented": [
+            0.000160708,
+            0.000140529,
+            0.000151825,
+            0.000181469,
+            0.000828328,
+            0.000138365,
+            0.000128851,
+            0.0001283
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00015739349999999998,
+            "min_seconds": 0.00013454,
+            "max_seconds": 0.000233777,
+            "q25_seconds": 0.00014893574999999998,
+            "q75_seconds": 0.00017472425
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001534725,
+            "min_seconds": 0.000116993,
+            "max_seconds": 0.000302358,
+            "q25_seconds": 0.000136345,
+            "q75_seconds": 0.0002318335
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000189541,
+            "min_seconds": 0.000150143,
+            "max_seconds": 0.000470247,
+            "q25_seconds": 0.00017297625,
+            "q75_seconds": 0.00021404750000000001
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000146177,
+            "min_seconds": 0.0001283,
+            "max_seconds": 0.000828328,
+            "q25_seconds": 0.0001359865,
+            "q75_seconds": 0.00016589825
+          }
+        }
+      }
+    },
+    "p9-holdout-short_churn-02": {
+      "family": "short_churn",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001689516,
+            0.001337964,
+            0.001453786,
+            0.001364964,
+            0.001445364,
+            0.001358935,
+            0.001370732,
+            0.002066204
+          ],
+          "fresh_uninstrumented": [
+            0.001195513,
+            0.001230485,
+            0.001216384,
+            0.001363001,
+            0.001262873,
+            0.001478312,
+            0.001187862,
+            0.001276553
+          ],
+          "selective_instrumented": [
+            0.001535697,
+            0.001505773,
+            0.001481177,
+            0.00147648,
+            0.001603047,
+            0.001522057,
+            0.001668254,
+            0.00149032
+          ],
+          "selective_uninstrumented": [
+            0.001329832,
+            0.00146336,
+            0.001805818,
+            0.001297334,
+            0.001452734,
+            0.001317984,
+            0.001288601,
+            0.001302191
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0014080479999999999,
+            "min_seconds": 0.001337964,
+            "max_seconds": 0.002066204,
+            "q25_seconds": 0.00136345675,
+            "q75_seconds": 0.0015127185
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.001246679,
+            "min_seconds": 0.001187862,
+            "max_seconds": 0.001478312,
+            "q25_seconds": 0.00121116625,
+            "q75_seconds": 0.001298165
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.001513915,
+            "min_seconds": 0.00147648,
+            "max_seconds": 0.001668254,
+            "q25_seconds": 0.00148803425,
+            "q75_seconds": 0.0015525345
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001323908,
+            "min_seconds": 0.001288601,
+            "max_seconds": 0.001805818,
+            "q25_seconds": 0.0013009767500000002,
+            "q75_seconds": 0.0014553905
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000138355,
+            0.000160368,
+            0.000146868,
+            0.000148149,
+            0.000137674,
+            0.000137584,
+            0.000138275,
+            0.000139086
+          ],
+          "fresh_uninstrumented": [
+            0.000117364,
+            0.000140218,
+            0.000125275,
+            0.000122241,
+            0.000116974,
+            0.000127258,
+            0.000117765,
+            0.000118707
+          ],
+          "selective_instrumented": [
+            0.000171364,
+            0.000159997,
+            0.000154299,
+            0.000231784,
+            0.000147739,
+            0.000150073,
+            0.000170914,
+            0.000153257
+          ],
+          "selective_uninstrumented": [
+            0.000132666,
+            0.000137674,
+            0.000155531,
+            0.000132287,
+            0.000131444,
+            0.000130273,
+            0.000126788,
+            0.000131185
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0001387205,
+            "min_seconds": 0.000137584,
+            "max_seconds": 0.000160368,
+            "q25_seconds": 0.00013812474999999998,
+            "q75_seconds": 0.00014718825
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000120474,
+            "min_seconds": 0.000116974,
+            "max_seconds": 0.000140218,
+            "q25_seconds": 0.00011766475,
+            "q75_seconds": 0.00012577075
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000157148,
+            "min_seconds": 0.000147739,
+            "max_seconds": 0.000231784,
+            "q25_seconds": 0.000152461,
+            "q75_seconds": 0.00017102650000000002
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0001318655,
+            "min_seconds": 0.000126788,
+            "max_seconds": 0.000155531,
+            "q25_seconds": 0.000130957,
+            "q75_seconds": 0.00013391800000000001
+          }
+        }
+      }
+    },
+    "p9-holdout-long_cheap-00": {
+      "family": "long_cheap",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000932233,
+            0.000843301,
+            0.000825143,
+            0.000891522,
+            0.000894136,
+            0.000852224,
+            0.000888688,
+            0.001656026
+          ],
+          "fresh_uninstrumented": [
+            0.000746286,
+            0.000720829,
+            0.000718385,
+            0.000800046,
+            0.000718405,
+            0.000870882,
+            0.000721991,
+            0.000756011
+          ],
+          "selective_instrumented": [
+            0.000981516,
+            0.000967214,
+            0.000958361,
+            0.000987654,
+            0.001046692,
+            0.000955597,
+            0.001010088,
+            0.001181903
+          ],
+          "selective_uninstrumented": [
+            0.00084931,
+            0.000805604,
+            0.000815499,
+            0.000891552,
+            0.000961957,
+            0.001162154,
+            0.000848788,
+            0.000803392
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000890105,
+            "min_seconds": 0.000825143,
+            "max_seconds": 0.001656026,
+            "q25_seconds": 0.0008499932499999999,
+            "q75_seconds": 0.00090366025
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0007341385,
+            "min_seconds": 0.000718385,
+            "max_seconds": 0.000870882,
+            "q25_seconds": 0.000720223,
+            "q75_seconds": 0.00076701975
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000984585,
+            "min_seconds": 0.000955597,
+            "max_seconds": 0.001181903,
+            "q25_seconds": 0.00096500075,
+            "q75_seconds": 0.001019239
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0008490489999999999,
+            "min_seconds": 0.000803392,
+            "max_seconds": 0.001162154,
+            "q25_seconds": 0.0008130252500000001,
+            "q75_seconds": 0.00090915325
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000129432,
+            0.000113399,
+            0.000110374,
+            0.000125316,
+            0.000338221,
+            0.000112056,
+            0.00013515,
+            0.000123373
+          ],
+          "fresh_uninstrumented": [
+            0.000107339,
+            0.000100198,
+            9.1646e-05,
+            0.000106669,
+            0.000105687,
+            9.6373e-05,
+            9.1956e-05,
+            9.0735e-05
+          ],
+          "selective_instrumented": [
+            0.000130514,
+            0.000141811,
+            0.000119257,
+            0.000150233,
+            0.000142391,
+            0.000125526,
+            0.000120269,
+            0.000128921
+          ],
+          "selective_uninstrumented": [
+            0.000117104,
+            0.000100219,
+            9.9918e-05,
+            0.000123874,
+            0.000145336,
+            0.000108681,
+            0.0001147,
+            0.000110844
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00012434449999999998,
+            "min_seconds": 0.000110374,
+            "max_seconds": 0.000338221,
+            "q25_seconds": 0.00011306325,
+            "q75_seconds": 0.0001308615
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 9.828549999999999e-05,
+            "min_seconds": 9.0735e-05,
+            "max_seconds": 0.000107339,
+            "q25_seconds": 9.18785e-05,
+            "q75_seconds": 0.00010593250000000001
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0001297175,
+            "min_seconds": 0.000119257,
+            "max_seconds": 0.000150233,
+            "q25_seconds": 0.00012421174999999998,
+            "q75_seconds": 0.000141956
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000112772,
+            "min_seconds": 9.9918e-05,
+            "max_seconds": 0.000145336,
+            "q25_seconds": 0.0001065655,
+            "q75_seconds": 0.0001187965
+          }
+        }
+      }
+    },
+    "p9-holdout-long_cheap-01": {
+      "family": "long_cheap",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001211597,
+            0.001235021,
+            0.001197916,
+            0.001209904,
+            0.001553634,
+            0.001179549,
+            0.001253649,
+            0.001222252
+          ],
+          "fresh_uninstrumented": [
+            0.0011666,
+            0.001005902,
+            0.001019672,
+            0.001005411,
+            0.001048395,
+            0.001008906,
+            0.00100458,
+            0.001174401
+          ],
+          "selective_instrumented": [
+            0.001304014,
+            0.001407567,
+            0.001789534,
+            0.001478112,
+            0.001461828,
+            0.00128796,
+            0.001581054,
+            0.00133493
+          ],
+          "selective_uninstrumented": [
+            0.001288962,
+            0.001198156,
+            0.00118707,
+            0.001126641,
+            0.001278126,
+            0.001258626,
+            0.001177016,
+            0.001203836
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0012169245,
+            "min_seconds": 0.001179549,
+            "max_seconds": 0.001553634,
+            "q25_seconds": 0.001206907,
+            "q75_seconds": 0.001239678
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0010142889999999998,
+            "min_seconds": 0.00100458,
+            "max_seconds": 0.001174401,
+            "q25_seconds": 0.00100577925,
+            "q75_seconds": 0.00107794625
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0014346975000000001,
+            "min_seconds": 0.00128796,
+            "max_seconds": 0.001789534,
+            "q25_seconds": 0.001327201,
+            "q75_seconds": 0.0015038475
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001200996,
+            "min_seconds": 0.001126641,
+            "max_seconds": 0.001288962,
+            "q25_seconds": 0.0011845565,
+            "q75_seconds": 0.0012635010000000002
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.0001823,
+            0.000158886,
+            0.000163182,
+            0.000139377,
+            0.000136833,
+            0.000143343,
+            0.000158335,
+            0.000155951
+          ],
+          "fresh_uninstrumented": [
+            0.000118516,
+            0.00011455,
+            0.000139547,
+            0.000119377,
+            0.000131715,
+            0.000114931,
+            0.00011477,
+            0.000117625
+          ],
+          "selective_instrumented": [
+            0.000157864,
+            0.00023598,
+            0.000165846,
+            0.000174939,
+            0.000166047,
+            0.000164263,
+            0.000153778,
+            0.000178064
+          ],
+          "selective_uninstrumented": [
+            0.000132917,
+            0.000137403,
+            0.000144925,
+            0.000138826,
+            0.000154089,
+            0.000157864,
+            0.00013521,
+            0.000139016
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000157143,
+            "min_seconds": 0.000136833,
+            "max_seconds": 0.0001823,
+            "q25_seconds": 0.00014235150000000001,
+            "q75_seconds": 0.00015996
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001180705,
+            "min_seconds": 0.00011455,
+            "max_seconds": 0.000139547,
+            "q25_seconds": 0.00011489075,
+            "q75_seconds": 0.0001224615
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0001659465,
+            "min_seconds": 0.000153778,
+            "max_seconds": 0.00023598,
+            "q25_seconds": 0.00016266325,
+            "q75_seconds": 0.00017572025
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000138921,
+            "min_seconds": 0.000132917,
+            "max_seconds": 0.000157864,
+            "q25_seconds": 0.00013685474999999999,
+            "q75_seconds": 0.000147216
+          }
+        }
+      }
+    },
+    "p9-holdout-long_cheap-02": {
+      "family": "long_cheap",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.003455985,
+            0.003589473,
+            0.003238863,
+            0.003139576,
+            0.003131153,
+            0.003106727,
+            0.003110913,
+            0.00307523
+          ],
+          "fresh_uninstrumented": [
+            0.003396417,
+            0.002681426,
+            0.002702758,
+            0.002709097,
+            0.002700114,
+            0.003103872,
+            0.002644622,
+            0.002673505
+          ],
+          "selective_instrumented": [
+            0.003447021,
+            0.003356318,
+            0.003239013,
+            0.00324317,
+            0.003430087,
+            0.003323859,
+            0.003236229,
+            0.003218333
+          ],
+          "selective_uninstrumented": [
+            0.003523945,
+            0.003351209,
+            0.003064125,
+            0.003241247,
+            0.003414594,
+            0.003063072,
+            0.003043974,
+            0.003050613
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0031353644999999996,
+            "min_seconds": 0.00307523,
+            "max_seconds": 0.003589473,
+            "q25_seconds": 0.0031098665,
+            "q75_seconds": 0.0032931435
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0027014359999999998,
+            "min_seconds": 0.002644622,
+            "max_seconds": 0.003396417,
+            "q25_seconds": 0.0026794457500000004,
+            "q75_seconds": 0.00280779075
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0032835145,
+            "min_seconds": 0.003218333,
+            "max_seconds": 0.003447021,
+            "q25_seconds": 0.003238317,
+            "q75_seconds": 0.00337476025
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.003152686,
+            "min_seconds": 0.003043974,
+            "max_seconds": 0.003523945,
+            "q25_seconds": 0.00305995725,
+            "q75_seconds": 0.0033670552499999997
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000327585,
+            0.000325573,
+            0.000297872,
+            0.000317641,
+            0.000346354,
+            0.000306564,
+            0.000300476,
+            0.000326123
+          ],
+          "fresh_uninstrumented": [
+            0.000246976,
+            0.00025595,
+            0.000247928,
+            0.000244573,
+            0.000265163,
+            0.000249741,
+            0.000259946,
+            0.000286284
+          ],
+          "selective_instrumented": [
+            0.00036469,
+            0.000390249,
+            0.000305954,
+            0.000328617,
+            0.000354906,
+            0.000375657,
+            0.000314346,
+            0.000309589
+          ],
+          "selective_uninstrumented": [
+            0.000293926,
+            0.00029045,
+            0.000302668,
+            0.000282859,
+            0.000341196,
+            0.000574942,
+            0.000314697,
+            0.000305613
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000321607,
+            "min_seconds": 0.000297872,
+            "max_seconds": 0.000346354,
+            "q25_seconds": 0.000305042,
+            "q75_seconds": 0.0003264885
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0002528455,
+            "min_seconds": 0.000244573,
+            "max_seconds": 0.000286284,
+            "q25_seconds": 0.00024769,
+            "q75_seconds": 0.00026125025
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0003417615,
+            "min_seconds": 0.000305954,
+            "max_seconds": 0.000390249,
+            "q25_seconds": 0.00031315675,
+            "q75_seconds": 0.00036743174999999997
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0003041405,
+            "min_seconds": 0.000282859,
+            "max_seconds": 0.000574942,
+            "q25_seconds": 0.000293057,
+            "q75_seconds": 0.00032132175
+          }
+        }
+      }
+    },
+    "p9-holdout-long_deep_repeat-00": {
+      "family": "long_deep_repeat",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001086441,
+            0.001163436,
+            0.001108454,
+            0.001185298,
+            0.000985512,
+            0.001020873,
+            0.000997389,
+            0.001013243
+          ],
+          "fresh_uninstrumented": [
+            0.000879424,
+            0.000935067,
+            0.00091027,
+            0.000873035,
+            0.000898442,
+            0.000917211,
+            0.00084965,
+            0.000889729
+          ],
+          "selective_instrumented": [
+            0.001107852,
+            0.001155904,
+            0.00115311,
+            0.001136786,
+            0.001356382,
+            0.001195573,
+            0.001088745,
+            0.00112648
+          ],
+          "selective_uninstrumented": [
+            0.000923008,
+            0.000906414,
+            0.000994595,
+            0.001103676,
+            0.000996257,
+            0.000906244,
+            0.000954755,
+            0.000968406
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.001053657,
+            "min_seconds": 0.000985512,
+            "max_seconds": 0.001185298,
+            "q25_seconds": 0.0010092795,
+            "q75_seconds": 0.0011221995000000001
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0008940854999999999,
+            "min_seconds": 0.00084965,
+            "max_seconds": 0.000935067,
+            "q25_seconds": 0.00087782675,
+            "q75_seconds": 0.00091200525
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.001144948,
+            "min_seconds": 0.001088745,
+            "max_seconds": 0.001356382,
+            "q25_seconds": 0.001121823,
+            "q75_seconds": 0.00116582125
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0009615805,
+            "min_seconds": 0.000906244,
+            "max_seconds": 0.001103676,
+            "q25_seconds": 0.0009188595,
+            "q75_seconds": 0.0009950105
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000165175,
+            0.00013536,
+            0.000125786,
+            0.000138285,
+            0.000135982,
+            0.000126778,
+            0.00012767,
+            0.000177864
+          ],
+          "fresh_uninstrumented": [
+            0.000112807,
+            0.000106908,
+            0.000105867,
+            0.000104014,
+            0.000105666,
+            0.000111956,
+            0.000103354,
+            0.000109492
+          ],
+          "selective_instrumented": [
+            0.000192746,
+            0.000205625,
+            0.000212756,
+            0.000214408,
+            0.000227417,
+            0.000183783,
+            0.000190102,
+            0.000206887
+          ],
+          "selective_uninstrumented": [
+            0.000205244,
+            0.000190222,
+            0.000161039,
+            0.000156833,
+            0.000172907,
+            0.000157213,
+            0.000144524,
+            0.000185275
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000135671,
+            "min_seconds": 0.000125786,
+            "max_seconds": 0.000177864,
+            "q25_seconds": 0.000127447,
+            "q75_seconds": 0.0001450075
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001063875,
+            "min_seconds": 0.000103354,
+            "max_seconds": 0.000112807,
+            "q25_seconds": 0.000105253,
+            "q75_seconds": 0.000110108
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.00020625599999999998,
+            "min_seconds": 0.000183783,
+            "max_seconds": 0.000227417,
+            "q25_seconds": 0.000192085,
+            "q75_seconds": 0.000213169
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000166973,
+            "min_seconds": 0.000144524,
+            "max_seconds": 0.000205244,
+            "q25_seconds": 0.00015711799999999998,
+            "q75_seconds": 0.00018651175
+          }
+        }
+      }
+    },
+    "p9-holdout-long_deep_repeat-01": {
+      "family": "long_deep_repeat",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.00140973,
+            0.001394007,
+            0.001374648,
+            0.001339166,
+            0.001373366,
+            0.001536138,
+            0.001352285,
+            0.001332626
+          ],
+          "fresh_uninstrumented": [
+            0.00121411,
+            0.001564821,
+            0.001276182,
+            0.001226309,
+            0.001148633,
+            0.001143355,
+            0.001184786,
+            0.001401498
+          ],
+          "selective_instrumented": [
+            0.002015449,
+            0.001875461,
+            0.001735894,
+            0.001510059,
+            0.001426366,
+            0.001406706,
+            0.001418974,
+            0.001644959
+          ],
+          "selective_uninstrumented": [
+            0.001301099,
+            0.001554465,
+            0.001221852,
+            0.001441768,
+            0.001251476,
+            0.001235201,
+            0.001589447,
+            0.001233359
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.001374007,
+            "min_seconds": 0.001332626,
+            "max_seconds": 0.001536138,
+            "q25_seconds": 0.00134900525,
+            "q75_seconds": 0.0013979377500000002
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0012202095,
+            "min_seconds": 0.001143355,
+            "max_seconds": 0.001564821,
+            "q25_seconds": 0.00117574775,
+            "q75_seconds": 0.001307511
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.001577509,
+            "min_seconds": 0.001406706,
+            "max_seconds": 0.002015449,
+            "q25_seconds": 0.001424518,
+            "q75_seconds": 0.00177078575
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0012762875,
+            "min_seconds": 0.001221852,
+            "max_seconds": 0.001589447,
+            "q25_seconds": 0.0012347405,
+            "q75_seconds": 0.00146994225
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000158735,
+            0.000157804,
+            0.000154359,
+            0.000150663,
+            0.000156953,
+            0.000165365,
+            0.000156031,
+            0.000170253
+          ],
+          "fresh_uninstrumented": [
+            0.000143343,
+            0.000133398,
+            0.000126748,
+            0.000143282,
+            0.000136743,
+            0.000250292,
+            0.000143042,
+            0.00014164
+          ],
+          "selective_instrumented": [
+            0.000232125,
+            0.000208028,
+            0.000227648,
+            0.000247297,
+            0.000217042,
+            0.000245674,
+            0.000213507,
+            0.000232755
+          ],
+          "selective_uninstrumented": [
+            0.000206987,
+            0.000221048,
+            0.000177203,
+            0.000185124,
+            0.000224353,
+            0.000190182,
+            0.000194759,
+            0.000205955
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00015737850000000002,
+            "min_seconds": 0.000150663,
+            "max_seconds": 0.000170253,
+            "q25_seconds": 0.000155613,
+            "q75_seconds": 0.00016039249999999999
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.00014234099999999998,
+            "min_seconds": 0.000126748,
+            "max_seconds": 0.000250292,
+            "q25_seconds": 0.00013590675,
+            "q75_seconds": 0.00014329725
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0002298865,
+            "min_seconds": 0.000208028,
+            "max_seconds": 0.000247297,
+            "q25_seconds": 0.00021615825,
+            "q75_seconds": 0.00023598475
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000200357,
+            "min_seconds": 0.000177203,
+            "max_seconds": 0.000224353,
+            "q25_seconds": 0.0001889175,
+            "q75_seconds": 0.00021050225
+          }
+        }
+      }
+    },
+    "p9-holdout-long_deep_repeat-02": {
+      "family": "long_deep_repeat",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.00344599,
+            0.003428995,
+            0.003423427,
+            0.003734377,
+            0.003420663,
+            0.003928385,
+            0.003426771,
+            0.005207732
+          ],
+          "fresh_uninstrumented": [
+            0.003109261,
+            0.003055331,
+            0.002901293,
+            0.003093117,
+            0.002933731,
+            0.003160006,
+            0.002968221,
+            0.003767516
+          ],
+          "selective_instrumented": [
+            0.004001644,
+            0.003845692,
+            0.00390421,
+            0.003855949,
+            0.004231565,
+            0.005094565,
+            0.004320357,
+            0.004379465
+          ],
+          "selective_uninstrumented": [
+            0.003822259,
+            0.00369498,
+            0.003653207,
+            0.003650523,
+            0.003945521,
+            0.005026263,
+            0.004705317,
+            0.005543211
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0034374925,
+            "min_seconds": 0.003420663,
+            "max_seconds": 0.005207732,
+            "q25_seconds": 0.0034259349999999997,
+            "q75_seconds": 0.0037828790000000003
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.003074224,
+            "min_seconds": 0.002901293,
+            "max_seconds": 0.003767516,
+            "q25_seconds": 0.0029595985,
+            "q75_seconds": 0.00312194725
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0041166045,
+            "min_seconds": 0.003845692,
+            "max_seconds": 0.005094565,
+            "q25_seconds": 0.0038921447499999998,
+            "q75_seconds": 0.004335134
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.00388389,
+            "min_seconds": 0.003650523,
+            "max_seconds": 0.005543211,
+            "q25_seconds": 0.00368453675,
+            "q75_seconds": 0.004785553499999999
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000370249,
+            0.000394195,
+            0.000395577,
+            0.000328847,
+            0.00043122,
+            0.000415526,
+            0.000341587,
+            0.000408896
+          ],
+          "fresh_uninstrumented": [
+            0.000365372,
+            0.000290741,
+            0.000284241,
+            0.000339683,
+            0.000291112,
+            0.000293855,
+            0.000320455,
+            0.000301847
+          ],
+          "selective_instrumented": [
+            0.000433643,
+            0.000407995,
+            0.000409217,
+            0.000434875,
+            0.000491869,
+            0.00064732,
+            0.000953103,
+            0.000494002
+          ],
+          "selective_uninstrumented": [
+            0.000390149,
+            0.000366223,
+            0.000396007,
+            0.000368386,
+            0.000400804,
+            0.000462045,
+            0.000412852,
+            0.000580251
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000394886,
+            "min_seconds": 0.000328847,
+            "max_seconds": 0.00043122,
+            "q25_seconds": 0.0003630835,
+            "q75_seconds": 0.0004105535
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000297851,
+            "min_seconds": 0.000284241,
+            "max_seconds": 0.000365372,
+            "q25_seconds": 0.00029101925,
+            "q75_seconds": 0.000325262
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000463372,
+            "min_seconds": 0.000407995,
+            "max_seconds": 0.000953103,
+            "q25_seconds": 0.0004275365,
+            "q75_seconds": 0.0005323315
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.00039840549999999996,
+            "min_seconds": 0.000366223,
+            "max_seconds": 0.000580251,
+            "q25_seconds": 0.00038470825,
+            "q75_seconds": 0.00042515025
+          }
+        }
+      }
+    },
+    "p9-holdout-long_deep_churn-00": {
+      "family": "long_deep_churn",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001354449,
+            0.001309873,
+            0.001511301,
+            0.001189604,
+            0.001077197,
+            0.001190656,
+            0.001150005,
+            0.00134892
+          ],
+          "fresh_uninstrumented": [
+            0.000979472,
+            0.001327648,
+            0.001380707,
+            0.001283514,
+            0.001049036,
+            0.000958652,
+            0.000915447,
+            0.001159179
+          ],
+          "selective_instrumented": [
+            0.001899096,
+            0.002111611,
+            0.001957662,
+            0.002577201,
+            0.001930973,
+            0.002010191,
+            0.001702315,
+            0.002881363
+          ],
+          "selective_uninstrumented": [
+            0.001665489,
+            0.001591109,
+            0.001586042,
+            0.00186836,
+            0.001500996,
+            0.001316993,
+            0.001386776,
+            0.001560254
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0012502645,
+            "min_seconds": 0.001077197,
+            "max_seconds": 0.001511301,
+            "q25_seconds": 0.00117970425,
+            "q75_seconds": 0.00135030225
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0011041075,
+            "min_seconds": 0.000915447,
+            "max_seconds": 0.001380707,
+            "q25_seconds": 0.0009742669999999999,
+            "q75_seconds": 0.0012945475
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0019839265,
+            "min_seconds": 0.001702315,
+            "max_seconds": 0.002881363,
+            "q25_seconds": 0.00192300375,
+            "q75_seconds": 0.0022280085
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001573148,
+            "min_seconds": 0.001316993,
+            "max_seconds": 0.00186836,
+            "q25_seconds": 0.0014724410000000001,
+            "q75_seconds": 0.001609704
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000140849,
+            0.000268899,
+            0.000162281,
+            0.000201128,
+            0.000143443,
+            0.000178695,
+            0.000155711,
+            0.000153267
+          ],
+          "fresh_uninstrumented": [
+            0.000146848,
+            0.000124906,
+            0.00014199,
+            0.000132717,
+            0.000234368,
+            0.000192435,
+            0.000123784,
+            0.000127539
+          ],
+          "selective_instrumented": [
+            0.000210382,
+            0.000269579,
+            0.00019528,
+            0.000247887,
+            0.000221658,
+            0.000298112,
+            0.00023583,
+            0.000219426
+          ],
+          "selective_uninstrumented": [
+            0.000201939,
+            0.000491048,
+            0.000171655,
+            0.000239305,
+            0.000188469,
+            0.000197213,
+            0.000253486,
+            0.000241178
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000158996,
+            "min_seconds": 0.000140849,
+            "max_seconds": 0.000268899,
+            "q25_seconds": 0.000150811,
+            "q75_seconds": 0.00018430325
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001373535,
+            "min_seconds": 0.000123784,
+            "max_seconds": 0.000234368,
+            "q25_seconds": 0.00012688075,
+            "q75_seconds": 0.00015824475
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.00022874400000000002,
+            "min_seconds": 0.00019528,
+            "max_seconds": 0.000298112,
+            "q25_seconds": 0.000217165,
+            "q75_seconds": 0.00025331
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000220622,
+            "min_seconds": 0.000171655,
+            "max_seconds": 0.000491048,
+            "q25_seconds": 0.00019502700000000002,
+            "q75_seconds": 0.00024425499999999997
+          }
+        }
+      }
+    },
+    "p9-holdout-long_deep_churn-01": {
+      "family": "long_deep_churn",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.002159072,
+            0.001746169,
+            0.001892877,
+            0.002265669,
+            0.001486394,
+            0.002308523,
+            0.001417492,
+            0.001527866
+          ],
+          "fresh_uninstrumented": [
+            0.001655875,
+            0.001484381,
+            0.001654253,
+            0.001357053,
+            0.001839038,
+            0.001235102,
+            0.00123399,
+            0.001363101
+          ],
+          "selective_instrumented": [
+            0.002195916,
+            0.002877047,
+            0.00217769,
+            0.002736758,
+            0.002287281,
+            0.003115289,
+            0.002311628,
+            0.001991002
+          ],
+          "selective_uninstrumented": [
+            0.002076379,
+            0.004573331,
+            0.002130229,
+            0.001806078,
+            0.002079584,
+            0.002203938,
+            0.002289185,
+            0.001909401
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.001819523,
+            "min_seconds": 0.001417492,
+            "max_seconds": 0.002308523,
+            "q25_seconds": 0.001517498,
+            "q75_seconds": 0.00218572125
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.001423741,
+            "min_seconds": 0.00123399,
+            "max_seconds": 0.001839038,
+            "q25_seconds": 0.00132656525,
+            "q75_seconds": 0.0016546585
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0022994545,
+            "min_seconds": 0.001991002,
+            "max_seconds": 0.003115289,
+            "q25_seconds": 0.0021913595,
+            "q75_seconds": 0.00277183025
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0021049065,
+            "min_seconds": 0.001806078,
+            "max_seconds": 0.004573331,
+            "q25_seconds": 0.0020346345,
+            "q75_seconds": 0.00222524975
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000164685,
+            0.000188649,
+            0.000302218,
+            0.000307346,
+            0.000234498,
+            0.000184774,
+            0.000181019,
+            0.000250362
+          ],
+          "fresh_uninstrumented": [
+            0.000152206,
+            0.000206305,
+            0.000150894,
+            0.000217563,
+            0.000150533,
+            0.000153347,
+            0.000149101,
+            0.000154079
+          ],
+          "selective_instrumented": [
+            0.00023598,
+            0.000270732,
+            0.000338081,
+            0.000312153,
+            0.000250581,
+            0.000226096,
+            0.000217252,
+            0.000354415
+          ],
+          "selective_uninstrumented": [
+            0.000205875,
+            0.000206857,
+            0.000210382,
+            0.000219075,
+            0.000219616,
+            0.000198715,
+            0.000206436,
+            0.000218304
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0002115735,
+            "min_seconds": 0.000164685,
+            "max_seconds": 0.000307346,
+            "q25_seconds": 0.00018383525,
+            "q75_seconds": 0.00026332600000000003
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.00015277649999999998,
+            "min_seconds": 0.000149101,
+            "max_seconds": 0.000217563,
+            "q25_seconds": 0.00015080375,
+            "q75_seconds": 0.0001671355
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0002606565,
+            "min_seconds": 0.000217252,
+            "max_seconds": 0.000354415,
+            "q25_seconds": 0.00023350900000000002,
+            "q75_seconds": 0.000318635
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0002086195,
+            "min_seconds": 0.000198715,
+            "max_seconds": 0.000219616,
+            "q25_seconds": 0.00020629575,
+            "q75_seconds": 0.00021849675
+          }
+        }
+      }
+    },
+    "p9-holdout-long_deep_churn-02": {
+      "family": "long_deep_churn",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.00305482,
+            0.003289648,
+            0.003047148,
+            0.003213005,
+            0.003202589,
+            0.003657644,
+            0.003198442,
+            0.002962413
+          ],
+          "fresh_uninstrumented": [
+            0.002614587,
+            0.003370317,
+            0.002937576,
+            0.002606305,
+            0.002551674,
+            0.002736288,
+            0.003205513,
+            0.002654406
+          ],
+          "selective_instrumented": [
+            0.00419479,
+            0.00424162,
+            0.004422799,
+            0.003977468,
+            0.003873404,
+            0.004250454,
+            0.004334218,
+            0.003684053
+          ],
+          "selective_uninstrumented": [
+            0.003656522,
+            0.004446323,
+            0.004372074,
+            0.003677383,
+            0.003443466,
+            0.003611635,
+            0.004086219,
+            0.003463146
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0032005155,
+            "min_seconds": 0.002962413,
+            "max_seconds": 0.003657644,
+            "q25_seconds": 0.003052902,
+            "q75_seconds": 0.00323216575
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.002695347,
+            "min_seconds": 0.002551674,
+            "max_seconds": 0.003370317,
+            "q25_seconds": 0.0026125165,
+            "q75_seconds": 0.0030045602499999997
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.004218205,
+            "min_seconds": 0.003684053,
+            "max_seconds": 0.004422799,
+            "q25_seconds": 0.003951451999999999,
+            "q75_seconds": 0.004271395
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0036669525,
+            "min_seconds": 0.003443466,
+            "max_seconds": 0.004446323,
+            "q25_seconds": 0.00357451275,
+            "q75_seconds": 0.004157682750000001
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000360404,
+            0.000381726,
+            0.00029668,
+            0.000304933,
+            0.000470828,
+            0.000418841,
+            0.000347335,
+            0.000379112
+          ],
+          "fresh_uninstrumented": [
+            0.000262659,
+            0.000267086,
+            0.000298582,
+            0.000330139,
+            0.000260757,
+            0.000351942,
+            0.000340125,
+            0.000285773
+          ],
+          "selective_instrumented": [
+            0.000393072,
+            0.000383259,
+            0.000448976,
+            0.00047181,
+            0.000403048,
+            0.000490968,
+            0.000479341,
+            0.000368306
+          ],
+          "selective_uninstrumented": [
+            0.000379302,
+            0.000384641,
+            0.000354446,
+            0.00044474,
+            0.00041845,
+            0.000353504,
+            0.000343329,
+            0.00035092
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000369758,
+            "min_seconds": 0.00029668,
+            "max_seconds": 0.000470828,
+            "q25_seconds": 0.0003367345,
+            "q75_seconds": 0.00039100474999999996
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.00029217749999999997,
+            "min_seconds": 0.000260757,
+            "max_seconds": 0.000351942,
+            "q25_seconds": 0.00026597925,
+            "q75_seconds": 0.0003326355
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000426012,
+            "min_seconds": 0.000368306,
+            "max_seconds": 0.000490968,
+            "q25_seconds": 0.00039061875,
+            "q75_seconds": 0.00047369275
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000366874,
+            "min_seconds": 0.000343329,
+            "max_seconds": 0.00044474,
+            "q25_seconds": 0.000352858,
+            "q75_seconds": 0.00039309325000000004
+          }
+        }
+      }
+    },
+    "p9-holdout-fit_working_set-00": {
+      "family": "fit_working_set",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001552042,
+            0.001549948,
+            0.001470551,
+            0.001620573,
+            0.001589247,
+            0.002119753,
+            0.00149703,
+            0.001488848
+          ],
+          "fresh_uninstrumented": [
+            0.001492343,
+            0.001282262,
+            0.001225417,
+            0.001295902,
+            0.001497631,
+            0.001425975,
+            0.001358144,
+            0.001386946
+          ],
+          "selective_instrumented": [
+            0.001605541,
+            0.001421938,
+            0.001471883,
+            0.001675505,
+            0.002194975,
+            0.001679971,
+            0.001745508,
+            0.001671488
+          ],
+          "selective_uninstrumented": [
+            0.001260149,
+            0.001257304,
+            0.00120003,
+            0.001216994,
+            0.001235492,
+            0.001640402,
+            0.001559692,
+            0.001632952
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0015509949999999999,
+            "min_seconds": 0.001470551,
+            "max_seconds": 0.002119753,
+            "q25_seconds": 0.0014949845000000002,
+            "q75_seconds": 0.0015970785
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.001372545,
+            "min_seconds": 0.001225417,
+            "max_seconds": 0.001497631,
+            "q25_seconds": 0.0012924920000000001,
+            "q75_seconds": 0.0014425669999999999
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0016734965000000002,
+            "min_seconds": 0.001421938,
+            "max_seconds": 0.002194975,
+            "q25_seconds": 0.0015721265,
+            "q75_seconds": 0.00169635525
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0012587265000000001,
+            "min_seconds": 0.00120003,
+            "max_seconds": 0.001640402,
+            "q25_seconds": 0.0012308675,
+            "q75_seconds": 0.001578007
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000230562,
+            0.000284222,
+            0.000169402,
+            0.000172746,
+            0.000192255,
+            0.000259305,
+            0.000201369,
+            0.00018258
+          ],
+          "fresh_uninstrumented": [
+            0.000279034,
+            0.000221368,
+            0.00014889,
+            0.000210192,
+            0.000322098,
+            0.000150824,
+            0.000147279,
+            0.000246015
+          ],
+          "selective_instrumented": [
+            0.000287997,
+            0.000368627,
+            0.000307546,
+            0.000253706,
+            0.000308918,
+            0.000290832,
+            0.000274997,
+            0.000260527
+          ],
+          "selective_uninstrumented": [
+            0.000238954,
+            0.00024963,
+            0.000241879,
+            0.000360845,
+            0.000260116,
+            0.000241508,
+            0.000230952,
+            0.000391741
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00019681199999999999,
+            "min_seconds": 0.000169402,
+            "max_seconds": 0.000284222,
+            "q25_seconds": 0.0001801215,
+            "q75_seconds": 0.00023774775
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.00021578,
+            "min_seconds": 0.000147279,
+            "max_seconds": 0.000322098,
+            "q25_seconds": 0.0001503405,
+            "q75_seconds": 0.00025426975
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0002894145,
+            "min_seconds": 0.000253706,
+            "max_seconds": 0.000368627,
+            "q25_seconds": 0.00027137950000000004,
+            "q75_seconds": 0.000307889
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0002457545,
+            "min_seconds": 0.000230952,
+            "max_seconds": 0.000391741,
+            "q25_seconds": 0.0002408695,
+            "q75_seconds": 0.00028529825
+          }
+        }
+      }
+    },
+    "p9-holdout-fit_working_set-01": {
+      "family": "fit_working_set",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.002530022,
+            0.002737229,
+            0.002600335,
+            0.002864979,
+            0.003002142,
+            0.002432147,
+            0.002431556,
+            0.002380941
+          ],
+          "fresh_uninstrumented": [
+            0.002064902,
+            0.00229321,
+            0.002301323,
+            0.002102227,
+            0.002364316,
+            0.002490183,
+            0.002087325,
+            0.002127815
+          ],
+          "selective_instrumented": [
+            0.002437795,
+            0.00237415,
+            0.002424215,
+            0.002309385,
+            0.002685161,
+            0.003146176,
+            0.003200866,
+            0.002490953
+          ],
+          "selective_uninstrumented": [
+            0.002118652,
+            0.002591533,
+            0.002106003,
+            0.002106343,
+            0.00209695,
+            0.002406228,
+            0.002069098,
+            0.002042899
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0025651785,
+            "min_seconds": 0.002380941,
+            "max_seconds": 0.003002142,
+            "q25_seconds": 0.00243199925,
+            "q75_seconds": 0.0027691664999999997
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0022105125,
+            "min_seconds": 0.002064902,
+            "max_seconds": 0.002490183,
+            "q25_seconds": 0.0020985014999999997,
+            "q75_seconds": 0.0023170712500000003
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.002464374,
+            "min_seconds": 0.002309385,
+            "max_seconds": 0.003200866,
+            "q25_seconds": 0.00241169875,
+            "q75_seconds": 0.0028004147500000002
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0021061730000000002,
+            "min_seconds": 0.002042899,
+            "max_seconds": 0.002591533,
+            "q25_seconds": 0.002089987,
+            "q75_seconds": 0.002190546
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000248689,
+            0.000275178,
+            0.000263191,
+            0.000289229,
+            0.000268518,
+            0.000241618,
+            0.000239805,
+            0.000237883
+          ],
+          "fresh_uninstrumented": [
+            0.000213817,
+            0.000251733,
+            0.000237432,
+            0.000226336,
+            0.000220848,
+            0.00021585,
+            0.000200628,
+            0.000220297
+          ],
+          "selective_instrumented": [
+            0.000523246,
+            0.000461645,
+            0.000665888,
+            0.000462616,
+            0.000383509,
+            0.000418631,
+            0.000372021,
+            0.000386383
+          ],
+          "selective_uninstrumented": [
+            0.0003302,
+            0.000332092,
+            0.000435575,
+            0.000336679,
+            0.000329859,
+            0.000318182,
+            0.000307776,
+            0.000357721
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00025594,
+            "min_seconds": 0.000237883,
+            "max_seconds": 0.000289229,
+            "q25_seconds": 0.00024116475,
+            "q75_seconds": 0.000270183
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0002205725,
+            "min_seconds": 0.000200628,
+            "max_seconds": 0.000251733,
+            "q25_seconds": 0.00021534174999999998,
+            "q75_seconds": 0.00022911
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.00044013799999999997,
+            "min_seconds": 0.000372021,
+            "max_seconds": 0.000665888,
+            "q25_seconds": 0.00038566450000000003,
+            "q75_seconds": 0.0004777735
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000331146,
+            "min_seconds": 0.000307776,
+            "max_seconds": 0.000435575,
+            "q25_seconds": 0.00032693975,
+            "q75_seconds": 0.0003419395
+          }
+        }
+      }
+    },
+    "p9-holdout-fit_working_set-02": {
+      "family": "fit_working_set",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.003748359,
+            0.003386852,
+            0.003346142,
+            0.003537266,
+            0.003687468,
+            0.003249248,
+            0.003283218,
+            0.003273985
+          ],
+          "fresh_uninstrumented": [
+            0.003423958,
+            0.002847753,
+            0.002871758,
+            0.00290644,
+            0.004148081,
+            0.002895734,
+            0.00292676,
+            0.003192164
+          ],
+          "selective_instrumented": [
+            0.003033248,
+            0.003450227,
+            0.003013218,
+            0.003056002,
+            0.003148118,
+            0.003050764,
+            0.003033158,
+            0.003265953
+          ],
+          "selective_uninstrumented": [
+            0.002698461,
+            0.002701886,
+            0.002864608,
+            0.002839861,
+            0.002877086,
+            0.002701175,
+            0.00313538,
+            0.002679103
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.003366497,
+            "min_seconds": 0.003249248,
+            "max_seconds": 0.003748359,
+            "q25_seconds": 0.00328090975,
+            "q75_seconds": 0.0035748165
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0029166,
+            "min_seconds": 0.002847753,
+            "max_seconds": 0.004148081,
+            "q25_seconds": 0.00288974,
+            "q75_seconds": 0.0032501125
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.003053383,
+            "min_seconds": 0.003013218,
+            "max_seconds": 0.003450227,
+            "q25_seconds": 0.0030332255000000002,
+            "q75_seconds": 0.00317757675
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0027708735,
+            "min_seconds": 0.002679103,
+            "max_seconds": 0.00313538,
+            "q25_seconds": 0.0027004965,
+            "q75_seconds": 0.0028677274999999998
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000343189,
+            0.000346273,
+            0.00039116,
+            0.000331752,
+            0.000356529,
+            0.000408275,
+            0.000344761,
+            0.000345452
+          ],
+          "fresh_uninstrumented": [
+            0.000324451,
+            0.000290361,
+            0.000326725,
+            0.000267156,
+            0.000272294,
+            0.000352864,
+            0.00026986,
+            0.000344862
+          ],
+          "selective_instrumented": [
+            0.00048601,
+            0.000501304,
+            0.000568734,
+            0.000554683,
+            0.00059986,
+            0.000486391,
+            0.000600891,
+            0.000509986
+          ],
+          "selective_uninstrumented": [
+            0.000555704,
+            0.000699667,
+            0.000611447,
+            0.000509365,
+            0.000465671,
+            0.000443248,
+            0.000423738,
+            0.000440984
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0003458625,
+            "min_seconds": 0.000331752,
+            "max_seconds": 0.000408275,
+            "q25_seconds": 0.000344368,
+            "q75_seconds": 0.00036518675
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000307406,
+            "min_seconds": 0.000267156,
+            "max_seconds": 0.000352864,
+            "q25_seconds": 0.00027168550000000003,
+            "q75_seconds": 0.00033125924999999996
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0005323345,
+            "min_seconds": 0.00048601,
+            "max_seconds": 0.000600891,
+            "q25_seconds": 0.00049757575,
+            "q75_seconds": 0.0005765155
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.00048751800000000004,
+            "min_seconds": 0.000423738,
+            "max_seconds": 0.000699667,
+            "q25_seconds": 0.000442682,
+            "q75_seconds": 0.00056963975
+          }
+        }
+      }
+    },
+    "p9-holdout-pressure_working_set-00": {
+      "family": "pressure_working_set",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.0042287,
+            0.00401926,
+            0.004235371,
+            0.004149483,
+            0.004074142,
+            0.004229773,
+            0.004536257,
+            0.003981584
+          ],
+          "fresh_uninstrumented": [
+            0.003786786,
+            0.00356751,
+            0.003553829,
+            0.003726185,
+            0.003861597,
+            0.003422334,
+            0.003689401,
+            0.003524337
+          ],
+          "selective_instrumented": [
+            0.004722324,
+            0.004623466,
+            0.004514845,
+            0.004658859,
+            0.004772767,
+            0.004439755,
+            0.00463269,
+            0.00510543
+          ],
+          "selective_uninstrumented": [
+            0.00526682,
+            0.004642224,
+            0.00417469,
+            0.004769212,
+            0.004697716,
+            0.004203373,
+            0.004277754,
+            0.004436329
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0041890915,
+            "min_seconds": 0.003981584,
+            "max_seconds": 0.004536257,
+            "q25_seconds": 0.0040604215,
+            "q75_seconds": 0.0042311725
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0036284555,
+            "min_seconds": 0.003422334,
+            "max_seconds": 0.003861597,
+            "q25_seconds": 0.003546456,
+            "q75_seconds": 0.00374133525
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0046457745,
+            "min_seconds": 0.004439755,
+            "max_seconds": 0.00510543,
+            "q25_seconds": 0.00459631075,
+            "q75_seconds": 0.00473493475
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0045392765,
+            "min_seconds": 0.00417469,
+            "max_seconds": 0.00526682,
+            "q25_seconds": 0.00425915875,
+            "q75_seconds": 0.00471559
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000499921,
+            0.000438971,
+            0.000388966,
+            0.000402417,
+            0.000502566,
+            0.00041107,
+            0.000372873,
+            0.000376678
+          ],
+          "fresh_uninstrumented": [
+            0.000325102,
+            0.00031691,
+            0.000347506,
+            0.000444449,
+            0.000355958,
+            0.000360414,
+            0.0003239,
+            0.000348257
+          ],
+          "selective_instrumented": [
+            0.000581913,
+            0.000493542,
+            0.000598137,
+            0.000965793,
+            0.000500082,
+            0.00050555,
+            0.000485841,
+            0.000475325
+          ],
+          "selective_uninstrumented": [
+            0.000519781,
+            0.000593701,
+            0.000442246,
+            0.000570295,
+            0.000447443,
+            0.00048559,
+            0.000508114,
+            0.000439853
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0004067435,
+            "min_seconds": 0.000372873,
+            "max_seconds": 0.000502566,
+            "q25_seconds": 0.00038589399999999996,
+            "q75_seconds": 0.0004542085
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0003478815,
+            "min_seconds": 0.00031691,
+            "max_seconds": 0.000444449,
+            "q25_seconds": 0.0003248015,
+            "q75_seconds": 0.000357072
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000502816,
+            "min_seconds": 0.000475325,
+            "max_seconds": 0.000965793,
+            "q25_seconds": 0.00049161675,
+            "q75_seconds": 0.000585969
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000496852,
+            "min_seconds": 0.000439853,
+            "max_seconds": 0.000593701,
+            "q25_seconds": 0.00044614375,
+            "q75_seconds": 0.0005324094999999999
+          }
+        }
+      }
+    },
+    "p9-holdout-pressure_working_set-01": {
+      "family": "pressure_working_set",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.004765146,
+            0.004351181,
+            0.005655097,
+            0.00444504,
+            0.004732702,
+            0.005165648,
+            0.004838127,
+            0.004936652
+          ],
+          "fresh_uninstrumented": [
+            0.004185664,
+            0.003829855,
+            0.004041076,
+            0.004854541,
+            0.0042209,
+            0.004773031,
+            0.003878117,
+            0.004041617
+          ],
+          "selective_instrumented": [
+            0.005195352,
+            0.004710389,
+            0.004691031,
+            0.005980475,
+            0.006758698,
+            0.005440281,
+            0.004774624,
+            0.004789335
+          ],
+          "selective_uninstrumented": [
+            0.00507873,
+            0.004760963,
+            0.004327667,
+            0.004565837,
+            0.004688518,
+            0.004998613,
+            0.004308229,
+            0.004610382
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0048016364999999995,
+            "min_seconds": 0.004351181,
+            "max_seconds": 0.005655097,
+            "q25_seconds": 0.0046607865,
+            "q75_seconds": 0.004993901
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0041136405,
+            "min_seconds": 0.003829855,
+            "max_seconds": 0.004854541,
+            "q25_seconds": 0.00400033625,
+            "q75_seconds": 0.00435893275
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0049923434999999995,
+            "min_seconds": 0.004691031,
+            "max_seconds": 0.006758698,
+            "q25_seconds": 0.00475856525,
+            "q75_seconds": 0.0055753295
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.004649449999999999,
+            "min_seconds": 0.004308229,
+            "max_seconds": 0.00507873,
+            "q25_seconds": 0.0045062945,
+            "q75_seconds": 0.0048203755
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000428259,
+            0.000387749,
+            0.000447898,
+            0.000410313,
+            0.000407388,
+            0.000519453,
+            0.00046967,
+            0.000459936
+          ],
+          "fresh_uninstrumented": [
+            0.000349734,
+            0.000328923,
+            0.000413297,
+            0.000343615,
+            0.000441709,
+            0.000341782,
+            0.000350585,
+            0.000342392
+          ],
+          "selective_instrumented": [
+            0.000575866,
+            0.000540203,
+            0.00088509,
+            0.00061281,
+            0.000628073,
+            0.000561235,
+            0.000561064,
+            0.000603136
+          ],
+          "selective_uninstrumented": [
+            0.000498372,
+            0.00087131,
+            0.00057881,
+            0.000500335,
+            0.000522718,
+            0.000514937,
+            0.00053062,
+            0.0006396
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0004380785,
+            "min_seconds": 0.000387749,
+            "max_seconds": 0.000519453,
+            "q25_seconds": 0.00040958175,
+            "q75_seconds": 0.00046236949999999997
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0003466745,
+            "min_seconds": 0.000328923,
+            "max_seconds": 0.000441709,
+            "q25_seconds": 0.0003422395,
+            "q75_seconds": 0.000366263
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000589501,
+            "min_seconds": 0.000540203,
+            "max_seconds": 0.00088509,
+            "q25_seconds": 0.0005611922499999999,
+            "q75_seconds": 0.00061662575
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000526669,
+            "min_seconds": 0.000498372,
+            "max_seconds": 0.00087131,
+            "q25_seconds": 0.0005112865000000001,
+            "q75_seconds": 0.0005940075000000001
+          }
+        }
+      }
+    },
+    "p9-holdout-pressure_working_set-02": {
+      "family": "pressure_working_set",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.005662358,
+            0.006035255,
+            0.006021305,
+            0.005340786,
+            0.007470633,
+            0.00560294,
+            0.00602479,
+            0.006123976
+          ],
+          "fresh_uninstrumented": [
+            0.005090597,
+            0.005333835,
+            0.005579025,
+            0.005896702,
+            0.005097218,
+            0.005154172,
+            0.005399181,
+            0.005105991
+          ],
+          "selective_instrumented": [
+            0.005889381,
+            0.007852245,
+            0.006048305,
+            0.006307455,
+            0.005845667,
+            0.006485486,
+            0.00639884,
+            0.006599203
+          ],
+          "selective_uninstrumented": [
+            0.005468914,
+            0.005498938,
+            0.005976008,
+            0.005505087,
+            0.005866377,
+            0.006251063,
+            0.006357198,
+            0.007090134
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0060230475,
+            "min_seconds": 0.005340786,
+            "max_seconds": 0.007470633,
+            "q25_seconds": 0.0056475035,
+            "q75_seconds": 0.00605743525
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0052440035,
+            "min_seconds": 0.005090597,
+            "max_seconds": 0.005896702,
+            "q25_seconds": 0.00510379775,
+            "q75_seconds": 0.005444142
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0063531475,
+            "min_seconds": 0.005845667,
+            "max_seconds": 0.007852245,
+            "q25_seconds": 0.006008574,
+            "q75_seconds": 0.00651391525
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0059211925,
+            "min_seconds": 0.005468914,
+            "max_seconds": 0.007090134,
+            "q25_seconds": 0.0055035497499999995,
+            "q75_seconds": 0.00627759675
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000509859,
+            0.000652909,
+            0.000581845,
+            0.000835827,
+            0.000647561,
+            0.000818963,
+            0.000545401,
+            0.000529888
+          ],
+          "fresh_uninstrumented": [
+            0.000411495,
+            0.000603287,
+            0.000521646,
+            0.000588635,
+            0.00050339,
+            0.000451463,
+            0.001036353,
+            0.000424293
+          ],
+          "selective_instrumented": [
+            0.000822888,
+            0.000843309,
+            0.000717645,
+            0.000995222,
+            0.00074185,
+            0.000848857,
+            0.001153915,
+            0.000879502
+          ],
+          "selective_uninstrumented": [
+            0.000746827,
+            0.000868426,
+            0.000792254,
+            0.000809009,
+            0.000979829,
+            0.000880283,
+            0.001542426,
+            0.000752415
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000614703,
+            "min_seconds": 0.000509859,
+            "max_seconds": 0.000835827,
+            "q25_seconds": 0.00054152275,
+            "q75_seconds": 0.0006944225
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000512518,
+            "min_seconds": 0.000411495,
+            "max_seconds": 0.001036353,
+            "q25_seconds": 0.0004446705,
+            "q75_seconds": 0.000592298
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000846083,
+            "min_seconds": 0.000717645,
+            "max_seconds": 0.001153915,
+            "q25_seconds": 0.0008026285000000001,
+            "q75_seconds": 0.000908432
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0008387175000000001,
+            "min_seconds": 0.000746827,
+            "max_seconds": 0.001542426,
+            "q25_seconds": 0.0007822942500000001,
+            "q75_seconds": 0.0009051695
+          }
+        }
+      }
+    },
+    "p9-holdout-phase_shift-00": {
+      "family": "phase_shift",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001083712,
+            0.000911168,
+            0.001617386,
+            0.000875276,
+            0.000820145,
+            0.000918639,
+            0.001031916,
+            0.00093278
+          ],
+          "fresh_uninstrumented": [
+            0.000713458,
+            0.000655342,
+            0.001239912,
+            0.000887103,
+            0.001770701,
+            0.000732466,
+            0.000887745,
+            0.000718536
+          ],
+          "selective_instrumented": [
+            0.001008452,
+            0.001027429,
+            0.001836708,
+            0.001360278,
+            0.00144301,
+            0.001127856,
+            0.001390993,
+            0.008750124
+          ],
+          "selective_uninstrumented": [
+            0.000881675,
+            0.000936156,
+            0.001072275,
+            0.001549917,
+            0.001412986,
+            0.001076652,
+            0.001164621,
+            0.000924087
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0009257095,
+            "min_seconds": 0.000820145,
+            "max_seconds": 0.001617386,
+            "q25_seconds": 0.000902195,
+            "q75_seconds": 0.0010448649999999999
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0008097845,
+            "min_seconds": 0.000655342,
+            "max_seconds": 0.001770701,
+            "q25_seconds": 0.0007172665,
+            "q75_seconds": 0.00097578675
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0013756355,
+            "min_seconds": 0.001008452,
+            "max_seconds": 0.008750124,
+            "q25_seconds": 0.00110274925,
+            "q75_seconds": 0.0015414345000000001
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0010744635,
+            "min_seconds": 0.000881675,
+            "max_seconds": 0.001549917,
+            "q25_seconds": 0.0009331387500000001,
+            "q75_seconds": 0.00122671225
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000131353,
+            0.00010883,
+            0.000124393,
+            0.000124994,
+            0.000112946,
+            0.000117523,
+            0.00051064,
+            0.000135449
+          ],
+          "fresh_uninstrumented": [
+            0.000111484,
+            8.6798e-05,
+            9.1955e-05,
+            9.6672e-05,
+            0.000132785,
+            0.000245631,
+            0.000108058,
+            0.000106136
+          ],
+          "selective_instrumented": [
+            0.000186504,
+            0.000156509,
+            0.000182017,
+            0.000160015,
+            0.000182728,
+            0.000176889,
+            0.000463751,
+            0.000218831
+          ],
+          "selective_uninstrumented": [
+            0.00015666,
+            0.000227344,
+            0.000144453,
+            0.000177521,
+            0.000206573,
+            0.000141007,
+            0.000187185,
+            0.000293051
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0001246935,
+            "min_seconds": 0.00010883,
+            "max_seconds": 0.00051064,
+            "q25_seconds": 0.00011637875,
+            "q75_seconds": 0.00013237699999999998
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.00010709700000000001,
+            "min_seconds": 8.6798e-05,
+            "max_seconds": 0.000245631,
+            "q25_seconds": 9.549275e-05,
+            "q75_seconds": 0.00011680925
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0001823725,
+            "min_seconds": 0.000156509,
+            "max_seconds": 0.000463751,
+            "q25_seconds": 0.0001726705,
+            "q75_seconds": 0.00019458574999999998
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000182353,
+            "min_seconds": 0.000141007,
+            "max_seconds": 0.000293051,
+            "q25_seconds": 0.00015360825000000001,
+            "q75_seconds": 0.00021176575
+          }
+        }
+      }
+    },
+    "p9-holdout-phase_shift-01": {
+      "family": "phase_shift",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.004425983,
+            0.003141795,
+            0.001767165,
+            0.001681019,
+            0.001369161,
+            0.001700889,
+            0.00133478,
+            0.001253462
+          ],
+          "fresh_uninstrumented": [
+            0.00114415,
+            0.001118453,
+            0.001050373,
+            0.001122589,
+            0.001030634,
+            0.001066587,
+            0.001121618,
+            0.001203488
+          ],
+          "selective_instrumented": [
+            0.001728319,
+            0.00155224,
+            0.001539461,
+            0.001882876,
+            0.001676072,
+            0.00237586,
+            0.001604016,
+            0.001611888
+          ],
+          "selective_uninstrumented": [
+            0.00205576,
+            0.001333449,
+            0.001217819,
+            0.001434708,
+            0.001308151,
+            0.001537989,
+            0.001486905,
+            0.001900402
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.001690954,
+            "min_seconds": 0.001253462,
+            "max_seconds": 0.004425983,
+            "q25_seconds": 0.00136056575,
+            "q75_seconds": 0.0021108225
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0011200354999999999,
+            "min_seconds": 0.001030634,
+            "max_seconds": 0.001203488,
+            "q25_seconds": 0.0010625335,
+            "q75_seconds": 0.00112797925
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.00164398,
+            "min_seconds": 0.001539461,
+            "max_seconds": 0.00237586,
+            "q25_seconds": 0.001591072,
+            "q75_seconds": 0.00176695825
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0014608065,
+            "min_seconds": 0.001217819,
+            "max_seconds": 0.00205576,
+            "q25_seconds": 0.0013271245,
+            "q75_seconds": 0.00162859225
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000148829,
+            0.000166274,
+            0.000167476,
+            0.000170981,
+            0.000166585,
+            0.000173575,
+            0.000164071,
+            0.000173364
+          ],
+          "fresh_uninstrumented": [
+            0.000189478,
+            0.000350585,
+            0.000144221,
+            0.000252181,
+            0.000162919,
+            0.000136821,
+            0.000198882,
+            0.000156479
+          ],
+          "selective_instrumented": [
+            0.000240002,
+            0.000230408,
+            0.000329214,
+            0.000240603,
+            0.000234765,
+            0.000290237,
+            0.000276056,
+            0.000253182
+          ],
+          "selective_uninstrumented": [
+            0.000200214,
+            0.000206233,
+            0.000194927,
+            0.000202157,
+            0.000202488,
+            0.000231751,
+            0.000207204,
+            0.000367379
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00016703049999999999,
+            "min_seconds": 0.000148829,
+            "max_seconds": 0.000173575,
+            "q25_seconds": 0.00016572325,
+            "q75_seconds": 0.00017157675
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001761985,
+            "min_seconds": 0.000136821,
+            "max_seconds": 0.000350585,
+            "q25_seconds": 0.0001534145,
+            "q75_seconds": 0.00021220674999999998
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.00024689250000000003,
+            "min_seconds": 0.000230408,
+            "max_seconds": 0.000329214,
+            "q25_seconds": 0.00023869275000000002,
+            "q75_seconds": 0.00027960125
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0002043605,
+            "min_seconds": 0.000194927,
+            "max_seconds": 0.000367379,
+            "q25_seconds": 0.00020167125,
+            "q75_seconds": 0.00021334075
+          }
+        }
+      }
+    },
+    "p9-holdout-phase_shift-02": {
+      "family": "phase_shift",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.003687507,
+            0.003673366,
+            0.004395306,
+            0.003315551,
+            0.004505509,
+            0.003892237,
+            0.003755817,
+            0.003838018
+          ],
+          "fresh_uninstrumented": [
+            0.003935731,
+            0.003143939,
+            0.003635541,
+            0.003341849,
+            0.004026294,
+            0.004201151,
+            0.003006316,
+            0.00396187
+          ],
+          "selective_instrumented": [
+            0.003998434,
+            0.004305224,
+            0.003931896,
+            0.004802635,
+            0.005937672,
+            0.004424409,
+            0.004575401,
+            0.004017953
+          ],
+          "selective_uninstrumented": [
+            0.007094502,
+            0.004489385,
+            0.003725793,
+            0.005420152,
+            0.005680504,
+            0.003494273,
+            0.004219288,
+            0.004164437
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0037969175,
+            "min_seconds": 0.003315551,
+            "max_seconds": 0.004505509,
+            "q25_seconds": 0.00368397175,
+            "q75_seconds": 0.00401800425
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0037856359999999998,
+            "min_seconds": 0.003006316,
+            "max_seconds": 0.004201151,
+            "q25_seconds": 0.0032923715000000003,
+            "q75_seconds": 0.003977976
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0043648165,
+            "min_seconds": 0.003931896,
+            "max_seconds": 0.005937672,
+            "q25_seconds": 0.0040130732500000005,
+            "q75_seconds": 0.0046322095
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0043543365,
+            "min_seconds": 0.003494273,
+            "max_seconds": 0.007094502,
+            "q25_seconds": 0.0040547759999999995,
+            "q75_seconds": 0.005485240000000001
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000359929,
+            0.000301232,
+            0.000361601,
+            0.000322574,
+            0.000317687,
+            0.000339309,
+            0.000341181,
+            0.000327411
+          ],
+          "fresh_uninstrumented": [
+            0.00029256,
+            0.000274844,
+            0.000297988,
+            0.000263537,
+            0.000254074,
+            0.000881696,
+            0.000259872,
+            0.000254404
+          ],
+          "selective_instrumented": [
+            0.000950246,
+            0.000361051,
+            0.000346128,
+            0.000426277,
+            0.000514525,
+            0.00046978,
+            0.000674451,
+            0.000515438
+          ],
+          "selective_uninstrumented": [
+            0.0003338,
+            0.000375201,
+            0.0003404,
+            0.000362692,
+            0.000443481,
+            0.000814156,
+            0.001568755,
+            0.000368772
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00033336,
+            "min_seconds": 0.000301232,
+            "max_seconds": 0.000361601,
+            "q25_seconds": 0.00032135225,
+            "q75_seconds": 0.00034586800000000004
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0002691905,
+            "min_seconds": 0.000254074,
+            "max_seconds": 0.000881696,
+            "q25_seconds": 0.000258505,
+            "q75_seconds": 0.000293917
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0004921525,
+            "min_seconds": 0.000346128,
+            "max_seconds": 0.000950246,
+            "q25_seconds": 0.0004099705,
+            "q75_seconds": 0.00055519125
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0003719865,
+            "min_seconds": 0.0003338,
+            "max_seconds": 0.001568755,
+            "q25_seconds": 0.00035711900000000003,
+            "q75_seconds": 0.00053614975
+          }
+        }
+      }
+    },
+    "p9-holdout-same_length_misses-00": {
+      "family": "same_length_misses",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000900463,
+            0.000831692,
+            0.000992528,
+            0.00089883,
+            0.000907944,
+            0.001142148,
+            0.004688418,
+            0.005069648
+          ],
+          "fresh_uninstrumented": [
+            0.000666909,
+            0.000827525,
+            0.000884489,
+            0.001018667,
+            0.001095439,
+            0.00087137,
+            0.003913338,
+            0.000875687
+          ],
+          "selective_instrumented": [
+            0.001476298,
+            0.001208605,
+            0.001228224,
+            0.001270527,
+            0.001366237,
+            0.003147644,
+            0.004568832,
+            0.007512806
+          ],
+          "selective_uninstrumented": [
+            0.00096039,
+            0.001033479,
+            0.001051976,
+            0.001160264,
+            0.001333459,
+            0.00224675,
+            0.004856175,
+            0.00418012
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0009502359999999999,
+            "min_seconds": 0.000831692,
+            "max_seconds": 0.005069648,
+            "q25_seconds": 0.00090005475,
+            "q75_seconds": 0.0020287155
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000880088,
+            "min_seconds": 0.000666909,
+            "max_seconds": 0.003913338,
+            "q25_seconds": 0.00086040875,
+            "q75_seconds": 0.00103786
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0014212675,
+            "min_seconds": 0.001208605,
+            "max_seconds": 0.007512806,
+            "q25_seconds": 0.00125995125,
+            "q75_seconds": 0.003502941
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0012468614999999999,
+            "min_seconds": 0.00096039,
+            "max_seconds": 0.004856175,
+            "q25_seconds": 0.00104735175,
+            "q75_seconds": 0.0027300925
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000202137,
+            0.000134468,
+            0.000143791,
+            0.000133827,
+            0.000119245,
+            0.000181236,
+            0.000193775,
+            0.000140346
+          ],
+          "fresh_uninstrumented": [
+            0.000101329,
+            0.00017699,
+            0.000119656,
+            0.000105405,
+            0.000102711,
+            0.000112496,
+            0.000102781,
+            0.00015632
+          ],
+          "selective_instrumented": [
+            0.000188798,
+            0.00029245,
+            0.000207294,
+            0.000188027,
+            0.000169669,
+            0.00019753,
+            0.000191371,
+            0.000226553
+          ],
+          "selective_uninstrumented": [
+            0.000172343,
+            0.000160656,
+            0.000153996,
+            0.000263046,
+            0.00017724,
+            0.000167637,
+            0.000161447,
+            0.000178242
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00014206849999999998,
+            "min_seconds": 0.000119245,
+            "max_seconds": 0.000202137,
+            "q25_seconds": 0.00013430775,
+            "q75_seconds": 0.00018437075
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001089505,
+            "min_seconds": 0.000101329,
+            "max_seconds": 0.00017699,
+            "q25_seconds": 0.0001027635,
+            "q75_seconds": 0.000128822
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0001944505,
+            "min_seconds": 0.000169669,
+            "max_seconds": 0.00029245,
+            "q25_seconds": 0.00018860525,
+            "q75_seconds": 0.00021210875
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.00016999000000000002,
+            "min_seconds": 0.000153996,
+            "max_seconds": 0.000263046,
+            "q25_seconds": 0.00016124925,
+            "q75_seconds": 0.0001774905
+          }
+        }
+      }
+    },
+    "p9-holdout-same_length_misses-01": {
+      "family": "same_length_misses",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001521445,
+            0.001383011,
+            0.001166423,
+            0.00126636,
+            0.001228084,
+            0.001222395,
+            0.001376622,
+            0.001331015
+          ],
+          "fresh_uninstrumented": [
+            0.001206723,
+            0.001173464,
+            0.001005007,
+            0.001249005,
+            0.001113326,
+            0.001081959,
+            0.001227454,
+            0.00114394
+          ],
+          "selective_instrumented": [
+            0.001793455,
+            0.001584628,
+            0.001530018,
+            0.001959358,
+            0.001937667,
+            0.001675341,
+            0.002176748,
+            0.001600912
+          ],
+          "selective_uninstrumented": [
+            0.001590006,
+            0.001961391,
+            0.001305528,
+            0.001621852,
+            0.001567202,
+            0.001321051,
+            0.001457641,
+            0.001744573
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0012986875,
+            "min_seconds": 0.001166423,
+            "max_seconds": 0.001521445,
+            "q25_seconds": 0.00122666175,
+            "q75_seconds": 0.00137821925
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.001158702,
+            "min_seconds": 0.001005007,
+            "max_seconds": 0.001249005,
+            "q25_seconds": 0.00110548425,
+            "q75_seconds": 0.0012119057500000001
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0017343979999999998,
+            "min_seconds": 0.001530018,
+            "max_seconds": 0.002176748,
+            "q25_seconds": 0.0015968409999999999,
+            "q75_seconds": 0.0019430897499999999
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001578604,
+            "min_seconds": 0.001305528,
+            "max_seconds": 0.001961391,
+            "q25_seconds": 0.0014234935,
+            "q75_seconds": 0.00165253225
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000152534,
+            0.000154227,
+            0.000168487,
+            0.000230849,
+            0.00015618,
+            0.000443862,
+            0.000144232,
+            0.000215807
+          ],
+          "fresh_uninstrumented": [
+            0.000116101,
+            0.000117342,
+            0.00016319,
+            0.000144562,
+            0.000131072,
+            0.000139725,
+            0.000132925,
+            0.000142169
+          ],
+          "selective_instrumented": [
+            0.000221185,
+            0.000217499,
+            0.000204571,
+            0.000211581,
+            0.000237409,
+            0.000460166,
+            0.000211711,
+            0.000238651
+          ],
+          "selective_uninstrumented": [
+            0.000180936,
+            0.000193474,
+            0.00019034,
+            0.000250088,
+            0.000283667,
+            0.000207855,
+            0.00019058,
+            0.000185823
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0001623335,
+            "min_seconds": 0.000144232,
+            "max_seconds": 0.000443862,
+            "q25_seconds": 0.00015380375,
+            "q75_seconds": 0.0002195675
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000136325,
+            "min_seconds": 0.000116101,
+            "max_seconds": 0.00016319,
+            "q25_seconds": 0.0001276395,
+            "q75_seconds": 0.00014276725
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000219342,
+            "min_seconds": 0.000204571,
+            "max_seconds": 0.000460166,
+            "q25_seconds": 0.0002116785,
+            "q75_seconds": 0.0002377195
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000192027,
+            "min_seconds": 0.000180936,
+            "max_seconds": 0.000283667,
+            "q25_seconds": 0.00018921075,
+            "q75_seconds": 0.00021841325000000001
+          }
+        }
+      }
+    },
+    "p9-holdout-same_length_misses-02": {
+      "family": "same_length_misses",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.003413885,
+            0.003143007,
+            0.003844948,
+            0.004109537,
+            0.005469214,
+            0.005006805,
+            0.006678881,
+            0.004123097
+          ],
+          "fresh_uninstrumented": [
+            0.003030671,
+            0.002607441,
+            0.003688508,
+            0.003933349,
+            0.004836055,
+            0.003773814,
+            0.003504758,
+            0.006613846
+          ],
+          "selective_instrumented": [
+            0.00354626,
+            0.003591155,
+            0.005218055,
+            0.005496574,
+            0.008800177,
+            0.004820571,
+            0.007788692,
+            0.005199603
+          ],
+          "selective_uninstrumented": [
+            0.003595501,
+            0.003930163,
+            0.004604624,
+            0.004437719,
+            0.00813449,
+            0.003769948,
+            0.005198746,
+            0.006407412
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0041163169999999995,
+            "min_seconds": 0.003143007,
+            "max_seconds": 0.006678881,
+            "q25_seconds": 0.0037371822500000002,
+            "q75_seconds": 0.00512240725
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.003731161,
+            "min_seconds": 0.002607441,
+            "max_seconds": 0.006613846,
+            "q25_seconds": 0.0033862362500000002,
+            "q75_seconds": 0.0041590255
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.005208829,
+            "min_seconds": 0.00354626,
+            "max_seconds": 0.008800177,
+            "q25_seconds": 0.004513217,
+            "q75_seconds": 0.0060696034999999995
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0045211715,
+            "min_seconds": 0.003595501,
+            "max_seconds": 0.00813449,
+            "q25_seconds": 0.0038901092500000004,
+            "q75_seconds": 0.0055009125
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001553903,
+            0.000417553,
+            0.000334592,
+            0.000299239,
+            0.000332138,
+            0.000372717,
+            0.000339238,
+            0.00042165
+          ],
+          "fresh_uninstrumented": [
+            0.00036726,
+            0.000334171,
+            0.000439205,
+            0.00025834,
+            0.000247624,
+            0.000397804,
+            0.000270938,
+            0.000412666
+          ],
+          "selective_instrumented": [
+            0.000417864,
+            0.000493285,
+            0.00458173,
+            0.000468348,
+            0.000396052,
+            0.000372847,
+            0.000348211,
+            0.000403793
+          ],
+          "selective_uninstrumented": [
+            0.00036086,
+            0.00451966,
+            0.000480987,
+            0.00038147,
+            0.000330796,
+            0.000351336,
+            0.000348492,
+            0.000452264
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0003559775,
+            "min_seconds": 0.000299239,
+            "max_seconds": 0.001553903,
+            "q25_seconds": 0.0003339785,
+            "q75_seconds": 0.00041857725
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0003507155,
+            "min_seconds": 0.000247624,
+            "max_seconds": 0.000439205,
+            "q25_seconds": 0.0002677885,
+            "q75_seconds": 0.0004015195
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.00041082849999999997,
+            "min_seconds": 0.000348211,
+            "max_seconds": 0.00458173,
+            "q25_seconds": 0.00039025075,
+            "q75_seconds": 0.00047458225
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000371165,
+            "min_seconds": 0.000330796,
+            "max_seconds": 0.00451966,
+            "q25_seconds": 0.000350625,
+            "q75_seconds": 0.00045944475
+          }
+        }
+      }
+    },
+    "p9-holdout-revisions_copy_context-00": {
+      "family": "revisions_copy_context",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001206442,
+            0.001058865,
+            0.002019817,
+            0.001423871,
+            0.001346138,
+            0.00125244,
+            0.001200779,
+            0.001340887
+          ],
+          "fresh_uninstrumented": [
+            0.000991226,
+            0.001095189,
+            0.001366518,
+            0.001609294,
+            0.001893292,
+            0.001050202,
+            0.001007873,
+            0.001152096
+          ],
+          "selective_instrumented": [
+            0.001337896,
+            0.001380938,
+            0.001323144,
+            0.001896586,
+            0.001647501,
+            0.00189262,
+            0.0021372,
+            0.001452733
+          ],
+          "selective_uninstrumented": [
+            0.001134587,
+            0.001246702,
+            0.001187284,
+            0.001497971,
+            0.001716372,
+            0.001458322,
+            0.001276635,
+            0.001440715
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0012966635000000002,
+            "min_seconds": 0.001058865,
+            "max_seconds": 0.002019817,
+            "q25_seconds": 0.00120502625,
+            "q75_seconds": 0.00136557125
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0011236425,
+            "min_seconds": 0.000991226,
+            "max_seconds": 0.001893292,
+            "q25_seconds": 0.0010396197500000001,
+            "q75_seconds": 0.001427212
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0015501170000000002,
+            "min_seconds": 0.001323144,
+            "max_seconds": 0.0021372,
+            "q25_seconds": 0.0013701775,
+            "q75_seconds": 0.0018936115
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001358675,
+            "min_seconds": 0.001134587,
+            "max_seconds": 0.001716372,
+            "q25_seconds": 0.0012318475,
+            "q75_seconds": 0.00146823425
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000173677,
+            0.000205404,
+            0.000151905,
+            0.00023571,
+            0.00015519,
+            0.000157734,
+            0.0001552,
+            0.000167178
+          ],
+          "fresh_uninstrumented": [
+            0.000126407,
+            0.00015537,
+            0.000268758,
+            0.000134169,
+            0.000120989,
+            0.000138485,
+            0.00029745,
+            0.000236941
+          ],
+          "selective_instrumented": [
+            0.000470357,
+            0.000244773,
+            0.00055347,
+            0.000332703,
+            0.000227497,
+            0.00038471,
+            0.000334025,
+            0.000310781
+          ],
+          "selective_uninstrumented": [
+            0.000185535,
+            0.000189881,
+            0.000316399,
+            0.000185214,
+            0.000190673,
+            0.000184133,
+            0.000197954,
+            0.000274367
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000162456,
+            "min_seconds": 0.000151905,
+            "max_seconds": 0.00023571,
+            "q25_seconds": 0.0001551975,
+            "q75_seconds": 0.00018160875
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001469275,
+            "min_seconds": 0.000120989,
+            "max_seconds": 0.00029745,
+            "q25_seconds": 0.0001322285,
+            "q75_seconds": 0.00024489525
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000333364,
+            "min_seconds": 0.000227497,
+            "max_seconds": 0.00055347,
+            "q25_seconds": 0.000294279,
+            "q75_seconds": 0.00040612175
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000190277,
+            "min_seconds": 0.000184133,
+            "max_seconds": 0.000316399,
+            "q25_seconds": 0.00018545475,
+            "q75_seconds": 0.00021705725
+          }
+        }
+      }
+    },
+    "p9-holdout-revisions_copy_context-01": {
+      "family": "revisions_copy_context",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.002034084,
+            0.001627501,
+            0.001507103,
+            0.001587822,
+            0.001906044,
+            0.001659228,
+            0.002376611,
+            0.001655042
+          ],
+          "fresh_uninstrumented": [
+            0.001397921,
+            0.001960705,
+            0.002629256,
+            0.001399614,
+            0.001487023,
+            0.001573901,
+            0.00145799,
+            0.001561804
+          ],
+          "selective_instrumented": [
+            0.001976838,
+            0.002114452,
+            0.001775741,
+            0.002216334,
+            0.002377503,
+            0.001961656,
+            0.001878092,
+            0.0024165
+          ],
+          "selective_uninstrumented": [
+            0.001652829,
+            0.001754419,
+            0.001927946,
+            0.001550387,
+            0.002131418,
+            0.001788679,
+            0.001917971,
+            0.001994474
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0016571350000000001,
+            "min_seconds": 0.001507103,
+            "max_seconds": 0.002376611,
+            "q25_seconds": 0.00161758125,
+            "q75_seconds": 0.0019380539999999998
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0015244135,
+            "min_seconds": 0.001397921,
+            "max_seconds": 0.002629256,
+            "q25_seconds": 0.001443396,
+            "q75_seconds": 0.001670602
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.002045645,
+            "min_seconds": 0.001775741,
+            "max_seconds": 0.0024165,
+            "q25_seconds": 0.0019407650000000001,
+            "q75_seconds": 0.00225662625
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001853325,
+            "min_seconds": 0.001550387,
+            "max_seconds": 0.002131418,
+            "q25_seconds": 0.0017290215,
+            "q75_seconds": 0.001944578
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.00017508,
+            0.0003917,
+            0.000258483,
+            0.000193287,
+            0.00018889,
+            0.000248298,
+            0.000197482,
+            0.000181219
+          ],
+          "fresh_uninstrumented": [
+            0.00014875,
+            0.00018869,
+            0.000230852,
+            0.000314826,
+            0.000257391,
+            0.000176511,
+            0.000149081,
+            0.000189831
+          ],
+          "selective_instrumented": [
+            0.000241668,
+            0.0003304,
+            0.000248999,
+            0.000341206,
+            0.000254277,
+            0.000353954,
+            0.000269629,
+            0.000242429
+          ],
+          "selective_uninstrumented": [
+            0.000221879,
+            0.000228749,
+            0.000212204,
+            0.0003777,
+            0.000233987,
+            0.000220798,
+            0.000200287,
+            0.000214758
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0001953845,
+            "min_seconds": 0.00017508,
+            "max_seconds": 0.0003917,
+            "q25_seconds": 0.00018697225,
+            "q75_seconds": 0.00025084425
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.00018926050000000002,
+            "min_seconds": 0.00014875,
+            "max_seconds": 0.000314826,
+            "q25_seconds": 0.00016965349999999998,
+            "q75_seconds": 0.00023748675
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000261953,
+            "min_seconds": 0.000241668,
+            "max_seconds": 0.000353954,
+            "q25_seconds": 0.0002473565,
+            "q75_seconds": 0.0003331015
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0002213385,
+            "min_seconds": 0.000200287,
+            "max_seconds": 0.0003777,
+            "q25_seconds": 0.0002141195,
+            "q75_seconds": 0.0002300585
+          }
+        }
+      }
+    },
+    "p9-holdout-revisions_copy_context-02": {
+      "family": "revisions_copy_context",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.003819908,
+            0.003750937,
+            0.003597819,
+            0.003940547,
+            0.003227882,
+            0.003490721,
+            0.00425269,
+            0.00341626
+          ],
+          "fresh_uninstrumented": [
+            0.00346945,
+            0.002829531,
+            0.002915579,
+            0.00284904,
+            0.002657066,
+            0.003035166,
+            0.002640872,
+            0.003170076
+          ],
+          "selective_instrumented": [
+            0.0042326,
+            0.004074596,
+            0.004230676,
+            0.00456353,
+            0.004497903,
+            0.003912515,
+            0.004497723,
+            0.004529479
+          ],
+          "selective_uninstrumented": [
+            0.004018252,
+            0.004042097,
+            0.003855232,
+            0.005008831,
+            0.003844295,
+            0.00450958,
+            0.003790826,
+            0.004147263
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.003674378,
+            "min_seconds": 0.003227882,
+            "max_seconds": 0.00425269,
+            "q25_seconds": 0.00347210575,
+            "q75_seconds": 0.00385006775
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0028823095,
+            "min_seconds": 0.002640872,
+            "max_seconds": 0.00346945,
+            "q25_seconds": 0.00278641475,
+            "q75_seconds": 0.0030688935000000002
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.004365161500000001,
+            "min_seconds": 0.003912515,
+            "max_seconds": 0.00456353,
+            "q25_seconds": 0.004191656,
+            "q75_seconds": 0.004505797000000001
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0040301745,
+            "min_seconds": 0.003790826,
+            "max_seconds": 0.005008831,
+            "q25_seconds": 0.0038524977500000003,
+            "q75_seconds": 0.00423784225
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000353734,
+            0.00054654,
+            0.000347334,
+            0.000312553,
+            0.0004523,
+            0.000313174,
+            0.000348526,
+            0.000442576
+          ],
+          "fresh_uninstrumented": [
+            0.000255559,
+            0.000250832,
+            0.000473752,
+            0.00026361,
+            0.000263691,
+            0.000394755,
+            0.000269009,
+            0.000257942
+          ],
+          "selective_instrumented": [
+            0.000365241,
+            0.000387534,
+            0.000397589,
+            0.000394174,
+            0.000374635,
+            0.000720767,
+            0.000402447,
+            0.000403718
+          ],
+          "selective_uninstrumented": [
+            0.000389917,
+            0.000351341,
+            0.00038501,
+            0.000356448,
+            0.000409837,
+            0.000466321,
+            0.000361916,
+            0.000382367
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.00035113,
+            "min_seconds": 0.000312553,
+            "max_seconds": 0.00054654,
+            "q25_seconds": 0.000338794,
+            "q75_seconds": 0.00044500700000000003
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0002636505,
+            "min_seconds": 0.000250832,
+            "max_seconds": 0.000473752,
+            "q25_seconds": 0.00025734624999999996,
+            "q75_seconds": 0.0003004455
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0003958815,
+            "min_seconds": 0.000365241,
+            "max_seconds": 0.000720767,
+            "q25_seconds": 0.00038430925,
+            "q75_seconds": 0.00040276475
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0003836885,
+            "min_seconds": 0.000351341,
+            "max_seconds": 0.000466321,
+            "q25_seconds": 0.000360549,
+            "q75_seconds": 0.000394897
+          }
+        }
+      }
+    },
+    "p9-holdout-scope_ambiguity-00": {
+      "family": "scope_ambiguity",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000936357,
+            0.000890749,
+            0.00099269,
+            0.000945471,
+            0.001186428,
+            0.000999811,
+            0.001102853,
+            0.001310211
+          ],
+          "fresh_uninstrumented": [
+            0.001149633,
+            0.000917759,
+            0.001070265,
+            0.000805683,
+            0.001254177,
+            0.000788027,
+            0.000771983,
+            0.00104615
+          ],
+          "selective_instrumented": [
+            0.001649023,
+            0.001169582,
+            0.001167089,
+            0.001303681,
+            0.001030026,
+            0.001264764,
+            0.001000672,
+            0.001007572
+          ],
+          "selective_uninstrumented": [
+            0.001355588,
+            0.00085696,
+            0.00105308,
+            0.00090496,
+            0.001231164,
+            0.000855277,
+            0.0008777,
+            0.001187169
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0009962505,
+            "min_seconds": 0.000890749,
+            "max_seconds": 0.001310211,
+            "q25_seconds": 0.0009431925,
+            "q75_seconds": 0.00112374675
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0009819545,
+            "min_seconds": 0.000771983,
+            "max_seconds": 0.001254177,
+            "q25_seconds": 0.000801269,
+            "q75_seconds": 0.0010901069999999999
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0011683355000000001,
+            "min_seconds": 0.001000672,
+            "max_seconds": 0.001649023,
+            "q25_seconds": 0.0010244125,
+            "q75_seconds": 0.0012744932500000001
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0009790200000000002,
+            "min_seconds": 0.000855277,
+            "max_seconds": 0.001355588,
+            "q25_seconds": 0.000872515,
+            "q75_seconds": 0.00119816775
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000447583,
+            0.000144914,
+            0.000130864,
+            0.000180658,
+            0.000131816,
+            0.000130994,
+            0.000130894,
+            0.000150143
+          ],
+          "fresh_uninstrumented": [
+            0.000329348,
+            0.000389166,
+            0.000115241,
+            0.000123153,
+            0.000115341,
+            9.7655e-05,
+            0.000116283,
+            0.000143643
+          ],
+          "selective_instrumented": [
+            0.000130393,
+            0.000151334,
+            0.00013533,
+            0.000163342,
+            0.000163152,
+            0.000205053,
+            0.000131414,
+            0.000136513
+          ],
+          "selective_uninstrumented": [
+            0.000152075,
+            0.000116032,
+            0.000120609,
+            0.000108721,
+            0.000137614,
+            0.000231914,
+            0.000163793,
+            0.000120499
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000138365,
+            "min_seconds": 0.000130864,
+            "max_seconds": 0.000447583,
+            "q25_seconds": 0.00013096899999999999,
+            "q75_seconds": 0.00015777175
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000119718,
+            "min_seconds": 9.7655e-05,
+            "max_seconds": 0.000389166,
+            "q25_seconds": 0.000115316,
+            "q75_seconds": 0.00019006925
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.00014392350000000002,
+            "min_seconds": 0.000130393,
+            "max_seconds": 0.000205053,
+            "q25_seconds": 0.000134351,
+            "q75_seconds": 0.0001631995
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.00012911149999999999,
+            "min_seconds": 0.000108721,
+            "max_seconds": 0.000231914,
+            "q25_seconds": 0.00011938225,
+            "q75_seconds": 0.0001550045
+          }
+        }
+      }
+    },
+    "p9-holdout-scope_ambiguity-01": {
+      "family": "scope_ambiguity",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001505951,
+            0.00099265,
+            0.001507974,
+            0.001237674,
+            0.001362368,
+            0.001072789,
+            0.001293746,
+            0.001972011
+          ],
+          "fresh_uninstrumented": [
+            0.000881846,
+            0.001213958,
+            0.001018719,
+            0.004460738,
+            0.001155893,
+            0.001047061,
+            0.001589374,
+            0.001098086
+          ],
+          "selective_instrumented": [
+            0.001349399,
+            0.001546321,
+            0.001013552,
+            0.002351608,
+            0.001313325,
+            0.001052429,
+            0.001425962,
+            0.001342759
+          ],
+          "selective_uninstrumented": [
+            0.000939993,
+            0.00105993,
+            0.001219336,
+            0.001025449,
+            0.000922416,
+            0.001097776,
+            0.001176202,
+            0.001084567
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0013280570000000001,
+            "min_seconds": 0.00099265,
+            "max_seconds": 0.001972011,
+            "q25_seconds": 0.00119645275,
+            "q75_seconds": 0.00150645675
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0011269895,
+            "min_seconds": 0.000881846,
+            "max_seconds": 0.004460738,
+            "q25_seconds": 0.0010399755,
+            "q75_seconds": 0.001307812
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.001346079,
+            "min_seconds": 0.001013552,
+            "max_seconds": 0.002351608,
+            "q25_seconds": 0.001248101,
+            "q75_seconds": 0.00145605175
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0010722485,
+            "min_seconds": 0.000922416,
+            "max_seconds": 0.001219336,
+            "q25_seconds": 0.0010040849999999998,
+            "q75_seconds": 0.0011173825
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.00026939,
+            0.0001351,
+            0.000262328,
+            0.000150183,
+            0.000255198,
+            0.000135711,
+            0.00014865,
+            0.000281116
+          ],
+          "fresh_uninstrumented": [
+            0.00024282,
+            0.000125456,
+            0.000317911,
+            0.000132867,
+            0.000110403,
+            0.000133387,
+            0.000167889,
+            0.000111495
+          ],
+          "selective_instrumented": [
+            0.000139186,
+            0.000152576,
+            0.000204563,
+            0.000143512,
+            0.00014196,
+            0.000153718,
+            0.000233666,
+            0.00014191
+          ],
+          "selective_uninstrumented": [
+            0.000119297,
+            0.000223471,
+            0.000125176,
+            0.000273596,
+            0.00012156,
+            0.000136211,
+            0.000155781,
+            0.000201869
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0002026905,
+            "min_seconds": 0.0001351,
+            "max_seconds": 0.000281116,
+            "q25_seconds": 0.00014541525,
+            "q75_seconds": 0.0002640935
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000133127,
+            "min_seconds": 0.000110403,
+            "max_seconds": 0.000317911,
+            "q25_seconds": 0.00012196575,
+            "q75_seconds": 0.00018662175
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000148044,
+            "min_seconds": 0.000139186,
+            "max_seconds": 0.000233666,
+            "q25_seconds": 0.0001419475,
+            "q75_seconds": 0.00016642925
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000145996,
+            "min_seconds": 0.000119297,
+            "max_seconds": 0.000273596,
+            "q25_seconds": 0.000124272,
+            "q75_seconds": 0.0002072695
+          }
+        }
+      }
+    },
+    "p9-holdout-scope_ambiguity-02": {
+      "family": "scope_ambiguity",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001105457,
+            0.001022915,
+            0.001058668,
+            0.001189562,
+            0.001002445,
+            0.001282901,
+            0.001142502,
+            0.0011479
+          ],
+          "fresh_uninstrumented": [
+            0.000807676,
+            0.000856719,
+            0.001928437,
+            0.001486882,
+            0.001298213,
+            0.000994733,
+            0.000831371,
+            0.001006911
+          ],
+          "selective_instrumented": [
+            0.001254418,
+            0.001455236,
+            0.00134321,
+            0.001165437,
+            0.001589254,
+            0.001243672,
+            0.001323451,
+            0.001281959
+          ],
+          "selective_uninstrumented": [
+            0.001015394,
+            0.001184394,
+            0.001078979,
+            0.001199457,
+            0.001266537,
+            0.001171356,
+            0.001055374,
+            0.001116995
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0011239795,
+            "min_seconds": 0.001002445,
+            "max_seconds": 0.001282901,
+            "q25_seconds": 0.00104972975,
+            "q75_seconds": 0.0011583155
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0010008220000000002,
+            "min_seconds": 0.000807676,
+            "max_seconds": 0.001928437,
+            "q25_seconds": 0.000850382,
+            "q75_seconds": 0.00134538025
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.001302705,
+            "min_seconds": 0.001165437,
+            "max_seconds": 0.001589254,
+            "q25_seconds": 0.0012517315,
+            "q75_seconds": 0.0013712165
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0011441755,
+            "min_seconds": 0.001015394,
+            "max_seconds": 0.001266537,
+            "q25_seconds": 0.00107307775,
+            "q75_seconds": 0.00118815975
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.00018938,
+            0.000196261,
+            0.000145585,
+            0.000813255,
+            0.000135271,
+            0.000238112,
+            0.000143823,
+            0.000137945
+          ],
+          "fresh_uninstrumented": [
+            0.000186276,
+            0.000198153,
+            0.000117314,
+            0.000122441,
+            0.000191494,
+            0.000137203,
+            0.000233947,
+            0.000121399
+          ],
+          "selective_instrumented": [
+            0.000146136,
+            0.000290691,
+            0.000285924,
+            0.000250851,
+            0.000171384,
+            0.000271081,
+            0.000149131,
+            0.0001895
+          ],
+          "selective_uninstrumented": [
+            0.000138085,
+            0.0001352,
+            0.000226506,
+            0.000158525,
+            0.000234216,
+            0.000134058,
+            0.000130514,
+            0.00022269
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0001674825,
+            "min_seconds": 0.000135271,
+            "max_seconds": 0.000813255,
+            "q25_seconds": 0.00014235350000000002,
+            "q75_seconds": 0.00020672375
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0001617395,
+            "min_seconds": 0.000117314,
+            "max_seconds": 0.000233947,
+            "q25_seconds": 0.00012218049999999998,
+            "q75_seconds": 0.00019315875
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0002201755,
+            "min_seconds": 0.000146136,
+            "max_seconds": 0.000290691,
+            "q25_seconds": 0.00016582075,
+            "q75_seconds": 0.00027479175
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000148305,
+            "min_seconds": 0.000130514,
+            "max_seconds": 0.000234216,
+            "q25_seconds": 0.0001349145,
+            "q75_seconds": 0.000223644
+          }
+        }
+      }
+    },
+    "p9-holdout-integrity_unsupported_recovery-00": {
+      "family": "integrity_unsupported_recovery",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000651505,
+            0.000718775,
+            0.00090471,
+            0.000932271,
+            0.000806915,
+            0.000782059,
+            0.001158076,
+            0.000858692
+          ],
+          "fresh_uninstrumented": [
+            0.000605426,
+            0.000466682,
+            0.000565308,
+            0.000531167,
+            0.00058701,
+            0.000487091,
+            0.000748139,
+            0.000496666
+          ],
+          "selective_instrumented": [
+            0.00075624,
+            0.000675791,
+            0.001016045,
+            0.000865071,
+            0.000925511,
+            0.002166249,
+            0.001256561,
+            0.000672486
+          ],
+          "selective_uninstrumented": [
+            0.000785494,
+            0.000650373,
+            0.000510747,
+            0.000635662,
+            0.000768519,
+            0.0005469,
+            0.000828167,
+            0.001029966
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0008328035,
+            "min_seconds": 0.000651505,
+            "max_seconds": 0.001158076,
+            "q25_seconds": 0.000766238,
+            "q75_seconds": 0.00091160025
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0005482375,
+            "min_seconds": 0.000466682,
+            "max_seconds": 0.000748139,
+            "q25_seconds": 0.00049427225,
+            "q75_seconds": 0.000591614
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000895291,
+            "min_seconds": 0.000672486,
+            "max_seconds": 0.002166249,
+            "q25_seconds": 0.0007361277500000001,
+            "q75_seconds": 0.001076174
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000709446,
+            "min_seconds": 0.000510747,
+            "max_seconds": 0.001029966,
+            "q25_seconds": 0.0006134714999999999,
+            "q75_seconds": 0.00079616225
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000520842,
+            0.000140018,
+            0.000112166,
+            0.000118215,
+            0.000116323,
+            0.000138465,
+            0.000131424,
+            0.000126357
+          ],
+          "fresh_uninstrumented": [
+            0.000111595,
+            0.000214959,
+            9.9658e-05,
+            0.000103123,
+            0.000117795,
+            0.000105877,
+            0.000105947,
+            0.000106197
+          ],
+          "selective_instrumented": [
+            0.000334976,
+            0.000182821,
+            0.000227096,
+            0.000175791,
+            0.000192055,
+            0.000338591,
+            0.000248208,
+            0.000180167
+          ],
+          "selective_uninstrumented": [
+            0.000164664,
+            0.000188939,
+            0.000148941,
+            0.000149822,
+            0.000231924,
+            0.000308287,
+            0.000178795,
+            0.000299343
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0001288905,
+            "min_seconds": 0.000112166,
+            "max_seconds": 0.000520842,
+            "q25_seconds": 0.000117742,
+            "q75_seconds": 0.00013885325
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000106072,
+            "min_seconds": 9.9658e-05,
+            "max_seconds": 0.000214959,
+            "q25_seconds": 0.0001051885,
+            "q75_seconds": 0.000113145
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0002095755,
+            "min_seconds": 0.000175791,
+            "max_seconds": 0.000338591,
+            "q25_seconds": 0.00018215750000000002,
+            "q75_seconds": 0.0002699
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.000183867,
+            "min_seconds": 0.000148941,
+            "max_seconds": 0.000308287,
+            "q25_seconds": 0.00016095349999999998,
+            "q75_seconds": 0.00024877875
+          }
+        }
+      }
+    },
+    "p9-holdout-integrity_unsupported_recovery-01": {
+      "family": "integrity_unsupported_recovery",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.001522885,
+            0.000960152,
+            0.001125587,
+            0.002099029,
+            0.001051177,
+            0.001010447,
+            0.000969186,
+            0.000911701
+          ],
+          "fresh_uninstrumented": [
+            0.000885672,
+            0.001025069,
+            0.000763712,
+            0.000855497,
+            0.000842228,
+            0.00078949,
+            0.00090453,
+            0.001165106
+          ],
+          "selective_instrumented": [
+            0.001058838,
+            0.001118697,
+            0.001069164,
+            0.001381236,
+            0.001088513,
+            0.002009117,
+            0.001209802,
+            0.001351912
+          ],
+          "selective_uninstrumented": [
+            0.001224925,
+            0.001106328,
+            0.00089054,
+            0.001111387,
+            0.001003987,
+            0.00103284,
+            0.001110084,
+            0.001010757
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0010308119999999999,
+            "min_seconds": 0.000911701,
+            "max_seconds": 0.002099029,
+            "q25_seconds": 0.0009669275,
+            "q75_seconds": 0.0012249115
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0008705844999999999,
+            "min_seconds": 0.000763712,
+            "max_seconds": 0.001165106,
+            "q25_seconds": 0.0008290435,
+            "q75_seconds": 0.00093466475
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0011642495000000002,
+            "min_seconds": 0.001058838,
+            "max_seconds": 0.002009117,
+            "q25_seconds": 0.00108367575,
+            "q75_seconds": 0.001359243
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.001069584,
+            "min_seconds": 0.00089054,
+            "max_seconds": 0.001224925,
+            "q25_seconds": 0.0010090645,
+            "q75_seconds": 0.00111040975
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000158155,
+            0.000178164,
+            0.00020247,
+            0.000160368,
+            0.000286134,
+            0.000168329,
+            0.00016159,
+            0.000165005
+          ],
+          "fresh_uninstrumented": [
+            0.000140628,
+            0.000144054,
+            0.000137394,
+            0.000124194,
+            0.00018225,
+            0.000130914,
+            0.000131014,
+            0.000232815
+          ],
+          "selective_instrumented": [
+            0.000249039,
+            0.000274227,
+            0.00023585,
+            0.000243891,
+            0.000222099,
+            0.000346914,
+            0.000245904,
+            0.000226375
+          ],
+          "selective_uninstrumented": [
+            0.000267647,
+            0.000206516,
+            0.00025643,
+            0.000240987,
+            0.000214909,
+            0.000321536,
+            0.000193838,
+            0.000272344
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000166667,
+            "min_seconds": 0.000158155,
+            "max_seconds": 0.000286134,
+            "q25_seconds": 0.0001612845,
+            "q75_seconds": 0.0001842405
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.000139011,
+            "min_seconds": 0.000124194,
+            "max_seconds": 0.000232815,
+            "q25_seconds": 0.00013098899999999998,
+            "q75_seconds": 0.00015360299999999999
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0002448975,
+            "min_seconds": 0.000222099,
+            "max_seconds": 0.000346914,
+            "q25_seconds": 0.00023348125,
+            "q75_seconds": 0.000255336
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0002487085,
+            "min_seconds": 0.000193838,
+            "max_seconds": 0.000321536,
+            "q25_seconds": 0.00021281075,
+            "q75_seconds": 0.00026882125
+          }
+        }
+      }
+    },
+    "p9-holdout-integrity_unsupported_recovery-02": {
+      "family": "integrity_unsupported_recovery",
+      "queries": 12,
+      "whole_stream": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.003402395,
+            0.002770655,
+            0.003133011,
+            0.002587112,
+            0.002158387,
+            0.002699308,
+            0.002375629,
+            0.002851123
+          ],
+          "fresh_uninstrumented": [
+            0.002404953,
+            0.002232637,
+            0.002536887,
+            0.003005092,
+            0.002208281,
+            0.002647442,
+            0.002188222,
+            0.001955036
+          ],
+          "selective_instrumented": [
+            0.002267239,
+            0.002657947,
+            0.002678878,
+            0.002397261,
+            0.002363681,
+            0.003667062,
+            0.002409639,
+            0.002378373
+          ],
+          "selective_uninstrumented": [
+            0.00245705,
+            0.002108744,
+            0.00226847,
+            0.00265955,
+            0.002253168,
+            0.00224108,
+            0.002273337,
+            0.002492042
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.0027349814999999998,
+            "min_seconds": 0.002158387,
+            "max_seconds": 0.003402395,
+            "q25_seconds": 0.00253424125,
+            "q75_seconds": 0.002921595
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.0023187950000000002,
+            "min_seconds": 0.001955036,
+            "max_seconds": 0.003005092,
+            "q25_seconds": 0.00220326625,
+            "q75_seconds": 0.00256452575
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.0024034499999999997,
+            "min_seconds": 0.002267239,
+            "max_seconds": 0.003667062,
+            "q25_seconds": 0.0023747,
+            "q75_seconds": 0.00266317975
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0022709035,
+            "min_seconds": 0.002108744,
+            "max_seconds": 0.00265955,
+            "q25_seconds": 0.0022501459999999997,
+            "q75_seconds": 0.002465798
+          }
+        }
+      },
+      "first_step_cold": {
+        "samples_seconds": {
+          "fresh_instrumented": [
+            0.000409657,
+            0.000346994,
+            0.000286234,
+            0.000288538,
+            0.000277451,
+            0.000396577,
+            0.000326494,
+            0.000341596
+          ],
+          "fresh_uninstrumented": [
+            0.000238823,
+            0.000236791,
+            0.00027668,
+            0.000275558,
+            0.00024275,
+            0.000309999,
+            0.000300555,
+            0.000274026
+          ],
+          "selective_instrumented": [
+            0.000458299,
+            0.000363499,
+            0.000349117,
+            0.000436096,
+            0.000423327,
+            0.000350188,
+            0.00037786,
+            0.00038447
+          ],
+          "selective_uninstrumented": [
+            0.000421935,
+            0.000380484,
+            0.000332833,
+            0.00034433,
+            0.000333584,
+            0.000364099,
+            0.000315076,
+            0.000399112
+          ]
+        },
+        "methods": {
+          "fresh_instrumented": {
+            "median_seconds": 0.000334045,
+            "min_seconds": 0.000277451,
+            "max_seconds": 0.000409657,
+            "q25_seconds": 0.000287962,
+            "q75_seconds": 0.00035938975
+          },
+          "fresh_uninstrumented": {
+            "median_seconds": 0.00027479200000000005,
+            "min_seconds": 0.000236791,
+            "max_seconds": 0.000309999,
+            "q25_seconds": 0.00024176824999999998,
+            "q75_seconds": 0.00028264875
+          },
+          "selective_instrumented": {
+            "median_seconds": 0.000381165,
+            "min_seconds": 0.000349117,
+            "max_seconds": 0.000458299,
+            "q25_seconds": 0.00036017125,
+            "q75_seconds": 0.00042651924999999996
+          },
+          "selective_uninstrumented": {
+            "median_seconds": 0.0003542145,
+            "min_seconds": 0.000315076,
+            "max_seconds": 0.000421935,
+            "q25_seconds": 0.00033339625,
+            "q75_seconds": 0.000385141
+          }
+        }
+      }
+    }
+  },
+  "streams": 36,
+  "queries": 432,
+  "scope": "cold cache construction/destruction, full snapshot validation, parse, key/payload, unchanged policy, current state/copy, evidence render; excludes import/loading/gold/audit/GC precollection",
+  "cold_definition": "parser cache empty per stream per replay; Python/CPU/OS caches not flushed",
+  "interpretation": "on-off deltas are total implementation effects with interactions, not additive component CPU costs",
+  "input_sha256": "1a36ee60f57c7e0ad7f6f91f098e9803db212d4de2e00920510740e5b5ee20e6"
+}
