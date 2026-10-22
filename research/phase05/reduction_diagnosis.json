@@ -1,0 +1,84 @@
+{
+  "parse_results": [
+    [
+      "가람 모임 시간은 0시로 확정해줘.",
+      {
+        "kind": "set",
+        "target": [
+          "가람",
+          "time"
+        ],
+        "value": 0,
+        "source": null,
+        "targets": []
+      }
+    ],
+    [
+      "가람 모임 시간을 1시간 뒤로 옮겨줘.",
+      {
+        "kind": "add",
+        "target": [
+          "가람",
+          "time"
+        ],
+        "value": 1,
+        "source": null,
+        "targets": []
+      }
+    ],
+    [
+      "가람 모임 시간을 1시간 앞으로 옮겨줘.",
+      {
+        "kind": "havoc",
+        "target": null,
+        "value": null,
+        "source": null,
+        "targets": []
+      }
+    ]
+  ],
+  "base": {
+    "status": "opaque_fallback",
+    "prediction": {
+      "가람.time": null
+    },
+    "selected": [
+      0,
+      1,
+      2
+    ],
+    "cheap_reads": 1,
+    "detail_calls": 1,
+    "detail_source_bytes": 52,
+    "output_bytes": 366,
+    "remaining_input_facts": []
+  },
+  "reduced": {
+    "base": {
+      "status": "opaque_fallback",
+      "prediction": {
+        "가람.time": null
+      },
+      "selected": [
+        0,
+        1,
+        2
+      ],
+      "cheap_reads": 1,
+      "detail_calls": 1,
+      "detail_source_bytes": 52,
+      "output_bytes": 366,
+      "remaining_input_facts": []
+    },
+    "selected": [
+      0,
+      1,
+      2
+    ],
+    "output_bytes": 366,
+    "blocks": [],
+    "extra_detail_calls": 0,
+    "extra_detail_source_bytes": 0
+  },
+  "diagnosis": "앞으로 is not recognized by the frozen (뒤|앞)로 pattern, so the reduction gate sees opaque_fallback; earlier preservation checks alone did not test that the intended reducer was active."
+}

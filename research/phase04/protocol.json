@@ -1,0 +1,44 @@
+{
+  "created_at_utc": "2026-10-22T07:45:15.555577+00:00",
+  "purpose": "Exact finite-model analysis, not an NLP benchmark or deployed selector",
+  "world_count": 200,
+  "questions": {
+    "current": "민들레 모임은 기록 범위 끝을 기준으로 현재 몇 시야?",
+    "trajectory": "민들레 모임 시간이 처음부터 어떻게 바뀌었는지 순서대로 알려줘.",
+    "verbatim": "민들레 모임을 처음 부탁한 문장을 원문 그대로 보여줘."
+  },
+  "semantics": "Absolute assignment, relative +1, irrelevant prose, quoted non-action; all interpreted symbolically",
+  "sufficient": "Every world matching the selected literal records, positions and optional truthful index gives the same answer",
+  "no_selection_side_channel": "Omitted records, choice of mask and choice of index mode do not themselves assert facts",
+  "optimizer": "Exhaustive 32 source subsets x 3 index modes; oracle knows all possible worlds",
+  "cost": "UTF-8 bytes of rendered source text, source labels, index text and newlines; fixed protected exchange and query also reported separately",
+  "comparisons": [
+    "all records",
+    "minimum sufficient for all three questions",
+    "minimum sufficient for the current question without index",
+    "minimum sufficient for the current question with optional index"
+  ],
+  "diagnostics": [
+    "latest-state source without index",
+    "latest-state source with truthful last-event index",
+    "one false index counterexample",
+    "snapshot extension counterexample",
+    "query-intent mismatch"
+  ],
+  "integrity": [
+    "direct compatibility cross-check",
+    "all selected optima sufficient and irredundant",
+    "joint cost lower bound",
+    "index optionality cannot worsen optimum",
+    "minimum-budget infeasibility",
+    "ID permutation invariance",
+    "independent nuisance invariance",
+    "source hash checks"
+  ],
+  "scope_limit": "Finite modeled alternatives and perfect semantic index only; no measured LLM quality, token saving, production latency or real-language index recall",
+  "hashes": {
+    "model.py": "cd664133d60ac159c039a5ff2613bcd26022be5b8620591b0ccd4305083a4b41",
+    "study.py": "147fd643d47ae4e729a8ffbf1dbee2ac88fdae81056900d2ab42b5cd1547d113",
+    "worlds.json": "b967553f0b7bc94d6ef14cf11d31d0f9ec9d08e703367f455eb11bc76349a148"
+  }
+}

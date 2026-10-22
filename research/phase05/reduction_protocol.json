@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-10-22T08:24:02.124048+00:00",
+  "trigger": "Recorded +1,-1 nonminimality counterexample in audit.json",
+  "scope": "Minimum-byte subset of integer shifts in blocks with no other reads/writes of that fact; keep copies and all other barriers",
+  "algorithm": "Exact signed-sum dynamic programming per independent block",
+  "planned_checks": [
+    "Every 4-operator program over 11 operators, 3 questions",
+    "Every shift block of length 1..5 over -2,-1,1,2 versus all subsets",
+    "No joining across an intermediate copy read",
+    "Reuse primary corpus as a posthoc regression, not fresh quality evaluation"
+  ],
+  "limits": "Optimal inside each eligible block only; no global optimum or LLM quality claim; source reparse overhead counted",
+  "hashes": {
+    "reducer.py": "3293f344bf3e251ef749c650e4cc699beca75b34d609a801ba5083408349a5d5",
+    "reduction_study.py": "70f9633023fb07fbc34612634869d1246ba8862a3b2ecd82b55c0422f78bfb26",
+    "engine.py": "e3cd0086dfc97ee02b1f8a813f2ddfe81df2e3cda80cd87355b0f601139866c1",
+    "audit.py": "cc6e3870fc1a823f071cfbbc09373f95da0601188858173ddbf3f97d7af58f6e"
+  }
+}

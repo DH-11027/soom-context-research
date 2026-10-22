@@ -1,0 +1,9 @@
+{
+  "optimum_comparisons": 1800,
+  "all_match": true,
+  "set_cover_equivalence": true,
+  "counterfactual_coverage_monotone_submodular": true,
+  "source_hashes_match_freeze": true,
+  "results_sha256": "fc4fa4c5cbecd495ae4971a768611bcc8b9eb5f599ddbbc5828e9efe61b68fac",
+  "boundary": "Independent implementation, same author and same finite model; not independent empirical validation"
+}

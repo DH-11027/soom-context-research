@@ -1,0 +1,19 @@
+{
+  "operator_programs": 14641,
+  "concrete_projection_comparisons": 43923,
+  "all_outputs_preserved": true,
+  "strictly_smaller_queries": 0,
+  "before_total_bytes": 18958170,
+  "after_total_bytes": 18958170,
+  "additional_output_byte_reduction_percent": 0.0,
+  "exact_subset_dp_checks": 1364,
+  "intermediate_read_barrier_preserved": true,
+  "posthoc_original_corpus_regression": {
+    "queries": 672,
+    "strictly_smaller": 0,
+    "extra_detail_calls": 80,
+    "extra_detail_source_bytes": 4112
+  },
+  "examples": [],
+  "limits": "Enumerated algebraic programs with a fixed initial state, not an independently sampled language test; restricted optimality only"
+}

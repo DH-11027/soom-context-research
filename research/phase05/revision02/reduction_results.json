@@ -1,0 +1,284 @@
+{
+  "operator_programs": 14641,
+  "concrete_projection_comparisons": 43923,
+  "all_outputs_preserved": true,
+  "strictly_smaller_queries": 2936,
+  "before_total_bytes": 15434306,
+  "after_total_bytes": 15061306,
+  "additional_output_byte_reduction_percent": 2.416694343108139,
+  "exact_subset_dp_checks": 1364,
+  "intermediate_read_barrier_preserved": true,
+  "operator_round_trips": 11,
+  "certified_cancellation_reduced": true,
+  "cancellation_example": {
+    "before_bytes": 366,
+    "after_bytes": 241,
+    "base_status": "certified_model",
+    "prediction": {
+      "가람.time": [
+        0
+      ]
+    }
+  },
+  "posthoc_original_corpus_regression": {
+    "queries": 672,
+    "strictly_smaller": 0,
+    "extra_detail_calls": 80,
+    "extra_detail_source_bytes": 4112
+  },
+  "examples": [
+    {
+      "records": [
+        {
+          "seq": 0,
+          "id": "typed-0",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "typed-1",
+          "text": "노을 모임 시간은 1시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "typed-2",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "typed-3",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "typed-4",
+          "text": "가람 모임 시간을 1시간 뒤로 옮겨줘."
+        },
+        {
+          "seq": 5,
+          "id": "typed-5",
+          "text": "가람 모임 시간을 1시간 앞으로 옮겨줘."
+        }
+      ],
+      "query": "가람 모임은 지금 몇 시야?",
+      "before_indices": [
+        3,
+        4,
+        5
+      ],
+      "after_indices": [
+        3
+      ],
+      "before_bytes": 366,
+      "after_bytes": 241,
+      "blocks": [
+        {
+          "fact": [
+            "가람",
+            "time"
+          ],
+          "source_indices": [
+            4,
+            5
+          ],
+          "kept_indices": [],
+          "net_delta": 0,
+          "source_cost_before": 125,
+          "source_cost_after": 0,
+          "reachable_sums": 3
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "seq": 0,
+          "id": "typed-0",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "typed-1",
+          "text": "노을 모임 시간은 1시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "typed-2",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "typed-3",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "typed-4",
+          "text": "가람 모임 시간을 1시간 뒤로 옮겨줘."
+        },
+        {
+          "seq": 5,
+          "id": "typed-5",
+          "text": "가람 모임 시간을 1시간 앞으로 옮겨줘."
+        }
+      ],
+      "query": "두 모임의 현재 시간을 알려줘.",
+      "before_indices": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "after_indices": [
+        1,
+        3
+      ],
+      "before_bytes": 429,
+      "after_bytes": 304,
+      "blocks": [
+        {
+          "fact": [
+            "가람",
+            "time"
+          ],
+          "source_indices": [
+            4,
+            5
+          ],
+          "kept_indices": [],
+          "net_delta": 0,
+          "source_cost_before": 125,
+          "source_cost_after": 0,
+          "reachable_sums": 3
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "seq": 0,
+          "id": "typed-0",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "typed-1",
+          "text": "노을 모임 시간은 1시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "typed-2",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "typed-3",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "typed-4",
+          "text": "노을 모임 시간을 1시간 뒤로 옮겨줘."
+        },
+        {
+          "seq": 5,
+          "id": "typed-5",
+          "text": "노을 모임 시간을 1시간 앞으로 옮겨줘."
+        }
+      ],
+      "query": "노을 모임은 지금 몇 시야?",
+      "before_indices": [
+        1,
+        4,
+        5
+      ],
+      "after_indices": [
+        1
+      ],
+      "before_bytes": 366,
+      "after_bytes": 241,
+      "blocks": [
+        {
+          "fact": [
+            "노을",
+            "time"
+          ],
+          "source_indices": [
+            4,
+            5
+          ],
+          "kept_indices": [],
+          "net_delta": 0,
+          "source_cost_before": 125,
+          "source_cost_after": 0,
+          "reachable_sums": 3
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "seq": 0,
+          "id": "typed-0",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 1,
+          "id": "typed-1",
+          "text": "노을 모임 시간은 1시로 확정해줘."
+        },
+        {
+          "seq": 2,
+          "id": "typed-2",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 3,
+          "id": "typed-3",
+          "text": "가람 모임 시간은 0시로 확정해줘."
+        },
+        {
+          "seq": 4,
+          "id": "typed-4",
+          "text": "노을 모임 시간을 1시간 뒤로 옮겨줘."
+        },
+        {
+          "seq": 5,
+          "id": "typed-5",
+          "text": "노을 모임 시간을 1시간 앞으로 옮겨줘."
+        }
+      ],
+      "query": "두 모임의 현재 시간을 알려줘.",
+      "before_indices": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "after_indices": [
+        1,
+        3
+      ],
+      "before_bytes": 429,
+      "after_bytes": 304,
+      "blocks": [
+        {
+          "fact": [
+            "노을",
+            "time"
+          ],
+          "source_indices": [
+            4,
+            5
+          ],
+          "kept_indices": [],
+          "net_delta": 0,
+          "source_cost_before": 125,
+          "source_cost_after": 0,
+          "reachable_sums": 3
+        }
+      ]
+    }
+  ],
+  "limits": "Enumerated algebraic programs with a fixed initial state, not an independently sampled language test; restricted optimality only"
+}

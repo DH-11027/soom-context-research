@@ -1,0 +1,34 @@
+{
+  "scope": "synthetic text-only relation extraction; no operational changes",
+  "created_at_utc": "2026-10-22T07:18:36.544353+00:00",
+  "source_hashes": {
+    "extractor.py": "216b92885cfda81f377af0012b922335884167180cbf6eaab7ce90d29c7e2c7e",
+    "fixtures.py": "39e4548a0bc09cd78d0d57d792a7a3d61bdc7956966515b87eaecedb6ac28855",
+    "evaluate.py": "e624c95173894d54b4234df2f22fbda7c9380ef7ca38f2a0b23a20366b415aa1"
+  },
+  "development_cases": 72,
+  "evaluation_cases_per_split": 288,
+  "methods": [
+    "nearest",
+    "similarity",
+    "selective"
+  ],
+  "selection_policies": [
+    "all",
+    "lexical_only",
+    "nearest",
+    "similarity",
+    "selective",
+    "selective_with_candidates"
+  ],
+  "test_splits": [
+    "heldout",
+    "stress"
+  ],
+  "limitations": [
+    "same author wrote algorithm and all templates",
+    "balanced template variants are not IID observations",
+    "not an LLM or embedding evaluation",
+    "no target quality threshold or deployment eligibility claim"
+  ]
+}

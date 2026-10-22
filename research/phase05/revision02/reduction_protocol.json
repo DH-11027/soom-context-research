@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-10-22T08:26:12.221550+00:00",
+  "trigger": "Observed morphology defect in ../reduction_diagnosis.json; corrected 앞으로 recognition and added non-vacuity assertions",
+  "scope": "Minimum-byte subset of integer shifts in blocks with no other reads/writes of that fact; keep copies and all other barriers",
+  "algorithm": "Exact signed-sum dynamic programming per independent block",
+  "planned_checks": [
+    "Every 4-operator program over 11 operators, 3 questions",
+    "Every shift block of length 1..5 over -2,-1,1,2 versus all subsets",
+    "No joining across an intermediate copy read",
+    "Known operators round-trip as exact intended semantics",
+    "Cancellation must be certified and strictly reduced",
+    "At least one enumerated reduction must occur",
+    "Reuse primary corpus as a posthoc regression, not fresh quality evaluation"
+  ],
+  "limits": "Optimal inside each eligible block only; no global optimum or LLM quality claim; source reparse overhead counted",
+  "hashes": {
+    "reducer.py": "3293f344bf3e251ef749c650e4cc699beca75b34d609a801ba5083408349a5d5",
+    "reduction_study.py": "b0f46352b19694ef3d59c3f3228f210205936980f25fddfd22bf343a0f2401d0",
+    "engine.py": "67163a9f83b11364ffa82be824925d96b8d62a828fd18d18cb3812f869f9d993",
+    "audit.py": "cc6e3870fc1a823f071cfbbc09373f95da0601188858173ddbf3f97d7af58f6e"
+  }
+}

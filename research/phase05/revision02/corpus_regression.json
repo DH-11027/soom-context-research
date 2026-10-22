@@ -1,0 +1,6 @@
+{
+  "mode_query_comparisons": 2688,
+  "all_existing_corpus_outputs_unchanged": true,
+  "reason": "The corpus has no backwards-shift form; the forward/backwards grammar repair is exercised in the new algebraic suite.",
+  "engine_sha256": "67163a9f83b11364ffa82be824925d96b8d62a828fd18d18cb3812f869f9d993"
+}

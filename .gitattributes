@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Preserve the exact historical bytes, including existing line endings.
+research/** -text

@@ -1,0 +1,83 @@
+{
+  "scope": "post-hoc oracle-edge ablation on reused synthetic test fixtures; no generalization claim",
+  "source_study_sha256": "8779b2c7f1a5ff60109bb211aa00d0d2ad0b14683bd4d9359dc9d997fe44c439",
+  "diagnostic_sha256": "a8e2eeab37e85d3b7d6fa3164cc036f28b9389b3377a28ba463fc458db306744",
+  "reports": {
+    "test_same_generator": [
+      {
+        "missing_edge_probability": 0.0,
+        "failures": 0,
+        "cases": 512,
+        "failure_rate": 0.0,
+        "byte_reduction": 0.6748969423675917,
+        "available_true_edges": 109,
+        "retained_true_edges": 109
+      },
+      {
+        "missing_edge_probability": 0.25,
+        "failures": 15,
+        "cases": 512,
+        "failure_rate": 0.029296875,
+        "byte_reduction": 0.6784325410233885,
+        "available_true_edges": 109,
+        "retained_true_edges": 76
+      },
+      {
+        "missing_edge_probability": 0.5,
+        "failures": 28,
+        "cases": 512,
+        "failure_rate": 0.0546875,
+        "byte_reduction": 0.6816056717023093,
+        "available_true_edges": 109,
+        "retained_true_edges": 43
+      },
+      {
+        "missing_edge_probability": 1.0,
+        "failures": 46,
+        "cases": 512,
+        "failure_rate": 0.08984375,
+        "byte_reduction": 0.6856819005609038,
+        "available_true_edges": 109,
+        "retained_true_edges": 0
+      }
+    ],
+    "stress_shifted_generator": [
+      {
+        "missing_edge_probability": 0.0,
+        "failures": 0,
+        "cases": 512,
+        "failure_rate": 0.0,
+        "byte_reduction": 0.5883014937901232,
+        "available_true_edges": 350,
+        "retained_true_edges": 350
+      },
+      {
+        "missing_edge_probability": 0.25,
+        "failures": 55,
+        "cases": 512,
+        "failure_rate": 0.107421875,
+        "byte_reduction": 0.6011253944320956,
+        "available_true_edges": 350,
+        "retained_true_edges": 272
+      },
+      {
+        "missing_edge_probability": 0.5,
+        "failures": 134,
+        "cases": 512,
+        "failure_rate": 0.26171875,
+        "byte_reduction": 0.6192405141995554,
+        "available_true_edges": 350,
+        "retained_true_edges": 168
+      },
+      {
+        "missing_edge_probability": 1.0,
+        "failures": 259,
+        "cases": 512,
+        "failure_rate": 0.505859375,
+        "byte_reduction": 0.6476831486173503,
+        "available_true_edges": 350,
+        "retained_true_edges": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "programs": 6561,
+  "questions_per_program": 3,
+  "concrete_projection_comparisons": 19683,
+  "all_equal": true,
+  "minimum_byte_counterexample": {
+    "selected_by_slice": [
+      0,
+      1,
+      2
+    ],
+    "equivalent_shorter_indices": [
+      0
+    ],
+    "answer": 0,
+    "slice_bytes": 366,
+    "shorter_bytes": 241,
+    "interpretation": "Dependency slicing preserves outputs but is not minimum-byte optimization. Removing a single relative update alone would change the answer."
+  },
+  "frozen_hashes_match": true,
+  "limits": "Finite controlled operators; separate concrete evaluator by same author. Does not certify natural-language parsing."
+}

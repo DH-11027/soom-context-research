@@ -1,0 +1,4734 @@
+{
+  "scope": "post-hoc author label audit with paired original and revised metrics; not a new held-out evaluation",
+  "source_policy_hashes_unchanged": true,
+  "source_hashes": {
+    "extractor.py": "216b92885cfda81f377af0012b922335884167180cbf6eaab7ce90d29c7e2c7e",
+    "fixtures.py": "39e4548a0bc09cd78d0d57d792a7a3d61bdc7956966515b87eaecedb6ac28855",
+    "evaluate.py": "e624c95173894d54b4234df2f22fbda7c9380ef7ca38f2a0b23a20366b415aa1"
+  },
+  "audit_sha256": "aafb832257becf9dddd74bc66c120e84031e98d37c57404d97528a4ce3858edb",
+  "reports": {
+    "heldout": {
+      "label_changes": [
+        {
+          "id": "heldout-explicit_task-0",
+          "family": "explicit_task",
+          "question": "산호 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m86beb59337db4f43"
+            ],
+            [
+              "mf9463b74c8366255"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mf9463b74c8366255"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-1",
+          "family": "explicit_task",
+          "question": "산호 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m084d1459a95b3cb4"
+            ],
+            [
+              "md82851dc31c40225"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md82851dc31c40225"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-2",
+          "family": "explicit_task",
+          "question": "무지개 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m9901b564a256e637"
+            ],
+            [
+              "m7348c2f405d2f83e"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7348c2f405d2f83e"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-3",
+          "family": "explicit_task",
+          "question": "은하 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mcc62679eefdff01e"
+            ],
+            [
+              "m3641451960ffc1cb"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m3641451960ffc1cb"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-4",
+          "family": "explicit_task",
+          "question": "무지개 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m3b75b4e071b5de2d"
+            ],
+            [
+              "m545c12c1a44bcb7c"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m545c12c1a44bcb7c"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-5",
+          "family": "explicit_task",
+          "question": "은하 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m511281d0478464a7"
+            ],
+            [
+              "m6d20cbf16a0a2371"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m6d20cbf16a0a2371"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-6",
+          "family": "explicit_task",
+          "question": "산호 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m3ba491e2064a4f90"
+            ],
+            [
+              "m3db6d69d0a55f3eb"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m3db6d69d0a55f3eb"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-7",
+          "family": "explicit_task",
+          "question": "호수 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m3b66a5920415c276"
+            ],
+            [
+              "m1d59700b851b552d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m1d59700b851b552d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-8",
+          "family": "explicit_task",
+          "question": "산호 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m63b64b02ebebc29d"
+            ],
+            [
+              "m331282060cf43bd1"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m331282060cf43bd1"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-9",
+          "family": "explicit_task",
+          "question": "단풍 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7727e3ee96615589"
+            ],
+            [
+              "m9cb64e61075be675"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9cb64e61075be675"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-10",
+          "family": "explicit_task",
+          "question": "새벽 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mbb9a91a4bb68ea85"
+            ],
+            [
+              "m05d2b69cfc3a1d85"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m05d2b69cfc3a1d85"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-11",
+          "family": "explicit_task",
+          "question": "무지개 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m0796eb9677a23957"
+            ],
+            [
+              "m457148f586a028bd"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m457148f586a028bd"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-12",
+          "family": "explicit_task",
+          "question": "호수 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "ma664be75bd87dfde"
+            ],
+            [
+              "ma6c99e3ce508a618"
+            ]
+          ],
+          "revised_required": [
+            [
+              "ma6c99e3ce508a618"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-13",
+          "family": "explicit_task",
+          "question": "은하 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m5ce6e52a64837d1f"
+            ],
+            [
+              "me2f467c5d692aedf"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me2f467c5d692aedf"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-14",
+          "family": "explicit_task",
+          "question": "무지개 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m22b450f348e4d278"
+            ],
+            [
+              "m265a2fc0ef880dd5"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m265a2fc0ef880dd5"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-15",
+          "family": "explicit_task",
+          "question": "단풍 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7357c4897b97028d"
+            ],
+            [
+              "m56b17ac5ef324a3b"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m56b17ac5ef324a3b"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-16",
+          "family": "explicit_task",
+          "question": "호수 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m090bab062252881f"
+            ],
+            [
+              "m9fbb04a2eb9af696"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9fbb04a2eb9af696"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-17",
+          "family": "explicit_task",
+          "question": "새벽 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m058b1daec8b7cee1"
+            ],
+            [
+              "m35d78ec29983adea"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m35d78ec29983adea"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-18",
+          "family": "explicit_task",
+          "question": "은하 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m9b20c7c3197d6b06"
+            ],
+            [
+              "m8e3f2b65de5e1439"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m8e3f2b65de5e1439"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-19",
+          "family": "explicit_task",
+          "question": "무지개 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m2d5ac087a974a7f6"
+            ],
+            [
+              "m5e4b8fdab6877aae"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m5e4b8fdab6877aae"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-20",
+          "family": "explicit_task",
+          "question": "단풍 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m1ff11292cbb5edc7"
+            ],
+            [
+              "m86f957589d9b508d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m86f957589d9b508d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-21",
+          "family": "explicit_task",
+          "question": "새벽 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m70c9a126f8f0154b"
+            ],
+            [
+              "m91f83a3869fa15fd"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m91f83a3869fa15fd"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-22",
+          "family": "explicit_task",
+          "question": "호수 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m31493141f6186e33"
+            ],
+            [
+              "me14a439b9d4fec23"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me14a439b9d4fec23"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-23",
+          "family": "explicit_task",
+          "question": "산호 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "me4fd6eefecc921ad"
+            ],
+            [
+              "mecc73d5568dcaa4b"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mecc73d5568dcaa4b"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-24",
+          "family": "explicit_task",
+          "question": "산호 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "me8b1989ccb1bdcac"
+            ],
+            [
+              "mce267488fb0fab0e"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mce267488fb0fab0e"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-25",
+          "family": "explicit_task",
+          "question": "단풍 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m338ec5deddee1cf1"
+            ],
+            [
+              "m9d04b5b27cd65e5d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9d04b5b27cd65e5d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-26",
+          "family": "explicit_task",
+          "question": "은하 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mc9f4491839b9d94a"
+            ],
+            [
+              "me707f5be83e548c1"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me707f5be83e548c1"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-27",
+          "family": "explicit_task",
+          "question": "산호 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf6d7bbec6025edec"
+            ],
+            [
+              "me83b3ebe5b2ad235"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me83b3ebe5b2ad235"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-28",
+          "family": "explicit_task",
+          "question": "새벽 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "me4a045918195a6a7"
+            ],
+            [
+              "m28e8f771b262d73a"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m28e8f771b262d73a"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-29",
+          "family": "explicit_task",
+          "question": "단풍 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m60b77b41d11e10e6"
+            ],
+            [
+              "m358968f72ceac91b"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m358968f72ceac91b"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-30",
+          "family": "explicit_task",
+          "question": "단풍 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mb6c35f53bc7481ba"
+            ],
+            [
+              "m15775a5dbdd32f08"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m15775a5dbdd32f08"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-explicit_task-31",
+          "family": "explicit_task",
+          "question": "단풍 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mbd5ac1b0f5cd464e"
+            ],
+            [
+              "m60d8e8339a8ae3ce"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m60d8e8339a8ae3ce"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-0",
+          "family": "novel_expression",
+          "question": "새벽 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m02ae75ebe73ab827"
+            ],
+            [
+              "m011bb8625e06182d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m011bb8625e06182d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-1",
+          "family": "novel_expression",
+          "question": "단풍 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf88c90908cf96272"
+            ],
+            [
+              "m93db396fa764b52d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m93db396fa764b52d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-2",
+          "family": "novel_expression",
+          "question": "단풍 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mff533ff314a36907"
+            ],
+            [
+              "me823dab132e90599"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me823dab132e90599"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-3",
+          "family": "novel_expression",
+          "question": "새벽 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m69b6725d2b31baaa"
+            ],
+            [
+              "mfc839b5550c868ea"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mfc839b5550c868ea"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-4",
+          "family": "novel_expression",
+          "question": "은하 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m3655969be091981f"
+            ],
+            [
+              "m3f9adaa882d6d094"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m3f9adaa882d6d094"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-5",
+          "family": "novel_expression",
+          "question": "은하 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m10ba398add25e5ef"
+            ],
+            [
+              "m1c3a86e91d4d11fe"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m1c3a86e91d4d11fe"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-6",
+          "family": "novel_expression",
+          "question": "은하 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mfdae5e1cdc3b49e6"
+            ],
+            [
+              "m2ef5153b9b75426c"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m2ef5153b9b75426c"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-7",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m29fafac43ec1e86a"
+            ],
+            [
+              "m4761a306246fafdd"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m4761a306246fafdd"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-8",
+          "family": "novel_expression",
+          "question": "단풍 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m415a0a68079ea67c"
+            ],
+            [
+              "m077fe27a3dfe5920"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m077fe27a3dfe5920"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-9",
+          "family": "novel_expression",
+          "question": "단풍 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m6f1748f785c67fa0"
+            ],
+            [
+              "ma34fd43fbba0276d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "ma34fd43fbba0276d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-10",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m09d15684e4e84d94"
+            ],
+            [
+              "m750a1fb0a8ee71f0"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m750a1fb0a8ee71f0"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-11",
+          "family": "novel_expression",
+          "question": "새벽 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m09a247b08a84816f"
+            ],
+            [
+              "mba07ba4e567359ff"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mba07ba4e567359ff"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-12",
+          "family": "novel_expression",
+          "question": "은하 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "me4e6656eec688cc7"
+            ],
+            [
+              "m5e66626d707c26f3"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m5e66626d707c26f3"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-13",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m84b8f8007e4b1901"
+            ],
+            [
+              "m288d79b0bb77eea1"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m288d79b0bb77eea1"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-14",
+          "family": "novel_expression",
+          "question": "새벽 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m987fb048dee38428"
+            ],
+            [
+              "m79e34dc90f871042"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m79e34dc90f871042"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-15",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m0ae5fdc88da01fa1"
+            ],
+            [
+              "me10875e392f6211a"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me10875e392f6211a"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-16",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "ma58a2d1be86cff14"
+            ],
+            [
+              "m7206c70d1b881798"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7206c70d1b881798"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-17",
+          "family": "novel_expression",
+          "question": "은하 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m385d665275af5531"
+            ],
+            [
+              "m132addb899ae9649"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m132addb899ae9649"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-18",
+          "family": "novel_expression",
+          "question": "호수 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m9eeeb35e0ce612b9"
+            ],
+            [
+              "mc5d69f4c3bd948f6"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mc5d69f4c3bd948f6"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-19",
+          "family": "novel_expression",
+          "question": "산호 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m8d1d91c497800669"
+            ],
+            [
+              "mbdbdb64594ea8886"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mbdbdb64594ea8886"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-20",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7f4fc67b7d1c8a3d"
+            ],
+            [
+              "m516746354aed92df"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m516746354aed92df"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-21",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m44e09fc504b66e2b"
+            ],
+            [
+              "m66bc66a67e152eff"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m66bc66a67e152eff"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-22",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "maa328d92dca9be9a"
+            ],
+            [
+              "m16e9d94b7529cd35"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m16e9d94b7529cd35"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-23",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mb3cbe261ac9c5c33"
+            ],
+            [
+              "m8328ab652d4588c7"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m8328ab652d4588c7"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-24",
+          "family": "novel_expression",
+          "question": "새벽 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mfebf05ef9003991a"
+            ],
+            [
+              "mefee39041234d492"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mefee39041234d492"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-25",
+          "family": "novel_expression",
+          "question": "산호 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m859559fd9e101b46"
+            ],
+            [
+              "mdea30ed69e780cf8"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mdea30ed69e780cf8"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-26",
+          "family": "novel_expression",
+          "question": "무지개 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf9868ae1fa623846"
+            ],
+            [
+              "m90404936467a1221"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m90404936467a1221"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-27",
+          "family": "novel_expression",
+          "question": "산호 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m67946ba38189e2f5"
+            ],
+            [
+              "m391f8f8b7a00901c"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m391f8f8b7a00901c"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-28",
+          "family": "novel_expression",
+          "question": "은하 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m8f9c698b4c6a85fc"
+            ],
+            [
+              "m57513188f31e4512"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m57513188f31e4512"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-29",
+          "family": "novel_expression",
+          "question": "은하 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m69cbea80126beffb"
+            ],
+            [
+              "m91ea639a5ec45132"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m91ea639a5ec45132"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-30",
+          "family": "novel_expression",
+          "question": "산호 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mc112367dcc7925c1"
+            ],
+            [
+              "md21181d37ba6589d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md21181d37ba6589d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-novel_expression-31",
+          "family": "novel_expression",
+          "question": "호수 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mdae4eeb6708caf56"
+            ],
+            [
+              "m2e107c4e4f32c1a1"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m2e107c4e4f32c1a1"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-0",
+          "family": "cancelled",
+          "question": "단풍 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m40355087f74285d5"
+            ],
+            [
+              "ma7622b2c7f97625e"
+            ]
+          ],
+          "revised_required": [
+            [
+              "ma7622b2c7f97625e"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-1",
+          "family": "cancelled",
+          "question": "새벽 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m6d8cd41026d3bc8c"
+            ],
+            [
+              "m249370f4acc20735"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m249370f4acc20735"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-2",
+          "family": "cancelled",
+          "question": "은하 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m0afda945398ab32a"
+            ],
+            [
+              "md11b713734d48fd2"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md11b713734d48fd2"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-3",
+          "family": "cancelled",
+          "question": "은하 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "ma281788fcf54bb33"
+            ],
+            [
+              "m7e76aa178b76b4ea"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7e76aa178b76b4ea"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-4",
+          "family": "cancelled",
+          "question": "호수 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m6d1bd521d9a1d5f3"
+            ],
+            [
+              "me3419eae56ad58d3"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me3419eae56ad58d3"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-5",
+          "family": "cancelled",
+          "question": "단풍 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m86755ef4159e318e"
+            ],
+            [
+              "m3934ac398b01df24"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m3934ac398b01df24"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-6",
+          "family": "cancelled",
+          "question": "무지개 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf89bc283b4ef9adb"
+            ],
+            [
+              "m59dbfc26e5288d7f"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m59dbfc26e5288d7f"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-7",
+          "family": "cancelled",
+          "question": "새벽 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m786a6c286e04d0c8"
+            ],
+            [
+              "m7060c1a214fe027c"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7060c1a214fe027c"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-8",
+          "family": "cancelled",
+          "question": "새벽 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "ma79914e42beb5624"
+            ],
+            [
+              "m4ceeaffbdc531beb"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m4ceeaffbdc531beb"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-9",
+          "family": "cancelled",
+          "question": "호수 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m484990ee4da885d9"
+            ],
+            [
+              "mf2da60fcc5aba5c8"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mf2da60fcc5aba5c8"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-10",
+          "family": "cancelled",
+          "question": "새벽 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m4d9cbc28bc154b3b"
+            ],
+            [
+              "m203c225654c47bbf"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m203c225654c47bbf"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-11",
+          "family": "cancelled",
+          "question": "호수 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m34ab5d9ab32f443d"
+            ],
+            [
+              "m8600533e4134f62b"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m8600533e4134f62b"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-12",
+          "family": "cancelled",
+          "question": "단풍 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mafd41c02792baa24"
+            ],
+            [
+              "mc479ab71c549a211"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mc479ab71c549a211"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-13",
+          "family": "cancelled",
+          "question": "무지개 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m11519d62fcb74b23"
+            ],
+            [
+              "m29017b87e632373a"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m29017b87e632373a"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-14",
+          "family": "cancelled",
+          "question": "산호 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mce261a86a1e6532b"
+            ],
+            [
+              "mf3f4d81e6d6f83e9"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mf3f4d81e6d6f83e9"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-15",
+          "family": "cancelled",
+          "question": "산호 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m31e7ed9c19e354d6"
+            ],
+            [
+              "m225c2e7d1637517e"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m225c2e7d1637517e"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-16",
+          "family": "cancelled",
+          "question": "은하 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m9f7839e9be157b0c"
+            ],
+            [
+              "mce365c3b9952c405"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mce365c3b9952c405"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-17",
+          "family": "cancelled",
+          "question": "은하 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m0d0d0c54b6aa63ec"
+            ],
+            [
+              "mb298cdc6d05ea92f"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mb298cdc6d05ea92f"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-18",
+          "family": "cancelled",
+          "question": "새벽 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m974406286d294e91"
+            ],
+            [
+              "m802788d0962f75ae"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m802788d0962f75ae"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-19",
+          "family": "cancelled",
+          "question": "새벽 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m8cdf602d5716fe82"
+            ],
+            [
+              "ma4d629a0163d0b04"
+            ]
+          ],
+          "revised_required": [
+            [
+              "ma4d629a0163d0b04"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-20",
+          "family": "cancelled",
+          "question": "산호 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m86d432bf4ca345f4"
+            ],
+            [
+              "m8f98c56b7d6060c1"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m8f98c56b7d6060c1"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-21",
+          "family": "cancelled",
+          "question": "단풍 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7aaa92529a8768cc"
+            ],
+            [
+              "mf3ea8b632cc3c9e9"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mf3ea8b632cc3c9e9"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-22",
+          "family": "cancelled",
+          "question": "은하 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m6545c3bc18bb9e4f"
+            ],
+            [
+              "md0611ea9e2eac0b2"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md0611ea9e2eac0b2"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-23",
+          "family": "cancelled",
+          "question": "산호 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m4fc6e4b24c9fc200"
+            ],
+            [
+              "m05e6011958e2859b"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m05e6011958e2859b"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-24",
+          "family": "cancelled",
+          "question": "산호 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7a17b2d3e16fdd6e"
+            ],
+            [
+              "m49b38d1ac804c9ed"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m49b38d1ac804c9ed"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-25",
+          "family": "cancelled",
+          "question": "새벽 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m09b1a5f846631e07"
+            ],
+            [
+              "mcf89512e3cae97ed"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mcf89512e3cae97ed"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-26",
+          "family": "cancelled",
+          "question": "새벽 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m82ed5ddb9b50f8d8"
+            ],
+            [
+              "ma530d1e1757e9027"
+            ]
+          ],
+          "revised_required": [
+            [
+              "ma530d1e1757e9027"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-27",
+          "family": "cancelled",
+          "question": "호수 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m4dab66bc568e63c1"
+            ],
+            [
+              "m85bc123be8b94c0a"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m85bc123be8b94c0a"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-28",
+          "family": "cancelled",
+          "question": "호수 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mbea716fe44676690"
+            ],
+            [
+              "m8f2d5a159424d821"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m8f2d5a159424d821"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-29",
+          "family": "cancelled",
+          "question": "단풍 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m82d0142ddf68c1a4"
+            ],
+            [
+              "m9134765e69bdc18d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9134765e69bdc18d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-30",
+          "family": "cancelled",
+          "question": "산호 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mc0710589d0ea3be6"
+            ],
+            [
+              "mfa9e150967809e84"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mfa9e150967809e84"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "heldout-cancelled-31",
+          "family": "cancelled",
+          "question": "산호 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m8dc1711b88fbc10e"
+            ],
+            [
+              "m6a243a27085c24df"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m6a243a27085c24df"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        }
+      ],
+      "policies": {
+        "all": {
+          "cases": 288,
+          "original_trace_failures": 0,
+          "revised_evidence_failures": 0,
+          "byte_reduction": 0.0,
+          "changed_to_pass": [],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 0
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 0
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 0
+            }
+          }
+        },
+        "lexical_only": {
+          "cases": 288,
+          "original_trace_failures": 224,
+          "revised_evidence_failures": 128,
+          "byte_reduction": 0.5617369455271719,
+          "changed_to_pass": [
+            "heldout-explicit_task-0",
+            "heldout-explicit_task-1",
+            "heldout-explicit_task-2",
+            "heldout-explicit_task-3",
+            "heldout-explicit_task-4",
+            "heldout-explicit_task-5",
+            "heldout-explicit_task-6",
+            "heldout-explicit_task-7",
+            "heldout-explicit_task-8",
+            "heldout-explicit_task-9",
+            "heldout-explicit_task-10",
+            "heldout-explicit_task-11",
+            "heldout-explicit_task-12",
+            "heldout-explicit_task-13",
+            "heldout-explicit_task-14",
+            "heldout-explicit_task-15",
+            "heldout-explicit_task-16",
+            "heldout-explicit_task-17",
+            "heldout-explicit_task-18",
+            "heldout-explicit_task-19",
+            "heldout-explicit_task-20",
+            "heldout-explicit_task-21",
+            "heldout-explicit_task-22",
+            "heldout-explicit_task-23",
+            "heldout-explicit_task-24",
+            "heldout-explicit_task-25",
+            "heldout-explicit_task-26",
+            "heldout-explicit_task-27",
+            "heldout-explicit_task-28",
+            "heldout-explicit_task-29",
+            "heldout-explicit_task-30",
+            "heldout-explicit_task-31",
+            "heldout-novel_expression-0",
+            "heldout-novel_expression-1",
+            "heldout-novel_expression-2",
+            "heldout-novel_expression-3",
+            "heldout-novel_expression-4",
+            "heldout-novel_expression-5",
+            "heldout-novel_expression-6",
+            "heldout-novel_expression-7",
+            "heldout-novel_expression-8",
+            "heldout-novel_expression-9",
+            "heldout-novel_expression-10",
+            "heldout-novel_expression-11",
+            "heldout-novel_expression-12",
+            "heldout-novel_expression-13",
+            "heldout-novel_expression-14",
+            "heldout-novel_expression-15",
+            "heldout-novel_expression-16",
+            "heldout-novel_expression-17",
+            "heldout-novel_expression-18",
+            "heldout-novel_expression-19",
+            "heldout-novel_expression-20",
+            "heldout-novel_expression-21",
+            "heldout-novel_expression-22",
+            "heldout-novel_expression-23",
+            "heldout-novel_expression-24",
+            "heldout-novel_expression-25",
+            "heldout-novel_expression-26",
+            "heldout-novel_expression-27",
+            "heldout-novel_expression-28",
+            "heldout-novel_expression-29",
+            "heldout-novel_expression-30",
+            "heldout-novel_expression-31",
+            "heldout-cancelled-0",
+            "heldout-cancelled-1",
+            "heldout-cancelled-2",
+            "heldout-cancelled-3",
+            "heldout-cancelled-4",
+            "heldout-cancelled-5",
+            "heldout-cancelled-6",
+            "heldout-cancelled-7",
+            "heldout-cancelled-8",
+            "heldout-cancelled-9",
+            "heldout-cancelled-10",
+            "heldout-cancelled-11",
+            "heldout-cancelled-12",
+            "heldout-cancelled-13",
+            "heldout-cancelled-14",
+            "heldout-cancelled-15",
+            "heldout-cancelled-16",
+            "heldout-cancelled-17",
+            "heldout-cancelled-18",
+            "heldout-cancelled-19",
+            "heldout-cancelled-20",
+            "heldout-cancelled-21",
+            "heldout-cancelled-22",
+            "heldout-cancelled-23",
+            "heldout-cancelled-24",
+            "heldout-cancelled-25",
+            "heldout-cancelled-26",
+            "heldout-cancelled-27",
+            "heldout-cancelled-28",
+            "heldout-cancelled-29",
+            "heldout-cancelled-30",
+            "heldout-cancelled-31"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 32
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 0
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 32
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 32
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 32
+            }
+          }
+        },
+        "nearest": {
+          "cases": 288,
+          "original_trace_failures": 160,
+          "revised_evidence_failures": 64,
+          "byte_reduction": 0.4466192056180137,
+          "changed_to_pass": [
+            "heldout-explicit_task-0",
+            "heldout-explicit_task-1",
+            "heldout-explicit_task-2",
+            "heldout-explicit_task-3",
+            "heldout-explicit_task-4",
+            "heldout-explicit_task-5",
+            "heldout-explicit_task-6",
+            "heldout-explicit_task-7",
+            "heldout-explicit_task-8",
+            "heldout-explicit_task-9",
+            "heldout-explicit_task-10",
+            "heldout-explicit_task-11",
+            "heldout-explicit_task-12",
+            "heldout-explicit_task-13",
+            "heldout-explicit_task-14",
+            "heldout-explicit_task-15",
+            "heldout-explicit_task-16",
+            "heldout-explicit_task-17",
+            "heldout-explicit_task-18",
+            "heldout-explicit_task-19",
+            "heldout-explicit_task-20",
+            "heldout-explicit_task-21",
+            "heldout-explicit_task-22",
+            "heldout-explicit_task-23",
+            "heldout-explicit_task-24",
+            "heldout-explicit_task-25",
+            "heldout-explicit_task-26",
+            "heldout-explicit_task-27",
+            "heldout-explicit_task-28",
+            "heldout-explicit_task-29",
+            "heldout-explicit_task-30",
+            "heldout-explicit_task-31",
+            "heldout-novel_expression-0",
+            "heldout-novel_expression-1",
+            "heldout-novel_expression-2",
+            "heldout-novel_expression-3",
+            "heldout-novel_expression-4",
+            "heldout-novel_expression-5",
+            "heldout-novel_expression-6",
+            "heldout-novel_expression-7",
+            "heldout-novel_expression-8",
+            "heldout-novel_expression-9",
+            "heldout-novel_expression-10",
+            "heldout-novel_expression-11",
+            "heldout-novel_expression-12",
+            "heldout-novel_expression-13",
+            "heldout-novel_expression-14",
+            "heldout-novel_expression-15",
+            "heldout-novel_expression-16",
+            "heldout-novel_expression-17",
+            "heldout-novel_expression-18",
+            "heldout-novel_expression-19",
+            "heldout-novel_expression-20",
+            "heldout-novel_expression-21",
+            "heldout-novel_expression-22",
+            "heldout-novel_expression-23",
+            "heldout-novel_expression-24",
+            "heldout-novel_expression-25",
+            "heldout-novel_expression-26",
+            "heldout-novel_expression-27",
+            "heldout-novel_expression-28",
+            "heldout-novel_expression-29",
+            "heldout-novel_expression-30",
+            "heldout-novel_expression-31",
+            "heldout-cancelled-0",
+            "heldout-cancelled-1",
+            "heldout-cancelled-2",
+            "heldout-cancelled-3",
+            "heldout-cancelled-4",
+            "heldout-cancelled-5",
+            "heldout-cancelled-6",
+            "heldout-cancelled-7",
+            "heldout-cancelled-8",
+            "heldout-cancelled-9",
+            "heldout-cancelled-10",
+            "heldout-cancelled-11",
+            "heldout-cancelled-12",
+            "heldout-cancelled-13",
+            "heldout-cancelled-14",
+            "heldout-cancelled-15",
+            "heldout-cancelled-16",
+            "heldout-cancelled-17",
+            "heldout-cancelled-18",
+            "heldout-cancelled-19",
+            "heldout-cancelled-20",
+            "heldout-cancelled-21",
+            "heldout-cancelled-22",
+            "heldout-cancelled-23",
+            "heldout-cancelled-24",
+            "heldout-cancelled-25",
+            "heldout-cancelled-26",
+            "heldout-cancelled-27",
+            "heldout-cancelled-28",
+            "heldout-cancelled-29",
+            "heldout-cancelled-30",
+            "heldout-cancelled-31"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 0
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 0
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 32
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 32
+            }
+          }
+        },
+        "similarity": {
+          "cases": 288,
+          "original_trace_failures": 96,
+          "revised_evidence_failures": 64,
+          "byte_reduction": 0.45627677737332084,
+          "changed_to_pass": [
+            "heldout-novel_expression-0",
+            "heldout-novel_expression-1",
+            "heldout-novel_expression-2",
+            "heldout-novel_expression-3",
+            "heldout-novel_expression-4",
+            "heldout-novel_expression-5",
+            "heldout-novel_expression-6",
+            "heldout-novel_expression-7",
+            "heldout-novel_expression-8",
+            "heldout-novel_expression-9",
+            "heldout-novel_expression-10",
+            "heldout-novel_expression-11",
+            "heldout-novel_expression-12",
+            "heldout-novel_expression-13",
+            "heldout-novel_expression-14",
+            "heldout-novel_expression-15",
+            "heldout-novel_expression-16",
+            "heldout-novel_expression-17",
+            "heldout-novel_expression-18",
+            "heldout-novel_expression-19",
+            "heldout-novel_expression-20",
+            "heldout-novel_expression-21",
+            "heldout-novel_expression-22",
+            "heldout-novel_expression-23",
+            "heldout-novel_expression-24",
+            "heldout-novel_expression-25",
+            "heldout-novel_expression-26",
+            "heldout-novel_expression-27",
+            "heldout-novel_expression-28",
+            "heldout-novel_expression-29",
+            "heldout-novel_expression-30",
+            "heldout-novel_expression-31"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 0
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 0
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 32
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 32
+            }
+          }
+        },
+        "selective": {
+          "cases": 288,
+          "original_trace_failures": 96,
+          "revised_evidence_failures": 64,
+          "byte_reduction": 0.4887929645974938,
+          "changed_to_pass": [
+            "heldout-novel_expression-0",
+            "heldout-novel_expression-1",
+            "heldout-novel_expression-2",
+            "heldout-novel_expression-3",
+            "heldout-novel_expression-4",
+            "heldout-novel_expression-5",
+            "heldout-novel_expression-6",
+            "heldout-novel_expression-7",
+            "heldout-novel_expression-8",
+            "heldout-novel_expression-9",
+            "heldout-novel_expression-10",
+            "heldout-novel_expression-11",
+            "heldout-novel_expression-12",
+            "heldout-novel_expression-13",
+            "heldout-novel_expression-14",
+            "heldout-novel_expression-15",
+            "heldout-novel_expression-16",
+            "heldout-novel_expression-17",
+            "heldout-novel_expression-18",
+            "heldout-novel_expression-19",
+            "heldout-novel_expression-20",
+            "heldout-novel_expression-21",
+            "heldout-novel_expression-22",
+            "heldout-novel_expression-23",
+            "heldout-novel_expression-24",
+            "heldout-novel_expression-25",
+            "heldout-novel_expression-26",
+            "heldout-novel_expression-27",
+            "heldout-novel_expression-28",
+            "heldout-novel_expression-29",
+            "heldout-novel_expression-30",
+            "heldout-novel_expression-31"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 0
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 0
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 32
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 32
+            }
+          }
+        },
+        "selective_with_candidates": {
+          "cases": 288,
+          "original_trace_failures": 32,
+          "revised_evidence_failures": 0,
+          "byte_reduction": 0.4209258125825468,
+          "changed_to_pass": [
+            "heldout-novel_expression-0",
+            "heldout-novel_expression-1",
+            "heldout-novel_expression-2",
+            "heldout-novel_expression-3",
+            "heldout-novel_expression-4",
+            "heldout-novel_expression-5",
+            "heldout-novel_expression-6",
+            "heldout-novel_expression-7",
+            "heldout-novel_expression-8",
+            "heldout-novel_expression-9",
+            "heldout-novel_expression-10",
+            "heldout-novel_expression-11",
+            "heldout-novel_expression-12",
+            "heldout-novel_expression-13",
+            "heldout-novel_expression-14",
+            "heldout-novel_expression-15",
+            "heldout-novel_expression-16",
+            "heldout-novel_expression-17",
+            "heldout-novel_expression-18",
+            "heldout-novel_expression-19",
+            "heldout-novel_expression-20",
+            "heldout-novel_expression-21",
+            "heldout-novel_expression-22",
+            "heldout-novel_expression-23",
+            "heldout-novel_expression-24",
+            "heldout-novel_expression-25",
+            "heldout-novel_expression-26",
+            "heldout-novel_expression-27",
+            "heldout-novel_expression-28",
+            "heldout-novel_expression-29",
+            "heldout-novel_expression-30",
+            "heldout-novel_expression-31"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 0
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 0
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 0
+            }
+          }
+        }
+      }
+    },
+    "stress": {
+      "label_changes": [
+        {
+          "id": "stress-explicit_task-0",
+          "family": "explicit_task",
+          "question": "달무리 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m3ffff33b4975f8f7"
+            ],
+            [
+              "ma170794db1a8ecc0"
+            ]
+          ],
+          "revised_required": [
+            [
+              "ma170794db1a8ecc0"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-1",
+          "family": "explicit_task",
+          "question": "하늬 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m3420723906269c1b"
+            ],
+            [
+              "m25ecf121bfbbe6f7"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m25ecf121bfbbe6f7"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-2",
+          "family": "explicit_task",
+          "question": "초록 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf9e6668fe086069a"
+            ],
+            [
+              "m8567aea48d2da8eb"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m8567aea48d2da8eb"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-3",
+          "family": "explicit_task",
+          "question": "노을 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m8b2baff8b327e18b"
+            ],
+            [
+              "mb77811fd8e3d98c0"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mb77811fd8e3d98c0"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-4",
+          "family": "explicit_task",
+          "question": "노을 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m5081ed77ff795f27"
+            ],
+            [
+              "m80613b8b154f39fb"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m80613b8b154f39fb"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-5",
+          "family": "explicit_task",
+          "question": "노을 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m4ddd5b9f79f84e77"
+            ],
+            [
+              "m207c29d35b9028b5"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m207c29d35b9028b5"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-6",
+          "family": "explicit_task",
+          "question": "초록 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m58a6f6bbc8bc2d4d"
+            ],
+            [
+              "m465f52d1a45c81ef"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m465f52d1a45c81ef"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-7",
+          "family": "explicit_task",
+          "question": "솔빛 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "md34ee12f669f521e"
+            ],
+            [
+              "m70ac1e06c434fea0"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m70ac1e06c434fea0"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-8",
+          "family": "explicit_task",
+          "question": "달무리 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m676b60d15ddaf4e1"
+            ],
+            [
+              "m446182cc76c2ebbf"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m446182cc76c2ebbf"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-9",
+          "family": "explicit_task",
+          "question": "하늬 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mfac6a2904bf42065"
+            ],
+            [
+              "med76d183a4bb6549"
+            ]
+          ],
+          "revised_required": [
+            [
+              "med76d183a4bb6549"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-10",
+          "family": "explicit_task",
+          "question": "들꽃 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m926e072646099b95"
+            ],
+            [
+              "m7f327ac0a398865f"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7f327ac0a398865f"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-11",
+          "family": "explicit_task",
+          "question": "하늬 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mce8b39505de3ba36"
+            ],
+            [
+              "m1e98991b8755e903"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m1e98991b8755e903"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-12",
+          "family": "explicit_task",
+          "question": "솔빛 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m5bf62d58e2d62aa1"
+            ],
+            [
+              "m6518408fae8e1714"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m6518408fae8e1714"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-13",
+          "family": "explicit_task",
+          "question": "달무리 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mef0a0d66beb52b74"
+            ],
+            [
+              "m6359a60d08dc95ae"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m6359a60d08dc95ae"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-14",
+          "family": "explicit_task",
+          "question": "솔빛 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m9ec2ebf631576ee8"
+            ],
+            [
+              "m7d51e2446c79a7e1"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7d51e2446c79a7e1"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-15",
+          "family": "explicit_task",
+          "question": "들꽃 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m043a64432bed712a"
+            ],
+            [
+              "mea3bdbc92057c0c9"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mea3bdbc92057c0c9"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-16",
+          "family": "explicit_task",
+          "question": "달무리 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m4f911d2080bcc7c3"
+            ],
+            [
+              "mebe24f56a06b4587"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mebe24f56a06b4587"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-17",
+          "family": "explicit_task",
+          "question": "들꽃 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m68ee962d3a127f23"
+            ],
+            [
+              "mbe7ca5ddd49c6320"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mbe7ca5ddd49c6320"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-18",
+          "family": "explicit_task",
+          "question": "노을 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf1098cea64e7dfc8"
+            ],
+            [
+              "m3e142e3e78f17b58"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m3e142e3e78f17b58"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-19",
+          "family": "explicit_task",
+          "question": "들꽃 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m429ba3f9962f1c80"
+            ],
+            [
+              "mbf150d91b0fc64e3"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mbf150d91b0fc64e3"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-20",
+          "family": "explicit_task",
+          "question": "초록 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m0afb77d016f346f6"
+            ],
+            [
+              "m570c7b0f1f0ef557"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m570c7b0f1f0ef557"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-21",
+          "family": "explicit_task",
+          "question": "노을 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m5e7e5490925b4eb2"
+            ],
+            [
+              "m1fb5605cdccaf7c7"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m1fb5605cdccaf7c7"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-22",
+          "family": "explicit_task",
+          "question": "솔빛 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m57a8f9c886be134a"
+            ],
+            [
+              "ma4388474ca339576"
+            ]
+          ],
+          "revised_required": [
+            [
+              "ma4388474ca339576"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-23",
+          "family": "explicit_task",
+          "question": "하늬 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "me87c6702dedd05f0"
+            ],
+            [
+              "medb6729d51e6be6c"
+            ]
+          ],
+          "revised_required": [
+            [
+              "medb6729d51e6be6c"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-24",
+          "family": "explicit_task",
+          "question": "노을 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf8456825a1bee77b"
+            ],
+            [
+              "m7b557043b7cab32b"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7b557043b7cab32b"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-25",
+          "family": "explicit_task",
+          "question": "달무리 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m4d4c23757b0f4ffc"
+            ],
+            [
+              "m3f7f8ffbda64af27"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m3f7f8ffbda64af27"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-26",
+          "family": "explicit_task",
+          "question": "들꽃 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m20d4003ea74651ed"
+            ],
+            [
+              "mee1f57166998cb6c"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mee1f57166998cb6c"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-27",
+          "family": "explicit_task",
+          "question": "노을 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "ma3c8e8dff99154cd"
+            ],
+            [
+              "maf32818184ea863c"
+            ]
+          ],
+          "revised_required": [
+            [
+              "maf32818184ea863c"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-28",
+          "family": "explicit_task",
+          "question": "달무리 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mee524e5dcadc66c2"
+            ],
+            [
+              "m0a7299400d64b78d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m0a7299400d64b78d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-29",
+          "family": "explicit_task",
+          "question": "들꽃 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf770e020c9766fb5"
+            ],
+            [
+              "m14f43a85efd52c85"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m14f43a85efd52c85"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-30",
+          "family": "explicit_task",
+          "question": "솔빛 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m46047a22b6d06d8b"
+            ],
+            [
+              "mfa6b240122e8f699"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mfa6b240122e8f699"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-explicit_task-31",
+          "family": "explicit_task",
+          "question": "솔빛 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mc1145402d8d0c780"
+            ],
+            [
+              "md78c7a863b22ff45"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md78c7a863b22ff45"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-0",
+          "family": "novel_expression",
+          "question": "들꽃 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m4621faafe1a2255a"
+            ],
+            [
+              "m9ed375fe2aac9214"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9ed375fe2aac9214"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-1",
+          "family": "novel_expression",
+          "question": "하늬 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m8d4b22077ee292e0"
+            ],
+            [
+              "mc5a3353e1e74f2cc"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mc5a3353e1e74f2cc"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-2",
+          "family": "novel_expression",
+          "question": "하늬 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mac51108b2f1e4988"
+            ],
+            [
+              "m77c6867701f2a449"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m77c6867701f2a449"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-3",
+          "family": "novel_expression",
+          "question": "초록 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mf270fcfe0f0d6849"
+            ],
+            [
+              "m483b7f787a230618"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m483b7f787a230618"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-4",
+          "family": "novel_expression",
+          "question": "노을 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mb252bf66ecfb7bc3"
+            ],
+            [
+              "m22dc9edd52363290"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m22dc9edd52363290"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-5",
+          "family": "novel_expression",
+          "question": "노을 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m57c6bdf06cf11627"
+            ],
+            [
+              "m4b70239c170bd746"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m4b70239c170bd746"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-6",
+          "family": "novel_expression",
+          "question": "달무리 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m4424fef023707055"
+            ],
+            [
+              "mc811ffceb3a58263"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mc811ffceb3a58263"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-7",
+          "family": "novel_expression",
+          "question": "달무리 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m016aeb9cb578fdad"
+            ],
+            [
+              "m215e8e7920ff0d84"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m215e8e7920ff0d84"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-8",
+          "family": "novel_expression",
+          "question": "달무리 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m3834b3b2f10d0562"
+            ],
+            [
+              "md2eca0337fd5a9d2"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md2eca0337fd5a9d2"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-9",
+          "family": "novel_expression",
+          "question": "달무리 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m01c28855a3946f27"
+            ],
+            [
+              "m9fcc1cbe7755fd07"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9fcc1cbe7755fd07"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-10",
+          "family": "novel_expression",
+          "question": "솔빛 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m28d8164183f6a350"
+            ],
+            [
+              "m0f50538381f612ad"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m0f50538381f612ad"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-11",
+          "family": "novel_expression",
+          "question": "솔빛 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m664016b5291b33cf"
+            ],
+            [
+              "m42ee837e599c8501"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m42ee837e599c8501"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-12",
+          "family": "novel_expression",
+          "question": "솔빛 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m320d10e670b96416"
+            ],
+            [
+              "m4d89f89b85cb4648"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m4d89f89b85cb4648"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-13",
+          "family": "novel_expression",
+          "question": "노을 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m2002c09ded988dbf"
+            ],
+            [
+              "m2649669f5757612e"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m2649669f5757612e"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-14",
+          "family": "novel_expression",
+          "question": "들꽃 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mc8db579f662c9cde"
+            ],
+            [
+              "m7e0fc08278537e52"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7e0fc08278537e52"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-15",
+          "family": "novel_expression",
+          "question": "솔빛 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m416a9073c1eecca1"
+            ],
+            [
+              "mdb5e444fd7cb21b7"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mdb5e444fd7cb21b7"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-16",
+          "family": "novel_expression",
+          "question": "달무리 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m017befd0bf248731"
+            ],
+            [
+              "md0a9afaf0c985e13"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md0a9afaf0c985e13"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-17",
+          "family": "novel_expression",
+          "question": "노을 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m2eb91c489d6a5eea"
+            ],
+            [
+              "ma9bae2c707074a22"
+            ]
+          ],
+          "revised_required": [
+            [
+              "ma9bae2c707074a22"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-18",
+          "family": "novel_expression",
+          "question": "하늬 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "madf9ca8495781d41"
+            ],
+            [
+              "m2f8b60b9caa7c091"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m2f8b60b9caa7c091"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-19",
+          "family": "novel_expression",
+          "question": "들꽃 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "meeee6c559d013d45"
+            ],
+            [
+              "m7ff38c6cd9f35c09"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7ff38c6cd9f35c09"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-20",
+          "family": "novel_expression",
+          "question": "달무리 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7100e7bd50d43a6e"
+            ],
+            [
+              "m5bfbb7fa56654bd0"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m5bfbb7fa56654bd0"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-21",
+          "family": "novel_expression",
+          "question": "하늬 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mbd12e94670dd3672"
+            ],
+            [
+              "mce3cf35814008644"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mce3cf35814008644"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-22",
+          "family": "novel_expression",
+          "question": "하늬 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m6c5c999474a746ff"
+            ],
+            [
+              "mb3bca0883700abb8"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mb3bca0883700abb8"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-23",
+          "family": "novel_expression",
+          "question": "들꽃 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7ebd6415adcbaa8d"
+            ],
+            [
+              "m7c74a5beb1708b5d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m7c74a5beb1708b5d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-24",
+          "family": "novel_expression",
+          "question": "하늬 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m986a17786bb2a4b2"
+            ],
+            [
+              "m5db7aa5f885bb0c9"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m5db7aa5f885bb0c9"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-25",
+          "family": "novel_expression",
+          "question": "달무리 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mba9d6eae5c4d0ae4"
+            ],
+            [
+              "mf018720879c6a152"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mf018720879c6a152"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-26",
+          "family": "novel_expression",
+          "question": "들꽃 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m6534c9fa450fcf79"
+            ],
+            [
+              "me382ce5a35962ff4"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me382ce5a35962ff4"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-27",
+          "family": "novel_expression",
+          "question": "노을 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m9aa11faad1fecfe4"
+            ],
+            [
+              "m6215a131eec2287a"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m6215a131eec2287a"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-28",
+          "family": "novel_expression",
+          "question": "들꽃 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mfa677279f55f66e4"
+            ],
+            [
+              "mdc06fa1d394226e4"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mdc06fa1d394226e4"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-29",
+          "family": "novel_expression",
+          "question": "하늬 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m1605ec64dbc918f0"
+            ],
+            [
+              "m1ed13389286fc3b5"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m1ed13389286fc3b5"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-30",
+          "family": "novel_expression",
+          "question": "달무리 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "me66cb624ad8cb369"
+            ],
+            [
+              "m5224cbaa6e480cea"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m5224cbaa6e480cea"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-novel_expression-31",
+          "family": "novel_expression",
+          "question": "들꽃 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m1588004c6efcc02d"
+            ],
+            [
+              "m665a646dfd7a9a1f"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m665a646dfd7a9a1f"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-0",
+          "family": "cancelled",
+          "question": "노을 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m89d50fc0468b5559"
+            ],
+            [
+              "mb3516466fac9c332"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mb3516466fac9c332"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-1",
+          "family": "cancelled",
+          "question": "솔빛 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "me4f7b45f7afc8e68"
+            ],
+            [
+              "me2e775bfbbc6f4d7"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me2e775bfbbc6f4d7"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-2",
+          "family": "cancelled",
+          "question": "하늬 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m5b5334ee9080cf48"
+            ],
+            [
+              "m893936e76bbf5e09"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m893936e76bbf5e09"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-3",
+          "family": "cancelled",
+          "question": "솔빛 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "me6508a33e7f5446d"
+            ],
+            [
+              "mf52f9862389ce936"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mf52f9862389ce936"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-4",
+          "family": "cancelled",
+          "question": "달무리 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m989c8ead56cd157d"
+            ],
+            [
+              "mad081b5dc6c7c8e3"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mad081b5dc6c7c8e3"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-5",
+          "family": "cancelled",
+          "question": "하늬 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mad5569a4e70891ad"
+            ],
+            [
+              "m12caec3cd9a55b14"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m12caec3cd9a55b14"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-6",
+          "family": "cancelled",
+          "question": "하늬 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m9670e133586c1d3e"
+            ],
+            [
+              "m9c667ebd881f505f"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9c667ebd881f505f"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-7",
+          "family": "cancelled",
+          "question": "초록 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mb04488a581e3610f"
+            ],
+            [
+              "m5392395b87a1d0af"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m5392395b87a1d0af"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-8",
+          "family": "cancelled",
+          "question": "초록 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m66985bd0dca9203d"
+            ],
+            [
+              "m145ea6da10aeea04"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m145ea6da10aeea04"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-9",
+          "family": "cancelled",
+          "question": "달무리 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m0c96a585c22e619a"
+            ],
+            [
+              "m74f9adcf2ec226d7"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m74f9adcf2ec226d7"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-10",
+          "family": "cancelled",
+          "question": "하늬 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7554324986d881fb"
+            ],
+            [
+              "m24dca1b4494801a8"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m24dca1b4494801a8"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-11",
+          "family": "cancelled",
+          "question": "달무리 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m6abd475a49231c75"
+            ],
+            [
+              "mc00c0ee99e3b8063"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mc00c0ee99e3b8063"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-12",
+          "family": "cancelled",
+          "question": "달무리 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m26a9b9f8913903b0"
+            ],
+            [
+              "m48890440dc1416df"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m48890440dc1416df"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-13",
+          "family": "cancelled",
+          "question": "들꽃 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m81ddbb64c88bb5fc"
+            ],
+            [
+              "maa113e9380018c6b"
+            ]
+          ],
+          "revised_required": [
+            [
+              "maa113e9380018c6b"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-14",
+          "family": "cancelled",
+          "question": "달무리 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mcc3e6ab4ae04c4f5"
+            ],
+            [
+              "md692aa096d87aa22"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md692aa096d87aa22"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-15",
+          "family": "cancelled",
+          "question": "들꽃 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m45d169991336c6b8"
+            ],
+            [
+              "m776c972a1f53f73d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m776c972a1f53f73d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-16",
+          "family": "cancelled",
+          "question": "노을 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m48d07b96662d2d59"
+            ],
+            [
+              "m594f34c53bdd2300"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m594f34c53bdd2300"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-17",
+          "family": "cancelled",
+          "question": "솔빛 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m37088b8cfe69caec"
+            ],
+            [
+              "md39696498b3b2288"
+            ]
+          ],
+          "revised_required": [
+            [
+              "md39696498b3b2288"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-18",
+          "family": "cancelled",
+          "question": "하늬 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m726f09890e48cbf5"
+            ],
+            [
+              "mb78bc15ab0831355"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mb78bc15ab0831355"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-19",
+          "family": "cancelled",
+          "question": "들꽃 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mbd344ed49776a0b9"
+            ],
+            [
+              "mfc32846d83741404"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mfc32846d83741404"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-20",
+          "family": "cancelled",
+          "question": "달무리 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m2553e1fa6fc299a7"
+            ],
+            [
+              "m8a600ff512f1a970"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m8a600ff512f1a970"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-21",
+          "family": "cancelled",
+          "question": "솔빛 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m7787472da33d32bd"
+            ],
+            [
+              "mfce335db327c151d"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mfce335db327c151d"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-22",
+          "family": "cancelled",
+          "question": "하늬 프로젝트 지도의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m01ac1cc10ca2adea"
+            ],
+            [
+              "m1d40edd315cadd4b"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m1d40edd315cadd4b"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-23",
+          "family": "cancelled",
+          "question": "초록 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mb96c678ce258a6a3"
+            ],
+            [
+              "m2cd39cba6ae989ed"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m2cd39cba6ae989ed"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-24",
+          "family": "cancelled",
+          "question": "들꽃 프로젝트 안내문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m6b67a3871cfb45fe"
+            ],
+            [
+              "m15d1b1b632357e82"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m15d1b1b632357e82"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-25",
+          "family": "cancelled",
+          "question": "노을 프로젝트 보고서의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m256632ae3d081009"
+            ],
+            [
+              "m9fd5760af3fff529"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9fd5760af3fff529"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-26",
+          "family": "cancelled",
+          "question": "솔빛 프로젝트 발표문의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "ma8d3354211292977"
+            ],
+            [
+              "mea99bafa6186a2bf"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mea99bafa6186a2bf"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-27",
+          "family": "cancelled",
+          "question": "달무리 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m1a01c00a565dd1eb"
+            ],
+            [
+              "m77db8d5659487f78"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m77db8d5659487f78"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-28",
+          "family": "cancelled",
+          "question": "들꽃 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m0944c13ddb6bc0e9"
+            ],
+            [
+              "me2629c6d1d63ea47"
+            ]
+          ],
+          "revised_required": [
+            [
+              "me2629c6d1d63ea47"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-29",
+          "family": "cancelled",
+          "question": "노을 프로젝트 초대장의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "mcb2e09c852c16707"
+            ],
+            [
+              "m9c54663004cd2c6e"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m9c54663004cd2c6e"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-30",
+          "family": "cancelled",
+          "question": "노을 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "m0bd99bc6afda8439"
+            ],
+            [
+              "mcd9eedac67344cd6"
+            ]
+          ],
+          "revised_required": [
+            [
+              "mcd9eedac67344cd6"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        },
+        {
+          "id": "stress-cancelled-31",
+          "family": "cancelled",
+          "question": "노을 프로젝트 예산표의 진행 상태를 알려줘.",
+          "original_required": [
+            [
+              "ma86c410093e280fb"
+            ],
+            [
+              "m0d7e58280303d8c6"
+            ]
+          ],
+          "revised_required": [
+            [
+              "m0d7e58280303d8c6"
+            ]
+          ],
+          "reason": "Current-status question; the update explicitly identifies the project and document. Original request is unnecessary for this answer."
+        }
+      ],
+      "policies": {
+        "all": {
+          "cases": 288,
+          "original_trace_failures": 0,
+          "revised_evidence_failures": 0,
+          "byte_reduction": 0.0,
+          "changed_to_pass": [],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 0
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 0
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 0
+            }
+          }
+        },
+        "lexical_only": {
+          "cases": 288,
+          "original_trace_failures": 224,
+          "revised_evidence_failures": 160,
+          "byte_reduction": 0.5547138442148732,
+          "changed_to_pass": [
+            "stress-explicit_task-0",
+            "stress-explicit_task-1",
+            "stress-explicit_task-2",
+            "stress-explicit_task-3",
+            "stress-explicit_task-4",
+            "stress-explicit_task-5",
+            "stress-explicit_task-6",
+            "stress-explicit_task-7",
+            "stress-explicit_task-8",
+            "stress-explicit_task-9",
+            "stress-explicit_task-10",
+            "stress-explicit_task-11",
+            "stress-explicit_task-12",
+            "stress-explicit_task-13",
+            "stress-explicit_task-14",
+            "stress-explicit_task-15",
+            "stress-explicit_task-16",
+            "stress-explicit_task-17",
+            "stress-explicit_task-18",
+            "stress-explicit_task-19",
+            "stress-explicit_task-20",
+            "stress-explicit_task-21",
+            "stress-explicit_task-22",
+            "stress-explicit_task-23",
+            "stress-explicit_task-24",
+            "stress-explicit_task-25",
+            "stress-explicit_task-26",
+            "stress-explicit_task-27",
+            "stress-explicit_task-28",
+            "stress-explicit_task-29",
+            "stress-explicit_task-30",
+            "stress-explicit_task-31",
+            "stress-cancelled-0",
+            "stress-cancelled-1",
+            "stress-cancelled-2",
+            "stress-cancelled-3",
+            "stress-cancelled-4",
+            "stress-cancelled-5",
+            "stress-cancelled-6",
+            "stress-cancelled-7",
+            "stress-cancelled-8",
+            "stress-cancelled-9",
+            "stress-cancelled-10",
+            "stress-cancelled-11",
+            "stress-cancelled-12",
+            "stress-cancelled-13",
+            "stress-cancelled-14",
+            "stress-cancelled-15",
+            "stress-cancelled-16",
+            "stress-cancelled-17",
+            "stress-cancelled-18",
+            "stress-cancelled-19",
+            "stress-cancelled-20",
+            "stress-cancelled-21",
+            "stress-cancelled-22",
+            "stress-cancelled-23",
+            "stress-cancelled-24",
+            "stress-cancelled-25",
+            "stress-cancelled-26",
+            "stress-cancelled-27",
+            "stress-cancelled-28",
+            "stress-cancelled-29",
+            "stress-cancelled-30",
+            "stress-cancelled-31"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 32
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 32
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 32
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 32
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 32
+            }
+          }
+        },
+        "nearest": {
+          "cases": 288,
+          "original_trace_failures": 186,
+          "revised_evidence_failures": 122,
+          "byte_reduction": 0.4961083885846065,
+          "changed_to_pass": [
+            "stress-explicit_task-0",
+            "stress-explicit_task-1",
+            "stress-explicit_task-2",
+            "stress-explicit_task-3",
+            "stress-explicit_task-4",
+            "stress-explicit_task-5",
+            "stress-explicit_task-6",
+            "stress-explicit_task-7",
+            "stress-explicit_task-8",
+            "stress-explicit_task-9",
+            "stress-explicit_task-10",
+            "stress-explicit_task-11",
+            "stress-explicit_task-12",
+            "stress-explicit_task-13",
+            "stress-explicit_task-14",
+            "stress-explicit_task-15",
+            "stress-explicit_task-16",
+            "stress-explicit_task-17",
+            "stress-explicit_task-18",
+            "stress-explicit_task-19",
+            "stress-explicit_task-20",
+            "stress-explicit_task-21",
+            "stress-explicit_task-22",
+            "stress-explicit_task-23",
+            "stress-explicit_task-24",
+            "stress-explicit_task-25",
+            "stress-explicit_task-26",
+            "stress-explicit_task-27",
+            "stress-explicit_task-28",
+            "stress-explicit_task-29",
+            "stress-explicit_task-30",
+            "stress-explicit_task-31",
+            "stress-cancelled-0",
+            "stress-cancelled-1",
+            "stress-cancelled-2",
+            "stress-cancelled-3",
+            "stress-cancelled-4",
+            "stress-cancelled-5",
+            "stress-cancelled-6",
+            "stress-cancelled-7",
+            "stress-cancelled-8",
+            "stress-cancelled-9",
+            "stress-cancelled-10",
+            "stress-cancelled-11",
+            "stress-cancelled-12",
+            "stress-cancelled-13",
+            "stress-cancelled-14",
+            "stress-cancelled-15",
+            "stress-cancelled-16",
+            "stress-cancelled-17",
+            "stress-cancelled-18",
+            "stress-cancelled-19",
+            "stress-cancelled-20",
+            "stress-cancelled-21",
+            "stress-cancelled-22",
+            "stress-cancelled-23",
+            "stress-cancelled-24",
+            "stress-cancelled-25",
+            "stress-cancelled-26",
+            "stress-cancelled-27",
+            "stress-cancelled-28",
+            "stress-cancelled-29",
+            "stress-cancelled-30",
+            "stress-cancelled-31"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 16
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 32
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 26
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 16
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 32
+            }
+          }
+        },
+        "similarity": {
+          "cases": 288,
+          "original_trace_failures": 154,
+          "revised_evidence_failures": 122,
+          "byte_reduction": 0.4995206714621867,
+          "changed_to_pass": [
+            "stress-explicit_task-0",
+            "stress-explicit_task-2",
+            "stress-explicit_task-4",
+            "stress-explicit_task-6",
+            "stress-explicit_task-8",
+            "stress-explicit_task-10",
+            "stress-explicit_task-12",
+            "stress-explicit_task-14",
+            "stress-explicit_task-16",
+            "stress-explicit_task-18",
+            "stress-explicit_task-20",
+            "stress-explicit_task-22",
+            "stress-explicit_task-24",
+            "stress-explicit_task-26",
+            "stress-explicit_task-28",
+            "stress-explicit_task-30",
+            "stress-cancelled-0",
+            "stress-cancelled-2",
+            "stress-cancelled-4",
+            "stress-cancelled-6",
+            "stress-cancelled-8",
+            "stress-cancelled-10",
+            "stress-cancelled-12",
+            "stress-cancelled-14",
+            "stress-cancelled-16",
+            "stress-cancelled-18",
+            "stress-cancelled-20",
+            "stress-cancelled-22",
+            "stress-cancelled-24",
+            "stress-cancelled-26",
+            "stress-cancelled-28",
+            "stress-cancelled-30"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 16
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 32
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 26
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 16
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 32
+            }
+          }
+        },
+        "selective": {
+          "cases": 288,
+          "original_trace_failures": 160,
+          "revised_evidence_failures": 128,
+          "byte_reduction": 0.5212479972111794,
+          "changed_to_pass": [
+            "stress-explicit_task-0",
+            "stress-explicit_task-2",
+            "stress-explicit_task-4",
+            "stress-explicit_task-6",
+            "stress-explicit_task-8",
+            "stress-explicit_task-10",
+            "stress-explicit_task-12",
+            "stress-explicit_task-14",
+            "stress-explicit_task-16",
+            "stress-explicit_task-18",
+            "stress-explicit_task-20",
+            "stress-explicit_task-22",
+            "stress-explicit_task-24",
+            "stress-explicit_task-26",
+            "stress-explicit_task-28",
+            "stress-explicit_task-30",
+            "stress-cancelled-0",
+            "stress-cancelled-2",
+            "stress-cancelled-4",
+            "stress-cancelled-6",
+            "stress-cancelled-8",
+            "stress-cancelled-10",
+            "stress-cancelled-12",
+            "stress-cancelled-14",
+            "stress-cancelled-16",
+            "stress-cancelled-18",
+            "stress-cancelled-20",
+            "stress-cancelled-22",
+            "stress-cancelled-24",
+            "stress-cancelled-26",
+            "stress-cancelled-28",
+            "stress-cancelled-30"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 16
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 32
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 32
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 16
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 32
+            }
+          }
+        },
+        "selective_with_candidates": {
+          "cases": 288,
+          "original_trace_failures": 128,
+          "revised_evidence_failures": 96,
+          "byte_reduction": 0.4772704418537612,
+          "changed_to_pass": [
+            "stress-explicit_task-0",
+            "stress-explicit_task-2",
+            "stress-explicit_task-4",
+            "stress-explicit_task-6",
+            "stress-explicit_task-8",
+            "stress-explicit_task-10",
+            "stress-explicit_task-12",
+            "stress-explicit_task-14",
+            "stress-explicit_task-16",
+            "stress-explicit_task-18",
+            "stress-explicit_task-20",
+            "stress-explicit_task-22",
+            "stress-explicit_task-24",
+            "stress-explicit_task-26",
+            "stress-explicit_task-28",
+            "stress-explicit_task-30",
+            "stress-cancelled-0",
+            "stress-cancelled-2",
+            "stress-cancelled-4",
+            "stress-cancelled-6",
+            "stress-cancelled-8",
+            "stress-cancelled-10",
+            "stress-cancelled-12",
+            "stress-cancelled-14",
+            "stress-cancelled-16",
+            "stress-cancelled-18",
+            "stress-cancelled-20",
+            "stress-cancelled-22",
+            "stress-cancelled-24",
+            "stress-cancelled-26",
+            "stress-cancelled-28",
+            "stress-cancelled-30"
+          ],
+          "families": {
+            "quoted_example": {
+              "n": 32,
+              "failures": 0
+            },
+            "cancelled": {
+              "n": 32,
+              "failures": 0
+            },
+            "explicit_task": {
+              "n": 32,
+              "failures": 0
+            },
+            "chain": {
+              "n": 32,
+              "failures": 16
+            },
+            "novel_expression": {
+              "n": 32,
+              "failures": 32
+            },
+            "ambiguous_reference": {
+              "n": 32,
+              "failures": 16
+            },
+            "unique_reference": {
+              "n": 32,
+              "failures": 16
+            },
+            "explicit_schedule": {
+              "n": 32,
+              "failures": 0
+            },
+            "same_entity": {
+              "n": 32,
+              "failures": 16
+            }
+          }
+        }
+      }
+    }
+  }
+}

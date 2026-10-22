@@ -1,0 +1,259 @@
+{
+  "created_at_utc": "2026-10-22T09:08:22.500822+00:00",
+  "python": "3.12.13",
+  "platform": "Windows",
+  "phases": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "05r2"
+  ],
+  "initial_archive_check": {
+    "archive_files": 59,
+    "archive_bytes": 14076747,
+    "original_frozen_source_bindings": 18,
+    "parsed_json_and_notebooks": 28,
+    "python_syntax_files": 28,
+    "notebooks_basic_structure": 5,
+    "resolved_local_links": 160,
+    "status": "passed",
+    "boundary": "Integrity and packaging only; does not rerun experiments or prove scientific claims."
+  },
+  "steps": [
+    {
+      "script": "experiment.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 1.1272520999773405,
+      "log": "01-experiment.log",
+      "comparisons": [
+        {
+          "path": "results.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase02\\study.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.4081781000131741,
+      "log": "02-study.log",
+      "comparisons": [
+        {
+          "path": "phase02/fixtures.json",
+          "semantic_json_equal": true
+        },
+        {
+          "path": "phase02/results.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase02\\diagnose_links.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.1252791000297293,
+      "log": "03-diagnose_links.log",
+      "comparisons": [
+        {
+          "path": "phase02/link_diagnostic.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase03\\evaluate.py",
+      "arguments": [
+        "--dev"
+      ],
+      "exit_code": 0,
+      "seconds": 0.17010510002728552,
+      "log": "04-evaluate.log",
+      "comparisons": [
+        {
+          "path": "phase03/development.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase03\\evaluate.py",
+      "arguments": [
+        "--test"
+      ],
+      "exit_code": 0,
+      "seconds": 0.5109626000048593,
+      "log": "05-evaluate.log",
+      "comparisons": [
+        {
+          "path": "phase03/evaluation_fixtures.json",
+          "semantic_json_equal": true
+        },
+        {
+          "path": "phase03/results.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase03\\audit_labels.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.1135266000055708,
+      "log": "06-audit_labels.log",
+      "comparisons": [
+        {
+          "path": "phase03/label_audit.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase04\\study.py",
+      "arguments": [
+        "--run"
+      ],
+      "exit_code": 0,
+      "seconds": 0.9648646000423469,
+      "log": "07-study.log",
+      "comparisons": [
+        {
+          "path": "phase04/results.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase04\\audit.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 4.971802700019907,
+      "log": "08-audit.log",
+      "comparisons": [
+        {
+          "path": "phase04/audit.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase05\\study.py",
+      "arguments": [
+        "--run"
+      ],
+      "exit_code": 0,
+      "seconds": 0.4445331000024453,
+      "log": "09-study.log",
+      "comparisons": [
+        {
+          "path": "phase05/results.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase05\\audit.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.8740963999880478,
+      "log": "10-audit.log",
+      "comparisons": [
+        {
+          "path": "phase05/audit.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase05\\reduction_study.py",
+      "arguments": [
+        "--run"
+      ],
+      "exit_code": 0,
+      "seconds": 2.3433911000029184,
+      "log": "11-reduction_study.log",
+      "comparisons": [
+        {
+          "path": "phase05/reduction_results.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "phase05\\revision02\\reduction_study.py",
+      "arguments": [
+        "--run"
+      ],
+      "exit_code": 0,
+      "seconds": 2.746928000007756,
+      "log": "12-reduction_study.log",
+      "comparisons": [
+        {
+          "path": "phase05/revision02/reduction_results.json",
+          "semantic_json_equal": true
+        }
+      ]
+    },
+    {
+      "script": "make_note.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.09812939999392256,
+      "log": "13-make_note.log",
+      "comparisons": []
+    },
+    {
+      "script": "phase02\\make_report.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.12873270001728088,
+      "log": "14-make_report.log",
+      "comparisons": []
+    },
+    {
+      "script": "phase03\\make_report.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.12264600000344217,
+      "log": "15-make_report.log",
+      "comparisons": []
+    },
+    {
+      "script": "phase04\\make_report.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.10568829998373985,
+      "log": "16-make_report.log",
+      "comparisons": []
+    },
+    {
+      "script": "phase05\\make_report.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.11109530000248924,
+      "log": "17-make_report.log",
+      "comparisons": []
+    }
+  ],
+  "status": "passed",
+  "revision_regression": {
+    "mode_query_comparisons": 2688,
+    "all_existing_corpus_outputs_unchanged": true,
+    "engine_sha256": "67163a9f83b11364ffa82be824925d96b8d62a828fd18d18cb3812f869f9d993"
+  },
+  "final_archive_check": {
+    "archive_files": 59,
+    "archive_bytes": 14076747,
+    "original_frozen_source_bindings": 18,
+    "parsed_json_and_notebooks": 28,
+    "python_syntax_files": 28,
+    "notebooks_basic_structure": 5,
+    "resolved_local_links": 160,
+    "status": "passed",
+    "boundary": "Integrity and packaging only; does not rerun experiments or prove scientific claims."
+  }
+}

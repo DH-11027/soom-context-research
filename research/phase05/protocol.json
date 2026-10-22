@@ -1,0 +1,44 @@
+{
+  "created_at_utc": "2026-10-22T08:17:00.904811+00:00",
+  "purpose": "Prototype query-directed backward dependency slicing and demand refinement, no production change",
+  "n_cases": 336,
+  "paired_queries_per_case": 2,
+  "splits": {
+    "main": "12 families x 16 parameterizations",
+    "stress": "12 families x 12 prewritten unrecognized paraphrases"
+  },
+  "input_boundary": "Engine receives only seq, opaque id, text, entity roster, query and complete snapshot digest. Gold transitions, family and split are excluded.",
+  "semantic_boundary": "Controlled planned-state language. All records are authoritative plan updates or explicit quotes/noops. This does not establish real execution or unrestricted Korean semantics.",
+  "methods": [
+    "drop_unknown",
+    "cheap",
+    "eager",
+    "lazy"
+  ],
+  "algorithm": "One reverse pass; unknown may affect every fact; detailed parser called only for unresolved suffix on demand; strong set kills only its own field; copy follows source at that historical position; opaque relevant text falls back to full raw history",
+  "costs": "Rendered UTF-8 bytes including receipt and query, detailed-parser source bytes/call count, cheap parse count; snapshot hashing reads all bytes; no real token or LLM latency measurement",
+  "metrics": [
+    "false singleton certification",
+    "abstract answer containment",
+    "certification coverage",
+    "ambiguity and fallback rates",
+    "output bytes",
+    "detailed parse calls",
+    "source bytes to detailed parser"
+  ],
+  "checks": [
+    "lazy/eager abstract answer parity",
+    "raw-input-only interface",
+    "query-specific field retention",
+    "temporal copy",
+    "snapshot faults",
+    "long-prefix and long-suffix work counts"
+  ],
+  "constraints": "No production API, model API, embeddings, tokenizer or DB access; no claim of optimal byte cost; no IID confidence intervals",
+  "hashes": {
+    "engine.py": "e3cd0086dfc97ee02b1f8a813f2ddfe81df2e3cda80cd87355b0f601139866c1",
+    "fixtures.py": "3f6f17504ce21f52b95a455bf943e384f8b8c65bac85cddb9420479105404c83",
+    "study.py": "de8e0a4a63ef831ece620bad3240aa9723277ca8d3e8aff52313d6e5578e3998",
+    "corpus.json": "38619b2b12c356e43abd4b7755d08cca65ab5e3147324c4838895532fd1e309a"
+  }
+}
