@@ -1,0 +1,3013 @@
+{
+  "summary": {
+    "fresh": {
+      "queries": 300,
+      "streams": 30,
+      "status_counts": {
+        "certified_model": 243,
+        "opaque_fallback": 21,
+        "ambiguous": 15,
+        "unsupported_query": 9,
+        "integrity_failure": 12
+      },
+      "valid_snapshots": 288,
+      "gold_evaluated": 276,
+      "gold_excluded": 24,
+      "certified_gold_evaluated": 243,
+      "false_certifications": 0,
+      "containment_evaluated": 267,
+      "containment_violations": 0,
+      "structural_errors": 0,
+      "gold_projection_failures": 0,
+      "parity_failures": 0,
+      "actual_full_history": 30,
+      "output_bytes": 107223,
+      "cost": {
+        "hash_serialized_bytes": 1053198,
+        "hash_calls": 294,
+        "records_visited": 1848,
+        "cheap_calls": 1848,
+        "cheap_source_bytes": 904934,
+        "contract_calls": 231,
+        "contract_source_bytes": 14651,
+        "detail_calls": 213,
+        "detail_source_bytes": 13229,
+        "abstract_steps": 630,
+        "source_work_bytes": 1986012,
+        "output_plus_source_work_proxy": 2093235,
+        "cache_overhead_bytes": 0,
+        "phase07_work_proxy": 2093235,
+        "key_build_bytes": 0,
+        "key_probe_bytes": 0,
+        "value_encode_bytes": 0,
+        "cache_read_payload_bytes": 0,
+        "cache_write_bytes": 0,
+        "cache_lookups": 0,
+        "cache_entry_hits": 0,
+        "cache_entry_misses": 0,
+        "cache_writes": 0,
+        "cache_evictions": 0,
+        "cache_oversize": 0,
+        "cheap_requests": 1848,
+        "contract_requests": 231,
+        "detail_requests": 213,
+        "cheap_reused": 0,
+        "contract_reused": 0,
+        "detail_reused": 0
+      },
+      "max_retained_bytes": 0,
+      "max_entries": 0
+    },
+    "disabled": {
+      "queries": 300,
+      "streams": 30,
+      "status_counts": {
+        "certified_model": 243,
+        "opaque_fallback": 21,
+        "ambiguous": 15,
+        "unsupported_query": 9,
+        "integrity_failure": 12
+      },
+      "valid_snapshots": 288,
+      "gold_evaluated": 276,
+      "gold_excluded": 24,
+      "certified_gold_evaluated": 243,
+      "false_certifications": 0,
+      "containment_evaluated": 267,
+      "containment_violations": 0,
+      "structural_errors": 0,
+      "gold_projection_failures": 0,
+      "parity_failures": 0,
+      "actual_full_history": 30,
+      "output_bytes": 107223,
+      "cost": {
+        "hash_serialized_bytes": 1053198,
+        "hash_calls": 294,
+        "records_visited": 1848,
+        "cheap_calls": 1848,
+        "cheap_source_bytes": 904934,
+        "contract_calls": 231,
+        "contract_source_bytes": 14651,
+        "detail_calls": 213,
+        "detail_source_bytes": 13229,
+        "abstract_steps": 630,
+        "source_work_bytes": 1986012,
+        "output_plus_source_work_proxy": 2093235,
+        "cache_overhead_bytes": 2205732,
+        "phase07_work_proxy": 4298967,
+        "key_build_bytes": 935156,
+        "key_probe_bytes": 1104878,
+        "value_encode_bytes": 165698,
+        "cache_read_payload_bytes": 0,
+        "cache_write_bytes": 0,
+        "cache_lookups": 1848,
+        "cache_entry_hits": 0,
+        "cache_entry_misses": 1848,
+        "cache_writes": 0,
+        "cache_evictions": 0,
+        "cache_oversize": 0,
+        "cheap_requests": 1848,
+        "contract_requests": 231,
+        "detail_requests": 213,
+        "cheap_reused": 0,
+        "contract_reused": 0,
+        "detail_reused": 0
+      },
+      "max_retained_bytes": 0,
+      "max_entries": 0
+    },
+    "reset": {
+      "queries": 300,
+      "streams": 30,
+      "status_counts": {
+        "certified_model": 243,
+        "opaque_fallback": 21,
+        "ambiguous": 15,
+        "unsupported_query": 9,
+        "integrity_failure": 12
+      },
+      "valid_snapshots": 288,
+      "gold_evaluated": 276,
+      "gold_excluded": 24,
+      "certified_gold_evaluated": 243,
+      "false_certifications": 0,
+      "containment_evaluated": 267,
+      "containment_violations": 0,
+      "structural_errors": 0,
+      "gold_projection_failures": 0,
+      "parity_failures": 0,
+      "actual_full_history": 30,
+      "output_bytes": 107223,
+      "cost": {
+        "hash_serialized_bytes": 1053198,
+        "hash_calls": 294,
+        "records_visited": 1848,
+        "cheap_calls": 1848,
+        "cheap_source_bytes": 904934,
+        "contract_calls": 231,
+        "contract_source_bytes": 14651,
+        "detail_calls": 213,
+        "detail_source_bytes": 13229,
+        "abstract_steps": 630,
+        "source_work_bytes": 1986012,
+        "output_plus_source_work_proxy": 2093235,
+        "cache_overhead_bytes": 2754028,
+        "phase07_work_proxy": 4847263,
+        "key_build_bytes": 935156,
+        "key_probe_bytes": 1104878,
+        "value_encode_bytes": 165698,
+        "cache_read_payload_bytes": 0,
+        "cache_write_bytes": 548296,
+        "cache_lookups": 1848,
+        "cache_entry_hits": 0,
+        "cache_entry_misses": 1848,
+        "cache_writes": 1838,
+        "cache_evictions": 0,
+        "cache_oversize": 10,
+        "cheap_requests": 1848,
+        "contract_requests": 231,
+        "detail_requests": 213,
+        "cheap_reused": 0,
+        "contract_reused": 0,
+        "detail_reused": 0
+      },
+      "max_retained_bytes": 8318,
+      "max_entries": 14
+    },
+    "lru": {
+      "queries": 300,
+      "streams": 30,
+      "status_counts": {
+        "certified_model": 243,
+        "opaque_fallback": 21,
+        "ambiguous": 15,
+        "unsupported_query": 9,
+        "integrity_failure": 12
+      },
+      "valid_snapshots": 288,
+      "gold_evaluated": 276,
+      "gold_excluded": 24,
+      "certified_gold_evaluated": 243,
+      "false_certifications": 0,
+      "containment_evaluated": 267,
+      "containment_violations": 0,
+      "structural_errors": 0,
+      "gold_projection_failures": 0,
+      "parity_failures": 0,
+      "actual_full_history": 30,
+      "output_bytes": 107223,
+      "cost": {
+        "hash_serialized_bytes": 1053198,
+        "hash_calls": 294,
+        "records_visited": 1848,
+        "cheap_calls": 648,
+        "cheap_source_bytes": 783012,
+        "contract_calls": 51,
+        "contract_source_bytes": 3155,
+        "detail_calls": 51,
+        "detail_source_bytes": 3155,
+        "abstract_steps": 630,
+        "source_work_bytes": 1842520,
+        "output_plus_source_work_proxy": 1949743,
+        "cache_overhead_bytes": 2391270,
+        "phase07_work_proxy": 4341013,
+        "key_build_bytes": 935156,
+        "key_probe_bytes": 1104878,
+        "value_encode_bytes": 52956,
+        "cache_read_payload_bytes": 112742,
+        "cache_write_bytes": 185538,
+        "cache_lookups": 1848,
+        "cache_entry_hits": 1200,
+        "cache_entry_misses": 648,
+        "cache_writes": 644,
+        "cache_evictions": 174,
+        "cache_oversize": 10,
+        "cheap_requests": 1848,
+        "contract_requests": 231,
+        "detail_requests": 213,
+        "cheap_reused": 1200,
+        "contract_reused": 180,
+        "detail_reused": 162
+      },
+      "max_retained_bytes": 18626,
+      "max_entries": 64
+    }
+  },
+  "comparisons": {
+    "disabled": {
+      "candidate": "disabled",
+      "reference": "fresh",
+      "paired_queries": 300,
+      "before_proxy": 2093235,
+      "after_proxy": 4298967,
+      "proxy_change_percent": 105.37431296533835,
+      "parser_executions_before": 2292,
+      "parser_executions_after": 2292,
+      "parser_execution_reduction_percent": 0.0,
+      "queries_with_fewer_parser_executions": 0,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-append_then_correction-00",
+          "cumulative_proxy_delta": [
+            1248,
+            2780,
+            4389,
+            6378,
+            6762,
+            7479,
+            10082,
+            10469,
+            12119,
+            12946
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-append_then_correction-01",
+          "cumulative_proxy_delta": [
+            1239,
+            2762,
+            4362,
+            6342,
+            6729,
+            7449,
+            10046,
+            10433,
+            12092,
+            12925
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-append_then_correction-02",
+          "cumulative_proxy_delta": [
+            1251,
+            2786,
+            4395,
+            6384,
+            6771,
+            7491,
+            10097,
+            10484,
+            12137,
+            12964
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-00",
+          "cumulative_proxy_delta": [
+            1999,
+            3998,
+            5997,
+            6847,
+            7697,
+            9696,
+            10546,
+            11396,
+            13395,
+            15394
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-01",
+          "cumulative_proxy_delta": [
+            1990,
+            3980,
+            5970,
+            6820,
+            7670,
+            9660,
+            10510,
+            11360,
+            13350,
+            15340
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-02",
+          "cumulative_proxy_delta": [
+            2002,
+            4004,
+            6006,
+            6856,
+            7706,
+            9708,
+            10558,
+            11408,
+            13410,
+            15412
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-00",
+          "cumulative_proxy_delta": [
+            2263,
+            4526,
+            6789,
+            9052,
+            11318,
+            13581,
+            15844,
+            18107,
+            20370,
+            22633
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-01",
+          "cumulative_proxy_delta": [
+            2254,
+            4511,
+            6768,
+            9025,
+            11282,
+            13536,
+            15793,
+            18050,
+            20304,
+            22561
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-02",
+          "cumulative_proxy_delta": [
+            2266,
+            4532,
+            6798,
+            9064,
+            11330,
+            13596,
+            15862,
+            18128,
+            20394,
+            22660
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-00",
+          "cumulative_proxy_delta": [
+            1911,
+            4145,
+            6426,
+            9306,
+            12509,
+            14420,
+            16654,
+            18935,
+            21815,
+            25018
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-01",
+          "cumulative_proxy_delta": [
+            13806,
+            27935,
+            42111,
+            56886,
+            71984,
+            85790,
+            99919,
+            114095,
+            128870,
+            143968
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-02",
+          "cumulative_proxy_delta": [
+            145530,
+            291383,
+            437280,
+            583779,
+            730601,
+            876131,
+            1021984,
+            1167881,
+            1314380,
+            1461202
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-00",
+          "cumulative_proxy_delta": [
+            2263,
+            2263,
+            4526,
+            4526,
+            6789,
+            6789,
+            9052,
+            9052,
+            11315,
+            13857
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-01",
+          "cumulative_proxy_delta": [
+            2254,
+            2254,
+            4508,
+            4508,
+            6762,
+            6762,
+            9016,
+            9016,
+            11270,
+            13803
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-02",
+          "cumulative_proxy_delta": [
+            2266,
+            2266,
+            4532,
+            4532,
+            6798,
+            6798,
+            9064,
+            9064,
+            11330,
+            13875
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-00",
+          "cumulative_proxy_delta": [
+            5549,
+            11098,
+            16650,
+            22202,
+            27754,
+            33306,
+            38858,
+            44410,
+            49962,
+            55514
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-01",
+          "cumulative_proxy_delta": [
+            5561,
+            11122,
+            16683,
+            22244,
+            27805,
+            33366,
+            38927,
+            44488,
+            50049,
+            55610
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-02",
+          "cumulative_proxy_delta": [
+            5561,
+            11122,
+            16683,
+            22244,
+            27805,
+            33366,
+            38927,
+            44488,
+            50049,
+            55610
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-00",
+          "cumulative_proxy_delta": [
+            1486,
+            2972,
+            4458,
+            5944,
+            7430,
+            8916,
+            10402,
+            11888,
+            13374,
+            14860
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-01",
+          "cumulative_proxy_delta": [
+            1477,
+            2954,
+            4431,
+            5908,
+            7385,
+            8862,
+            10339,
+            11816,
+            13293,
+            14770
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-02",
+          "cumulative_proxy_delta": [
+            1486,
+            2972,
+            4458,
+            5944,
+            7430,
+            8916,
+            10402,
+            11888,
+            13374,
+            14860
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-00",
+          "cumulative_proxy_delta": [
+            2320,
+            4710,
+            4710,
+            7030,
+            9350,
+            11740,
+            11740,
+            14060,
+            16380,
+            16380
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-01",
+          "cumulative_proxy_delta": [
+            2317,
+            4704,
+            4704,
+            7021,
+            9338,
+            11725,
+            11725,
+            14042,
+            16359,
+            16359
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-02",
+          "cumulative_proxy_delta": [
+            2323,
+            4716,
+            4716,
+            7039,
+            9362,
+            11755,
+            11755,
+            14078,
+            16401,
+            16401
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-00",
+          "cumulative_proxy_delta": [
+            1216,
+            3017,
+            4233,
+            5449,
+            6665,
+            7881,
+            9682,
+            10898,
+            12114,
+            13915
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-01",
+          "cumulative_proxy_delta": [
+            1219,
+            3014,
+            4233,
+            5452,
+            6671,
+            7890,
+            9685,
+            10904,
+            12123,
+            13918
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-02",
+          "cumulative_proxy_delta": [
+            1219,
+            3023,
+            4242,
+            5461,
+            6680,
+            7899,
+            9703,
+            10922,
+            12141,
+            13945
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-00",
+          "cumulative_proxy_delta": [
+            2723,
+            5446,
+            7890,
+            10613,
+            13052,
+            15775,
+            18498,
+            21221,
+            23611,
+            26334
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-01",
+          "cumulative_proxy_delta": [
+            2723,
+            5446,
+            7890,
+            10613,
+            13052,
+            15775,
+            18498,
+            21221,
+            23611,
+            26334
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-02",
+          "cumulative_proxy_delta": [
+            2726,
+            5452,
+            7899,
+            10625,
+            13067,
+            15793,
+            18519,
+            21245,
+            23638,
+            26364
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "reset": {
+      "candidate": "reset",
+      "reference": "fresh",
+      "paired_queries": 300,
+      "before_proxy": 2093235,
+      "after_proxy": 4847263,
+      "proxy_change_percent": 131.56802747899783,
+      "parser_executions_before": 2292,
+      "parser_executions_after": 2292,
+      "parser_execution_reduction_percent": 0.0,
+      "queries_with_fewer_parser_executions": 0,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-append_then_correction-00",
+          "cumulative_proxy_delta": [
+            2200,
+            4919,
+            7749,
+            11285,
+            11900,
+            13116,
+            17767,
+            18387,
+            21296,
+            22718
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-append_then_correction-01",
+          "cumulative_proxy_delta": [
+            2185,
+            4889,
+            7704,
+            11225,
+            11845,
+            13066,
+            17707,
+            18327,
+            21250,
+            22681
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-append_then_correction-02",
+          "cumulative_proxy_delta": [
+            2205,
+            4929,
+            7759,
+            11295,
+            11915,
+            13136,
+            17792,
+            18412,
+            21326,
+            22748
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-00",
+          "cumulative_proxy_delta": [
+            3551,
+            7102,
+            10653,
+            12094,
+            13535,
+            17086,
+            18527,
+            19968,
+            23519,
+            27070
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-01",
+          "cumulative_proxy_delta": [
+            3536,
+            7072,
+            10608,
+            12049,
+            13490,
+            17026,
+            18467,
+            19908,
+            23444,
+            26980
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-02",
+          "cumulative_proxy_delta": [
+            3556,
+            7112,
+            10668,
+            12109,
+            13550,
+            17106,
+            18547,
+            19988,
+            23544,
+            27100
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-00",
+          "cumulative_proxy_delta": [
+            4048,
+            8096,
+            12144,
+            16192,
+            20245,
+            24293,
+            28341,
+            32389,
+            36437,
+            40485
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-01",
+          "cumulative_proxy_delta": [
+            4033,
+            8071,
+            12109,
+            16147,
+            20185,
+            24218,
+            28256,
+            32294,
+            36327,
+            40365
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-02",
+          "cumulative_proxy_delta": [
+            4053,
+            8106,
+            12159,
+            16212,
+            20265,
+            24318,
+            28371,
+            32424,
+            36477,
+            40530
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-00",
+          "cumulative_proxy_delta": [
+            3283,
+            7139,
+            11061,
+            16063,
+            21638,
+            24921,
+            28777,
+            32699,
+            37701,
+            43276
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-01",
+          "cumulative_proxy_delta": [
+            21124,
+            42821,
+            64584,
+            87427,
+            110843,
+            131967,
+            153664,
+            175427,
+            198270,
+            221686
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-02",
+          "cumulative_proxy_delta": [
+            146484,
+            293541,
+            440659,
+            588862,
+            737638,
+            884122,
+            1031179,
+            1178297,
+            1326500,
+            1475276
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-00",
+          "cumulative_proxy_delta": [
+            4048,
+            4048,
+            8096,
+            8096,
+            12144,
+            12144,
+            16192,
+            16192,
+            20240,
+            24800
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-01",
+          "cumulative_proxy_delta": [
+            4033,
+            4033,
+            8066,
+            8066,
+            12099,
+            12099,
+            16132,
+            16132,
+            20165,
+            24710
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-02",
+          "cumulative_proxy_delta": [
+            4053,
+            4053,
+            8106,
+            8106,
+            12159,
+            12159,
+            16212,
+            16212,
+            20265,
+            24830
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-00",
+          "cumulative_proxy_delta": [
+            9535,
+            19070,
+            28610,
+            38150,
+            47690,
+            57230,
+            66770,
+            76310,
+            85850,
+            95390
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-01",
+          "cumulative_proxy_delta": [
+            9555,
+            19110,
+            28665,
+            38220,
+            47775,
+            57330,
+            66885,
+            76440,
+            85995,
+            95550
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-02",
+          "cumulative_proxy_delta": [
+            9555,
+            19110,
+            28665,
+            38220,
+            47775,
+            57330,
+            66885,
+            76440,
+            85995,
+            95550
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-00",
+          "cumulative_proxy_delta": [
+            2642,
+            5284,
+            7926,
+            10568,
+            13210,
+            15852,
+            18494,
+            21136,
+            23778,
+            26420
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-01",
+          "cumulative_proxy_delta": [
+            2627,
+            5254,
+            7881,
+            10508,
+            13135,
+            15762,
+            18389,
+            21016,
+            23643,
+            26270
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-02",
+          "cumulative_proxy_delta": [
+            2642,
+            5284,
+            7926,
+            10568,
+            13210,
+            15852,
+            18494,
+            21136,
+            23778,
+            26420
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-00",
+          "cumulative_proxy_delta": [
+            4124,
+            8388,
+            8388,
+            12512,
+            16636,
+            20900,
+            20900,
+            25024,
+            29148,
+            29148
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-01",
+          "cumulative_proxy_delta": [
+            4118,
+            8376,
+            8376,
+            12494,
+            16612,
+            20870,
+            20870,
+            24988,
+            29106,
+            29106
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-02",
+          "cumulative_proxy_delta": [
+            4129,
+            8398,
+            8398,
+            12527,
+            16656,
+            20925,
+            20925,
+            25054,
+            29183,
+            29183
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-00",
+          "cumulative_proxy_delta": [
+            2138,
+            5349,
+            7487,
+            9625,
+            11763,
+            13901,
+            17112,
+            19250,
+            21388,
+            24599
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-01",
+          "cumulative_proxy_delta": [
+            2143,
+            5344,
+            7487,
+            9630,
+            11773,
+            13916,
+            17117,
+            19260,
+            21403,
+            24604
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-02",
+          "cumulative_proxy_delta": [
+            2143,
+            5359,
+            7502,
+            9645,
+            11788,
+            13931,
+            17147,
+            19290,
+            21433,
+            24649
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-00",
+          "cumulative_proxy_delta": [
+            4891,
+            9782,
+            14161,
+            19052,
+            23424,
+            28315,
+            33206,
+            38097,
+            42387,
+            47278
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-01",
+          "cumulative_proxy_delta": [
+            4891,
+            9782,
+            14161,
+            19052,
+            23424,
+            28315,
+            33206,
+            38097,
+            42387,
+            47278
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-02",
+          "cumulative_proxy_delta": [
+            4896,
+            9792,
+            14176,
+            19072,
+            23449,
+            28345,
+            33241,
+            38137,
+            42432,
+            47328
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "lru": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 300,
+      "before_proxy": 2093235,
+      "after_proxy": 4341013,
+      "proxy_change_percent": 107.3829742002212,
+      "parser_executions_before": 2292,
+      "parser_executions_after": 750,
+      "parser_execution_reduction_percent": 67.27748691099477,
+      "queries_with_fewer_parser_executions": 228,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-append_then_correction-00",
+          "cumulative_proxy_delta": [
+            2200,
+            3779,
+            5461,
+            7496,
+            8111,
+            9051,
+            11383,
+            12003,
+            13740,
+            15006
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-append_then_correction-01",
+          "cumulative_proxy_delta": [
+            2185,
+            3758,
+            5434,
+            7463,
+            8083,
+            9025,
+            11353,
+            11973,
+            13721,
+            14990
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-append_then_correction-02",
+          "cumulative_proxy_delta": [
+            2205,
+            3786,
+            5468,
+            7503,
+            8123,
+            9065,
+            11399,
+            12019,
+            13758,
+            15024
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-00",
+          "cumulative_proxy_delta": [
+            3551,
+            7102,
+            8654,
+            10095,
+            11536,
+            13088,
+            13679,
+            14270,
+            15822,
+            17374
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-01",
+          "cumulative_proxy_delta": [
+            3536,
+            7072,
+            8618,
+            10059,
+            11500,
+            13046,
+            13637,
+            14228,
+            15774,
+            17320
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-02",
+          "cumulative_proxy_delta": [
+            3556,
+            7112,
+            8666,
+            10107,
+            11548,
+            13102,
+            13693,
+            14284,
+            15838,
+            17392
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-00",
+          "cumulative_proxy_delta": [
+            4048,
+            6081,
+            8114,
+            9871,
+            11909,
+            13666,
+            15699,
+            17456,
+            19213,
+            21246
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-01",
+          "cumulative_proxy_delta": [
+            4033,
+            6065,
+            8097,
+            9850,
+            11882,
+            13633,
+            15665,
+            17418,
+            19169,
+            21201
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-02",
+          "cumulative_proxy_delta": [
+            4053,
+            6091,
+            8129,
+            9888,
+            11926,
+            13685,
+            15723,
+            17482,
+            19241,
+            21279
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-00",
+          "cumulative_proxy_delta": [
+            3283,
+            5336,
+            7408,
+            9961,
+            12764,
+            14244,
+            15974,
+            17723,
+            19953,
+            22433
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-01",
+          "cumulative_proxy_delta": [
+            21124,
+            29123,
+            37141,
+            45640,
+            54389,
+            61815,
+            69491,
+            77186,
+            85362,
+            93788
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-02",
+          "cumulative_proxy_delta": [
+            146484,
+            292398,
+            438329,
+            584743,
+            731407,
+            876748,
+            1022339,
+            1167947,
+            1314038,
+            1460379
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-00",
+          "cumulative_proxy_delta": [
+            4048,
+            4048,
+            5805,
+            5805,
+            7562,
+            7562,
+            9319,
+            9319,
+            11076,
+            13345
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-01",
+          "cumulative_proxy_delta": [
+            4033,
+            4033,
+            5784,
+            5784,
+            7535,
+            7535,
+            9286,
+            9286,
+            11037,
+            13300
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-02",
+          "cumulative_proxy_delta": [
+            4053,
+            4053,
+            5812,
+            5812,
+            7571,
+            7571,
+            9330,
+            9330,
+            11089,
+            13360
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-00",
+          "cumulative_proxy_delta": [
+            9535,
+            18494,
+            27458,
+            36422,
+            45386,
+            54350,
+            63314,
+            72278,
+            81242,
+            90206
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-01",
+          "cumulative_proxy_delta": [
+            9555,
+            18525,
+            27495,
+            36465,
+            45435,
+            54405,
+            63375,
+            72345,
+            81315,
+            90285
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-02",
+          "cumulative_proxy_delta": [
+            9555,
+            18525,
+            27495,
+            36465,
+            45435,
+            54405,
+            63375,
+            72345,
+            81315,
+            90285
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-00",
+          "cumulative_proxy_delta": [
+            2642,
+            3665,
+            6307,
+            7330,
+            8353,
+            10995,
+            12018,
+            13041,
+            14064,
+            15087
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-01",
+          "cumulative_proxy_delta": [
+            2627,
+            3644,
+            6271,
+            7288,
+            8305,
+            10932,
+            11949,
+            12966,
+            13983,
+            15000
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-02",
+          "cumulative_proxy_delta": [
+            2642,
+            3665,
+            6307,
+            7330,
+            8353,
+            10995,
+            12018,
+            13041,
+            14064,
+            15087
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-00",
+          "cumulative_proxy_delta": [
+            4124,
+            6390,
+            6390,
+            8224,
+            10058,
+            11884,
+            11884,
+            13718,
+            15552,
+            15552
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-01",
+          "cumulative_proxy_delta": [
+            4118,
+            6381,
+            6381,
+            8209,
+            10037,
+            11854,
+            11854,
+            13682,
+            15510,
+            15510
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-02",
+          "cumulative_proxy_delta": [
+            4129,
+            6397,
+            6397,
+            8233,
+            10069,
+            11897,
+            11897,
+            13733,
+            15569,
+            15569
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-00",
+          "cumulative_proxy_delta": [
+            2138,
+            3999,
+            4787,
+            5575,
+            6363,
+            7151,
+            8427,
+            9215,
+            10003,
+            11279
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-01",
+          "cumulative_proxy_delta": [
+            2143,
+            3989,
+            4777,
+            5565,
+            6353,
+            7141,
+            8411,
+            9199,
+            9987,
+            11257
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-02",
+          "cumulative_proxy_delta": [
+            2143,
+            4004,
+            4792,
+            5580,
+            6368,
+            7156,
+            8432,
+            9220,
+            10008,
+            11284
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-00",
+          "cumulative_proxy_delta": [
+            4891,
+            7167,
+            9210,
+            11486,
+            13527,
+            15803,
+            18079,
+            20355,
+            22363,
+            24639
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-01",
+          "cumulative_proxy_delta": [
+            4891,
+            7167,
+            9210,
+            11486,
+            13527,
+            15803,
+            18079,
+            20355,
+            22363,
+            24639
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-02",
+          "cumulative_proxy_delta": [
+            4896,
+            7174,
+            9219,
+            11497,
+            13540,
+            15818,
+            18096,
+            20374,
+            22384,
+            24662
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    }
+  },
+  "cross_query_comparison": {
+    "candidate": "lru",
+    "reference": "reset",
+    "paired_queries": 300,
+    "before_proxy": 4847263,
+    "after_proxy": 4341013,
+    "proxy_change_percent": -10.444038212904893,
+    "parser_executions_before": 2292,
+    "parser_executions_after": 750,
+    "parser_execution_reduction_percent": 67.27748691099477,
+    "queries_with_fewer_parser_executions": 228,
+    "queries_with_lower_proxy": 228,
+    "streams": [
+      {
+        "stream_id": "holdout-append_then_correction-00",
+        "cumulative_proxy_delta": [
+          0,
+          -1140,
+          -2288,
+          -3789,
+          -3789,
+          -4065,
+          -6384,
+          -6384,
+          -7556,
+          -7712
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-append_then_correction-01",
+        "cumulative_proxy_delta": [
+          0,
+          -1131,
+          -2270,
+          -3762,
+          -3762,
+          -4041,
+          -6354,
+          -6354,
+          -7529,
+          -7691
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-append_then_correction-02",
+        "cumulative_proxy_delta": [
+          0,
+          -1143,
+          -2291,
+          -3792,
+          -3792,
+          -4071,
+          -6393,
+          -6393,
+          -7568,
+          -7724
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-entity_environment_change-00",
+        "cumulative_proxy_delta": [
+          0,
+          0,
+          -1999,
+          -1999,
+          -1999,
+          -3998,
+          -4848,
+          -5698,
+          -7697,
+          -9696
+        ],
+        "first_strict_break_even_step": 3,
+        "sustained_break_even_step": 3
+      },
+      {
+        "stream_id": "holdout-entity_environment_change-01",
+        "cumulative_proxy_delta": [
+          0,
+          0,
+          -1990,
+          -1990,
+          -1990,
+          -3980,
+          -4830,
+          -5680,
+          -7670,
+          -9660
+        ],
+        "first_strict_break_even_step": 3,
+        "sustained_break_even_step": 3
+      },
+      {
+        "stream_id": "holdout-entity_environment_change-02",
+        "cumulative_proxy_delta": [
+          0,
+          0,
+          -2002,
+          -2002,
+          -2002,
+          -4004,
+          -4854,
+          -5704,
+          -7706,
+          -9708
+        ],
+        "first_strict_break_even_step": 3,
+        "sustained_break_even_step": 3
+      },
+      {
+        "stream_id": "holdout-historical_text_edit_same_id-00",
+        "cumulative_proxy_delta": [
+          0,
+          -2015,
+          -4030,
+          -6321,
+          -8336,
+          -10627,
+          -12642,
+          -14933,
+          -17224,
+          -19239
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-historical_text_edit_same_id-01",
+        "cumulative_proxy_delta": [
+          0,
+          -2006,
+          -4012,
+          -6297,
+          -8303,
+          -10585,
+          -12591,
+          -14876,
+          -17158,
+          -19164
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-historical_text_edit_same_id-02",
+        "cumulative_proxy_delta": [
+          0,
+          -2015,
+          -4030,
+          -6324,
+          -8339,
+          -10633,
+          -12648,
+          -14942,
+          -17236,
+          -19251
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-long_short_text_mix-00",
+        "cumulative_proxy_delta": [
+          0,
+          -1803,
+          -3653,
+          -6102,
+          -8874,
+          -10677,
+          -12803,
+          -14976,
+          -17748,
+          -20843
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-long_short_text_mix-01",
+        "cumulative_proxy_delta": [
+          0,
+          -13698,
+          -27443,
+          -41787,
+          -56454,
+          -70152,
+          -84173,
+          -98241,
+          -112908,
+          -127898
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-long_short_text_mix-02",
+        "cumulative_proxy_delta": [
+          0,
+          -1143,
+          -2330,
+          -4119,
+          -6231,
+          -7374,
+          -8840,
+          -10350,
+          -12462,
+          -14897
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-malformed_snapshot_then_recovery-00",
+        "cumulative_proxy_delta": [
+          0,
+          0,
+          -2291,
+          -2291,
+          -4582,
+          -4582,
+          -6873,
+          -6873,
+          -9164,
+          -11455
+        ],
+        "first_strict_break_even_step": 3,
+        "sustained_break_even_step": 3
+      },
+      {
+        "stream_id": "holdout-malformed_snapshot_then_recovery-01",
+        "cumulative_proxy_delta": [
+          0,
+          0,
+          -2282,
+          -2282,
+          -4564,
+          -4564,
+          -6846,
+          -6846,
+          -9128,
+          -11410
+        ],
+        "first_strict_break_even_step": 3,
+        "sustained_break_even_step": 3
+      },
+      {
+        "stream_id": "holdout-malformed_snapshot_then_recovery-02",
+        "cumulative_proxy_delta": [
+          0,
+          0,
+          -2294,
+          -2294,
+          -4588,
+          -4588,
+          -6882,
+          -6882,
+          -9176,
+          -11470
+        ],
+        "first_strict_break_even_step": 3,
+        "sustained_break_even_step": 3
+      },
+      {
+        "stream_id": "holdout-no_reuse_high_churn-00",
+        "cumulative_proxy_delta": [
+          0,
+          -576,
+          -1152,
+          -1728,
+          -2304,
+          -2880,
+          -3456,
+          -4032,
+          -4608,
+          -5184
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-no_reuse_high_churn-01",
+        "cumulative_proxy_delta": [
+          0,
+          -585,
+          -1170,
+          -1755,
+          -2340,
+          -2925,
+          -3510,
+          -4095,
+          -4680,
+          -5265
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-no_reuse_high_churn-02",
+        "cumulative_proxy_delta": [
+          0,
+          -585,
+          -1170,
+          -1755,
+          -2340,
+          -2925,
+          -3510,
+          -4095,
+          -4680,
+          -5265
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-parser_namespace_rotation-00",
+        "cumulative_proxy_delta": [
+          0,
+          -1619,
+          -1619,
+          -3238,
+          -4857,
+          -4857,
+          -6476,
+          -8095,
+          -9714,
+          -11333
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-parser_namespace_rotation-01",
+        "cumulative_proxy_delta": [
+          0,
+          -1610,
+          -1610,
+          -3220,
+          -4830,
+          -4830,
+          -6440,
+          -8050,
+          -9660,
+          -11270
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-parser_namespace_rotation-02",
+        "cumulative_proxy_delta": [
+          0,
+          -1619,
+          -1619,
+          -3238,
+          -4857,
+          -4857,
+          -6476,
+          -8095,
+          -9714,
+          -11333
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-query_scope_and_unsupported-00",
+        "cumulative_proxy_delta": [
+          0,
+          -1998,
+          -1998,
+          -4288,
+          -6578,
+          -9016,
+          -9016,
+          -11306,
+          -13596,
+          -13596
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-query_scope_and_unsupported-01",
+        "cumulative_proxy_delta": [
+          0,
+          -1995,
+          -1995,
+          -4285,
+          -6575,
+          -9016,
+          -9016,
+          -11306,
+          -13596,
+          -13596
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-query_scope_and_unsupported-02",
+        "cumulative_proxy_delta": [
+          0,
+          -2001,
+          -2001,
+          -4294,
+          -6587,
+          -9028,
+          -9028,
+          -11321,
+          -13614,
+          -13614
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-same_history_query_rotation-00",
+        "cumulative_proxy_delta": [
+          0,
+          -1350,
+          -2700,
+          -4050,
+          -5400,
+          -6750,
+          -8685,
+          -10035,
+          -11385,
+          -13320
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-same_history_query_rotation-01",
+        "cumulative_proxy_delta": [
+          0,
+          -1355,
+          -2710,
+          -4065,
+          -5420,
+          -6775,
+          -8706,
+          -10061,
+          -11416,
+          -13347
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-same_history_query_rotation-02",
+        "cumulative_proxy_delta": [
+          0,
+          -1355,
+          -2710,
+          -4065,
+          -5420,
+          -6775,
+          -8715,
+          -10070,
+          -11425,
+          -13365
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-valid_reorder_delete_reinsert-00",
+        "cumulative_proxy_delta": [
+          0,
+          -2615,
+          -4951,
+          -7566,
+          -9897,
+          -12512,
+          -15127,
+          -17742,
+          -20024,
+          -22639
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-valid_reorder_delete_reinsert-01",
+        "cumulative_proxy_delta": [
+          0,
+          -2615,
+          -4951,
+          -7566,
+          -9897,
+          -12512,
+          -15127,
+          -17742,
+          -20024,
+          -22639
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      },
+      {
+        "stream_id": "holdout-valid_reorder_delete_reinsert-02",
+        "cumulative_proxy_delta": [
+          0,
+          -2618,
+          -4957,
+          -7575,
+          -9909,
+          -12527,
+          -15145,
+          -17763,
+          -20048,
+          -22666
+        ],
+        "first_strict_break_even_step": 2,
+        "sustained_break_even_step": 2
+      }
+    ]
+  },
+  "families": {
+    "append_then_correction": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 46236,
+      "after_proxy": 91256,
+      "proxy_change_percent": 97.37001470715461,
+      "parser_executions_before": 138,
+      "parser_executions_after": 51,
+      "parser_execution_reduction_percent": 63.04347826086957,
+      "queries_with_fewer_parser_executions": 21,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-append_then_correction-00",
+          "cumulative_proxy_delta": [
+            2200,
+            3779,
+            5461,
+            7496,
+            8111,
+            9051,
+            11383,
+            12003,
+            13740,
+            15006
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-append_then_correction-01",
+          "cumulative_proxy_delta": [
+            2185,
+            3758,
+            5434,
+            7463,
+            8083,
+            9025,
+            11353,
+            11973,
+            13721,
+            14990
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-append_then_correction-02",
+          "cumulative_proxy_delta": [
+            2205,
+            3786,
+            5468,
+            7503,
+            8123,
+            9065,
+            11399,
+            12019,
+            13758,
+            15024
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "entity_environment_change": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 43886,
+      "after_proxy": 95972,
+      "proxy_change_percent": 118.68477418766803,
+      "parser_executions_before": 192,
+      "parser_executions_after": 72,
+      "parser_execution_reduction_percent": 62.5,
+      "queries_with_fewer_parser_executions": 18,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-entity_environment_change-00",
+          "cumulative_proxy_delta": [
+            3551,
+            7102,
+            8654,
+            10095,
+            11536,
+            13088,
+            13679,
+            14270,
+            15822,
+            17374
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-01",
+          "cumulative_proxy_delta": [
+            3536,
+            7072,
+            8618,
+            10059,
+            11500,
+            13046,
+            13637,
+            14228,
+            15774,
+            17320
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-entity_environment_change-02",
+          "cumulative_proxy_delta": [
+            3556,
+            7112,
+            8666,
+            10107,
+            11548,
+            13102,
+            13693,
+            14284,
+            15838,
+            17392
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "historical_text_edit_same_id": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 48312,
+      "after_proxy": 112038,
+      "proxy_change_percent": 131.9051167411823,
+      "parser_executions_before": 270,
+      "parser_executions_after": 42,
+      "parser_execution_reduction_percent": 84.44444444444444,
+      "queries_with_fewer_parser_executions": 27,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-00",
+          "cumulative_proxy_delta": [
+            4048,
+            6081,
+            8114,
+            9871,
+            11909,
+            13666,
+            15699,
+            17456,
+            19213,
+            21246
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-01",
+          "cumulative_proxy_delta": [
+            4033,
+            6065,
+            8097,
+            9850,
+            11882,
+            13633,
+            15665,
+            17418,
+            19169,
+            21201
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-historical_text_edit_same_id-02",
+          "cumulative_proxy_delta": [
+            4053,
+            6091,
+            8129,
+            9888,
+            11926,
+            13685,
+            15723,
+            17482,
+            19241,
+            21279
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "long_short_text_mix": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 1609154,
+      "after_proxy": 3185754,
+      "proxy_change_percent": 97.976949378369,
+      "parser_executions_before": 204,
+      "parser_executions_after": 36,
+      "parser_execution_reduction_percent": 82.35294117647058,
+      "queries_with_fewer_parser_executions": 27,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-long_short_text_mix-00",
+          "cumulative_proxy_delta": [
+            3283,
+            5336,
+            7408,
+            9961,
+            12764,
+            14244,
+            15974,
+            17723,
+            19953,
+            22433
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-01",
+          "cumulative_proxy_delta": [
+            21124,
+            29123,
+            37141,
+            45640,
+            54389,
+            61815,
+            69491,
+            77186,
+            85362,
+            93788
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-long_short_text_mix-02",
+          "cumulative_proxy_delta": [
+            146484,
+            292398,
+            438329,
+            584743,
+            731407,
+            876748,
+            1022339,
+            1167947,
+            1314038,
+            1460379
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "malformed_snapshot_then_recovery": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 34634,
+      "after_proxy": 74639,
+      "proxy_change_percent": 115.50788242767224,
+      "parser_executions_before": 165,
+      "parser_executions_after": 30,
+      "parser_execution_reduction_percent": 81.81818181818181,
+      "queries_with_fewer_parser_executions": 15,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-00",
+          "cumulative_proxy_delta": [
+            4048,
+            4048,
+            5805,
+            5805,
+            7562,
+            7562,
+            9319,
+            9319,
+            11076,
+            13345
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-01",
+          "cumulative_proxy_delta": [
+            4033,
+            4033,
+            5784,
+            5784,
+            7535,
+            7535,
+            9286,
+            9286,
+            11037,
+            13300
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-malformed_snapshot_then_recovery-02",
+          "cumulative_proxy_delta": [
+            4053,
+            4053,
+            5812,
+            5812,
+            7571,
+            7571,
+            9330,
+            9330,
+            11089,
+            13360
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "no_reuse_high_churn": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 119754,
+      "after_proxy": 390530,
+      "proxy_change_percent": 226.11019256141756,
+      "parser_executions_before": 420,
+      "parser_executions_after": 366,
+      "parser_execution_reduction_percent": 12.857142857142856,
+      "queries_with_fewer_parser_executions": 27,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-no_reuse_high_churn-00",
+          "cumulative_proxy_delta": [
+            9535,
+            18494,
+            27458,
+            36422,
+            45386,
+            54350,
+            63314,
+            72278,
+            81242,
+            90206
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-01",
+          "cumulative_proxy_delta": [
+            9555,
+            18525,
+            27495,
+            36465,
+            45435,
+            54405,
+            63375,
+            72345,
+            81315,
+            90285
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-no_reuse_high_churn-02",
+          "cumulative_proxy_delta": [
+            9555,
+            18525,
+            27495,
+            36465,
+            45435,
+            54405,
+            63375,
+            72345,
+            81315,
+            90285
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "parser_namespace_rotation": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 42550,
+      "after_proxy": 87724,
+      "proxy_change_percent": 106.16686251468859,
+      "parser_executions_before": 240,
+      "parser_executions_after": 72,
+      "parser_execution_reduction_percent": 70.0,
+      "queries_with_fewer_parser_executions": 21,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-parser_namespace_rotation-00",
+          "cumulative_proxy_delta": [
+            2642,
+            3665,
+            6307,
+            7330,
+            8353,
+            10995,
+            12018,
+            13041,
+            14064,
+            15087
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-01",
+          "cumulative_proxy_delta": [
+            2627,
+            3644,
+            6271,
+            7288,
+            8305,
+            10932,
+            11949,
+            12966,
+            13983,
+            15000
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-parser_namespace_rotation-02",
+          "cumulative_proxy_delta": [
+            2642,
+            3665,
+            6307,
+            7330,
+            8353,
+            10995,
+            12018,
+            13041,
+            14064,
+            15087
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "query_scope_and_unsupported": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 50355,
+      "after_proxy": 96986,
+      "proxy_change_percent": 92.60450799324794,
+      "parser_executions_before": 174,
+      "parser_executions_after": 27,
+      "parser_execution_reduction_percent": 84.48275862068965,
+      "queries_with_fewer_parser_executions": 18,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-00",
+          "cumulative_proxy_delta": [
+            4124,
+            6390,
+            6390,
+            8224,
+            10058,
+            11884,
+            11884,
+            13718,
+            15552,
+            15552
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-01",
+          "cumulative_proxy_delta": [
+            4118,
+            6381,
+            6381,
+            8209,
+            10037,
+            11854,
+            11854,
+            13682,
+            15510,
+            15510
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-query_scope_and_unsupported-02",
+          "cumulative_proxy_delta": [
+            4129,
+            6397,
+            6397,
+            8233,
+            10069,
+            11897,
+            11897,
+            13733,
+            15569,
+            15569
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "same_history_query_rotation": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 45452,
+      "after_proxy": 79272,
+      "proxy_change_percent": 74.40816685734401,
+      "parser_executions_before": 228,
+      "parser_executions_after": 27,
+      "parser_execution_reduction_percent": 88.1578947368421,
+      "queries_with_fewer_parser_executions": 27,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-same_history_query_rotation-00",
+          "cumulative_proxy_delta": [
+            2138,
+            3999,
+            4787,
+            5575,
+            6363,
+            7151,
+            8427,
+            9215,
+            10003,
+            11279
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-01",
+          "cumulative_proxy_delta": [
+            2143,
+            3989,
+            4777,
+            5565,
+            6353,
+            7141,
+            8411,
+            9199,
+            9987,
+            11257
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-same_history_query_rotation-02",
+          "cumulative_proxy_delta": [
+            2143,
+            4004,
+            4792,
+            5580,
+            6368,
+            7156,
+            8432,
+            9220,
+            10008,
+            11284
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    },
+    "valid_reorder_delete_reinsert": {
+      "candidate": "lru",
+      "reference": "fresh",
+      "paired_queries": 30,
+      "before_proxy": 52902,
+      "after_proxy": 126842,
+      "proxy_change_percent": 139.7678726702204,
+      "parser_executions_before": 261,
+      "parser_executions_after": 27,
+      "parser_execution_reduction_percent": 89.65517241379311,
+      "queries_with_fewer_parser_executions": 27,
+      "queries_with_lower_proxy": 0,
+      "streams": [
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-00",
+          "cumulative_proxy_delta": [
+            4891,
+            7167,
+            9210,
+            11486,
+            13527,
+            15803,
+            18079,
+            20355,
+            22363,
+            24639
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-01",
+          "cumulative_proxy_delta": [
+            4891,
+            7167,
+            9210,
+            11486,
+            13527,
+            15803,
+            18079,
+            20355,
+            22363,
+            24639
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        },
+        {
+          "stream_id": "holdout-valid_reorder_delete_reinsert-02",
+          "cumulative_proxy_delta": [
+            4896,
+            7174,
+            9219,
+            11497,
+            13540,
+            15818,
+            18096,
+            20374,
+            22384,
+            24662
+          ],
+          "first_strict_break_even_step": null,
+          "sustained_break_even_step": null
+        }
+      ]
+    }
+  },
+  "failures": [],
+  "raw_rows": {
+    "file": "holdout_rows.json.gz",
+    "count": 1200,
+    "uncompressed_bytes": 2085181,
+    "sha256": "1eb158857b54dd609c16117973c92fd8d86c4544bab2d4684b7305b7e99ba9fa"
+  },
+  "hypothesis_decisions": {
+    "H7_S": "passed_observed_parity_and_gold_checks",
+    "H7_P": "exercised",
+    "H7_C": "no_total_proxy_gain",
+    "real_LLM_cost_tokens_quality": "not_measured"
+  }
+}

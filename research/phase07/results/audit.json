@@ -1,0 +1,365 @@
+{
+  "passed": true,
+  "development_only": true,
+  "heldout_read": false,
+  "parity_check_count": 39,
+  "parity_checks": [
+    {
+      "name": "same_id_original",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "same_id_changed_text",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "deep_stage_cold",
+      "status": "certified_model",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "deep_stage_warm",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "deep_stage_reset",
+      "status": "certified_model",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "entity_membership_changed",
+      "status": "opaque_fallback",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "entity_order_changed",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "historical_copy_original",
+      "status": "certified_model",
+      "actual_parser_calls": 4,
+      "logical_parser_requests": 4,
+      "cache_lookups": 4
+    },
+    {
+      "name": "historical_copy_source_edited",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 4,
+      "cache_lookups": 4
+    },
+    {
+      "name": "namespace_v1_cold",
+      "status": "certified_model",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "namespace_v1_warm",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "namespace_v2_cold",
+      "status": "certified_model",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "proper_scope_time_query",
+      "status": "certified_model",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 2
+    },
+    {
+      "name": "proper_scope_both_query",
+      "status": "opaque_fallback",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 4,
+      "cache_lookups": 2
+    },
+    {
+      "name": "proper_scope_time_query_again",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 3,
+      "cache_lookups": 2
+    },
+    {
+      "name": "append_correction",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "valid_reorder",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "delete",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "reinsert",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "duplicate_exact_text_different_id",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "empty_history",
+      "status": "opaque_fallback",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 0,
+      "cache_lookups": 0
+    },
+    {
+      "name": "stale_snapshot_after_text_edit",
+      "status": "integrity_failure",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 0,
+      "cache_lookups": 0
+    },
+    {
+      "name": "invalid_sequence_even_with_fresh_digest",
+      "status": "integrity_failure",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 0,
+      "cache_lookups": 0
+    },
+    {
+      "name": "unsupported_query",
+      "status": "unsupported_query",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 0,
+      "cache_lookups": 0
+    },
+    {
+      "name": "invalid_snapshot_repaired",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "fresh_api_without_cache",
+      "status": "certified_model",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 0
+    },
+    {
+      "name": "result_alias_does_not_mutate_cache",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "disabled_zero_capacity",
+      "status": "certified_model",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "oversize_bypass",
+      "status": "certified_model",
+      "actual_parser_calls": 3,
+      "logical_parser_requests": 3,
+      "cache_lookups": 1
+    },
+    {
+      "name": "lru_order_0",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "lru_order_1",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "lru_order_2",
+      "status": "certified_model",
+      "actual_parser_calls": 0,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "lru_order_3",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "lru_order_4",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "byte_capacity_measure_one",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "byte_bound_0",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "byte_bound_1",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "byte_bound_2",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    },
+    {
+      "name": "explicit_clear_recomputes",
+      "status": "certified_model",
+      "actual_parser_calls": 1,
+      "logical_parser_requests": 1,
+      "cache_lookups": 1
+    }
+  ],
+  "negative_control_counterexamples": [
+    {
+      "name": "id_only_key_stale_edit",
+      "negative_control": true,
+      "id": "same-id",
+      "cached_value": 10,
+      "correct_value": 11,
+      "implemented_cache_prediction": {
+        "가람.time": [
+          11
+        ]
+      }
+    },
+    {
+      "name": "stage_omitted_real_parser_collision",
+      "negative_control": true,
+      "text": "가람 약속, 최종 시각은 11시로 적어둘게.",
+      "cheap_kind": "havoc",
+      "deep_kind": "set",
+      "deep_value": 11
+    },
+    {
+      "name": "entity_environment_omitted",
+      "negative_control": true,
+      "text": "가람 모임 시간은 10시로 확정해줘.",
+      "original_entities": [
+        "가람",
+        "노을"
+      ],
+      "changed_entities": [
+        "새봄",
+        "한결"
+      ],
+      "original_kind": "set",
+      "changed_kind": "havoc"
+    },
+    {
+      "name": "cached_historical_copy_value",
+      "negative_control": true,
+      "copy_text_unchanged": "노을 모임 시간은 가람 모임 시간과 같게 맞춰줘.",
+      "stale_source_value": 10,
+      "correct_source_value_after_edit": 12,
+      "final_source_value_both_histories": 11,
+      "implemented_cache_prediction": {
+        "노을.time": [
+          12
+        ]
+      }
+    },
+    {
+      "name": "namespace_semantic_change_toy_only",
+      "negative_control": true,
+      "toy_function": "f(v1,x)=x; f(v2,x)=x+1",
+      "stale": 10,
+      "correct": 11,
+      "boundary": "The production parser does not change semantics with namespace; the real test checks isolation only."
+    }
+  ],
+  "nonvacuity": {
+    "cold_actual_calls": 3,
+    "warm_actual_calls": 0,
+    "reset_actual_calls": 3,
+    "logical_requests_each": 3,
+    "persistent_vs_reset_parser_reduction": 3
+  },
+  "immutability_checks": [
+    "stage_table",
+    "event_mapping",
+    "event_nested_targets",
+    "producer_alias_isolated"
+  ],
+  "capacity_checks": {
+    "oversize_bypassed": true,
+    "entry_lru_evictions": 2,
+    "byte_budget_evictions": 2,
+    "accounting_matches_entries": true
+  },
+  "limitations": [
+    "These are authored development checks, not independent evaluation or a proof for arbitrary inputs.",
+    "The namespace semantic-change counterexample uses a declared toy pure function; the production parser is unchanged.",
+    "No actual query-local TOP versus detailed-exact-result counterexample is established: the tested proper-scope sentence stays havoc under the current deep grammar. Cross-query demand changes are checked for reference parity only.",
+    "Serialized retained-byte limits are checked; Python object overhead, allocator behavior and RSS are outside this bound.",
+    "Parser execution reduction is established here; whole-cost and wall-time improvement require the preregistered comparative study."
+  ]
+}

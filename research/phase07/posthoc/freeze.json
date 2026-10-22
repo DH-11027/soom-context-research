@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-10-22T10:21:01.505106+00:00",
+  "posthoc": true,
+  "hashes": {
+    "POSTHOC_PROTOCOL.md": "215b7d2317f48c9c748ce5de314331257c3a59e22210ac73e56ef47114b4164a",
+    "cost_boundary_probe.py": "b2229c703f6c9cc9c27451714e6e88f20265d1c4ebe0ea4e7aa642e2b3dbb555",
+    "cached.py": "101553dd0ce11b3f114e804d96305829e19e6debf71aa3b674598bc548f8fe93",
+    "baseline.py": "c88c1f0a17203d04efbc20d75073bc57543924b9b7be1c1da212e94d9346365d"
+  }
+}
