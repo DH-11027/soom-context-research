@@ -1,0 +1,36 @@
+{
+  "baseline_commit": "6da051c0132811184ecf39975d7ff647a1f47842",
+  "archive": {
+    "archive_files": 59,
+    "archive_bytes": 14076747,
+    "original_frozen_source_bindings": 18,
+    "parsed_json_and_notebooks": 28,
+    "python_syntax_files": 28,
+    "notebooks_basic_structure": 5,
+    "resolved_local_links": 161,
+    "status": "passed",
+    "boundary": "Integrity and packaging only"
+  },
+  "holdout_builder": {
+    "seed": 2026102207,
+    "streams": 30,
+    "families": 10,
+    "steps": 300,
+    "valid_steps": 288,
+    "invalid_steps": 12,
+    "gold_applicable_steps": 276,
+    "unsupported_questions": 9,
+    "schema_and_gold_checks": "passed",
+    "selector_evaluated": false,
+    "bytes": 1966152,
+    "sha256": "76a93ffa695c4abcc6d240382a40211d4d406b2c9d84352e5d2c9c181c0f9f98"
+  },
+  "boundary_reproduction_byte_identical": true,
+  "artifacts": {
+    "phase07_boundary_reproduction.json": "1d33f8de3f5f61c1cb3fa64561c5963654f4ac55c07fe03d9bfefe70ce3b06f6",
+    "phase07_reproduction_receipt.json": "f00cb1583f2ff4fd1f2c99492535b5e9b87d9d46a55ec1cacf678f684b02dde9",
+    "phase07_recount.json": "ae97e5c8a2b3fe5e23717789a7de8ae756523405fcdc6beb28bf66cd5bc276b1",
+    "recount_phase07.py": "0edcc46c076a7e292f88ba7b267d8bd28c33196049060a08e10bd86311f6c7dd",
+    "phase07_reproduction_timing.json": "e48d7cbd6b76aaf39c1f78bd3502fcfb7a90e95afa805275242d37ee82c72c70"
+  }
+}

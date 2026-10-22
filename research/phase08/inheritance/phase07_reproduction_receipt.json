@@ -1,0 +1,39 @@
+{
+  "created_at_utc": "2026-10-22T11:03:16.876607+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "freeze_sha256": "2c1df3467a8c9a4592c87c46d216df7c8216cc619361c009a7948479b99a58cf",
+  "elapsed_seconds": 3.601408925999749,
+  "failures": 0,
+  "status": "passed",
+  "compared": [
+    {
+      "file": "audit.json",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_results.json",
+      "byte_identical": true
+    },
+    {
+      "file": "holdout_rows.json.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "regression_results.json",
+      "byte_identical": true
+    },
+    {
+      "file": "regression_rows.json.gz",
+      "byte_identical": true
+    }
+  ],
+  "artifact_sha256": {
+    "regression_results.json": "09d7e4833d4e9e1c9180249920dd5d5104fd20d807eaeb9a7ef498a6e9c3c7a5",
+    "timing.json": "e48d7cbd6b76aaf39c1f78bd3502fcfb7a90e95afa805275242d37ee82c72c70",
+    "holdout_results.json": "42cbde2d98e4c637c7f53e3601b0eca4ffbc3ceb6adfbc29061dfa562baab044",
+    "holdout_rows.json.gz": "1eb158857b54dd609c16117973c92fd8d86c4544bab2d4684b7305b7e99ba9fa",
+    "audit.json": "26e224d62b47483eea7af4399e27541b22801862bd5770d582eb96837cc10de1",
+    "regression_rows.json.gz": "2465218fef7acd17263a91664226dfdc6ab7c21c9a144c8c25154d2f164d0bb9"
+  }
+}

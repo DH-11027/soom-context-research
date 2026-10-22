@@ -1,0 +1,7 @@
+{
+  "freeze_commit": "4a128204cad4abbf374fea7326b6c844f800812f",
+  "freeze_tree": "de9620c081bab88b92a7d688676718665d7cf2e1",
+  "freeze_sha256": "885ff9ecf25c4df38410ab39a16ae922195e1ee5b7eb9da0501853f926a7c11a",
+  "first_evaluation_authorized_at_utc": "2026-10-22T11:19:19.887524+00:00",
+  "boundary": "Root has not opened Phase08 holdout data, labels, builder, or author notes; hashes/counts only. Local freeze, not external preregistration."
+}
