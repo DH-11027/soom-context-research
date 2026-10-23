@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-10-23T00:00:28.677080+00:00",
+  "baseline_commit": "efba3224dd09d5c5e2bf9d9be11734fa10b32502",
+  "checkpoint_commit": "0e62476d4ce4eedb48ec419a557537deae8e50b0",
+  "checkpoint_tree": "e2a18eba0aeb5144147adc49ad15a6fc72c84132",
+  "boundary": "Root and reviewers have not opened new raw/gold/builder; same-model author with shared public design; local freeze, not external preregistration",
+  "primary": "Median of 24 paired whole-workload selective_off/fresh_off ratios; cold-inclusive, 3 cycles; practical threshold 0.95 with conditional block interval and half-session consistency",
+  "hashes": {
+    "bindings.py": "6eee70b72b66114c9451fce849948edda7768a9b12a5ac0e0d43183e6fec7c3a",
+    "derive_off.py": "abb61d348a5cb12e5bf09dd77fa3879e8d5f733693bc82e0242a28a592635dba",
+    "runtime_off.py": "da687991cdfc75beb70b3413a9c884ed30c231e4af59c3081aaa72d2258b664a",
+    "ERASURE_MAP.json": "997aa528c1c96260d6dcb3c0bd6ce5be0ae20b64173f7d89bfc8c5129ba09e73",
+    "benchmark.py": "f0219dac3b5429e95338f224a805bd18dbe65bf1ee52815e83ff0eb3dd0d4e6f",
+    "audit_equivalence.py": "27d257eae3b2e1d9099ea2024d49de48442a22deab262fc13070d8535086b38b",
+    "counterexamples.py": "2f24c13701cfc325f77743da661d639f7a38178ccf00d95c1dd54c7cfbfd4783",
+    "run_study.py": "1603c64267ebdb2123fdd2ab4a66a2fd5a85c40c211b418c85f700e28787f1ec",
+    "recount_results.py": "0a07c8d004d086d6e232ebbdd06e46afbdd014fbf2b5d0ba580158dcf84477ad",
+    "PROTOCOL.md": "9fcd5e72294ff2df8b2e43dd98b0361a1313299dc500ba85d4e10de8a9bf5a34",
+    "THEORY.md": "0f53ee334b4aa4a94ef21d8399b9e4db4800c3f41d10b617b3a0cca8870762d1",
+    "MATH_REVIEW.md": "76cd3ecf6c5520f277020c35c2a183873c01180bf84e7f9a7742774b9e71ce38",
+    "EVALUATOR_REVIEW.md": "7919cdc22971fd65ab49334367f994992dd3f18e37c5fda9a37a4b72b25a0755",
+    "holdout_builder.py": "96261e055f8938ca07b4c694c53b9f331f1e92e7e078ed90d4767c885cc685bc",
+    "HOLDOUT_AUTHOR.md": "c953aa1537fff4875e75233988076466d23513c3c5c3983c66475c9331d80c6d",
+    "data/holdout.json.gz": "bc56abfc5be274cd8ae6e0d574ad314bc3ddcff94999eac71d1cd6de81aafaad",
+    "data/holdout_manifest.json": "e37434f0f348bf3a53f9dfa3aeae1a7063207d0f9ad65a8506ae7062511d611c"
+  },
+  "baseline_hashes": {
+    "research/phase05/revision02/engine.py": "67163a9f83b11364ffa82be824925d96b8d62a828fd18d18cb3812f869f9d993",
+    "research/phase06/scoped.py": "1b443560f5899a6ae2eecd2b16aee2493d303dff945a07354b8e831ce10872b4",
+    "research/phase06/evaluate.py": "a1dbd02e80c6daa67cad7ffc5772d073dc88d83e513cb487b58b41687e7dbcb6",
+    "research/phase07/baseline.py": "c88c1f0a17203d04efbc20d75073bc57543924b9b7be1c1da212e94d9346365d",
+    "research/phase07/cached.py": "101553dd0ce11b3f114e804d96305829e19e6debf71aa3b674598bc548f8fe93",
+    "research/phase07/study.py": "f1d3772a7e5bb30dbac910c611cb2e84b19983c2be3c4711ed378fd96aa7920b",
+    "research/phase08/frozen.py": "cff396a3c06e8065434d57edbbfb86a888b84d5eb094f2b97e369c1c3026e9bf",
+    "research/phase08/runtime.py": "d923f5f1a0012b5f70348ed4cfdd376791ac6e12b1af3ed7b663e4aab674de13",
+    "research/phase08/evaluation.py": "e173c1bde61dd7913fe4d943f6e7a300ec0f9a3d6c0e7128552612bf89443291",
+    "research/phase08/data/holdout.json": "9f8c46a60d23eea8bea3f6dc7626908d4f74885a52b05d93d83c714ad6dc6613",
+    "research/phase07/data/holdout.json": "76a93ffa695c4abcc6d240382a40211d4d406b2c9d84352e5d2c9c181c0f9f98",
+    "research/phase06/data/holdout.json": "ee2640474780954514f3018e971701c49e273bf6b4e6f5d156bcd2428035a830",
+    "research/phase05/corpus.json": "38619b2b12c356e43abd4b7755d08cca65ab5e3147324c4838895532fd1e309a"
+  }
+}

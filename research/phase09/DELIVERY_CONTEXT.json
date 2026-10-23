@@ -1,0 +1,54 @@
+{
+  "checked_after_original_and_reproduction": true,
+  "read_boundary": "Earlier Phase09/Phase10 remote branches were discovered during delivery after the new Phase09 original and reproduction had finished. Root then viewed PR metadata/body excerpts and first lines of earlier Phase09 handoff; those results were not used in frozen design, code, data or thresholds. Existing Phase09/Phase10 implementations were not reproduced or merged.",
+  "new_branch": "research/phase09-instrumentation-erasure-20261023",
+  "base_branch": "research/phase08-cost-aware-reuse",
+  "base_sha": "efba3224dd09d5c5e2bf9d9be11734fa10b32502",
+  "pull_requests": [
+    {
+      "number": 5,
+      "state": "open",
+      "merged": false,
+      "base": "research/phase09-instrumentation-erasure",
+      "head": "research/phase10-time-prediction",
+      "head_sha": "43505a756408a2af74da77b980f015f1b450de5b",
+      "url": "https://github.com/DH-11027/soom-context-research/pull/5"
+    },
+    {
+      "number": 4,
+      "state": "open",
+      "merged": false,
+      "base": "research/phase08-cost-aware-reuse",
+      "head": "research/phase09-instrumentation-erasure",
+      "head_sha": "0c08785fcee9ab146f33fa8a7d94a4b7700833aa",
+      "url": "https://github.com/DH-11027/soom-context-research/pull/4"
+    },
+    {
+      "number": 3,
+      "state": "open",
+      "merged": false,
+      "base": "research/phase07-parse-reuse",
+      "head": "research/phase08-cost-aware-reuse",
+      "head_sha": "efba3224dd09d5c5e2bf9d9be11734fa10b32502",
+      "url": "https://github.com/DH-11027/soom-context-research/pull/3"
+    },
+    {
+      "number": 2,
+      "state": "open",
+      "merged": false,
+      "base": "research/phase06-scoped-opaque",
+      "head": "research/phase07-parse-reuse",
+      "head_sha": "6da051c0132811184ecf39975d7ff647a1f47842",
+      "url": "https://github.com/DH-11027/soom-context-research/pull/2"
+    },
+    {
+      "number": 1,
+      "state": "open",
+      "merged": false,
+      "base": "main",
+      "head": "research/phase06-scoped-opaque",
+      "head_sha": "13d166dc106fa3ab33128ad0626679fafdce5019",
+      "url": "https://github.com/DH-11027/soom-context-research/pull/1"
+    }
+  ]
+}

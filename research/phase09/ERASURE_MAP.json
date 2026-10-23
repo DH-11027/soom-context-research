@@ -1,0 +1,322 @@
+{
+  "source_sha256": {
+    "research/phase06/scoped.py": "1b443560f5899a6ae2eecd2b16aee2493d303dff945a07354b8e831ce10872b4",
+    "research/phase08/runtime.py": "d923f5f1a0012b5f70348ed4cfdd376791ac6e12b1af3ed7b663e4aab674de13"
+  },
+  "policy": "conservative source-level erasure; no path-sensitive lazy encoding or data-structure optimization",
+  "phase06_removed": [
+    {
+      "line": 108,
+      "reason": "reporting_counter",
+      "source": "cost[\"hash_serialized_bytes\"] += len(serialized)"
+    },
+    {
+      "line": 109,
+      "reason": "reporting_counter",
+      "source": "cost[\"hash_calls\"] += 1"
+    },
+    {
+      "line": 181,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "cost = new_cost(public)"
+    },
+    {
+      "line": 182,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "start = perf_counter()"
+    },
+    {
+      "line": 203,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "size = len(text.encode(\"utf-8\"))"
+    },
+    {
+      "line": 204,
+      "reason": "reporting_counter",
+      "source": "cost[\"records_visited\"] += 1"
+    },
+    {
+      "line": 205,
+      "reason": "reporting_counter",
+      "source": "cost[\"cheap_calls\"] += 1"
+    },
+    {
+      "line": 206,
+      "reason": "reporting_counter",
+      "source": "cost[\"cheap_source_bytes\"] += size"
+    },
+    {
+      "line": 211,
+      "reason": "reporting_counter",
+      "source": "cost[\"oracle_metadata_fields\"] += len(w)"
+    },
+    {
+      "line": 216,
+      "reason": "reporting_counter",
+      "source": "cost[\"contract_calls\"] += 1"
+    },
+    {
+      "line": 217,
+      "reason": "reporting_counter",
+      "source": "cost[\"contract_source_bytes\"] += size"
+    },
+    {
+      "line": 226,
+      "reason": "reporting_counter",
+      "source": "cost[\"detail_calls\"] += 1"
+    },
+    {
+      "line": 227,
+      "reason": "reporting_counter",
+      "source": "cost[\"detail_source_bytes\"] += size"
+    },
+    {
+      "line": 247,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "cost[\"abstract_steps\"] = len(selected)"
+    }
+  ],
+  "phase08_removed": [
+    {
+      "line": 80,
+      "reason": "remove_peak_targets_only",
+      "source": "self.retained_bytes = self.peak_bytes = self.peak_entries = 0"
+    },
+    {
+      "line": 85,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"length_directory_lookup\")"
+    },
+    {
+      "line": 88,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"resident_presence_lookup\")"
+    },
+    {
+      "line": 91,
+      "reason": "reporting_counter",
+      "source": "cost[\"directory_skips\"] += 1"
+    },
+    {
+      "line": 95,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"exact_lookup\")"
+    },
+    {
+      "line": 96,
+      "reason": "reporting_counter",
+      "source": "cost[\"cache_lookups\"] += 1"
+    },
+    {
+      "line": 97,
+      "reason": "reporting_counter",
+      "source": "cost[\"key_probe_bytes\"] += sum(map(len, key))"
+    },
+    {
+      "line": 100,
+      "reason": "reporting_counter",
+      "source": "cost[\"cache_entry_misses\"] += 1"
+    },
+    {
+      "line": 102,
+      "reason": "reporting_counter",
+      "source": "cost[\"cache_entry_hits\"] += 1"
+    },
+    {
+      "line": 103,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"bounded_hit_update\")"
+    },
+    {
+      "line": 109,
+      "reason": "reporting_counter",
+      "source": "cost[\"admission_attempts\"] += 1"
+    },
+    {
+      "line": 112,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"stage_payload_prepare\")"
+    },
+    {
+      "line": 115,
+      "reason": "reporting_counter",
+      "source": "cost[\"value_encode_bytes\"] += length"
+    },
+    {
+      "line": 118,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"candidate_arithmetic\", 2)"
+    },
+    {
+      "line": 121,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"positive_surplus_check\")"
+    },
+    {
+      "line": 123,
+      "reason": "reporting_counter",
+      "source": "cost[\"admission_reject_gain\"] += 1"
+    },
+    {
+      "line": 125,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"capacity_check\")"
+    },
+    {
+      "line": 127,
+      "reason": "reporting_counter",
+      "source": "cost[\"cache_oversize\"] += 1"
+    },
+    {
+      "line": 128,
+      "reason": "reporting_counter",
+      "source": "cost[\"admission_reject_capacity\"] += 1"
+    },
+    {
+      "line": 135,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"resident_score_read\")"
+    },
+    {
+      "line": 140,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"density_comparison\")"
+    },
+    {
+      "line": 149,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"victim_plan_step\")"
+    },
+    {
+      "line": 156,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"victim_benefit_check\")"
+    },
+    {
+      "line": 158,
+      "reason": "reporting_counter",
+      "source": "cost[\"admission_reject_capacity\"] += 1"
+    },
+    {
+      "line": 162,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"entry_removal\", 4)"
+    },
+    {
+      "line": 168,
+      "reason": "reporting_counter",
+      "source": "cost[\"cache_evictions\"] += 1"
+    },
+    {
+      "line": 170,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"entry_initialization\", META_BYTES // 8)"
+    },
+    {
+      "line": 177,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "self.peak_bytes = max(self.peak_bytes, self.retained_bytes)"
+    },
+    {
+      "line": 178,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "self.peak_entries = max(self.peak_entries, len(self.entries))"
+    },
+    {
+      "line": 179,
+      "reason": "reporting_counter",
+      "source": "cost[\"cache_writes\"] += 1"
+    },
+    {
+      "line": 180,
+      "reason": "reporting_counter",
+      "source": "cost[\"cache_write_bytes\"] += size - META_BYTES"
+    },
+    {
+      "line": 198,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "start = perf_counter()"
+    },
+    {
+      "line": 199,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "cost = new_cost(public)"
+    },
+    {
+      "line": 215,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"context_access\")"
+    },
+    {
+      "line": 218,
+      "reason": "reporting_counter",
+      "source": "cost[\"key_build_bytes\"] += len(context)"
+    },
+    {
+      "line": 230,
+      "reason": "reporting_counter",
+      "source": "cost[\"records_visited\"] += 1"
+    },
+    {
+      "line": 231,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"character_length_gate\")"
+    },
+    {
+      "line": 241,
+      "reason": "reporting_counter",
+      "source": "cost[\"key_build_bytes\"] += size"
+    },
+    {
+      "line": 246,
+      "reason": "reporting_counter",
+      "source": "cost[\"short_bypasses\"] += 1"
+    },
+    {
+      "line": 253,
+      "reason": "reporting_counter",
+      "source": "cost[name + \"_requests\"] += 1"
+    },
+    {
+      "line": 255,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"cached_stage_read\")"
+    },
+    {
+      "line": 257,
+      "reason": "reporting_counter",
+      "source": "cost[name + \"_reused\"] += 1"
+    },
+    {
+      "line": 258,
+      "reason": "reporting_counter",
+      "source": "cost[\"cache_read_payload_bytes\"] += length"
+    },
+    {
+      "line": 260,
+      "reason": "reporting_counter",
+      "source": "cost[name + \"_calls\"] += 1"
+    },
+    {
+      "line": 261,
+      "reason": "reporting_counter",
+      "source": "cost[name + \"_source_bytes\"] += size"
+    },
+    {
+      "line": 265,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"stage_observation\")"
+    },
+    {
+      "line": 282,
+      "reason": "reporting_control_event",
+      "source": "action(cost, \"bundle_eligibility\")"
+    },
+    {
+      "line": 301,
+      "reason": "reporting_assignment_or_fresh_source_size",
+      "source": "cost[\"abstract_steps\"] = len(selected)"
+    }
+  ],
+  "generated_sha256": "da687991cdfc75beb70b3413a9c884ed30c231e4af59c3081aaa72d2258b664a"
+}
