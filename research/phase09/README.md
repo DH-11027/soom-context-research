@@ -4,6 +4,10 @@
 `efba3224dd09d5c5e2bf9d9be11734fa10b32502`를 정확한 기준으로 삼은 연구다.
 SOOM 운영 변경은 없다.
 
+전달: [PR #6](https://github.com/DH-11027/soom-context-research/pull/6), open/unmerged.
+연구 payload를 원격에서 다시 읽어 로컬 전체 tree와 일치함을 확인했다.
+[DELIVERY_RECEIPT.json](DELIVERY_RECEIPT.json)에 기준 commit과 확인 경계를 남겼다.
+
 새 36 stream /622 step에서 공정한 `fresh_uninstrumented → selective_uninstrumented`
 전체 시간의 paired 중앙 변화는 원본 **+23.59%**, 한 번의 별도 재현 **+15.80%**였다.
 실제 parser 호출은22.02%, parser 입력 bytes는63.72% 줄었지만 실제 시간 개선으로

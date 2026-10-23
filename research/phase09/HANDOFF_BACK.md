@@ -10,6 +10,14 @@
 두 실행 모두 기각됐다. 실제 파서 호출과 입력 bytes를 줄였다는 사실은 실제 시간
 개선의 증명이 아니었다. **SOOM 운영 변경 없음.**
 
+**GitHub 전달:** [PR #6](https://github.com/DH-11027/soom-context-research/pull/6),
+open / unmerged. 연구 payload 공개 commit은
+`68bec47a04850c19a1abea0425113cb0955ddd81`이며 로컬 payload
+`77b441d2be35721d62373ccb1fcc982c5f8f413d`와 전체 Git tree
+`9eb8c6d731ea97d4a34fb3d93953654f54090f10`이 정확히 같음을 원격 fetch 후 확인했다.
+이 문단과 [DELIVERY_RECEIPT.json](DELIVERY_RECEIPT.json)은 그 확인 뒤 추가한 전달 기록이다.
+PR의 최신 head에는 이 전달 기록도 포함된다. 연구 코드·자료·실험 결과는 바꾸지 않았다.
+
 ## 출발 상태
 
 ### 기준 commit과 현재 원격 상태

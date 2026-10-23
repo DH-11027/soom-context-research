@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-23T00:34:07.881920+00:00",
+  "repository": "https://github.com/DH-11027/soom-context-research",
+  "pull_request": {
+    "number": 6,
+    "url": "https://github.com/DH-11027/soom-context-research/pull/6",
+    "state_at_check": "open",
+    "merged_at_check": false
+  },
+  "branch": "research/phase09-instrumentation-erasure-20261023",
+  "base_branch": "research/phase08-cost-aware-reuse",
+  "base_commit": "efba3224dd09d5c5e2bf9d9be11734fa10b32502",
+  "local_freeze_commit": "b4a844efcaca73483f2c0d8b8339a1e352872745",
+  "local_payload_commit": "77b441d2be35721d62373ccb1fcc982c5f8f413d",
+  "public_payload_commit": "68bec47a04850c19a1abea0425113cb0955ddd81",
+  "local_and_remote_payload_tree": "9eb8c6d731ea97d4a34fb3d93953654f54090f10",
+  "verification": {
+    "remote_ref_fetched": true,
+    "full_tree_diff_exit_code": 0,
+    "new_files_under_research_phase09": 59,
+    "changed_ancestor_files": 0,
+    "archive_integrity_passed": true,
+    "frozen_hashes_and_generated_source_passed": true,
+    "holdout_builder_check_passed": true,
+    "data_analysis_check_passed": true
+  },
+  "publication_boundary": "GitHub object API creates a different public commit from the local payload commit; complete tree bytes match. Original pre-evaluation local Git objects remain in pre_evaluation.bundle. Publication occurred after evaluation, not external preregistration.",
+  "receipt_boundary": "This records verification of the 59-file research payload before adding this receipt and PR-link paragraphs to HANDOFF_BACK.md and README.md. The final PR head includes these delivery-only additions. Final remote/local tree equality is checked again after that commit; no self-referential commit hash is claimed in this file.",
+  "operational_change": false,
+  "existing_remote_branches_preserved": true,
+  "additional_timing_after_reproduction": false
+}
