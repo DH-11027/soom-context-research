@@ -1,0 +1,106 @@
+{
+  "scope": "constructed development counterexamples, not timing or held-out evidence",
+  "erased_resident_hit": [
+    {
+      "prefix": 1,
+      "observation_equal": true,
+      "policy_equal": true,
+      "normal": [
+        {
+          "L": 33071,
+          "C": 103,
+          "R": 154,
+          "size": 33408,
+          "surplus": 32750,
+          "hits": 0,
+          "order": 0
+        }
+      ],
+      "mutant": [
+        {
+          "L": 33071,
+          "C": 103,
+          "R": 154,
+          "size": 33408,
+          "surplus": 32750,
+          "hits": 0,
+          "order": 0
+        }
+      ],
+      "normal_capacity_rejections": 0,
+      "mutant_capacity_rejections": 0
+    },
+    {
+      "prefix": 2,
+      "observation_equal": true,
+      "policy_equal": false,
+      "normal": [
+        {
+          "L": 33071,
+          "C": 103,
+          "R": 154,
+          "size": 33408,
+          "surplus": 32750,
+          "hits": 1,
+          "order": 0
+        }
+      ],
+      "mutant": [
+        {
+          "L": 33071,
+          "C": 103,
+          "R": 154,
+          "size": 33408,
+          "surplus": 32750,
+          "hits": 0,
+          "order": 0
+        }
+      ],
+      "normal_capacity_rejections": 0,
+      "mutant_capacity_rejections": 0
+    },
+    {
+      "prefix": 3,
+      "observation_equal": true,
+      "policy_equal": false,
+      "normal": [
+        {
+          "L": 33071,
+          "C": 103,
+          "R": 154,
+          "size": 33408,
+          "surplus": 32750,
+          "hits": 1,
+          "order": 0
+        }
+      ],
+      "mutant": [
+        {
+          "L": 34071,
+          "C": 103,
+          "R": 154,
+          "size": 34408,
+          "surplus": 33750,
+          "hits": 0,
+          "order": 1
+        }
+      ],
+      "normal_capacity_rejections": 1,
+      "mutant_capacity_rejections": 0
+    }
+  ],
+  "erased_policy_weight": {
+    "prefix": 1,
+    "characters": 278,
+    "L": 320,
+    "C": 103,
+    "R": 154,
+    "normal_surplus": -1,
+    "mutant_surplus": 63,
+    "observation_equal": true,
+    "policy_equal": false,
+    "normal_entries": 0,
+    "mutant_entries": 1
+  },
+  "mutants_detected": 2
+}

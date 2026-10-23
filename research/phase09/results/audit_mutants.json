@@ -1,0 +1,27 @@
+{
+  "state_mutants": {
+    "state_mutants_detected": [
+      "hit_update_removed",
+      "surplus_changed",
+      "entry_order_changed",
+      "next_order_changed",
+      "directory_changed",
+      "retained_changed",
+      "exact_raw_changed_same_length",
+      "stage_value_changed"
+    ],
+    "count": 8,
+    "observation_mutants_detected": [
+      "missing_reason_vs_explicit_none",
+      "missing_prediction",
+      "unexpected_result_field"
+    ],
+    "observation_count": 3,
+    "total_mutants": 11,
+    "boundary": "Deliberately corrupted synthetic resident state checks the auditor, not a defect observed in the runtime."
+  },
+  "restoration": {
+    "exceptional_exit_bindings_restored": 6,
+    "identity_checks_passed": true
+  }
+}

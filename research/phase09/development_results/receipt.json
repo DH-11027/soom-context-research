@@ -1,0 +1,31 @@
+{
+  "phase08_holdout_as_development": {
+    "steps": 432,
+    "rows": 1728,
+    "failures": 0
+  },
+  "phase08_development": {
+    "steps": 89,
+    "rows": 356,
+    "failures": 0
+  },
+  "legacy_regressions": {
+    "steps": 1356,
+    "rows": 5424,
+    "failures": 0
+  },
+  "mutants": {
+    "state_mutants_detected": [
+      "hit_update_removed",
+      "surplus_changed",
+      "entry_order_changed",
+      "next_order_changed",
+      "directory_changed",
+      "retained_changed",
+      "exact_raw_changed_same_length",
+      "stage_value_changed"
+    ],
+    "count": 8,
+    "boundary": "Deliberately corrupted synthetic resident state checks the auditor, not a defect observed in the runtime."
+  }
+}

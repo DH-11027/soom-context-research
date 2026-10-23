@@ -1,0 +1,754 @@
+{
+  "seed": 2026102309,
+  "families": 12,
+  "streams": 36,
+  "parameters_per_family": 3,
+  "family_steps": {
+    "cold_terminal": [
+      1,
+      1,
+      1
+    ],
+    "short_repeated": [
+      24,
+      24,
+      24
+    ],
+    "short_churn": [
+      12,
+      12,
+      12
+    ],
+    "long_cheap_repeated": [
+      24,
+      24,
+      24
+    ],
+    "deep_finite_horizons": [
+      3,
+      8,
+      32
+    ],
+    "same_length_churn": [
+      12,
+      12,
+      12
+    ],
+    "working_set_fit": [
+      24,
+      24,
+      24
+    ],
+    "working_set_pressure": [
+      24,
+      24,
+      24
+    ],
+    "phase_shift": [
+      24,
+      24,
+      24
+    ],
+    "revisions_copy_reorder": [
+      16,
+      16,
+      16
+    ],
+    "scope_context_rotation": [
+      16,
+      16,
+      16
+    ],
+    "integrity_unsupported_recovery": [
+      16,
+      16,
+      16
+    ]
+  },
+  "steps": 622,
+  "valid_steps": 610,
+  "invalid_steps": 12,
+  "gold_applicable_steps": 601,
+  "unsupported_questions": 9,
+  "gold_supported_steps": 592,
+  "excluded_entity_membership_undefined": 9,
+  "excluded_invalid_snapshot": 12,
+  "raw_record_occurrences": 5137,
+  "record_utf8_bytes_min_max": [
+    45,
+    68000
+  ],
+  "record_unicode_characters_min_max": [
+    19,
+    51982
+  ],
+  "raw_occurrences_at_or_above_256_characters": 846,
+  "input_history_raw_utf8_total": 16031353,
+  "family_input_description": {
+    "cold_terminal": [
+      {
+        "stream_id": "p9-holdout-cold_terminal-00",
+        "steps": 1,
+        "raw_record_occurrences": 7,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          45,
+          850
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          808
+        ],
+        "history_raw_utf8_total": 1154,
+        "max_history_raw_utf8_bytes": 1154
+      },
+      {
+        "stream_id": "p9-holdout-cold_terminal-01",
+        "steps": 1,
+        "raw_record_occurrences": 7,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          45,
+          18000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          11244
+        ],
+        "history_raw_utf8_total": 18301,
+        "max_history_raw_utf8_bytes": 18301
+      },
+      {
+        "stream_id": "p9-holdout-cold_terminal-02",
+        "steps": 1,
+        "raw_record_occurrences": 7,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          68000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          51982
+        ],
+        "history_raw_utf8_total": 68305,
+        "max_history_raw_utf8_bytes": 68305
+      }
+    ],
+    "short_repeated": [
+      {
+        "stream_id": "p9-holdout-short_repeated-00",
+        "steps": 24,
+        "raw_record_occurrences": 192,
+        "distinct_raw_records": 8,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          285
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          255
+        ],
+        "history_raw_utf8_total": 19728,
+        "max_history_raw_utf8_bytes": 822
+      },
+      {
+        "stream_id": "p9-holdout-short_repeated-01",
+        "steps": 24,
+        "raw_record_occurrences": 192,
+        "distinct_raw_records": 8,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          715
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          255
+        ],
+        "history_raw_utf8_total": 38232,
+        "max_history_raw_utf8_bytes": 1593
+      },
+      {
+        "stream_id": "p9-holdout-short_repeated-02",
+        "steps": 24,
+        "raw_record_occurrences": 192,
+        "distinct_raw_records": 8,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          930
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          255
+        ],
+        "history_raw_utf8_total": 49272,
+        "max_history_raw_utf8_bytes": 2053
+      }
+    ],
+    "short_churn": [
+      {
+        "stream_id": "p9-holdout-short_churn-00",
+        "steps": 12,
+        "raw_record_occurrences": 156,
+        "distinct_raw_records": 127,
+        "distinct_ordered_raw_histories": 12,
+        "record_utf8_bytes_min_max": [
+          45,
+          261
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          231
+        ],
+        "history_raw_utf8_total": 21255,
+        "max_history_raw_utf8_bytes": 1775
+      },
+      {
+        "stream_id": "p9-holdout-short_churn-01",
+        "steps": 12,
+        "raw_record_occurrences": 156,
+        "distinct_raw_records": 127,
+        "distinct_ordered_raw_histories": 12,
+        "record_utf8_bytes_min_max": [
+          45,
+          643
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          231
+        ],
+        "history_raw_utf8_total": 43704,
+        "max_history_raw_utf8_bytes": 3645
+      },
+      {
+        "stream_id": "p9-holdout-short_churn-02",
+        "steps": 12,
+        "raw_record_occurrences": 156,
+        "distinct_raw_records": 127,
+        "distinct_ordered_raw_histories": 12,
+        "record_utf8_bytes_min_max": [
+          46,
+          834
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          231
+        ],
+        "history_raw_utf8_total": 54927,
+        "max_history_raw_utf8_bytes": 4580
+      }
+    ],
+    "long_cheap_repeated": [
+      {
+        "stream_id": "p9-holdout-long_cheap_repeated-00",
+        "steps": 24,
+        "raw_record_occurrences": 168,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          2400
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          2370
+        ],
+        "history_raw_utf8_total": 64944,
+        "max_history_raw_utf8_bytes": 2706
+      },
+      {
+        "stream_id": "p9-holdout-long_cheap_repeated-01",
+        "steps": 24,
+        "raw_record_occurrences": 168,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          45,
+          14500
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          9052
+        ],
+        "history_raw_utf8_total": 355248,
+        "max_history_raw_utf8_bytes": 14802
+      },
+      {
+        "stream_id": "p9-holdout-long_cheap_repeated-02",
+        "steps": 24,
+        "raw_record_occurrences": 168,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          45,
+          62500
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          47782
+        ],
+        "history_raw_utf8_total": 1507320,
+        "max_history_raw_utf8_bytes": 62805
+      }
+    ],
+    "deep_finite_horizons": [
+      {
+        "stream_id": "p9-holdout-deep_finite_horizons-00",
+        "steps": 3,
+        "raw_record_occurrences": 21,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          45,
+          2400
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          2358
+        ],
+        "history_raw_utf8_total": 8115,
+        "max_history_raw_utf8_bytes": 2705
+      },
+      {
+        "stream_id": "p9-holdout-deep_finite_horizons-01",
+        "steps": 8,
+        "raw_record_occurrences": 56,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          45,
+          14500
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          9058
+        ],
+        "history_raw_utf8_total": 118416,
+        "max_history_raw_utf8_bytes": 14802
+      },
+      {
+        "stream_id": "p9-holdout-deep_finite_horizons-02",
+        "steps": 32,
+        "raw_record_occurrences": 224,
+        "distinct_raw_records": 7,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          62500
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          47770
+        ],
+        "history_raw_utf8_total": 2009792,
+        "max_history_raw_utf8_bytes": 62806
+      }
+    ],
+    "same_length_churn": [
+      {
+        "stream_id": "p9-holdout-same_length_churn-00",
+        "steps": 12,
+        "raw_record_occurrences": 72,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 9,
+        "record_utf8_bytes_min_max": [
+          45,
+          2600
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          2558
+        ],
+        "history_raw_utf8_total": 34236,
+        "max_history_raw_utf8_bytes": 2853
+      },
+      {
+        "stream_id": "p9-holdout-same_length_churn-01",
+        "steps": 12,
+        "raw_record_occurrences": 72,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 9,
+        "record_utf8_bytes_min_max": [
+          45,
+          12600
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          7860
+        ],
+        "history_raw_utf8_total": 154200,
+        "max_history_raw_utf8_bytes": 12850
+      },
+      {
+        "stream_id": "p9-holdout-same_length_churn-02",
+        "steps": 12,
+        "raw_record_occurrences": 72,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 9,
+        "record_utf8_bytes_min_max": [
+          46,
+          44000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          33622
+        ],
+        "history_raw_utf8_total": 531048,
+        "max_history_raw_utf8_bytes": 44254
+      }
+    ],
+    "working_set_fit": [
+      {
+        "stream_id": "p9-holdout-working_set_fit-00",
+        "steps": 24,
+        "raw_record_occurrences": 192,
+        "distinct_raw_records": 8,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          7000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          6958
+        ],
+        "history_raw_utf8_total": 343272,
+        "max_history_raw_utf8_bytes": 14303
+      },
+      {
+        "stream_id": "p9-holdout-working_set_fit-01",
+        "steps": 24,
+        "raw_record_occurrences": 216,
+        "distinct_raw_records": 9,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          11334
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          7080
+        ],
+        "history_raw_utf8_total": 823200,
+        "max_history_raw_utf8_bytes": 34300
+      },
+      {
+        "stream_id": "p9-holdout-working_set_fit-02",
+        "steps": 24,
+        "raw_record_occurrences": 240,
+        "distinct_raw_records": 10,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          13500
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          10306
+        ],
+        "history_raw_utf8_total": 1303272,
+        "max_history_raw_utf8_bytes": 54303
+      }
+    ],
+    "working_set_pressure": [
+      {
+        "stream_id": "p9-holdout-working_set_pressure-00",
+        "steps": 24,
+        "raw_record_occurrences": 192,
+        "distinct_raw_records": 8,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          45,
+          37000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          36958
+        ],
+        "history_raw_utf8_total": 1759296,
+        "max_history_raw_utf8_bytes": 73304
+      },
+      {
+        "stream_id": "p9-holdout-working_set_pressure-01",
+        "steps": 24,
+        "raw_record_occurrences": 216,
+        "distinct_raw_records": 9,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          45,
+          26000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          16238
+        ],
+        "history_raw_utf8_total": 1807224,
+        "max_history_raw_utf8_bytes": 75301
+      },
+      {
+        "stream_id": "p9-holdout-working_set_pressure-02",
+        "steps": 24,
+        "raw_record_occurrences": 240,
+        "distinct_raw_records": 10,
+        "distinct_ordered_raw_histories": 1,
+        "record_utf8_bytes_min_max": [
+          46,
+          22000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          16806
+        ],
+        "history_raw_utf8_total": 1975320,
+        "max_history_raw_utf8_bytes": 82305
+      }
+    ],
+    "phase_shift": [
+      {
+        "stream_id": "p9-holdout-phase_shift-00",
+        "steps": 24,
+        "raw_record_occurrences": 180,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 6,
+        "record_utf8_bytes_min_max": [
+          46,
+          9000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          8970
+        ],
+        "history_raw_utf8_total": 402960,
+        "max_history_raw_utf8_bytes": 18308
+      },
+      {
+        "stream_id": "p9-holdout-phase_shift-01",
+        "steps": 24,
+        "raw_record_occurrences": 180,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 6,
+        "record_utf8_bytes_min_max": [
+          45,
+          20000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          12500
+        ],
+        "history_raw_utf8_total": 886864,
+        "max_history_raw_utf8_bytes": 40304
+      },
+      {
+        "stream_id": "p9-holdout-phase_shift-02",
+        "steps": 24,
+        "raw_record_occurrences": 180,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 6,
+        "record_utf8_bytes_min_max": [
+          45,
+          30000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          22930
+        ],
+        "history_raw_utf8_total": 1326936,
+        "max_history_raw_utf8_bytes": 60307
+      }
+    ],
+    "revisions_copy_reorder": [
+      {
+        "stream_id": "p9-holdout-revisions_copy_reorder-00",
+        "steps": 16,
+        "raw_record_occurrences": 156,
+        "distinct_raw_records": 27,
+        "distinct_ordered_raw_histories": 16,
+        "record_utf8_bytes_min_max": [
+          45,
+          297
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          255
+        ],
+        "history_raw_utf8_total": 12143,
+        "max_history_raw_utf8_bytes": 773
+      },
+      {
+        "stream_id": "p9-holdout-revisions_copy_reorder-01",
+        "steps": 16,
+        "raw_record_occurrences": 156,
+        "distinct_raw_records": 25,
+        "distinct_ordered_raw_histories": 16,
+        "record_utf8_bytes_min_max": [
+          45,
+          714
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          256
+        ],
+        "history_raw_utf8_total": 18753,
+        "max_history_raw_utf8_bytes": 1187
+      },
+      {
+        "stream_id": "p9-holdout-revisions_copy_reorder-02",
+        "steps": 16,
+        "raw_record_occurrences": 156,
+        "distinct_raw_records": 24,
+        "distinct_ordered_raw_histories": 16,
+        "record_utf8_bytes_min_max": [
+          45,
+          926
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          257
+        ],
+        "history_raw_utf8_total": 22199,
+        "max_history_raw_utf8_bytes": 1402
+      }
+    ],
+    "scope_context_rotation": [
+      {
+        "stream_id": "p9-holdout-scope_context_rotation-00",
+        "steps": 16,
+        "raw_record_occurrences": 136,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 9,
+        "record_utf8_bytes_min_max": [
+          46,
+          1600
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          1558
+        ],
+        "history_raw_utf8_total": 32638,
+        "max_history_raw_utf8_bytes": 2131
+      },
+      {
+        "stream_id": "p9-holdout-scope_context_rotation-01",
+        "steps": 16,
+        "raw_record_occurrences": 136,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 9,
+        "record_utf8_bytes_min_max": [
+          45,
+          1900
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          1174
+        ],
+        "history_raw_utf8_total": 37371,
+        "max_history_raw_utf8_bytes": 2424
+      },
+      {
+        "stream_id": "p9-holdout-scope_context_rotation-02",
+        "steps": 16,
+        "raw_record_occurrences": 136,
+        "distinct_raw_records": 14,
+        "distinct_ordered_raw_histories": 9,
+        "record_utf8_bytes_min_max": [
+          45,
+          2200
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          1662
+        ],
+        "history_raw_utf8_total": 42215,
+        "max_history_raw_utf8_bytes": 2729
+      }
+    ],
+    "integrity_unsupported_recovery": [
+      {
+        "stream_id": "p9-holdout-integrity_unsupported_recovery-00",
+        "steps": 16,
+        "raw_record_occurrences": 113,
+        "distinct_raw_records": 8,
+        "distinct_ordered_raw_histories": 3,
+        "record_utf8_bytes_min_max": [
+          45,
+          2200
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          2158
+        ],
+        "history_raw_utf8_total": 40105,
+        "max_history_raw_utf8_bytes": 2621
+      },
+      {
+        "stream_id": "p9-holdout-integrity_unsupported_recovery-01",
+        "steps": 16,
+        "raw_record_occurrences": 113,
+        "distinct_raw_records": 9,
+        "distinct_ordered_raw_histories": 4,
+        "record_utf8_bytes_min_max": [
+          45,
+          2600
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          1622
+        ],
+        "history_raw_utf8_total": 46467,
+        "max_history_raw_utf8_bytes": 3018
+      },
+      {
+        "stream_id": "p9-holdout-integrity_unsupported_recovery-02",
+        "steps": 16,
+        "raw_record_occurrences": 113,
+        "distinct_raw_records": 8,
+        "distinct_ordered_raw_histories": 4,
+        "record_utf8_bytes_min_max": [
+          46,
+          3000
+        ],
+        "record_unicode_characters_min_max": [
+          19,
+          2270
+        ],
+        "history_raw_utf8_total": 52921,
+        "max_history_raw_utf8_bytes": 3422
+      }
+    ]
+  },
+  "design": {
+    "raw_working_set_fit_totals": [
+      14000,
+      34000,
+      54000
+    ],
+    "raw_working_set_pressure_totals": [
+      73000,
+      75000,
+      82000
+    ],
+    "working_set_counts": [
+      2,
+      3,
+      4
+    ],
+    "capacity_note": "raw-only sizes; exclude context/payload/metadata, not measured cache occupancy",
+    "repetition_note": "finite termination, fixed repeats, raw churn, same-length collisions and two phase changes",
+    "length_note": "Unicode/codepoint lengths and UTF-8 bytes both recorded; large raw is controlled noop quote"
+  },
+  "schema_and_gold_checks": "passed",
+  "selector_evaluated": false,
+  "authorship": "separate same-model agent, shared public grammar/design; not external blind evaluation",
+  "data_bytes": 328088,
+  "data_sha256": "bc56abfc5be274cd8ae6e0d574ad314bc3ddcff94999eac71d1cd6de81aafaad",
+  "uncompressed_bytes": 18327551,
+  "uncompressed_sha256": "f24d7e73550ee87d03442b660f93f0cd234b409f516db3c983d8ca3ef080a732",
+  "compression": "gzip, mtime=0, empty filename, default level 9",
+  "builder_sha256": "96261e055f8938ca07b4c694c53b9f331f1e92e7e078ed90d4767c885cc685bc"
+}

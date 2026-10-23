@@ -1,0 +1,148 @@
+{
+  "summary": {
+    "fresh_instrumented": {
+      "steps": 622,
+      "streams": 36,
+      "status_counts": {
+        "ambiguous": 21,
+        "certified_model": 565,
+        "integrity_failure": 12,
+        "opaque_fallback": 15,
+        "unsupported_query": 9
+      },
+      "valid_snapshots": 610,
+      "valid_supported": 601,
+      "gold_evaluated": 601,
+      "certified_gold": 565,
+      "false_certifications": 0,
+      "containment_evaluated": 592,
+      "containment_violations": 0,
+      "projection_evaluated": 601,
+      "projection_failures": 0,
+      "observation_failures": 0,
+      "state_failures": 0,
+      "call_trace_failures": 0,
+      "structural_errors": 0,
+      "policy_errors": 0,
+      "actual_parser_calls": {
+        "cheap": 4635,
+        "contract": 1305,
+        "detail": 1281
+      },
+      "actual_parser_source_bytes": 43264845,
+      "actual_hash_calls": 614,
+      "actual_hash_bytes": 16314040,
+      "output_bytes": 282813
+    },
+    "fresh_uninstrumented": {
+      "steps": 622,
+      "streams": 36,
+      "status_counts": {
+        "ambiguous": 21,
+        "certified_model": 565,
+        "integrity_failure": 12,
+        "opaque_fallback": 15,
+        "unsupported_query": 9
+      },
+      "valid_snapshots": 610,
+      "valid_supported": 601,
+      "gold_evaluated": 601,
+      "certified_gold": 565,
+      "false_certifications": 0,
+      "containment_evaluated": 592,
+      "containment_violations": 0,
+      "projection_evaluated": 601,
+      "projection_failures": 0,
+      "observation_failures": 0,
+      "state_failures": 0,
+      "call_trace_failures": 0,
+      "structural_errors": 0,
+      "policy_errors": 0,
+      "actual_parser_calls": {
+        "cheap": 4635,
+        "contract": 1305,
+        "detail": 1281
+      },
+      "actual_parser_source_bytes": 43264845,
+      "actual_hash_calls": 614,
+      "actual_hash_bytes": 16314040,
+      "output_bytes": 282813
+    },
+    "selective_instrumented": {
+      "steps": 622,
+      "streams": 36,
+      "status_counts": {
+        "ambiguous": 21,
+        "certified_model": 565,
+        "integrity_failure": 12,
+        "opaque_fallback": 15,
+        "unsupported_query": 9
+      },
+      "valid_snapshots": 610,
+      "valid_supported": 601,
+      "gold_evaluated": 601,
+      "certified_gold": 565,
+      "false_certifications": 0,
+      "containment_evaluated": 592,
+      "containment_violations": 0,
+      "projection_evaluated": 601,
+      "projection_failures": 0,
+      "observation_failures": 0,
+      "state_failures": 0,
+      "call_trace_failures": 0,
+      "structural_errors": 0,
+      "policy_errors": 0,
+      "actual_parser_calls": {
+        "cheap": 4105,
+        "contract": 775,
+        "detail": 751
+      },
+      "actual_parser_source_bytes": 15694905,
+      "actual_hash_calls": 614,
+      "actual_hash_bytes": 16314040,
+      "output_bytes": 282813
+    },
+    "selective_uninstrumented": {
+      "steps": 622,
+      "streams": 36,
+      "status_counts": {
+        "ambiguous": 21,
+        "certified_model": 565,
+        "integrity_failure": 12,
+        "opaque_fallback": 15,
+        "unsupported_query": 9
+      },
+      "valid_snapshots": 610,
+      "valid_supported": 601,
+      "gold_evaluated": 601,
+      "certified_gold": 565,
+      "false_certifications": 0,
+      "containment_evaluated": 592,
+      "containment_violations": 0,
+      "projection_evaluated": 601,
+      "projection_failures": 0,
+      "observation_failures": 0,
+      "state_failures": 0,
+      "call_trace_failures": 0,
+      "structural_errors": 0,
+      "policy_errors": 0,
+      "actual_parser_calls": {
+        "cheap": 4105,
+        "contract": 775,
+        "detail": 751
+      },
+      "actual_parser_source_bytes": 15694905,
+      "actual_hash_calls": 614,
+      "actual_hash_bytes": 16314040,
+      "output_bytes": 282813
+    }
+  },
+  "failures": [],
+  "audit_boundary": "Parser/hash monkeypatch used only in this untimed audit; same-model role separation; no external semantic validation.",
+  "raw_rows": {
+    "file": "holdout_rows.json.gz",
+    "count": 2488,
+    "uncompressed_bytes": 5290947,
+    "sha256": "c7d9cebb2d13b42767a868cd45d88e89a3b9020814e3c7e36a160020f9397123"
+  }
+}

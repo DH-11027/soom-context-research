@@ -1,0 +1,475 @@
+{
+  "holdout": {
+    "rows": 2488,
+    "prefixes": 622,
+    "summary": {
+      "fresh_instrumented": {
+        "steps": 622,
+        "streams": 36,
+        "status_counts": {
+          "ambiguous": 21,
+          "certified_model": 565,
+          "integrity_failure": 12,
+          "opaque_fallback": 15,
+          "unsupported_query": 9
+        },
+        "valid_snapshots": 610,
+        "valid_supported": 601,
+        "gold_evaluated": 601,
+        "certified_gold": 565,
+        "false_certifications": 0,
+        "containment_evaluated": 592,
+        "containment_violations": 0,
+        "projection_evaluated": 601,
+        "projection_failures": 0,
+        "observation_failures": 0,
+        "state_failures": 0,
+        "call_trace_failures": 0,
+        "structural_errors": 0,
+        "policy_errors": 0,
+        "actual_parser_calls": {
+          "cheap": 4635,
+          "contract": 1305,
+          "detail": 1281
+        },
+        "actual_parser_source_bytes": 43264845,
+        "actual_hash_calls": 614,
+        "actual_hash_bytes": 16314040,
+        "output_bytes": 282813
+      },
+      "fresh_uninstrumented": {
+        "steps": 622,
+        "streams": 36,
+        "status_counts": {
+          "ambiguous": 21,
+          "certified_model": 565,
+          "integrity_failure": 12,
+          "opaque_fallback": 15,
+          "unsupported_query": 9
+        },
+        "valid_snapshots": 610,
+        "valid_supported": 601,
+        "gold_evaluated": 601,
+        "certified_gold": 565,
+        "false_certifications": 0,
+        "containment_evaluated": 592,
+        "containment_violations": 0,
+        "projection_evaluated": 601,
+        "projection_failures": 0,
+        "observation_failures": 0,
+        "state_failures": 0,
+        "call_trace_failures": 0,
+        "structural_errors": 0,
+        "policy_errors": 0,
+        "actual_parser_calls": {
+          "cheap": 4635,
+          "contract": 1305,
+          "detail": 1281
+        },
+        "actual_parser_source_bytes": 43264845,
+        "actual_hash_calls": 614,
+        "actual_hash_bytes": 16314040,
+        "output_bytes": 282813
+      },
+      "selective_instrumented": {
+        "steps": 622,
+        "streams": 36,
+        "status_counts": {
+          "ambiguous": 21,
+          "certified_model": 565,
+          "integrity_failure": 12,
+          "opaque_fallback": 15,
+          "unsupported_query": 9
+        },
+        "valid_snapshots": 610,
+        "valid_supported": 601,
+        "gold_evaluated": 601,
+        "certified_gold": 565,
+        "false_certifications": 0,
+        "containment_evaluated": 592,
+        "containment_violations": 0,
+        "projection_evaluated": 601,
+        "projection_failures": 0,
+        "observation_failures": 0,
+        "state_failures": 0,
+        "call_trace_failures": 0,
+        "structural_errors": 0,
+        "policy_errors": 0,
+        "actual_parser_calls": {
+          "cheap": 4105,
+          "contract": 775,
+          "detail": 751
+        },
+        "actual_parser_source_bytes": 15694905,
+        "actual_hash_calls": 614,
+        "actual_hash_bytes": 16314040,
+        "output_bytes": 282813
+      },
+      "selective_uninstrumented": {
+        "steps": 622,
+        "streams": 36,
+        "status_counts": {
+          "ambiguous": 21,
+          "certified_model": 565,
+          "integrity_failure": 12,
+          "opaque_fallback": 15,
+          "unsupported_query": 9
+        },
+        "valid_snapshots": 610,
+        "valid_supported": 601,
+        "gold_evaluated": 601,
+        "certified_gold": 565,
+        "false_certifications": 0,
+        "containment_evaluated": 592,
+        "containment_violations": 0,
+        "projection_evaluated": 601,
+        "projection_failures": 0,
+        "observation_failures": 0,
+        "state_failures": 0,
+        "call_trace_failures": 0,
+        "structural_errors": 0,
+        "policy_errors": 0,
+        "actual_parser_calls": {
+          "cheap": 4105,
+          "contract": 775,
+          "detail": 751
+        },
+        "actual_parser_source_bytes": 15694905,
+        "actual_hash_calls": 614,
+        "actual_hash_bytes": 16314040,
+        "output_bytes": 282813
+      }
+    },
+    "boundary": "Recorded exact-state/trace digests recounted; direct objects were compared by the separate replay auditor."
+  },
+  "regression": {
+    "rows": 7152,
+    "prefixes": 1788,
+    "summary": {
+      "fresh_instrumented": {
+        "steps": 1788,
+        "streams": 498,
+        "status_counts": {
+          "ambiguous": 77,
+          "certified_model": 1081,
+          "integrity_failure": 24,
+          "opaque_fallback": 544,
+          "unsupported_query": 62
+        },
+        "valid_snapshots": 1764,
+        "valid_supported": 1702,
+        "gold_evaluated": 1743,
+        "certified_gold": 1081,
+        "false_certifications": 0,
+        "containment_evaluated": 1681,
+        "containment_violations": 0,
+        "projection_evaluated": 1743,
+        "projection_failures": 0,
+        "observation_failures": 0,
+        "state_failures": 0,
+        "call_trace_failures": 0,
+        "structural_errors": 0,
+        "policy_errors": 0,
+        "actual_parser_calls": {
+          "cheap": 7938,
+          "contract": 2148,
+          "detail": 1835
+        },
+        "actual_parser_source_bytes": 23081938,
+        "actual_hash_calls": 1774,
+        "actual_hash_bytes": 10822957,
+        "output_bytes": 956713
+      },
+      "fresh_uninstrumented": {
+        "steps": 1788,
+        "streams": 498,
+        "status_counts": {
+          "ambiguous": 77,
+          "certified_model": 1081,
+          "integrity_failure": 24,
+          "opaque_fallback": 544,
+          "unsupported_query": 62
+        },
+        "valid_snapshots": 1764,
+        "valid_supported": 1702,
+        "gold_evaluated": 1743,
+        "certified_gold": 1081,
+        "false_certifications": 0,
+        "containment_evaluated": 1681,
+        "containment_violations": 0,
+        "projection_evaluated": 1743,
+        "projection_failures": 0,
+        "observation_failures": 0,
+        "state_failures": 0,
+        "call_trace_failures": 0,
+        "structural_errors": 0,
+        "policy_errors": 0,
+        "actual_parser_calls": {
+          "cheap": 7938,
+          "contract": 2148,
+          "detail": 1835
+        },
+        "actual_parser_source_bytes": 23081938,
+        "actual_hash_calls": 1774,
+        "actual_hash_bytes": 10822957,
+        "output_bytes": 956713
+      },
+      "selective_instrumented": {
+        "steps": 1788,
+        "streams": 498,
+        "status_counts": {
+          "ambiguous": 77,
+          "certified_model": 1081,
+          "integrity_failure": 24,
+          "opaque_fallback": 544,
+          "unsupported_query": 62
+        },
+        "valid_snapshots": 1764,
+        "valid_supported": 1702,
+        "gold_evaluated": 1743,
+        "certified_gold": 1081,
+        "false_certifications": 0,
+        "containment_evaluated": 1681,
+        "containment_violations": 0,
+        "projection_evaluated": 1743,
+        "projection_failures": 0,
+        "observation_failures": 0,
+        "state_failures": 0,
+        "call_trace_failures": 0,
+        "structural_errors": 0,
+        "policy_errors": 0,
+        "actual_parser_calls": {
+          "cheap": 7739,
+          "contract": 1949,
+          "detail": 1636
+        },
+        "actual_parser_source_bytes": 14455006,
+        "actual_hash_calls": 1774,
+        "actual_hash_bytes": 10822957,
+        "output_bytes": 956713
+      },
+      "selective_uninstrumented": {
+        "steps": 1788,
+        "streams": 498,
+        "status_counts": {
+          "ambiguous": 77,
+          "certified_model": 1081,
+          "integrity_failure": 24,
+          "opaque_fallback": 544,
+          "unsupported_query": 62
+        },
+        "valid_snapshots": 1764,
+        "valid_supported": 1702,
+        "gold_evaluated": 1743,
+        "certified_gold": 1081,
+        "false_certifications": 0,
+        "containment_evaluated": 1681,
+        "containment_violations": 0,
+        "projection_evaluated": 1743,
+        "projection_failures": 0,
+        "observation_failures": 0,
+        "state_failures": 0,
+        "call_trace_failures": 0,
+        "structural_errors": 0,
+        "policy_errors": 0,
+        "actual_parser_calls": {
+          "cheap": 7739,
+          "contract": 1949,
+          "detail": 1636
+        },
+        "actual_parser_source_bytes": 14455006,
+        "actual_hash_calls": 1774,
+        "actual_hash_bytes": 10822957,
+        "output_bytes": 956713
+      }
+    },
+    "boundary": "Recorded exact-state/trace digests recounted; direct objects were compared by the separate replay auditor."
+  },
+  "timing": {
+    "comparisons": {
+      "primary_off_vs_off": {
+        "paired_ratios": [
+          1.356736980391912,
+          1.074810904265912,
+          1.1571414721754631,
+          1.1588662408177821,
+          1.159159047597219,
+          1.1282134126176073,
+          1.2999650675098164,
+          1.1203576386652403,
+          1.477431496660704,
+          1.2435109233304389,
+          1.076456462601778,
+          1.239072313909617,
+          1.073304606540901,
+          1.1358104431380522,
+          1.0335437372673255,
+          1.060610621429457,
+          1.186487641635989,
+          1.3198658836054866,
+          1.1443983872385646,
+          1.1515727225771968,
+          1.3474254021352208,
+          1.213990214219751,
+          1.1421774686554746,
+          1.4343363126852289
+        ],
+        "median_paired_ratio": 1.1580038564966226,
+        "change_percent": 15.800385649662264,
+        "conditional_bootstrap_95_interval": [
+          1.1358104431380522,
+          1.239072313909617
+        ],
+        "first_and_second_half_median_ratios": [
+          1.1590126442075006,
+          1.1479855549078808
+        ],
+        "decision": "rejects_practical_speedup_here",
+        "faster_blocks": 0,
+        "blocks": 24
+      },
+      "instrumented_selective_vs_fresh": {
+        "paired_ratios": [
+          0.9469503132266781,
+          0.9989621643621317,
+          1.055369321882356,
+          1.0857492392301413,
+          1.0743586282347972,
+          0.9333929560806272,
+          1.1018887191856932,
+          1.047531394804423,
+          1.1267788635884812,
+          1.2581793252313418,
+          0.9201571935143981,
+          1.1668854574079042,
+          1.1832096763954338,
+          1.0804513335389963,
+          1.0294120844923473,
+          1.0146947984046542,
+          1.0925051452102055,
+          1.025456801952462,
+          1.0772313746175606,
+          1.119030244077434,
+          1.0615405038200407,
+          1.0468758014777517,
+          1.0801998754170283,
+          1.230271419235718
+        ],
+        "median_paired_ratio": 1.075795001426179,
+        "change_percent": 7.579500142617901,
+        "conditional_bootstrap_95_interval": [
+          1.0468758014777517,
+          1.0925051452102055
+        ],
+        "first_and_second_half_median_ratios": [
+          1.0648639750585767,
+          1.0787156250172945
+        ],
+        "decision": "rejects_practical_speedup_here",
+        "faster_blocks": 4,
+        "blocks": 24
+      },
+      "fresh_erasure": {
+        "paired_ratios": [
+          0.6675267515746769,
+          0.812534761283416,
+          0.8516543296244273,
+          0.8361427315967909,
+          0.8637152498708388,
+          0.6576456197043127,
+          0.8430289462736691,
+          0.934796199148164,
+          0.780739676355181,
+          1.0199059593069983,
+          0.6938008931713353,
+          0.8669820587279705,
+          1.0501554363550358,
+          0.6851756500571758,
+          0.7863898104548757,
+          0.7688569236323247,
+          0.8009802249939361,
+          0.7005277383463632,
+          0.8288747142772717,
+          0.920826379471725,
+          0.7211579694743426,
+          0.7571386673328402,
+          0.8247378000516974,
+          0.8018947175218643
+        ],
+        "median_paired_ratio": 0.8072147394026401,
+        "change_percent": -19.278526059735988,
+        "conditional_bootstrap_95_interval": [
+          0.7688569236323247,
+          0.8430289462736691
+        ],
+        "first_and_second_half_median_ratios": [
+          0.83958583893523,
+          0.7936850177244059
+        ],
+        "decision": "supports_practical_speedup",
+        "faster_blocks": 22,
+        "blocks": 24
+      },
+      "selective_erasure": {
+        "paired_ratios": [
+          0.9563946667658532,
+          0.874228527043522,
+          0.9337816860248574,
+          0.8924506222447327,
+          0.9318893339000303,
+          0.7949113008257288,
+          0.9945724663242462,
+          0.999784891894733,
+          1.0237052058877656,
+          1.0080154519586197,
+          0.8116509445094976,
+          0.9206160371665911,
+          0.9526094063543948,
+          0.720282010453695,
+          0.7895460679843205,
+          0.8036483687963293,
+          0.8698843591874019,
+          0.9016495483790633,
+          0.8805563118494345,
+          0.9476048984747373,
+          0.9153739904650077,
+          0.8780018906273146,
+          0.872057990567588,
+          0.9349048464497411
+        ],
+        "median_paired_ratio": 0.9085117694220355,
+        "change_percent": -9.148823057796452,
+        "conditional_bootstrap_95_interval": [
+          0.874228527043522,
+          0.9397471161873838
+        ],
+        "first_and_second_half_median_ratios": [
+          0.9328355099624439,
+          0.8792791012383745
+        ],
+        "decision": "supports_practical_speedup",
+        "faster_blocks": 22,
+        "blocks": 24
+      }
+    },
+    "supplementary_stream_signs": {
+      "slower": 35,
+      "faster": 1
+    },
+    "cold_first_steps_change_percent": 44.01895707920491,
+    "uncertainty_boundary": "Complete timing blocks are the resampling unit; fixed synthetic corpus, same local session, not independent dialogues."
+  },
+  "assertions_passed": 306537,
+  "mismatches": 0,
+  "source_hashes": {
+    "audit_mutants.json": "fd28f325b5a47fe7e3097d5e9981d90482395535ba981af4c7202f2ce0285e3f",
+    "counterexamples.json": "4c3b85cafdba95c515b816f1d7f69abacb6bab2fed4fe589a7740443275e2989",
+    "holdout_results.json": "2330f94403069fa7f3d239d4f77a19d7bc28f6878ffbd1de7b00cee2027e7e34",
+    "holdout_rows.json.gz": "c7d9cebb2d13b42767a868cd45d88e89a3b9020814e3c7e36a160020f9397123",
+    "receipt.json": "42d6f3297de5e0560288369e76dafa92397451144d36b433b69002af95a48a60",
+    "regression_results.json": "61f012412ed1da7d6074e84dcb09233b6673f607b5499ca7d65e3282c2618626",
+    "regression_rows.json.gz": "14df0da5b5f26487574c498efae367d02d547d51f1f2e0cee0f12decb9230cec",
+    "timing.json": "714487b7a0307982879f658b5527e1d323f0efec8194840cb4c63e7fbf5bf2e5"
+  },
+  "boundary": "Independent recount code, same model. No runtime execution, no original summary helpers, no new timing."
+}
